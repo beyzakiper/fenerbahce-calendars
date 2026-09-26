@@ -54,7 +54,6 @@ def parse_pdf(data: bytes, ctx: Context, competition: str, url: str = "") -> lis
                                 home=home,
                                 away=away,
                                 round_label=f"{week}. Hafta",
-                                url=url,
                                 source="tvf_pdf",
                                 source_id=f"r{week}",
                             )

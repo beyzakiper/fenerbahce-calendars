@@ -8,7 +8,7 @@ from collections import defaultdict
 from .config import Competition
 from .models import Match, round_number
 
-FILL_FIELDS = ("venue", "city", "url", "broadcast", "round_label", "score_note")
+FILL_FIELDS = ("venue", "city", "url", "round_label", "score_note")
 
 
 def _quality(match: Match) -> int:

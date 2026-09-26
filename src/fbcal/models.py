@@ -29,7 +29,6 @@ class Match:
     away_score: int | None = None
     score_note: str = ""  # e.g. "pen. 4-3"
     url: str = ""
-    broadcast: str = ""
     source: str = ""
     source_id: str = ""
     extra: dict[str, Any] = field(default_factory=dict)

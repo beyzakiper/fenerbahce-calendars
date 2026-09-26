@@ -104,13 +104,10 @@ def build_event(match: Match, config: Config, namer: Namer) -> EventSpec:
         lines.append("Maç iptal edildi.")
     if match.has_score and match.status == "finished":
         lines.append(f"Sonuç: {home} {match.home_score}–{match.away_score} {away}" + (f" ({match.score_note})" if match.score_note else ""))
-    if match.broadcast:
-        lines.append(f"Yayın: {match.broadcast}")
     if match.extra.get("note"):
         lines.append(f"Not: {match.extra['note']}")
     if match.url:
         lines.append(f"Maç sayfası: {match.url}")
-    lines.append(f"Düzeltme kodu: {match.key}")
     description = "\n".join(lines)
 
     if match.kickoff:

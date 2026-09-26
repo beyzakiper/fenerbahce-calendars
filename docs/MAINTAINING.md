@@ -26,7 +26,7 @@ Renaming things never changes event UIDs. Never rename the keys (`football-men`,
 ## Manual fixes (optional)
 
 `overrides/manual.yaml` can set a time, hide a match, mark it postponed, or add a match no source lists
-(friendlies, CEV matches before CEV publishes). Each event shows its code at the bottom of its description.
+(friendlies, CEV matches before CEV publishes). Match codes look like `volleyball-women/sultanlar-ligi/r05`; every code is listed under `events` in `data/<team>.json`.
 Examples are in the file.
 
 ## Yearly chores

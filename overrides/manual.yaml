@@ -1,6 +1,7 @@
 # Manual fixes. Optional — the feeds work without anything here. Entries always win over source data.
 #
-# Every event's code is printed at the bottom of its calendar description ("Düzeltme kodu").
+# A match code is team/competition/round, e.g. volleyball-women/sultanlar-ligi/r05
+# (all codes are listed under "events" in data/<team>.json).
 # Times are Istanbul time. Examples (remove the leading # to use):
 #
 # - match: volleyball-women/sultanlar-ligi/r05     # set the time

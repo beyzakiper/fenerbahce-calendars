@@ -70,11 +70,11 @@ def test_tbf_league_row_tba_and_timed(ctx_for):
 
 def test_tvf_fixture_both_renderings(ctx_for):
     for name in ("tvf_sultanlar_fikstur.html", "tvf_sultanlar_fikstur_legacy.html"):
-        [m] = tvf.parse_fixture(fixture_text(name), ctx_for("volleyball-women"), "sultanlar-ligi", "u")
+        [m] = tvf.parse_fixture(fixture_text(name), ctx_for("volleyball-women"), "sultanlar-ligi")
         assert m.key == "volleyball-women/sultanlar-ligi/r01", name
         assert m.kickoff == datetime(2026, 10, 4, 10, 0, tzinfo=timezone.utc)
         assert m.city == "İstanbul" and "Burhan Felek" in m.venue
-        assert m.broadcast == "TVF Voleybol TV"
+        assert m.url == ""  # TVF has no per-match page
 
 
 def test_tvf_league_link_discovery():
@@ -105,7 +105,7 @@ def test_fiba_euroleague_women(ctx_for):
 
     ctx = ctx_for("basketball-women")
     games = fiba.extract_games(fixture_text("fiba_elw_2627_games.html"))
-    matches = [m for g in games if (m := fiba.parse_game(g, ctx, "euroleague-women", "u"))]
+    matches = [m for g in games if (m := fiba.parse_game(g, ctx, "euroleague-women"))]
     assert len(matches) == 6 and len({m.key for m in matches}) == 6
     valencia = next(m for m in matches if m.stage == "rs-fr-g1")
     assert valencia.side == "away" and valencia.kickoff == datetime(2026, 10, 14, 18, 0, tzinfo=timezone.utc)
@@ -120,5 +120,5 @@ def test_tff_women_league_uses_same_parser(ctx_for):
 def test_tvf_men_efeler(ctx_for):
     ctx = ctx_for("volleyball-men")
     order = tvf_pdf.parse_pdf(fixture_bytes("tvf_efeler_fikstur.pdf"), ctx, "efeler-ligi")
-    dated = tvf.parse_fixture(fixture_text("tvf_efeler_fikstur.html"), ctx, "efeler-ligi", "u")
+    dated = tvf.parse_fixture(fixture_text("tvf_efeler_fikstur.html"), ctx, "efeler-ligi")
     assert len(order) == 26 and [m.key for m in dated] == [order[0].key]

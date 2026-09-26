@@ -54,7 +54,7 @@ def extract_games(html: str) -> list[dict[str, Any]]:
     return list(games.values())
 
 
-def parse_game(game: dict[str, Any], ctx: Context, competition: str, page_url: str) -> Match | None:
+def parse_game(game: dict[str, Any], ctx: Context, competition: str) -> Match | None:
     team_a, team_b = game.get("teamA") or {}, game.get("teamB") or {}
     home, away = team_a.get("officialName") or TBD, team_b.get("officialName") or TBD
     side = side_of(ctx.team, home, away)
@@ -89,7 +89,6 @@ def parse_game(game: dict[str, Any], ctx: Context, competition: str, page_url: s
         status=status,
         home_score=int_or_none(game.get("teamAScore")) if status == "finished" else None,
         away_score=int_or_none(game.get("teamBScore")) if status == "finished" else None,
-        url=page_url,
         source="fiba",
         source_id=str(game.get("gameId")),
     )
@@ -99,4 +98,4 @@ def fetch(ctx: Context, spec: dict[str, Any]) -> list[Match]:
     """spec: event (slug prefix, e.g. "euroleague-women"), competition."""
     url = f"{BASE}/{spec['event']}-{season_slug(ctx.today)}/games"
     games = extract_games(get_text(ctx.session, url))
-    return [m for g in games if (m := parse_game(g, ctx, spec["competition"], url))]
+    return [m for g in games if (m := parse_game(g, ctx, spec["competition"]))]

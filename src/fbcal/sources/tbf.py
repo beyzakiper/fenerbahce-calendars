@@ -58,7 +58,6 @@ def parse_row(row: dict[str, Any], ctx: Context, competition: str, week_no: int,
         status="finished" if finished else "scheduled",
         home_score=hs if finished else None,
         away_score=as_ if finished else None,
-        broadcast=row.get("broadcastChannel") or "",
         source="tbf",
         source_id=str(int_or_none(row.get("matchId")) or ""),
     )

@@ -61,7 +61,7 @@ def find_league_path(index_html: str, season: str, gender: str, code: str = "", 
     return None
 
 
-def parse_fixture(html: str, ctx: Context, competition: str, page_url: str) -> list[Match]:
+def parse_fixture(html: str, ctx: Context, competition: str) -> list[Match]:
     rows: dict[int, dict[str, str]] = defaultdict(dict)
     # The markup differs per client (e.g. <font> wrappers), so cells are read by their element ids.
     for span in BeautifulSoup(html, "html.parser").find_all("span", id=_CELL_ID):
@@ -109,8 +109,6 @@ def parse_fixture(html: str, ctx: Context, competition: str, page_url: str) -> l
                 status="finished" if finished else "scheduled",
                 home_score=sa if finished else None,
                 away_score=sb if finished else None,
-                broadcast=row.get("gtvkanali", ""),
-                url=page_url,
                 source="tvf",
                 source_id=f"{stage}:{fold(home)}:{fold(away)}",
             )
@@ -127,5 +125,4 @@ def fetch(ctx: Context, spec: dict[str, Any]) -> list[Match]:
         if spec.get("league_code"):
             raise SourceError(f"TVF: link for {spec.get('league_code')} not found (page layout may have changed)")
         return []  # this season's cup is not published yet
-    url = BASE + path
-    return parse_fixture(get_text(ctx.session, url, encoding=ENCODING), ctx, spec["competition"], url)
+    return parse_fixture(get_text(ctx.session, BASE + path, encoding=ENCODING), ctx, spec["competition"])
