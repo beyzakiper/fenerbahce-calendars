@@ -8,7 +8,7 @@ as subscribable calendars that update themselves.
 You subscribe once. Newly announced matches, date and time changes, and results appear in the calendar
 automatically. Kick-off times are shown in the time zone of the device viewing the calendar.
 
-> A volunteer project made by fans. It is not affiliated with Fenerbahçe Spor Kulübü or any federation.
+> A volunteer project made by a fan. It is not affiliated with Fenerbahçe Spor Kulübü or any federation.
 
 ## Teams
 
