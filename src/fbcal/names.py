@@ -6,7 +6,9 @@ import re
 import unicodedata
 
 # Acronyms that must stay upper-case when title-casing
-KEEP_UPPER = {"FK", "SK", "JK", "KK", "BB", "BBSK", "GSK", "TED", "MCT", "THY", "İBB", "ÇBK", "TVF", "AŞ", "SC", "FC", "BC"}
+KEEP_UPPER = {"FB", "FK", "SK", "JK", "KK", "BB", "BBSK", "GSK", "TED", "MCT", "THY", "İBB", "ÇBK", "TVF", "AŞ", "SC", "FC", "BC"}
+# Foreign words that Turkish casing rules would spell wrongly (I -> ı)
+WORD_OVERRIDES = {"CHOBANI": "Chobani", "TECHNIC": "Technic", "ARENA": "Arena", "PARK": "Park"}
 _CORPORATE_SUFFIX = re.compile(r"\s+A\.\s?Ş\.?$", re.IGNORECASE)
 
 
@@ -31,6 +33,8 @@ def slug(text: str) -> str:
 
 
 def _title_word(word: str) -> str:
+    if word in WORD_OVERRIDES:
+        return WORD_OVERRIDES[word]
     if word in KEEP_UPPER or any(ch.isdigit() for ch in word) or re.fullmatch(r"(?:\w\.)+\w?\.?", word):
         return word
     parts = re.split(r"([-/'.])", word)

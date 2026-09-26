@@ -30,6 +30,7 @@ def test_turkish_names():
     assert pretty("ECZACIBAŞI PERON İSTANBUL") == "Eczacıbaşı Peron İstanbul"
     assert pretty("MANİSA B.ŞEHİR BLD. SPOR") == "Manisa B.Şehir Bld. Spor"
     assert pretty("Real Madrid") == "Real Madrid"
+    assert pretty("CHOBANI STADYUMU FB ŞÜKRÜ SARACOĞLU") == "Chobani Stadyumu FB Şükrü Saracoğlu"
 
 
 def test_css_color_names():
