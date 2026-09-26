@@ -23,7 +23,7 @@ class EventSpec:
     key: str
     match: Match
     summary: str
-    description: str  # excludes the "last updated" line
+    description: str
     location: str
     start: datetime | date
     end: datetime | date
@@ -106,8 +106,6 @@ def build_event(match: Match, config: Config, namer: Namer) -> EventSpec:
         lines.append(f"Sonuç: {home} {match.home_score}–{match.away_score} {away}" + (f" ({match.score_note})" if match.score_note else ""))
     if match.extra.get("note"):
         lines.append(f"Not: {match.extra['note']}")
-    if match.url:
-        lines.append(f"Maç sayfası: {match.url}")
     description = "\n".join(lines)
 
     if match.kickoff:

@@ -79,7 +79,7 @@ def build_calendar(
     cal.add("calscale", "GREGORIAN")
     cal.add("method", "PUBLISH")
     cal.add("x-wr-calname", feed.calendar_name)
-    cal.add("x-wr-caldesc", f"{feed.calendar_name} maç takvimi. Resmî olmayan taraftar projesi. {s.site_url}")
+    cal.add("x-wr-caldesc", f"{feed.calendar_name} maç takvimi. {s.site_url}")
     cal.add("x-wr-timezone", s.calendar_timezone)
     cal.add("name", feed.calendar_name)
     cal.add("refresh-interval", vDuration(_duration(s.refresh_interval)), parameters={"VALUE": "DURATION"})
@@ -101,12 +101,11 @@ def build_calendar(
         ev.add("last-modified", modified)
         ev.add("sequence", record.sequence)
         ev.add("summary", spec.summary)
-        updated = modified.astimezone(_tz(s.source_timezone)).strftime("%d.%m.%Y %H:%M")
-        ev.add("description", f"{spec.description}\nSon güncelleme: {updated} (Türkiye saati)\n{s.site_url}")
+        ev.add("description", spec.description)
         if spec.location:
             ev.add("location", spec.location)
         if spec.url:
-            ev.add("url", spec.url)
+            ev.add("url", spec.url)  # Apple Calendar shows this as its own tappable URL row
         ev.add("dtstart", spec.start)
         ev.add("dtend", spec.end)
         ev.add("status", spec.status)
@@ -131,8 +130,3 @@ def _duration(text: str) -> timedelta:
         return timedelta(minutes=int(text[:-1]))
     raise ValueError(f"unsupported refresh_interval: {text}")
 
-
-def _tz(name: str):
-    from zoneinfo import ZoneInfo
-
-    return ZoneInfo(name)

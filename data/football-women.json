@@ -764,213 +764,213 @@
  "events": {
   "football-women/kadin-futbol-super-ligi/r01": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r01-home@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "164f77f0b2ce0213",
+   "sequence": 2,
+   "hash": "0c1c3d32ca3acec6",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-09-26T02:36:08Z"
   },
   "football-women/kadin-futbol-super-ligi/r02": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r02-away@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "af55258a0dabe620",
+   "sequence": 2,
+   "hash": "64514a2ca816a97b",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-09-26T02:36:08Z"
   },
   "football-women/kadin-futbol-super-ligi/r03": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r03-home@beyzakiper.github.io",
-   "sequence": 2,
-   "hash": "27533bc0bf933ded",
+   "sequence": 3,
+   "hash": "0babf5601f6abae1",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-09-26T02:36:08Z"
   },
   "football-women/kadin-futbol-super-ligi/r04": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r04-away@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "ec7b96b8d78a7cc3",
+   "sequence": 2,
+   "hash": "2634cef46ec4ae88",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-09-26T02:36:08Z"
   },
   "football-women/kadin-futbol-super-ligi/r05": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r05-home@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "068de636b54c39e4",
+   "sequence": 2,
+   "hash": "b8d7327828bfbcb9",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-09-26T02:36:08Z"
   },
   "football-women/kadin-futbol-super-ligi/r06": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r06-away@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "d6765af5632be927",
+   "sequence": 2,
+   "hash": "11be336c1ebf6cf1",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-09-26T02:36:08Z"
   },
   "football-women/kadin-futbol-super-ligi/r07": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r07-home@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "faab43d17f50a9e1",
+   "sequence": 2,
+   "hash": "c58c0308f7aec7af",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-09-26T02:36:08Z"
   },
   "football-women/kadin-futbol-super-ligi/r08": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r08-home@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "ec6bb215e4d5966c",
+   "sequence": 2,
+   "hash": "cd8b3cd6b048459d",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-09-26T02:36:08Z"
   },
   "football-women/kadin-futbol-super-ligi/r09": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r09-away@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "6bf91200cc4a96aa",
+   "sequence": 2,
+   "hash": "f43a681711474fb6",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-09-26T02:36:08Z"
   },
   "football-women/kadin-futbol-super-ligi/r10": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r10-home@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "f7253604f9d75190",
+   "sequence": 2,
+   "hash": "15b0e829e875da1f",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-09-26T02:36:08Z"
   },
   "football-women/kadin-futbol-super-ligi/r11": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r11-away@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "118eacc402d5ea23",
+   "sequence": 2,
+   "hash": "edae45f811490dbe",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-09-26T02:36:08Z"
   },
   "football-women/kadin-futbol-super-ligi/r12": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r12-home@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "75c3628a5b3a81ce",
+   "sequence": 2,
+   "hash": "693aa77fca16bad4",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-09-26T02:36:08Z"
   },
   "football-women/kadin-futbol-super-ligi/r13": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r13-away@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "9556280c0a6d5038",
+   "sequence": 2,
+   "hash": "211054df7432fc54",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-09-26T02:36:08Z"
   },
   "football-women/kadin-futbol-super-ligi/r14": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r14-home@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "4da3fda0a740bc05",
+   "sequence": 2,
+   "hash": "9cf6ca9fdfd82b62",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-09-26T02:36:08Z"
   },
   "football-women/kadin-futbol-super-ligi/r15": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r15-away@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "e75f6e4cdf1300fb",
+   "sequence": 2,
+   "hash": "868510171cd31d06",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-09-26T02:36:08Z"
   },
   "football-women/kadin-futbol-super-ligi/r16": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r16-away@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "f65b30cef5362adc",
+   "sequence": 2,
+   "hash": "54ae73535ae91c31",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-09-26T02:36:08Z"
   },
   "football-women/kadin-futbol-super-ligi/r17": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r17-home@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "8c993f2eafe85952",
+   "sequence": 2,
+   "hash": "c2c6e90fdd6c61ca",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-09-26T02:36:08Z"
   },
   "football-women/kadin-futbol-super-ligi/r18": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r18-away@beyzakiper.github.io",
-   "sequence": 2,
-   "hash": "5b2e565ffc9d041a",
+   "sequence": 3,
+   "hash": "7f9efb9d0a783b1a",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-09-26T02:36:08Z"
   },
   "football-women/kadin-futbol-super-ligi/r19": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r19-home@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "67ee4832c5bf6356",
+   "sequence": 2,
+   "hash": "429e0c82d13be667",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-09-26T02:36:08Z"
   },
   "football-women/kadin-futbol-super-ligi/r20": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r20-away@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "45ac145eb5339aa4",
+   "sequence": 2,
+   "hash": "b4bb916c1bfa9920",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-09-26T02:36:08Z"
   },
   "football-women/kadin-futbol-super-ligi/r21": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r21-home@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "b950a7e39f03701f",
+   "sequence": 2,
+   "hash": "b8d5747095b6c9e0",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-09-26T02:36:08Z"
   },
   "football-women/kadin-futbol-super-ligi/r22": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r22-away@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "da86e45ec15c56c0",
+   "sequence": 2,
+   "hash": "74967b631ae7f57a",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-09-26T02:36:08Z"
   },
   "football-women/kadin-futbol-super-ligi/r23": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r23-away@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "63192665ce451b6b",
+   "sequence": 2,
+   "hash": "aec7bfa2e232f85f",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-09-26T02:36:08Z"
   },
   "football-women/kadin-futbol-super-ligi/r24": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r24-home@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "9b196aaa9e6901b2",
+   "sequence": 2,
+   "hash": "1e05dba1f74c1201",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-09-26T02:36:08Z"
   },
   "football-women/kadin-futbol-super-ligi/r25": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r25-away@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "f96a03592001b6de",
+   "sequence": 2,
+   "hash": "c927dfefaf64ce70",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-09-26T02:36:08Z"
   },
   "football-women/kadin-futbol-super-ligi/r26": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r26-home@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "821db629bb2988d3",
+   "sequence": 2,
+   "hash": "cb783cf90a8e84d7",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-09-26T02:36:08Z"
   },
   "football-women/kadin-futbol-super-ligi/r27": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r27-away@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "f08b41c0a327b5c4",
+   "sequence": 2,
+   "hash": "1d601e3dd66ceed1",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-09-26T02:36:08Z"
   },
   "football-women/kadin-futbol-super-ligi/r28": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r28-home@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "67eb2dd9513e5c91",
+   "sequence": 2,
+   "hash": "1f8dacd4f7f5b0d5",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-09-26T02:36:08Z"
   },
   "football-women/kadin-futbol-super-ligi/r29": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r29-away@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "0c90330565b95d86",
+   "sequence": 2,
+   "hash": "62db1c6e90bfcab2",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-09-26T02:36:08Z"
   },
   "football-women/kadin-futbol-super-ligi/r30": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r30-home@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "33a0cee07b7931ac",
+   "sequence": 2,
+   "hash": "56bbfd406f701038",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-09-26T02:36:08Z"
   },
   "football-women/uefa-kadinlar-avrupa-kupasi/second-qualifying/1": {
    "uid": "2026-27-football-women-uefa-kadinlar-avrupa-kupasi-second-qualifying-1-away@beyzakiper.github.io",
@@ -988,17 +988,17 @@
   },
   "football-women/uefa-kadinlar-sampiyonlar-ligi/second-qualifying-md1": {
    "uid": "2026-27-football-women-uefa-kadinlar-sampiyonlar-ligi-second-qualifying-md1-away@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "300cd4a1118340ed",
+   "sequence": 2,
+   "hash": "4e002d7438a20264",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-09-26T02:36:08Z"
   },
   "football-women/uefa-kadinlar-sampiyonlar-ligi/second-qualifying-md4": {
    "uid": "2026-27-football-women-uefa-kadinlar-sampiyonlar-ligi-second-qualifying-md4-away@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "ba0965b956507253",
+   "sequence": 2,
+   "hash": "f35ddc2d71f12977",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-09-26T02:36:08Z"
   }
  }
 }
