@@ -683,9 +683,9 @@
      "day": null,
      "venue": "Municipal",
      "city": "Mosonmagyarovar",
-     "status": "scheduled",
-     "home_score": null,
-     "away_score": null,
+     "status": "finished",
+     "home_score": 1,
+     "away_score": 4,
      "score_note": "",
      "url": "",
      "source": "uefa",
@@ -974,10 +974,10 @@
   },
   "football-women/uefa-kadinlar-avrupa-kupasi/second-qualifying/1": {
    "uid": "2026-27-football-women-uefa-kadinlar-avrupa-kupasi-second-qualifying-1-away@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "80bb6ac799249391",
+   "sequence": 2,
+   "hash": "efe86725cca0697a",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-09-26T16:30:02Z"
   },
   "football-women/uefa-kadinlar-avrupa-kupasi/second-qualifying/2": {
    "uid": "2026-27-football-women-uefa-kadinlar-avrupa-kupasi-second-qualifying-2-home@beyzakiper.github.io",
