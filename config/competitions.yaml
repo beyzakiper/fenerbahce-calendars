@@ -1,0 +1,52 @@
+# Competitions: displayed name (no sponsor) and optional round dates.
+# Keys (super-lig, ...) are part of event UIDs: DO NOT rename them. "name" can change freely.
+#
+# round_dates     : expected day for rounds without an official date (published as all-day, "saat belli değil").
+# estimate_anchors: days used only as anchors for estimation (e.g. end of a half-season). Rounds in between
+#                   get a proportionally estimated day and "(tarih tahmini)" in the title.
+
+competitions:
+  # Football
+  super-lig:                     { name: "Süper Lig" }
+  turkiye-kupasi:                { name: "Türkiye Kupası" }
+  super-kupa:                    { name: "Süper Kupa" }
+  uefa-sampiyonlar-ligi:         { name: "UEFA Şampiyonlar Ligi" }
+  uefa-avrupa-ligi:              { name: "UEFA Avrupa Ligi" }
+  uefa-konferans-ligi:           { name: "UEFA Konferans Ligi" }
+  uefa-super-kupa:               { name: "UEFA Süper Kupa" }
+  hazirlik:                      { name: "Hazırlık Maçı", friendly: true }
+  kadin-futbol-super-ligi:       { name: "Kadın Futbol Süper Ligi" }
+  uefa-kadinlar-sampiyonlar-ligi: { name: "UEFA Kadınlar Şampiyonlar Ligi" }
+  uefa-kadinlar-avrupa-kupasi:   { name: "UEFA Kadınlar Avrupa Kupası" }
+
+  # Basketball
+  basketbol-super-ligi:          { name: "Basketbol Süper Ligi" }
+  cumhurbaskanligi-kupasi-erkek: { name: "Cumhurbaşkanlığı Kupası" }
+  turkiye-kupasi-basketbol-erkek: { name: "Türkiye Kupası" }
+  euroleague:                    { name: "EuroLeague" }
+  kadinlar-basketbol-super-ligi: { name: "Kadınlar Basketbol Süper Ligi" }
+  cumhurbaskanligi-kupasi-kadin: { name: "Cumhurbaşkanlığı Kupası" }
+  turkiye-kupasi-basketbol-kadin: { name: "Türkiye Kupası" }
+  euroleague-women:              { name: "EuroLeague Women" }
+
+  # Volleyball
+  sultanlar-ligi:
+    name: "Sultanlar Ligi"
+    round_dates:
+      1: 2026-10-04
+      2: 2026-10-11
+      3: 2026-10-14
+      4: 2026-10-18
+    estimate_anchors:     # TVF regulations: first half ends 13 Dec, second half 20 Mar
+      13: 2026-12-13
+      26: 2027-03-20
+  kupa-voley-kadin:              { name: "Kupa Voley" }
+  efeler-ligi:
+    name: "Efeler Ligi"
+    estimate_anchors:     # TVF: first half 17 Oct – 26 Dec, second half 10 Jan – 4 Apr
+      13: 2026-12-26
+      26: 2027-04-04
+  kupa-voley-erkek:              { name: "Kupa Voley" }
+  cev-kupasi-erkek:              { name: "CEV Kupası" }
+  sampiyonlar-kupasi-kadin:      { name: "Şampiyonlar Kupası" }
+  cev-sampiyonlar-ligi-kadin:    { name: "CEV Şampiyonlar Ligi" }

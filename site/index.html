@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="Fenerbahçe erkek ve kadın A takımlarının futbol, basketbol ve voleybol maç takvimleri. Taraftar tarafından hazırlanmış gönüllü bir projedir.">
+<meta name="color-scheme" content="light dark">
+<title>Fenerbahçe Maç Takvimleri</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <div class="stripes" aria-hidden="true"></div>
+  <div class="hero-inner">
+    <p class="eyebrow">Futbol · Basketbol · Voleybol</p>
+    <h1>Fenerbahçe<br><span>Maç Takvimleri</span></h1>
+    <p class="lead">Erkek ve kadın A takımlarının maç programları, abone olunabilen ve kendiliğinden güncellenen
+      takvimler olarak. Yeni maçlar, saat değişiklikleri ve sonuçlar takvime otomatik olarak yansır; maç saatleri
+      bulunduğunuz saat dilimine göre gösterilir.</p>
+  </div>
+</header>
+
+<main>
+  <section aria-labelledby="teams-title">
+    <div class="section-head">
+      <h2 id="teams-title">Takımlar</h2>
+      <p class="muted">Her takım ayrı bir takvim olarak yayımlanır.</p>
+    </div>
+    <div id="teams" class="grid" aria-live="polite"></div>
+  </section>
+
+  <section aria-labelledby="all-title" class="all-section">
+    <div class="section-head">
+      <h2 id="all-title">Hepsi tek takvimde</h2>
+      <p class="muted">Bütün takımların maçları tek takvimde. Bu takvim seçildiğinde takımlara ayrıca abone olunmamalıdır; aksi hâlde maçlar iki kez görünür.</p>
+    </div>
+    <div id="combined" class="grid"></div>
+  </section>
+
+  <section class="help" aria-labelledby="help-title">
+    <h2 id="help-title">Nasıl abone olunur?</h2>
+    <div class="help-grid">
+      <div>
+        <h3>iPhone, iPad, Mac</h3>
+        <p><strong>Apple Takvim</strong> düğmesine dokunun ve <em>Abone Ol</em>'u seçin. Mac'te <em>Konum: iCloud</em>
+          seçerseniz takvim bütün Apple cihazlarınızda görünür.</p>
+      </div>
+      <div>
+        <h3>Google Takvim</h3>
+        <p><strong>Google Takvim</strong> düğmesi takvimi hesabınıza ekler. Google abonelikleri kendi aralığıyla,
+          bazen günde birkaç kez yeniler; değişiklikler biraz geç görünebilir.</p>
+      </div>
+      <div>
+        <h3>Diğer uygulamalar</h3>
+        <p><strong>Bağlantıyı kopyala</strong> ile adresi alıp takvim uygulamanızda “URL ile abone ol” / “İnternetten
+          takvim ekle” seçeneğine yapıştırın.</p>
+      </div>
+    </div>
+    <dl class="legend">
+      <div><dt>E · / K ·</dt><dd>Erkek ya da kadın takımı</dd></div>
+      <div><dt>(saat belli değil)</dt><dd>Günü belli, saati açıklanınca güncellenir</dd></div>
+      <div><dt>ERTELENDİ / İPTAL</dt><dd>Ertelenen ya da iptal edilen maç</dd></div>
+    </dl>
+  </section>
+</main>
+
+<footer>
+  <p>Taraftar tarafından hazırlanmış, gönüllü bir projedir. Fenerbahçe Spor Kulübü ya da herhangi bir federasyonla
+    bağlantısı yoktur.</p>
+  <p id="updated" class="muted"></p>
+</footer>
+
+<template id="card-tpl">
+  <article class="card">
+    <div class="card-top">
+      <span class="emoji" aria-hidden="true"></span>
+      <div>
+        <h3 class="name"></h3>
+        <p class="count muted"></p>
+      </div>
+    </div>
+    <div class="next">
+      <p class="next-label">Sıradaki maç</p>
+      <p class="next-title"></p>
+      <p class="next-meta muted"></p>
+      <p class="countdown"></p>
+    </div>
+    <ol class="later"></ol>
+    <fieldset class="alarm">
+      <legend>Hatırlatma</legend>
+      <div class="seg"></div>
+    </fieldset>
+    <div class="actions">
+      <a class="btn primary apple">Apple Takvim</a>
+      <a class="btn google" target="_blank" rel="noopener">Google Takvim</a>
+      <button class="btn copy" type="button">Bağlantıyı kopyala</button>
+      <a class="btn ghost ics">.ics</a>
+    </div>
+  </article>
+</template>
+
+<script src="app.js" defer></script>
+</body>
+</html>

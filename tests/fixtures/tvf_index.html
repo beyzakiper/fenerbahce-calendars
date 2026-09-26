@@ -1,0 +1,879 @@
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="apple-touch-icon" sizes="57x57" href="/images/favicons/apple-icon-57x57.png" /><link rel="apple-touch-icon" sizes="60x60" href="/images/favicons/apple-icon-60x60.png" /><link rel="apple-touch-icon" sizes="72x72" href="/images/favicons/apple-icon-72x72.png" /><link rel="apple-touch-icon" sizes="76x76" href="/images/favicons/apple-icon-76x76.png" /><link rel="apple-touch-icon" sizes="114x114" href="/images/favicons/apple-icon-114x114.png" /><link rel="apple-touch-icon" sizes="120x120" href="/images/favicons/apple-icon-120x120.png" /><link rel="apple-touch-icon" sizes="144x144" href="/images/favicons/apple-icon-144x144.png" /><link rel="apple-touch-icon" sizes="152x152" href="/images/favicons/apple-icon-152x152.png" /><link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-icon-180x180.png" /><link rel="icon" type="image/png" sizes="192x192" href="/images/favicons/android-icon-192x192.png" /><link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png" /><link rel="icon" type="image/png" sizes="96x96" href="/images/favicons/favicon-96x96.png" /><link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png" /><link rel="manifest" href="/images/favicons/manifest.json" /><meta name="msapplication-TileColor" content="#ffffff" /><meta name="msapplication-TileImage" content="/images/favicons/ms-icon-144x144.png" /><meta name="theme-color" content="#ffffff" /><title>
+	Türkiye Voleybol Federasyonu Fikstür Sistemi
+</title><link rel="stylesheet" href="/css/bootstrap.min.css" /><link rel="stylesheet" href="/plugins/goodlayers-core/plugins/fontawesome/font-awesome.css" type="text/css" media="all" /><link rel="stylesheet" href="/plugins/goodlayers-core/plugins/elegant/elegant-font.css" type="text/css" media="all" /><link rel="stylesheet" href="/plugins/goodlayers-core/plugins/style.css" type="text/css" media="all" /><link rel="stylesheet" href="/plugins/goodlayers-core/include/css/page-builder.css" type="text/css" media="all" /><link rel="stylesheet" href="/plugins/sportspress/assets/css/sportspress.css" type="text/css" media="all" /><link rel="stylesheet" href="/plugins/sportspress/assets/css/icons.css" type="text/css" media="all" /><link rel="stylesheet" href="/css/style-core.css" type="text/css" media="all" /><link rel="stylesheet" href="/css/tvf-style-custom.css" type="text/css" media="all" /><link rel="stylesheet" href="/plugins/google-map-plugin/assets/css/frontend.css" type="text/css" media="all" /><link rel="stylesheet" href="/css/Msz.css" type="text/css" media="all" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed%3A300%2C300italic%2Cregular%2Citalic%2C700%2C700italic%7CRoboto%3A100%2C100italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C700%2C700italic%2C900%2C900italic%7CMerriweather%3A300%2C300italic%2Cregular%2Citalic%2C700%2C700italic%2C900%2C900italic%7CLora%3Aregular%2Citalic%2C700%2C700italic&amp;subset=cyrillic-ext%2Cvietnamese%2Clatin%2Ccyrillic%2Cgreek-ext%2Clatin-ext%2Cgreek&amp;ver=5.3" type="text/css" media="all" />
+
+    <!-- SPECIFIC CSS -->
+    <link href="/layerslider/css/layerslider.css" rel="stylesheet" />
+</head>
+
+<body data-rsssl="1" class="page-template-default page page-id-4648 theme-bigslam gdlr-core-body woocommerce-no-js tvf-body tvf-body-front tvf-full  tvf-with-sticky-navigation  tvf-sticky-navigation-no-logo gdlr-core-link-to-lightbox">
+    <div class="tvf-mobile-header-wrap">
+        <div class="tvf-mobile-header tvf-header-background tvf-style-slide" id="tvf-mobile-header">
+            <div class="tvf-mobile-header-container tvf-container">
+                <div class="tvf-logo  tvf-item-pdlr">
+                    <div class="tvf-logo-inner">
+                        <a href="/Welcome">
+                            <img src="/upload/logo-tvf.png" alt="" width="300" height="109" title="logo-mobile" /></a>
+                    </div>
+                </div>
+                <div class="tvf-mobile-menu-right">
+                    <div class="tvf-main-menu-search" id="tvf-mobile-top-search"><i class="fa fa-search"></i></div>
+                    <div class="tvf-top-search-wrap">
+                        <div class="tvf-top-search-close"></div>
+                        <div class="tvf-top-search-row">
+                            <div class="tvf-top-search-cell">
+                                <form role="search" method="get" class="search-form" action="#">
+                                    <input type="text" class="search-field tvf-title-font" placeholder="Arama Yap..." value="" name="s" />
+                                    <div class="tvf-top-search-submit"><i class="fa fa-search"></i></div>
+                                    <input type="submit" class="search-submit" value="Search" />
+                                    <div class="tvf-top-search-close"><i class="icon_close"></i></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tvf-mobile-menu">
+                        <a class="tvf-mm-menu-button tvf-mobile-menu-button tvf-mobile-button-hamburger-with-border" href="#tvf-mobile-menu"><i class="fa fa-bars"></i></a>
+                        <div class="tvf-mm-menu-wrap tvf-navigation-font" id="tvf-mobile-menu" data-slide="right">
+                            <ul id="menu-main-navigation" class="m-menu">
+                                <li class="menu-item menu-item-home current-menu-item"><a href="/Fikst%C3%BCr" title="ANA SAYFA">ANA SAYFA</a></li>
+                                <li class="menu-item menu-item-has-children"><a href="#">FİKSTÜR</a>
+                                    <ul class="sub-menu">
+                                        
+                                                <li class="menu-item"><a href='/FSM/MjAyNi0yMDI3/RQ%3d%3d/RUZFTEVS/U01TIEdydXAgRWZlbGVyIExpZ2k%3d'>SMS Grup Efeler Ligi</a></li>
+                                            
+                                                <li class="menu-item"><a href='/FSW/MjAyNi0yMDI3/Sw%3d%3d/U1VMVEFOTEFS/Vm9kYWZvbmUgU3VsdGFubGFyIExpZ2k%3d'>Vodafone Sultanlar Ligi</a></li>
+                                            
+                                                <li class="menu-item"><a href='/FSM/MjAyNi0yMDI3/RQ%3d%3d/MUxF/QXJhYmljYSBDb2ZmZWUgSG91c2UgRXJrZWtsZXIgVm9sZXlib2wgMS5MaWdp'>Arabica Coffee House Erkekler Voleybol 1.Ligi</a></li>
+                                            
+                                                <li class="menu-item"><a href='/FSW/MjAyNi0yMDI3/Sw%3d%3d/MUxL/QXJhYmljYSBDb2ZmZWUgSG91c2UgS2FkxLFubGFyIFZvbGV5Ym9sIDEuTGlnaQ%3d%3d'>Arabica Coffee House Kadınlar Voleybol 1.Ligi</a></li>
+                                            
+                                                <li class="menu-item"><a href='/FSM/MjAyNi0yMDI3/RQ%3d%3d/MkxF/VXptYW4gUG9zdGEgRXJrZWtsZXIgMi4gTGln'>Uzman Posta Erkekler 2. Lig</a></li>
+                                            
+                                                <li class="menu-item"><a href='/FSW/MjAyNi0yMDI3/Sw%3d%3d/MkxL/VXptYW4gUG9zdGEgS2FkxLFubGFyIDIuIExpZw%3d%3d'>Uzman Posta Kadınlar 2. Lig</a></li>
+                                            
+                                                <li class="menu-item"><a href='/FSM/MjAyNi0yMDI3/RQ%3d%3d/QVNLVkU%3d/QVhBIFNpZ29ydGEgS3VwYSBWb2xleSBFcmtla2xlcg%3d%3d'>AXA Sigorta Kupa Voley Erkekler</a></li>
+                                            
+                                                <li class="menu-item"><a href='/FSW/MjAyNi0yMDI3/Sw%3d%3d/QVNLVks%3d/QVhBIFNpZ29ydGEgS3VwYSBWb2xleSBLYWTEsW5sYXI%3d'>AXA Sigorta Kupa Voley Kadınlar</a></li>
+                                            
+                                    </ul>
+                                </li>
+
+                                
+
+
+                                <li class="menu-item menu-item-has-children"><a href="#">PUAN</a>
+                                    <ul class="sub-menu">
+                                        
+                                                <li class="menu-item"><a href='/PTM/MjAyNi0yMDI3/RQ%3d%3d/RUZFTEVS/U01TIEdydXAgRWZlbGVyIExpZ2k%3d'>SMS Grup Efeler Ligi</a></li>
+                                            
+                                                <li class="menu-item"><a href='/PTW/MjAyNi0yMDI3/Sw%3d%3d/U1VMVEFOTEFS/Vm9kYWZvbmUgU3VsdGFubGFyIExpZ2k%3d'>Vodafone Sultanlar Ligi</a></li>
+                                            
+                                                <li class="menu-item"><a href='/PTM/MjAyNi0yMDI3/RQ%3d%3d/MUxF/QXJhYmljYSBDb2ZmZWUgSG91c2UgRXJrZWtsZXIgVm9sZXlib2wgMS5MaWdp'>Arabica Coffee House Erkekler Voleybol 1.Ligi</a></li>
+                                            
+                                                <li class="menu-item"><a href='/PTW/MjAyNi0yMDI3/Sw%3d%3d/MUxL/QXJhYmljYSBDb2ZmZWUgSG91c2UgS2FkxLFubGFyIFZvbGV5Ym9sIDEuTGlnaQ%3d%3d'>Arabica Coffee House Kadınlar Voleybol 1.Ligi</a></li>
+                                            
+                                                <li class="menu-item"><a href='/PTM/MjAyNi0yMDI3/RQ%3d%3d/MkxF/VXptYW4gUG9zdGEgRXJrZWtsZXIgMi4gTGln'>Uzman Posta Erkekler 2. Lig</a></li>
+                                            
+                                                <li class="menu-item"><a href='/PTW/MjAyNi0yMDI3/Sw%3d%3d/MkxL/VXptYW4gUG9zdGEgS2FkxLFubGFyIDIuIExpZw%3d%3d'>Uzman Posta Kadınlar 2. Lig</a></li>
+                                            
+                                                <li class="menu-item"><a href='/PTM/MjAyNi0yMDI3/RQ%3d%3d/QVNLVkU%3d/QVhBIFNpZ29ydGEgS3VwYSBWb2xleSBFcmtla2xlcg%3d%3d'>AXA Sigorta Kupa Voley Erkekler</a></li>
+                                            
+                                                <li class="menu-item"><a href='/PTW/MjAyNi0yMDI3/Sw%3d%3d/QVNLVks%3d/QVhBIFNpZ29ydGEgS3VwYSBWb2xleSBLYWTEsW5sYXI%3d'>AXA Sigorta Kupa Voley Kadınlar</a></li>
+                                            
+
+                                        
+                                        
+                                    </ul>
+                                </li>
+
+
+
+                                <li class="menu-item menu-item-home"><a href="/Takvim" title="CALENDAR">TAKVİM</a></li>
+                                
+                                <li class="menu-item menu-item-home"><a href="https://tvf.org.tr" title="tvf.org.tr">TVF.ORG.TR</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tvf-body-outer-wrapper ">
+        <div class="tvf-body-wrapper clearfix  tvf-with-transparent-header tvf-with-frame">
+            <div class="tvf-header-background-transparent">
+                <div class="tvf-top-bar">
+                    <div class="tvf-top-bar-background"></div>
+                    <div class="tvf-top-bar-container clearfix tvf-top-bar-full ">
+                        <div class="tvf-top-bar-left tvf-item-pdlr">
+                            <span class="tvf-upcoming-match-wrapper">
+                                <marquee behavior="scroll" direction="left" scrolldelay="7" scrollamount="10" onmouseover="this.setAttribute('scrollamount', 0, 0);" onmouseout="this.setAttribute('scrollamount', 6, 0);">
+                                    
+                                            <span class="tvf-upcoming-match-title"></span>
+                                            <span class="tvf-upcoming-match-link">MALİYE VOLEYBOL Vs YEDİDAĞ SPOR
+                                                <span class="tvf-sep">/</span>26.09.2026 - 11:00<span class="tvf-sep">/</span>
+                                                TVF BEŞTEPE VOLEYBOL SALONU
+                                            </span>
+                                        
+                                            <span class="tvf-upcoming-match-title"></span>
+                                            <span class="tvf-upcoming-match-link">BAŞKENT BEŞİKTAŞLILAR Vs KONYA B.ŞEHİR BLD. SPOR
+                                                <span class="tvf-sep">/</span>26.09.2026 - 13:00<span class="tvf-sep">/</span>
+                                                TVF BEŞTEPE VOLEYBOL SALONU
+                                            </span>
+                                        
+                                            <span class="tvf-upcoming-match-title"></span>
+                                            <span class="tvf-upcoming-match-link">GAZİANTEP BLD. SPOR Vs ELAZIĞ BLD. SPOR
+                                                <span class="tvf-sep">/</span>26.09.2026 - 13:00<span class="tvf-sep">/</span>
+                                                TALAT ÖZKARSLI SPOR SALONU
+                                            </span>
+                                        
+                                            <span class="tvf-upcoming-match-title"></span>
+                                            <span class="tvf-upcoming-match-link">SÜREYYAPAŞA DOĞU AKADEMİ Vs ARGES VOLEYBOL
+                                                <span class="tvf-sep">/</span>26.09.2026 - 14:00<span class="tvf-sep">/</span>
+                                                TVF 50.YIL DENİZ ESİNDUY VOLEYBOL SALONU
+                                            </span>
+                                        
+                                            <span class="tvf-upcoming-match-title"></span>
+                                            <span class="tvf-upcoming-match-link">BALIKESİR DSİ Vs BAHÇEŞEHİR KOLEJİ AYVALIKSPOR
+                                                <span class="tvf-sep">/</span>26.09.2026 - 14:00<span class="tvf-sep">/</span>
+                                                KURTDERELİ SPOR SALONU
+                                            </span>
+                                        
+                                            <span class="tvf-upcoming-match-title"></span>
+                                            <span class="tvf-upcoming-match-link">GÖZTEPE Vs ALTAY
+                                                <span class="tvf-sep">/</span>26.09.2026 - 14:00<span class="tvf-sep">/</span>
+                                                GAZİEMİR SPOR SALONU
+                                            </span>
+                                        
+                                            <span class="tvf-upcoming-match-title"></span>
+                                            <span class="tvf-upcoming-match-link">GELİŞİM KOLEJİ Vs VOLKAN GÜÇ SPOR
+                                                <span class="tvf-sep">/</span>26.09.2026 - 14:00<span class="tvf-sep">/</span>
+                                                GELİŞİM KOLEJİ SPOR SALONU
+                                            </span>
+                                        
+                                            <span class="tvf-upcoming-match-title"></span>
+                                            <span class="tvf-upcoming-match-link">KAYSERİ CİMNASTİK SPOR Vs ANTEPİA
+                                                <span class="tvf-sep">/</span>26.09.2026 - 15:00<span class="tvf-sep">/</span>
+                                                GEVHER NESİBE SPOR SALONU
+                                            </span>
+                                        
+                                            <span class="tvf-upcoming-match-title"></span>
+                                            <span class="tvf-upcoming-match-link">ÇORLU BLD. SPOR Vs ÇERKEZKÖY VOLEYBOL AKADEMİ
+                                                <span class="tvf-sep">/</span>26.09.2026 - 15:00<span class="tvf-sep">/</span>
+                                                ÇORLU SPOR SALONU
+                                            </span>
+                                        
+                                            <span class="tvf-upcoming-match-title"></span>
+                                            <span class="tvf-upcoming-match-link">YILDIZ SPOR  Vs KARACABEY BELEDİYE
+                                                <span class="tvf-sep">/</span>26.09.2026 - 16:00<span class="tvf-sep">/</span>
+                                                IŞIKKENT SPOR SALONU
+                                            </span>
+                                        
+                                </marquee>
+                            </span>
+                        </div>
+                        <div class="tvf-top-bar-right tvf-item-pdlr">
+
+                            <div class="tvf-top-bar-right-text"><i class="fa fa-envelope-open-o" style="font-size: 14px; color: #e4022d; margin-right: 7px;"></i><a href="#" class="__cf_email__" ><span class="__cf_email__" data-cfemail="92fbfcf4fdd2e6e4f4bcfde0f5bce6e0">[email&#160;protected]</span></a><span style="margin-left: 20px; color: #e4022d;">/</span><i class="fa fa-phone" style="font-size: 14px; color: #e4022d; margin-left: 20px; margin-right: 7px;"></i> 0312 221 40 40 <span style="margin-left: 15px; color: #e4022d;">/</span></div>
+                            <div class="tvf-top-bar-right-social">
+                                <a href="https://www.instagram.com/tvforgtr/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram" style="font-size: 16px; color: #e4022d; margin-right: 20px;" title="instagram"></i></a>
+                                <a href="https://twitter.com/tvforgtr" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter" style="font-size: 16px; color: #e4022d; margin-right: 20px;" title="twitter"></i></a>
+                                <a href="https://www.facebook.com/TurkiyeVoleybolFederasyonu" target="_blank" rel="noopener noreferrer" title="facebook"><i class="fa fa-facebook" style="font-size: 16px; color: #e4022d; margin-right: 20px;"></i></a>
+                                <a href="https://www.youtube.com/channel/UC8RJ1f4b-26blpnrdH3YWvw" target="_blank" rel="noopener noreferrer" title="youtube"><i class="fa fa-youtube" style="font-size: 16px; color: #e4022d; margin-right: 20px;"></i></a>
+                                <a href="https://www.youtube.com/c/TVFVOLEYBOLTV/videos" target="_blank" rel="noopener noreferrer" title="youtube"><i class="fa fa-youtube" style="font-size: 16px; color: #e4022d; margin-right: 20px;"></i></a>
+                                <a href="https://www.tiktok.com/@tvforgtr" target="_blank" rel="noopener noreferrer" title="tiktok">
+                                    <img src="/upload/tiktok.png" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <header class="tvf-header-wrap tvf-header-style-plain  tvf-style-menu-right tvf-sticky-navigation tvf-style-slide">
+                    <div class="tvf-header-background"></div>
+                    <div class="tvf-header-container  tvf-header-full">
+
+                        <div class="tvf-header-container-inner clearfix">
+                            <div class="tvf-logo  tvf-item-pdlr">
+                                <div class="tvf-logo-inner">
+                                    <a href="/Welcome">
+                                        <img src="/upload/logo-tvf.png" alt="" width="131" height="160" title="logo" /></a>
+                                </div>
+                            </div>
+                            <div class="tvf-navigation tvf-item-pdlr clearfix ">
+                                <div class="tvf-main-menu" id="tvf-main-menu">
+                                    <ul id="menu-main-navigation-1" class="sf-menu">
+                                        <li class="menu-item menu-item-home current-menu-item tvf-normal-menu"><a href="/Fikst%C3%BCr" title="ANA SAYFA">ANA SAYFA</a></li>
+                                        <li class="menu-item menu-item-has-children tvf-mega-menu"><a href="#" class="sf-with-ul-pre" title="FİKSTUR">FİKSTÜR</a>
+                                            <div class="sf-mega">
+                                                <ul class="sub-menu">
+                                                    <li class="menu-item menu-item-has-children">
+                                                        <ul class="sub-menu">
+                                                            
+                                                                    <li class="menu-item"><a href='/FSM/MjAyNi0yMDI3/RQ%3d%3d/RUZFTEVS/U01TIEdydXAgRWZlbGVyIExpZ2k%3d'>SMS Grup Efeler Ligi</a></li>
+                                                                
+                                                                    <li class="menu-item"><a href='/FSW/MjAyNi0yMDI3/Sw%3d%3d/U1VMVEFOTEFS/Vm9kYWZvbmUgU3VsdGFubGFyIExpZ2k%3d'>Vodafone Sultanlar Ligi</a></li>
+                                                                
+                                                                    <li class="menu-item"><a href='/FSM/MjAyNi0yMDI3/RQ%3d%3d/MUxF/QXJhYmljYSBDb2ZmZWUgSG91c2UgRXJrZWtsZXIgVm9sZXlib2wgMS5MaWdp'>Arabica Coffee House Erkekler Voleybol 1.Ligi</a></li>
+                                                                
+                                                                    <li class="menu-item"><a href='/FSW/MjAyNi0yMDI3/Sw%3d%3d/MUxL/QXJhYmljYSBDb2ZmZWUgSG91c2UgS2FkxLFubGFyIFZvbGV5Ym9sIDEuTGlnaQ%3d%3d'>Arabica Coffee House Kadınlar Voleybol 1.Ligi</a></li>
+                                                                
+                                                                    <li class="menu-item"><a href='/FSM/MjAyNi0yMDI3/RQ%3d%3d/MkxF/VXptYW4gUG9zdGEgRXJrZWtsZXIgMi4gTGln'>Uzman Posta Erkekler 2. Lig</a></li>
+                                                                
+                                                                    <li class="menu-item"><a href='/FSW/MjAyNi0yMDI3/Sw%3d%3d/MkxL/VXptYW4gUG9zdGEgS2FkxLFubGFyIDIuIExpZw%3d%3d'>Uzman Posta Kadınlar 2. Lig</a></li>
+                                                                
+                                                                    <li class="menu-item"><a href='/FSM/MjAyNi0yMDI3/RQ%3d%3d/QVNLVkU%3d/QVhBIFNpZ29ydGEgS3VwYSBWb2xleSBFcmtla2xlcg%3d%3d'>AXA Sigorta Kupa Voley Erkekler</a></li>
+                                                                
+                                                                    <li class="menu-item"><a href='/FSW/MjAyNi0yMDI3/Sw%3d%3d/QVNLVks%3d/QVhBIFNpZ29ydGEgS3VwYSBWb2xleSBLYWTEsW5sYXI%3d'>AXA Sigorta Kupa Voley Kadınlar</a></li>
+                                                                
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        
+
+
+                                        <li class="menu-item menu-item-has-children tvf-mega-menu"><a href="#" class="sf-with-ul-pre" title="PUAN">PUAN</a>
+                                            <div class="sf-mega">
+                                                <ul class="sub-menu">
+                                                    <li class="menu-item menu-item-has-children">
+                                                        <ul class="sub-menu">
+                                                            
+                                                                    <li class="menu-item"><a href='/PTM/MjAyNi0yMDI3/RQ%3d%3d/RUZFTEVS/U01TIEdydXAgRWZlbGVyIExpZ2k%3d'>SMS Grup Efeler Ligi</a></li>
+                                                                
+                                                                    <li class="menu-item"><a href='/PTW/MjAyNi0yMDI3/Sw%3d%3d/U1VMVEFOTEFS/Vm9kYWZvbmUgU3VsdGFubGFyIExpZ2k%3d'>Vodafone Sultanlar Ligi</a></li>
+                                                                
+                                                                    <li class="menu-item"><a href='/PTM/MjAyNi0yMDI3/RQ%3d%3d/MUxF/QXJhYmljYSBDb2ZmZWUgSG91c2UgRXJrZWtsZXIgVm9sZXlib2wgMS5MaWdp'>Arabica Coffee House Erkekler Voleybol 1.Ligi</a></li>
+                                                                
+                                                                    <li class="menu-item"><a href='/PTW/MjAyNi0yMDI3/Sw%3d%3d/MUxL/QXJhYmljYSBDb2ZmZWUgSG91c2UgS2FkxLFubGFyIFZvbGV5Ym9sIDEuTGlnaQ%3d%3d'>Arabica Coffee House Kadınlar Voleybol 1.Ligi</a></li>
+                                                                
+                                                                    <li class="menu-item"><a href='/PTM/MjAyNi0yMDI3/RQ%3d%3d/MkxF/VXptYW4gUG9zdGEgRXJrZWtsZXIgMi4gTGln'>Uzman Posta Erkekler 2. Lig</a></li>
+                                                                
+                                                                    <li class="menu-item"><a href='/PTW/MjAyNi0yMDI3/Sw%3d%3d/MkxL/VXptYW4gUG9zdGEgS2FkxLFubGFyIDIuIExpZw%3d%3d'>Uzman Posta Kadınlar 2. Lig</a></li>
+                                                                
+                                                                    <li class="menu-item"><a href='/PTM/MjAyNi0yMDI3/RQ%3d%3d/QVNLVkU%3d/QVhBIFNpZ29ydGEgS3VwYSBWb2xleSBFcmtla2xlcg%3d%3d'>AXA Sigorta Kupa Voley Erkekler</a></li>
+                                                                
+                                                                    <li class="menu-item"><a href='/PTW/MjAyNi0yMDI3/Sw%3d%3d/QVNLVks%3d/QVhBIFNpZ29ydGEgS3VwYSBWb2xleSBLYWTEsW5sYXI%3d'>AXA Sigorta Kupa Voley Kadınlar</a></li>
+                                                                
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="menu-item menu-item-home"><a href="/Takvim" title="CALENDAR">TAKVİM</a></li>
+                                        
+                                        <li class="menu-item menu-item-home tvf-normal-menu"><a href="https://tvf.org.tr" title="tvf.org.tr">TVF.ORG.TR</a></li>
+                                    </ul>
+                                    <div class="tvf-navigation-slide-bar" id="tvf-navigation-slide-bar"></div>
+                                    <div class="tvf-navigation-slide-bar-small" id="tvf-navigation-slide-bar-small"></div>
+                                </div>
+                                <div class="tvf-main-menu-right-wrap clearfix ">
+                                    <div class="tvf-main-menu-search" id="tvf-top-search"><i class="fa fa-search"></i></div>
+                                    <div class="tvf-top-search-wrap">
+                                        <div class="tvf-top-search-close"></div>
+
+                                        <div class="tvf-top-search-row">
+                                            <div class="tvf-top-search-cell">
+                                                <form role="search" method="get" class="search-form" action="index.html">
+                                                    <input type="text" class="search-field tvf-title-font" placeholder="Arama Yap..." value="" name="s">
+                                                    <div class="tvf-top-search-submit"><i class="fa fa-search"></i></div>
+                                                    <input type="submit" class="search-submit" value="Search">
+                                                    <div class="tvf-top-search-close"><i class="icon_close"></i></div>
+                                                </form>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- tvf-navigation -->
+                        </div>
+                        <!-- tvf-header-inner -->
+                    </div>
+                    <!-- tvf-header-container -->
+
+                    <div class="tvf-navigation-slide-bar-long" id="tvf-navigation-slide-bar-long"></div>
+                </header>
+                <!-- header -->
+            </div>
+
+
+
+
+            <form method="post" action="./Fikstür" id="ProFikstur">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F00038ED" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="FNrAzDhy8WWExveAT24j1T3Vzt1Z+Nsqbc3WPQXlonvoptk4omeBy1NVreIVCylAIyRC/tsAVs3bI6anSQeYUYnVNiWVGx5mWBVazurbDT8tn90AJk6cg1m9M/84b33arOdmHA6F4l7QHfm7xP9kh6U7r5H2Aw4tPMEd1Gw9Bzkl74u++QQJnPx1DBiZX7e4dYU8PAbu3FgvuMF05cVlxavSPt7T36njsigS79KoO0Tp4mlK9nm1Puy8TnMtv2hxXtF7tRQFiA/jezTp/WzXTd0c22/1FptJfGU3g51kyEFlG3j7JGmMtKZzaz4+aqHuqBLswF1nAtNdDeAZ86VyN4bg7gVlBOSHW9LJDkMiV70=" />
+                <div>
+                    
+
+    <div class="tvf-page-wrapper" id="tvf-page-wrapper">
+        <div class="gdlr-core-page-builder-body">
+            <div class="gdlr-core-pbf-wrapper ">
+                <div class="gdlr-core-pbf-wrapper " style="padding: 150px 0px 50px 0px !important;">
+                    <div class="gdlr-core-pbf-background-wrap">
+                        <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" style="background-image: url(/images/bg-file-1920x1080-02.jpg); background-size: cover; background-position: center;" data-parallax-speed="0.2"></div>
+                    </div>
+                    <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
+                        <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
+                            <div class="gdlr-core-pbf-element">
+                                <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-center-align gdlr-core-title-item-caption-bottom gdlr-core-item-pdlr">
+                                    <div class="gdlr-core-title-item-title-wrap  gdlr-core-js-2 gdlr-core-with-divider">
+                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-weight: 700; color: #ffffff; margin-left: 30px; margin-right: 30px;">TVF FİKSTÜR SİSTEMİ<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span></h3>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            
+            
+
+            
+            
+<link rel='stylesheet' href='/css/tvf-style-custom.css' type='text/css' media='all' />
+
+<div class="gdlr-core-pbf-wrapper " style="padding: 0px 0px 35px 0px;">
+    <div class="gdlr-core-pbf-background-wrap"></div>
+    <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
+
+        <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
+            <div class="gdlr-core-pbf-column gdlr-core-column-30 gdlr-core-column-first">
+                <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
+                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
+                        <div class="gdlr-core-pbf-element">
+                            <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" style="padding-bottom: 0px;">
+                                <div class="gdlr-core-text-box-item-content">
+                                    <div class="sportspress sp-widget-align-none">
+                                        <div class="sp-template sp-template-event-list">
+                                            <div class="tvf-sp-event-featured-holder clearfix">
+                                                <h4 class="sultanlar-ligi-bant sp-table-caption">Vodafone Sultanlar Ligi</h4>
+
+                                                
+                                                        <div class="tvf-sp-event-featured-top tvf-status-vs">
+                                                            <div class="tvf-sp-event-featured-title tvf-title-font clearfix">
+                                                                <div class="tvf-sp-event-featured-title-left">
+                                                                    <span class="tvf-sp-team-logo">
+                                                                        <img id="icerik_ESMaclar1_RepterSultanlar_alogo_0" class="attachment-sportspress-fit-medium size-sportspress-fit-medium wp-post-image" src="https://tvfportal.com/TakimLogo/7682955.png" />
+                                                                    </span>
+                                                                    <span class="tvf-sp-team-name">VAKIFBANK</span>
+                                                                    <input type="hidden" name="ctl00$icerik$ESMaclar1$RepterSultanlar$ctl00$hfalogo" id="icerik_ESMaclar1_RepterSultanlar_hfalogo_0" value="https://tvfportal.com/TakimLogo/7682955.png" />
+                                                                </div>
+                                                                <span class="tvf-sp-event-result"><a href="#"> </a></span>
+                                                                <div class="tvf-sp-event-featured-title-right">
+                                                                    <span class="tvf-sp-team-logo">
+                                                                        <img id="icerik_ESMaclar1_RepterSultanlar_blogo_0" class="attachment-sportspress-fit-medium size-sportspress-fit-medium wp-post-image" src="https://tvfportal.com/TakimLogo/7682956.png" />
+                                                                    </span>
+                                                                    <span class="tvf-sp-team-name">BEŞİKTAŞ</span>
+                                                                    <input type="hidden" name="ctl00$icerik$ESMaclar1$RepterSultanlar$ctl00$hfblogo" id="icerik_ESMaclar1_RepterSultanlar_hfblogo_0" value="https://tvfportal.com/TakimLogo/7682956.png" />
+                                                                </div>
+                                                            </div>
+                                                            <div class="tvf-sp-event-featured-info"><span class="tvf-sp-event-date">03.10.2026 -14:00</span><span class="tvf-sp-event-venue"><a href="#" rel="tag">VAKIFBANK SPOR SARAYI</a></span></div>
+                                                        </div>
+                                                    
+                                                        <div class="tvf-sp-event-featured-top tvf-status-vs">
+                                                            <div class="tvf-sp-event-featured-title tvf-title-font clearfix">
+                                                                <div class="tvf-sp-event-featured-title-left">
+                                                                    <span class="tvf-sp-team-logo">
+                                                                        <img id="icerik_ESMaclar1_RepterSultanlar_alogo_1" class="attachment-sportspress-fit-medium size-sportspress-fit-medium wp-post-image" src="https://tvfportal.com/TakimLogo/7682953.png" />
+                                                                    </span>
+                                                                    <span class="tvf-sp-team-name">NİLÜFER BELEDİYESPOR EKER</span>
+                                                                    <input type="hidden" name="ctl00$icerik$ESMaclar1$RepterSultanlar$ctl01$hfalogo" id="icerik_ESMaclar1_RepterSultanlar_hfalogo_1" value="https://tvfportal.com/TakimLogo/7682953.png" />
+                                                                </div>
+                                                                <span class="tvf-sp-event-result"><a href="#"> </a></span>
+                                                                <div class="tvf-sp-event-featured-title-right">
+                                                                    <span class="tvf-sp-team-logo">
+                                                                        <img id="icerik_ESMaclar1_RepterSultanlar_blogo_1" class="attachment-sportspress-fit-medium size-sportspress-fit-medium wp-post-image" src="https://tvfportal.com/TakimLogo/7682954.png" />
+                                                                    </span>
+                                                                    <span class="tvf-sp-team-name">ECZACIBAŞI PERON İSTANBUL</span>
+                                                                    <input type="hidden" name="ctl00$icerik$ESMaclar1$RepterSultanlar$ctl01$hfblogo" id="icerik_ESMaclar1_RepterSultanlar_hfblogo_1" value="https://tvfportal.com/TakimLogo/7682954.png" />
+                                                                </div>
+                                                            </div>
+                                                            <div class="tvf-sp-event-featured-info"><span class="tvf-sp-event-date">03.10.2026 -16:00</span><span class="tvf-sp-event-venue"><a href="#" rel="tag">TVF CENGİZ GÖLLÜ VOLEYBOL SALONU</a></span></div>
+                                                        </div>
+                                                    
+                                                        <div class="tvf-sp-event-featured-top tvf-status-vs">
+                                                            <div class="tvf-sp-event-featured-title tvf-title-font clearfix">
+                                                                <div class="tvf-sp-event-featured-title-left">
+                                                                    <span class="tvf-sp-team-logo">
+                                                                        <img id="icerik_ESMaclar1_RepterSultanlar_alogo_2" class="attachment-sportspress-fit-medium size-sportspress-fit-medium wp-post-image" src="https://tvfportal.com/TakimLogo/7682957.png" />
+                                                                    </span>
+                                                                    <span class="tvf-sp-team-name">FENERBAHÇE MEDICANA</span>
+                                                                    <input type="hidden" name="ctl00$icerik$ESMaclar1$RepterSultanlar$ctl02$hfalogo" id="icerik_ESMaclar1_RepterSultanlar_hfalogo_2" value="https://tvfportal.com/TakimLogo/7682957.png" />
+                                                                </div>
+                                                                <span class="tvf-sp-event-result"><a href="#"> </a></span>
+                                                                <div class="tvf-sp-event-featured-title-right">
+                                                                    <span class="tvf-sp-team-logo">
+                                                                        <img id="icerik_ESMaclar1_RepterSultanlar_blogo_2" class="attachment-sportspress-fit-medium size-sportspress-fit-medium wp-post-image" src="https://tvfportal.com/TakimLogo/7682958.png" />
+                                                                    </span>
+                                                                    <span class="tvf-sp-team-name">MANİSA BÜYÜKŞEHİR BELEDİYE SPOR</span>
+                                                                    <input type="hidden" name="ctl00$icerik$ESMaclar1$RepterSultanlar$ctl02$hfblogo" id="icerik_ESMaclar1_RepterSultanlar_hfblogo_2" value="https://tvfportal.com/TakimLogo/7682958.png" />
+                                                                </div>
+                                                            </div>
+                                                            <div class="tvf-sp-event-featured-info"><span class="tvf-sp-event-date">04.10.2026 -13:00</span><span class="tvf-sp-event-venue"><a href="#" rel="tag">TVF BURHAN FELEK VESTEL VOLEYBOL SALONU</a></span></div>
+                                                        </div>
+                                                    
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gdlr-core-pbf-element">
+                            <div class="gdlr-core-button-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-center-align" style="margin-top: -37px;"><a class="gdlr-core-button  gdlr-core-button-gradient gdlr-core-button-no-border gdlr-core-button-full-width" 
+                                href="/FHS/MjAyNi0yMDI3/Sw%3d%3d/U1VMVEFOTEFS/Vm9kYWZvbmUgU3VsdGFubGFyIExpZ2k%3d" style="font-size: 13px; color: #e4022d; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px; background: #252525;"><span class="gdlr-core-content">DİĞER MAÇLARI GÖRÜN</span></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gdlr-core-pbf-column gdlr-core-column-30">
+                <div class="gdlr-core-pbf-column-content-margin gdlr-core-js ">
+                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
+                        <div class="gdlr-core-pbf-element">
+                            <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" style="padding-bottom: 0px;">
+                                <div class="gdlr-core-text-box-item-content">
+                                    <div class="sportspress sp-widget-align-none">
+                                        <div class="sp-template sp-template-event-list">
+                                            <div class="tvf-sp-event-featured-holder clearfix">
+                                                <h4 class="efeler-ligi-bant sp-table-caption">  SMS Grup Efeler Ligi </h4>
+                                                
+                                                        <div class="tvf-sp-event-featured-top tvf-status-vs">
+                                                            <div class="tvf-sp-event-featured-title tvf-title-font clearfix">
+                                                                <div class="tvf-sp-event-featured-title-left">
+                                                                    <span class="tvf-sp-team-logo">
+                                                                        <img id="icerik_ESMaclar1_RepeaterEfeler_alogo_0" class="attachment-sportspress-fit-medium size-sportspress-fit-medium wp-post-image" src="https://tvfportal.com/TakimLogo/7692967.png" />
+                                                                    </span>
+                                                                    <span class="tvf-sp-team-name">SUNGURLU BELEDİYESİ SPOR</span>
+                                                                    <input type="hidden" name="ctl00$icerik$ESMaclar1$RepeaterEfeler$ctl00$hfalogo" id="icerik_ESMaclar1_RepeaterEfeler_hfalogo_0" value="https://tvfportal.com/TakimLogo/7692967.png" />
+                                                                </div>
+                                                                <span class="tvf-sp-event-result"><a href="#"> </a></span>
+                                                                <div class="tvf-sp-event-featured-title-right">
+                                                                    <span class="tvf-sp-team-logo">
+                                                                        <img id="icerik_ESMaclar1_RepeaterEfeler_blogo_0" class="attachment-sportspress-fit-medium size-sportspress-fit-medium wp-post-image" src="https://tvfportal.com/TakimLogo/7692968.png" />
+                                                                    </span>
+                                                                    <span class="tvf-sp-team-name">İBB SPOR KULÜBÜ</span>
+                                                                    <input type="hidden" name="ctl00$icerik$ESMaclar1$RepeaterEfeler$ctl00$hfblogo" id="icerik_ESMaclar1_RepeaterEfeler_hfblogo_0" value="https://tvfportal.com/TakimLogo/7692968.png" />
+                                                                </div>
+                                                            </div>
+                                                            <div class="tvf-sp-event-featured-info"><span class="tvf-sp-event-date">17.10.2026 -14:00</span><span class="tvf-sp-event-venue"><a href="#" rel="tag">SUNGURLU MAHMUT ATALAY SPOR SALONU</a></span></div>
+                                                        </div>
+                                                    
+                                                        <div class="tvf-sp-event-featured-top tvf-status-vs">
+                                                            <div class="tvf-sp-event-featured-title tvf-title-font clearfix">
+                                                                <div class="tvf-sp-event-featured-title-left">
+                                                                    <span class="tvf-sp-team-logo">
+                                                                        <img id="icerik_ESMaclar1_RepeaterEfeler_alogo_1" class="attachment-sportspress-fit-medium size-sportspress-fit-medium wp-post-image" src="https://tvfportal.com/TakimLogo/7692974.png" />
+                                                                    </span>
+                                                                    <span class="tvf-sp-team-name">AKEDAŞ ONİKİŞUBAT BELEDİYE SPOR</span>
+                                                                    <input type="hidden" name="ctl00$icerik$ESMaclar1$RepeaterEfeler$ctl01$hfalogo" id="icerik_ESMaclar1_RepeaterEfeler_hfalogo_1" value="https://tvfportal.com/TakimLogo/7692974.png" />
+                                                                </div>
+                                                                <span class="tvf-sp-event-result"><a href="#"> </a></span>
+                                                                <div class="tvf-sp-event-featured-title-right">
+                                                                    <span class="tvf-sp-team-logo">
+                                                                        <img id="icerik_ESMaclar1_RepeaterEfeler_blogo_1" class="attachment-sportspress-fit-medium size-sportspress-fit-medium wp-post-image" src="https://tvfportal.com/TakimLogo/7692975.png" />
+                                                                    </span>
+                                                                    <span class="tvf-sp-team-name">GEBZE BELEDİYESİ SPOR</span>
+                                                                    <input type="hidden" name="ctl00$icerik$ESMaclar1$RepeaterEfeler$ctl01$hfblogo" id="icerik_ESMaclar1_RepeaterEfeler_hfblogo_1" value="https://tvfportal.com/TakimLogo/7692975.png" />
+                                                                </div>
+                                                            </div>
+                                                            <div class="tvf-sp-event-featured-info"><span class="tvf-sp-event-date">17.10.2026 -16:00</span><span class="tvf-sp-event-venue"><a href="#" rel="tag">MERKEZ 1 SPOR SALONU</a></span></div>
+                                                        </div>
+                                                    
+                                                        <div class="tvf-sp-event-featured-top tvf-status-vs">
+                                                            <div class="tvf-sp-event-featured-title tvf-title-font clearfix">
+                                                                <div class="tvf-sp-event-featured-title-left">
+                                                                    <span class="tvf-sp-team-logo">
+                                                                        <img id="icerik_ESMaclar1_RepeaterEfeler_alogo_2" class="attachment-sportspress-fit-medium size-sportspress-fit-medium wp-post-image" src="https://tvfportal.com/TakimLogo/7692971.png" />
+                                                                    </span>
+                                                                    <span class="tvf-sp-team-name">SULTANBEYLİ BELEDİYE SPOR</span>
+                                                                    <input type="hidden" name="ctl00$icerik$ESMaclar1$RepeaterEfeler$ctl02$hfalogo" id="icerik_ESMaclar1_RepeaterEfeler_hfalogo_2" value="https://tvfportal.com/TakimLogo/7692971.png" />
+                                                                </div>
+                                                                <span class="tvf-sp-event-result"><a href="#"> </a></span>
+                                                                <div class="tvf-sp-event-featured-title-right">
+                                                                    <span class="tvf-sp-team-logo">
+                                                                        <img id="icerik_ESMaclar1_RepeaterEfeler_blogo_2" class="attachment-sportspress-fit-medium size-sportspress-fit-medium wp-post-image" src="https://tvfportal.com/TakimLogo/7692972.png" />
+                                                                    </span>
+                                                                    <span class="tvf-sp-team-name">ON HOTELS ALANYA BELEDİYESPOR</span>
+                                                                    <input type="hidden" name="ctl00$icerik$ESMaclar1$RepeaterEfeler$ctl02$hfblogo" id="icerik_ESMaclar1_RepeaterEfeler_hfblogo_2" value="https://tvfportal.com/TakimLogo/7692972.png" />
+                                                                </div>
+                                                            </div>
+                                                            <div class="tvf-sp-event-featured-info"><span class="tvf-sp-event-date">17.10.2026 -16:00</span><span class="tvf-sp-event-venue"><a href="#" rel="tag">SULTANBEYLİ BLD. SPOR SALONU</a></span></div>
+                                                        </div>
+                                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gdlr-core-pbf-element">
+                            <div class="gdlr-core-button-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-center-align" style="margin-top: -37px;"><a class="gdlr-core-button  gdlr-core-button-gradient gdlr-core-button-no-border gdlr-core-button-full-width" 
+                                href="/FHE/MjAyNi0yMDI3/RQ%3d%3d/RUZFTEVS/U01TIEdydXAgRWZlbGVyIExpZ2k%3d" style="font-size: 13px; color: #e4022d; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px; background: #252525;"><span class="gdlr-core-content">DİĞER MAÇLARI GÖRÜN</span></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+
+            
+<div class="gdlr-core-pbf-wrapper tvf-padding-null">
+    <div class="gdlr-core-pbf-background-wrap" style="background-color: #1e1e1e;"></div>
+    <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
+        <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-pbf-wrapper-full-no-space">
+            <div class="gdlr-core-pbf-column gdlr-core-column-20" data-skin="White Text">
+                <div class="gdlr-core-pbf-column-content-margin gdlr-core-js tvf-promo-banners" data-sync-height="height-2">
+                    <div class="gdlr-core-pbf-background-wrap">
+                        <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" style="background-size: cover; background-position: center;" data-parallax-speed="0"></div>
+                    </div>
+                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content">
+                        <div class="gdlr-core-pbf-element">
+                            <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" style="padding-bottom: 5px;">
+                                <div class="gdlr-core-title-item-title-wrap ">
+                                    <h6 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 27px; font-weight: 300; font-style: italic; color: #ffffff;">TVF FİKSTÜR<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span></h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gdlr-core-pbf-element">
+                            <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" style="padding-bottom: 20px;">
+                                <div class="gdlr-core-title-item-title-wrap ">
+                                    <h6 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 15px; font-weight: 600; letter-spacing: 2px; color: #e4022d;">SİSTEMİ İLE<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span></h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gdlr-core-pbf-element">
+                            <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
+                                <div class="gdlr-core-text-box-item-content">
+                                    <p>Maç sonuçları, canlı skor, puan tabloları ve diğer tüm detaylar cebinizde.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gdlr-core-pbf-column gdlr-core-column-20" data-skin="White Text">
+                <div class="gdlr-core-pbf-column-content-margin gdlr-core-js tvf-promo-banners" data-sync-height="height-2">
+                    <div class="gdlr-core-pbf-background-wrap">
+                        <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" style="background-image: url(upload/youtube-abone-ol.jpg); background-size: cover; background-position: center;" data-parallax-speed="0"></div>
+                    </div>
+                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content">
+                        <div class="gdlr-core-pbf-element">
+                            <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" style="padding-bottom: 0px;">
+                                <div class="gdlr-core-title-item-title-wrap ">
+                                    <h6 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 35px; font-weight: 600; color: #ffffff;">YOUTUBE<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span></h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gdlr-core-pbf-element">
+                            <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" style="padding-bottom: 22px;">
+                                <div class="gdlr-core-title-item-title-wrap ">
+                                    <h6 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 16px; font-weight: 600; text-transform: none; color: #dc4e3c;">Canlı yayınlar, maçlar, yorumlar ve dahası!<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span></h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gdlr-core-pbf-element">
+                            <div class="gdlr-core-button-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align"><a class="gdlr-core-button  gdlr-core-button-transparent gdlr-core-button-with-border" href="https://www.youtube.com/channel/UC8RJ1f4b-26blpnrdH3YWvw/videos" title="Bilet Al" target="_blank" style="font-size: 12px; color: #ffffff; padding: 9px 24px 9px 24px; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px; border-color: #ffffff;"><span class="gdlr-core-content">ABONE OL!</span></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gdlr-core-pbf-column gdlr-core-column-20" data-skin="White Text">
+                <div class="gdlr-core-pbf-column-content-margin gdlr-core-js tvf-promo-banners"  data-sync-height="height-2">
+                    <div class="gdlr-core-pbf-background-wrap">
+                        <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js" style="background-image: url(upload/bilet-al.jpg); background-size: cover; background-position: center;" data-parallax-speed="0"></div>
+                    </div>
+                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content">
+                        <div class="gdlr-core-pbf-element">
+                            <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" style="padding-bottom: 0px;">
+                                <div class="gdlr-core-title-item-title-wrap ">
+                                    <h6 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 35px; font-weight: 600; color: #ffffff;">BİLET AL<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span></h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gdlr-core-pbf-element">
+                            <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" style="padding-bottom: 22px;">
+                                <div class="gdlr-core-title-item-title-wrap ">
+                                    <h6 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 16px; font-weight: 600; text-transform: none; color: #dc4e3c;">Heyecanı yerinde yaşayın!<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span></h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gdlr-core-pbf-element">
+                            <div class="gdlr-core-button-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align"><a class="gdlr-core-button  gdlr-core-button-transparent gdlr-core-button-with-border" href="https://www.biletinial.com/" title="Biletini Al" target="_blank" style="font-size: 12px; color: #ffffff; padding: 9px 24px 9px 24px; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px; border-color: #ffffff;"><span class="gdlr-core-content">Satın Al!</span></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+
+
+
+                </div>
+                <footer>
+                    
+
+
+                    
+                    
+<style>
+    table.tvf-sponsorlar tr td {
+        padding: 0 30px;
+    }
+</style>
+<!-- SPONSOR TABLO -->
+
+<div class="tvf-footer-wrapper">
+    <div class="tvf-footer-container tvf-container clearfix">
+        <div class="tvf-footer-column tvf-item-pdlr tvf-column-60" style="padding-left: 55px; padding-right: 55px;">
+            <div id="gdlr-core-recent-portfolio-widget-1" class="widget widget_gdlr-core-recent-portfolio-widget tvf-widget">
+                <!-- SPONSOR TABLO -->
+                <table class="tvf-sponsorlar">
+                    <tbody>
+                        <tr style="background-color: transparent !important;">
+                            <td><a href="https://www.acibadem.com.tr/" target="_blank" rel="noopener noreferrer">
+                                <img class="aligncenter wp-image-61568 size-full" src="/upload/sponsors/acibadem-sb.png" alt="Acıbadem" width="300" height="184"></a></td>
+                            <td><a href="https://www.axasigorta.com.tr/" target="_blank" rel="noopener noreferrer">
+                                <img class="aligncenter wp-image-61569 size-full" src="/upload/sponsors/Axa.png" alt="AXA Sigorta" width="300" height="184"></a></td>
+                            <td><a href="https://www.sonukupaolsun.com/" target="_blank" rel="noopener">
+                                <img class="aligncenter wp-image-72289 size-full" title="BTC Turk" src="/upload/sponsors/BTC-Turk-Logo.png" alt="BTC Turk Logo" width="300" height="184"></a></td>
+                            <td><a href="https://www.mercedes-benz.com.tr/" target="_blank" rel="noopener noreferrer">
+                                <img class="aligncenter wp-image-61577 size-full" src="/upload/sponsors/mercedes.png" alt="Mercedes" width="300" height="184"></a></td>
+
+                            <td><a href="https://solgar.com.tr/" target="_blank" rel="noopener noreferrer">
+                                <img class="aligncenter wp-image-61577 size-full" src="/upload/sponsors/Solgar-Logo.png" alt="Solgar" width="300" height="184"></a></td>
+                            <td><a href="https://www.gedik.com/" target="_blank" rel="noopener noreferrer">
+                                <img class="aligncenter wp-image-61577 size-full" src="/upload/sponsors/Gedik-Yatirim.png" alt="Gedik Yatırım" width="300" height="184"></a></td>
+                            <td><a href="https://www.trendyol.com/" target="_blank" rel="noopener noreferrer">
+                                <img class="aligncenter wp-image-61577 size-full" src="/upload/sponsors/trendyol-logo-beyaz.png" alt="Trendyol" width="300" height="184"></a></td>
+                            <td><a href="https://www.vestel.com.tr/" target="_blank" rel="noopener noreferrer">
+                                <img class="aligncenter wp-image-61577 size-full" src="/upload/sponsors/Vestel.png" alt="Vestel" width="300" height="184"></a></td>
+                            <td><a href="https://www.vodafone.com.tr/" target="_blank" rel="noopener noreferrer">
+                                <img class="aligncenter wp-image-61577 size-full" src="/upload/sponsors/Vodafone.png" alt="Vodafone" width="300" height="184"></a></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- SPONSOR TABLO -->
+
+                <!-- SPONSOR TABLO -->
+                <table class="tvf-sponsorlar" style="padding: 5px 10px;">
+                    <tbody>
+                        <tr style="background-color: transparent !important;">
+                            <td><a href="https://www.araskargo.com.tr/tr/" target="_blank" rel="noopener">
+                                <img class="aligncenter wp-image-74997" src="/upload/sponsors/aras.png" alt="Aras Kargo" width="350" height="215"></a></td>
+                            <td><a href="https://www.bioderma.com.tr/" target="_blank" rel="noopener">
+                                <img class="aligncenter wp-image-74997" src="/upload/sponsors/bioderma.png" alt="bioderma" width="350" height="215"></a></td>
+                            <td><a href="https://www.mcdonalds.com.tr/" target="_blank" rel="noopener">
+                                <img class="aligncenter size-full wp-image-74996" src="/upload/sponsors/mcdonalds.png" alt="mcdonalds" width="300" height="184"></a></td>
+                            <td><a href="http://www.misli.com/" target="_blank" rel="noopener noreferrer">
+                                <img class="aligncenter wp-image-61566 size-full" src="/upload/sponsors/misli-logo.png" alt="mislicom" width="300" height="184"></a></td>
+                            <td><a href="https://www.opet.com.tr/" target="_blank" rel="noopener noreferrer">
+                                <img class="aligncenter wp-image-61562 size-full" src="/upload/sponsors/Opet-Logo.png" alt="Opet" width="300" height="184"></a></td>
+                            <td><a href="https://www.kadinlarbilir.com/etiket/orkid" target="_blank" rel="noopener noreferrer">
+                                <img class="aligncenter wp-image-61560 size-full" src="/upload/sponsors/Orkid-Logo.png" alt="Orkid" width="300" height="184"></a></td>
+                            <td><a href="https://tr.puma.com/" target="_blank" rel="noopener noreferrer">
+                                <img class="aligncenter wp-image-61560 size-full" src="/upload/sponsors/puma-logo.png" alt="Puma" width="300" height="184"></a></td>
+                            <td><a href="http://www.sportoto.gov.tr/" target="_blank" rel="noopener noreferrer">
+                                <img class="aligncenter wp-image-61561 size-full" src="/upload/sponsors/Sportoto-Logo.png" alt="Sportoto" width="300" height="184"></a></td>
+                            <td><a href="https://www.suwen.com.tr/" target="_blank" rel="noopener noreferrer">
+                                <img class="aligncenter wp-image-61561 size-full" src="/upload/sponsors/suwen.png" alt="Suwen" width="300" height="184"></a></td>
+                            <td><a href="https://www.turkishairlines.com/" target="_blank" rel="noopener noreferrer">
+                                <img class="aligncenter wp-image-61558 size-full" src="/upload/sponsors/thy.png" alt="THY" width="300" height="184"></a></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- SPONSOR TABLO -->
+
+                <!-- SPONSOR TABLO -->
+                <table class="tvf-sponsorlar" style="padding: 5px 35px;">
+                    <tbody>
+                        <tr style="background-color: transparent !important;">
+                            <td></td>
+
+                            <td><a href="http://alpaslanendustri.com/" target="_blank" rel="noopener">
+                                <img class="aligncenter wp-image-78913 size-full" src="/upload/sponsors/Alpaslan-Endustri-Logo-02.png" alt="Alpaslan Endustri " width="300" height="184"></a></td>
+                            <td><a href="https://uzmanposta.com/" target="_blank" rel="noopener">
+                                <img class="aligncenter wp-image-78913 size-full" src="https://tvf.org.tr/wp-content/uploads/2024/04/uzman-posta-logo.png" alt="Uzman Posta" width="300" height="184"></a></td>
+                            <td><a href="https://kfcturkiye.com/" target="_blank" rel="noopener noreferrer">
+                                <img class="aligncenter wp-image-61575 size-full" src="/upload/sponsors/KFC-Logo.png" alt="KFC" width="300" height="184"></a></td>
+                            <td><a href="https://www.kigili.com/" target="_blank" rel="noopener noreferrer">
+                                <img class="aligncenter wp-image-61587 size-full" src="/upload/sponsors/kigili-logo-05.png" alt="Kiğılı" width="300" height="184"></a></td>
+                            <td><a href="http://www.kuzeydensu.com/" target="_blank" rel="noopener noreferrer">
+                                <img class="aligncenter wp-image-61572 size-full" src="/upload/sponsors/kuzeyden-logo-03.png" alt="Kuzeyden Su" width="300" height="184"></a></td>
+                            <td><a href="http://www.finspor.com.tr/" target="_blank" rel="noopener noreferrer">
+                                <img class="aligncenter wp-image-61573 size-full" src="/upload/sponsors/mikasa-logo-03.png" alt="Mikasa" width="300" height="184"></a></td>
+                            <td></td>
+
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- SPONSOR TABLO -->
+            </div>
+        </div>
+    </div>
+</div>
+
+                    
+<div class="tvf-copyright-wrapper">
+    <div class="tvf-copyright-container tvf-container clearfix">
+        <div class="tvf-copyright-left tvf-item-pdlr"><a href="https://kreabaz.com" title="KREABAZ" style="margin-right: 30px;">KREABAZ tarafından tasarlandı.</a></div>
+        <div class="tvf-copyright-left tvf-item-pdlr"><a href="#" title="Tvf" style="margin-right: 30px;"></a></div>
+        <div class="tvf-copyright-right tvf-item-pdlr">
+
+            <a href="https://www.instagram.com/tvforgtr/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram" style="font-size: 16px; color: #e4022d; margin-right: 20px;" title="instagram"></i></a>
+            <a href="https://twitter.com/tvforgtr" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter" style="font-size: 16px; color: #e4022d; margin-right: 20px;" title="twitter"></i></a>
+            <a href="https://www.facebook.com/TurkiyeVoleybolFederasyonu" target="_blank" rel="noopener noreferrer" title="facebook"><i class="fa fa-facebook" style="font-size: 16px; color: #e4022d; margin-right: 20px;"></i></a>
+            <a href="https://www.youtube.com/channel/UC8RJ1f4b-26blpnrdH3YWvw" target="_blank" rel="noopener noreferrer" title="youtube"><i class="fa fa-youtube" style="font-size: 16px; color: #e4022d; margin-right: 20px;"></i></a>
+            <a href="https://www.youtube.com/c/TVFVOLEYBOLTV/videos" target="_blank" rel="noopener noreferrer" title="youtube"><i class="fa fa-youtube" style="font-size: 16px; color: #e4022d; margin-right: 20px;"></i></a>
+            <a href="https://www.tiktok.com/@tvforgtr" target="_blank" rel="noopener noreferrer" title="tiktok">
+                <img src="/upload/tiktok.png"/></a>
+            <span>| Tüm hakları TVF tarafından saklıdır. |
+            </span>
+
+        </div>
+
+
+    </div>
+</div>
+
+
+
+                </footer>
+            </form>
+        </div>
+    </div>
+    <a href="#tvf-top-anchor" class="tvf-footer-back-to-top-button" id="tvf-footer-back-to-top-button"><i class="fa fa-angle-up"></i></a>
+    
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type='text/javascript' src='/js/jquery/jquery.js'></script>
+    
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var SnazzyDataForSnazzyMaps = [];
+        SnazzyDataForSnazzyMaps = {
+            "id": 38,
+            "name": "Shades of Grey",
+            "description": "A map with various shades of grey. Great for a website with a really dark theme. ",
+            "url": "https:\/\/snazzymaps.com\/style\/38\/shades-of-grey",
+            "imageUrl": "https:\/\/snazzy-maps-cdn.azureedge.net\/assets\/38-shades-of-grey.png?v=20170407093939",
+            "json": "[{\"featureType\":\"all\",\"elementType\":\"labels.text.fill\",\"stylers\":[{\"saturation\":36},{\"color\":\"#000000\"},{\"lightness\":40}]},{\"featureType\":\"all\",\"elementType\":\"labels.text.stroke\",\"stylers\":[{\"visibility\":\"on\"},{\"color\":\"#000000\"},{\"lightness\":16}]},{\"featureType\":\"all\",\"elementType\":\"labels.icon\",\"stylers\":[{\"visibility\":\"off\"}]},{\"featureType\":\"administrative\",\"elementType\":\"geometry.fill\",\"stylers\":[{\"color\":\"#000000\"},{\"lightness\":20}]},{\"featureType\":\"administrative\",\"elementType\":\"geometry.stroke\",\"stylers\":[{\"color\":\"#000000\"},{\"lightness\":17},{\"weight\":1.2}]},{\"featureType\":\"landscape\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#000000\"},{\"lightness\":20}]},{\"featureType\":\"poi\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#000000\"},{\"lightness\":21}]},{\"featureType\":\"road.highway\",\"elementType\":\"geometry.fill\",\"stylers\":[{\"color\":\"#000000\"},{\"lightness\":17}]},{\"featureType\":\"road.highway\",\"elementType\":\"geometry.stroke\",\"stylers\":[{\"color\":\"#000000\"},{\"lightness\":29},{\"weight\":0.2}]},{\"featureType\":\"road.arterial\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#000000\"},{\"lightness\":18}]},{\"featureType\":\"road.local\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#000000\"},{\"lightness\":16}]},{\"featureType\":\"transit\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#000000\"},{\"lightness\":19}]},{\"featureType\":\"water\",\"elementType\":\"geometry\",\"stylers\":[{\"color\":\"#000000\"},{\"lightness\":17}]}]",
+            "views": 264721,
+            "favorites": 544,
+            "createdBy": {
+                "name": "Adam Krogh",
+                "url": "https:\/\/twitter.com\/adamkrogh"
+            },
+            "createdOn": "2013-11-12T18:21:41.94",
+            "tags": ["dark", "greyscale"],
+            "colors": ["black", "gray"]
+        };
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='/plugins/snazzy-maps/snazzymaps.js'></script>
+    <script type='text/javascript' src='/plugins/goodlayers-core/plugins/script.js'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var gdlr_core_pbf = {
+            "admin": "",
+            "video": {
+                "width": "640",
+                "height": "360"
+            },
+            "ajax_url": "#",
+            "ilightbox_skin": "dark"
+        };
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='/plugins/goodlayers-core/include/js/page-builder.js'></script>
+    
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var localized_strings = {
+            "days": "days",
+            "hrs": "hrs",
+            "mins": "mins",
+            "secs": "secs",
+            "previous": "Önceki",
+            "next": "Sonraki"
+        };
+        /* ]]> */
+    </script>
+    
+    <script type='text/javascript' src='/js/jquery/ui/effect.min.js'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var bigslam_script_core = {
+            "home_url": "index.html"
+        };
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='/js/plugins.js'></script>
+    <script type='text/javascript' src='/plugins/google-map-plugin/assets/js/maps.js'></script>
+    <!-- NEW SLIDER AREA -->
+    <script src="/js/jquery-2.2.4.min.js"></script>
+    
+    
+    <script src="/layerslider/js/greensock.js"></script>
+    <script src="/layerslider/js/layerslider.transitions.js"></script>
+    <script src="/layerslider/js/layerslider.kreaturamedia.jquery.js"></script>
+    <script type="text/javascript">
+        'use strict';
+        $('#layerslider').layerSlider({
+            autoStart: true,
+            navButtons: true,
+            navStartStop: false,
+            showCircleTimer: false,
+            responsive: true,
+            responsiveUnder: 1400,
+            layersContainer: 1200,
+            skinsPath: '/layerslider/skins/'
+            // Please make sure that you didn't forget to add a comma to the line endings
+            // except the last line!
+        });
+    </script>
+    <script type="text/javascript">
+        if (document.layers) {
+            document.captureEvents(Event.MOUSEDOWN);
+            document.onmousedown = function () {
+                return false;
+            };
+        }
+        else {
+            document.onmouseup = function (e) {
+                if (e != null && e.type == "mouseup") {
+                    if (e.which == 2 || e.which == 3) {
+                        return false;
+                    }
+                }
+            };
+        }
+        document.oncontextmenu = function () {
+            return false;
+        };
+        document.onkeydown = ShowKeyCode;
+        function ShowKeyCode(evt) {
+            if (evt.keyCode == '123') { return false; }  //For F12 Button 
+            else if ((event.ctrlKey && event.shiftKey && event.keyCode == '73') || (event.ctrlKey && event.shiftKey && event.keyCode == '74')) {
+                return false;
+            }
+
+        }
+    </script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"f9e4982826e14e60ae89dc41aacfa12a","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+
+</html>

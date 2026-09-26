@@ -1,0 +1,111 @@
+# Opponent names. Sources use sponsor or all-caps names; choose the calendar name here.
+# Opponents not listed appear with the source name (properly cased) and are listed in the run report.
+# Keys (e.g. eczacibasi) are internal to this file and never affect event UIDs.
+
+opponents:
+  # --- Football ---
+  galatasaray:   { display: "Galatasaray", aliases: ["Galatasaray A.Ş.", "Galatasaray SK", "Galatasaray Daikin", "Galatasaray HDI Sigorta", "Galatasaray MCT Technic", "Galatasaray Çağdaş Faktoring", "Galatasaray Çağdaş Faktorıng"] }
+  besiktas:      { display: "Beşiktaş", aliases: ["Beşiktaş A.Ş.", "Beşiktaş JK", "Beşiktaş Boa", "Beşiktaş Gain", "Besiktas", "Besiktas Istanbul"] }
+  trabzonspor:   { display: "Trabzonspor", aliases: ["Trabzonspor A.Ş."] }
+  basaksehir:    { display: "Başakşehir", aliases: ["RAMS Başakşehir FK", "Başakşehir FK", "İstanbul Başakşehir", "İstanbul Başakşehir FK"] }
+  samsunspor:    { display: "Samsunspor", aliases: ["Reeder Samsunspor", "Samsunspor A.Ş."] }
+  goztepe:       { display: "Göztepe", aliases: ["Göztepe A.Ş."] }
+  kasimpasa:     { display: "Kasımpaşa", aliases: ["Kasımpaşa A.Ş."] }
+  alanyaspor:    { display: "Alanyaspor", aliases: ["Corendon Alanyaspor"] }
+  rizespor:      { display: "Rizespor", aliases: ["Çaykur Rizespor", "Çaykur Rizespor A.Ş."] }
+  antalyaspor:   { display: "Antalyaspor", aliases: ["Hesap.com Antalyaspor", "Bitexen Antalyaspor"] }
+  konyaspor:     { display: "Konyaspor", aliases: ["Tümosan Konyaspor"] }
+  kayserispor:   { display: "Kayserispor", aliases: ["Zecorner Kayserispor"] }
+  gaziantep-fk:  { display: "Gaziantep FK", aliases: ["Gaziantep Futbol Kulübü A.Ş."] }
+  eyupspor:      { display: "Eyüpspor", aliases: ["Ikas Eyüpspor"] }
+  genclerbirligi: { display: "Gençlerbirliği" }
+  kocaelispor:   { display: "Kocaelispor" }
+  karagumruk:    { display: "Karagümrük", aliases: ["Fatih Karagümrük"] }
+  erzurumspor:   { display: "Erzurumspor", aliases: ["Erzurumspor FK"] }
+  amedspor:      { display: "Amedspor", aliases: ["Amed Sportif Faaliyetler"] }
+  corum:         { display: "Çorum FK", aliases: ["Arca Çorum FK"] }
+  atletico:      { display: "Atlético Madrid", aliases: ["Atleti", "Atlético de Madrid"] }
+  lask:          { display: "LASK", aliases: ["Lask", "LASK Linz"] }
+  slavia:        { display: "Slavia Prag", aliases: ["Slavia Praha"] }
+  # women's football
+  fomget:        { display: "Fomget", aliases: ["Ankara Büyükşehir Belediyesi Fomget Spor Kulübü", "ABB Fomget"] }
+  antalya-kadin: { display: "1207 Antalyaspor", aliases: ["1207 Antalyaspor Kadın Futbol Kulübü"] }
+  bakirkoy:      { display: "Bakırköy", aliases: ["Bakırköy Kadın Futbol Spor Kulübü"] }
+  kayseri-kadin: { display: "Kayseri KFK", aliases: ["Karademir Grup Kayseri Kadın Futbol Kulübü"] }
+  unye:          { display: "Ünye Kadın SK", aliases: ["Safi Mcl Bentonit Ünye Kadın Spor Kulübü"] }
+  hakkarigucu:   { display: "Hakkarigücü", aliases: ["Hakkarigücü Spor"] }
+  haymana:       { display: "Haymana", aliases: ["Haymana Spor Kulübü"] }
+  yuksekova:     { display: "Yüksekova", aliases: ["Yüksekova Spor Kulübü"] }
+  sile:          { display: "Şile Bilgidoğa", aliases: ["Şile Bilgidoğa Sportif Yatırım Hizmetleri"] }
+  sultanbeyli-gucu: { display: "Sultanbeyli Gücü", aliases: ["Sultanbeyli Gücü Spor Kulübü"] }
+  giresun-sanayi: { display: "Giresun Sanayispor" }
+  gaziantep-gs:  { display: "Gaziantep Gençlik", aliases: ["Gaziantep Gençlik Spor"] }
+  onikisubat:    { display: "Onikişubat Bld.", aliases: ["Akedaş Onikişubat Bld."] }
+  metalist:      { display: "Metalist 1925" }
+  leuven:        { display: "OH Leuven" }
+
+  # --- Basketball ---
+  anadolu-efes:  { display: "Anadolu Efes", aliases: ["Anadolu Efes Istanbul"] }
+  turk-telekom:  { display: "Türk Telekom" }
+  bahcesehir:    { display: "Bahçeşehir Koleji" }
+  karsiyaka:     { display: "Karşıyaka", aliases: ["Pınar Karşıyaka"] }
+  tofas:         { display: "Tofaş" }
+  manisa-bb:     { display: "Manisa BB", aliases: ["Manisa Basket", "Manisa Büyükşehir Belediyespor"] }
+  real-madrid:   { display: "Real Madrid" }
+  barcelona:     { display: "Barcelona", aliases: ["FC Barcelona"] }
+  olympiacos:    { display: "Olympiacos", aliases: ["Olympiacos Piraeus"] }
+  panathinaikos: { display: "Panathinaikos", aliases: ["Panathinaikos AKTOR Athens", "Panathinaikos Aktor"] }
+  zalgiris:      { display: "Žalgiris", aliases: ["Zalgiris Kaunas", "Žalgiris Kaunas"] }
+  partizan:      { display: "Partizan", aliases: ["Partizan Mozzart Bet Belgrade"] }
+  crvena-zvezda: { display: "Kızılyıldız", aliases: ["Crvena Zvezda Meridianbet Belgrade", "Crvena Zvezda"] }
+  bayern:        { display: "Bayern Münih", aliases: ["FC Bayern Munich", "Bayern Munich"] }
+  monaco:        { display: "Monaco", aliases: ["AS Monaco"] }
+  maccabi:       { display: "Maccabi Tel Aviv", aliases: ["Maccabi Playtika Tel Aviv", "Maccabi Rapyd Tel Aviv"] }
+  virtus:        { display: "Virtus Bologna", aliases: ["Virtus Segafredo Bologna", "Virtus Olidata Bologna"] }
+  milano:        { display: "Olimpia Milano", aliases: ["EA7 Emporio Armani Milan", "Armani Olimpia Milan"] }
+  asvel:         { display: "ASVEL", aliases: ["LDLC ASVEL Villeurbanne"] }
+  paris:         { display: "Paris Basketball" }
+  baskonia:      { display: "Baskonia", aliases: ["Baskonia Vitoria-Gasteiz", "Kosner Baskonia Vitoria-Gasteiz"] }
+  valencia:      { display: "Valencia Basket" }
+  dubai:         { display: "Dubai Basketball" }
+  hapoel-ta:     { display: "Hapoel Tel Aviv", aliases: ["Hapoel IBI Tel Aviv"] }
+  bandirma:      { display: "Bandırma", aliases: ["Pizzabulls Bordo Bandırma", "Bordo Bandırma"] }
+  denizli:       { display: "Denizli Basket", aliases: ["Yukatel Denizli Basket"] }
+  erokspor:      { display: "Erokspor", aliases: ["Esenler Erokspor", "Safiport Erokspor"] }
+  aliaga:        { display: "Aliağa Petkim", aliases: ["Aliağa Petkim Spor"] }
+  bursaspor-bsk: { display: "Bursaspor", aliases: ["Bursaspor Basketbol"] }
+  cayirova:      { display: "Çayırova", aliases: ["Çayırova Belediyesi"] }
+  korfez:        { display: "Körfez Basket", aliases: ["Biotekno Körfez Basket"] }
+  # women's basketball
+  emlak-konut:   { display: "Emlak Konut" }
+  cbk-mersin:    { display: "ÇBK Mersin", aliases: ["Çimsa ÇBK Mersin", "ÇBK Mersin Yenişehir Bld."] }
+  nesibe-aydin:  { display: "Nesibe Aydın", aliases: ["Nesibe Aydın Okulları"] }
+  melikgazi:     { display: "Melikgazi Kayseri", aliases: ["Melikgazi Kayseri Basketbol"] }
+  botas:         { display: "Botaş" }
+  turgutlu:      { display: "Turgutlu Bld.", aliases: ["Turgutlu Belediyespor"] }
+  istanbul-gs:   { display: "İstanbul Gençlik", aliases: ["İstanbul Gençlik Spor"] }
+  valencia-w:    { display: "Valencia", aliases: ["Valencia Basket Club"] }
+  rapid:         { display: "Rapid Bükreş", aliases: ["CS Rapid Bucuresti"] }
+
+  # --- Volleyball ---
+  vakifbank:     { display: "VakıfBank", aliases: ["VakıfBank Spor Kulübü"] }
+  eczacibasi:    { display: "Eczacıbaşı", aliases: ["Eczacıbaşı Dynavit", "Eczacıbaşı Peron İstanbul", "Eczacıbaşı Vitra"] }
+  thy:           { display: "THY", aliases: ["Türk Hava Yolları"] }
+  nilufer:       { display: "Nilüfer Bld.", aliases: ["Nilüfer Belediyespor", "Nilüfer Belediyespor Eker"] }
+  aras-kargo:    { display: "Aras Kargo" }
+  zeren:         { display: "Zeren Spor" }
+  ilbank:        { display: "İlbank" }
+  kuzeyboru:     { display: "Kuzeyboru" }
+  afyon-bld:     { display: "Afyon Bld.", aliases: ["Afyon Belediye Yüntaş", "Sinnada Hotels Afyon Belediye Yüntaş"] }
+  manisa-bbsk:   { display: "Manisa BBSK", aliases: ["Manisa B.Şehir Bld. Spor", "Manisa Büyükşehir Belediye Spor"] }
+  halkbank:      { display: "Halkbank" }
+  ziraat:        { display: "Ziraat Bankkart", aliases: ["Ziraat Bankası"] }
+  arkas:         { display: "Arkas Spor" }
+  alanya-bld:    { display: "Alanya Bld.", aliases: ["On Hotels Alanya Bld.", "ON HOTELS ALANYA BLD."] }
+  ibb:           { display: "İBB", aliases: ["İBB Spor Kulübü"] }
+  spor-toto:     { display: "Spor Toto" }
+  altekma:       { display: "Altekma" }
+  gebze:         { display: "Gebze Bld.", aliases: ["Gebze Bld. Spor"] }
+  sungurlu:      { display: "Sungurlu Bld.", aliases: ["Sungurlu Bld. Spor"] }
+  sultanbeyli:   { display: "Sultanbeyli Bld.", aliases: ["Sultanbeyli Bld. Spor"] }
+  ogm:           { display: "OGM Ormanspor", aliases: ["Ogm Ormanspor"] }

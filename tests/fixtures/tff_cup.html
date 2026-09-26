@@ -1,0 +1,2818 @@
+
+<html>
+<head id="ctl00_Head"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, shrink-to-fit=no" /><link rel="ICON" href="App_Themes/TFF_Default/Images/tff16x.ico" /><link rel="SHORTCUT ICON" href="App_Themes/TFF_Default/Images/tff32x.ico" />
+
+    <script type="text/javascript" src="App_Themes/TFF_Default/popupImg.js"></script>
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=683f4fb8bde97c0013e1dfb5&product=sharing-intelligence' async='async'></script>
+
+
+    <meta name="apple-itunes-app" content="app-id=552867813" /><meta name="google-play-app" content="app-id=org.tffmain" /><link rel="stylesheet" type="text/css" href="/Css/smart-app-banner.css" /><link rel="apple-touch-icon" href="/Images/TFF/TFF-Logo.png" /><link rel="android-touch-icon" href="/Images/TFF/TFF-Logo.png" />
+
+    <style type="text/css">
+        * {
+            box-sizing: border-box;
+        }
+    </style>
+
+    <script type="text/javascript" src="/JavaScript/smart-app-banner.js"></script>
+
+    <script>
+        banner = undefined;
+        function run(force) {
+            var n = document.querySelector('.smartbanner');
+            if (n) {
+                n.parentNode.removeChild(n);
+            }
+            new SmartBanner({
+                daysHidden: 15, // days to hide banner after close button is clicked (defaults to 15)
+                daysReminder: 90, // days to hide banner after "VIEW" button is clicked (defaults to 90)
+                appStoreLanguage: 'tr', // language code for the App Store (defaults to user's browser language)
+                //				title: 'TFF',
+                //				author: 'Türkiye Futbol Federasyonu',
+                //				button: 'Aç',
+                force: force
+            });
+        };
+    </script>
+
+    <link rel="preconnect" href="//fonts.googleapis.com" /><link rel="preconnect" href="//fonts.gstatic.com" crossorigin="" /><link href="//fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&amp;display=swap" rel="stylesheet" /><link rel="stylesheet" href="/css/swiper-bundle.min.css" />
+    <script src="/JavaScript/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/Css/custom.css?v=51" /><link href="App_Themes/TFF_Gri/Admin.css" type="text/css" rel="stylesheet" /><link href="App_Themes/TFF_Gri/CommonModules.css" type="text/css" rel="stylesheet" /><link href="App_Themes/TFF_Gri/Containers.css" type="text/css" rel="stylesheet" /><link href="App_Themes/TFF_Gri/CustomModules.css" type="text/css" rel="stylesheet" /><link href="App_Themes/TFF_Gri/Style.css" type="text/css" rel="stylesheet" /><script src="/Javascript/jquery-1.3.2.min.js" type="text/javascript"></script><meta name="keywords" content="Ziraat Türkiye Kupası Fikstürü, Gruplar, Puan Cetveli" /><meta name="description" content="Ziraat Türkiye Kupası Fikstürü, Gruplar, Puan Cetveli" /><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1254" > <META http-equiv="content-language" content="TR"><link href="/Css/adpopup.css?25092026232" rel="stylesheet" type="text/css" /><META NAME="revisit-after" CONTENT="1 days"><META NAME="ROBOTS" CONTENT="INDEX, FOLLOW"><META NAME="ROBOTS" CONTENT="INDEX, ALL"><link type="text/css" rel="stylesheet" href="/WebResource.axd?d=XpL-CFpfCmD9W9qCJEdzgTEiGb2aPLRWhYMUxVmxbq_xTL-KroJIw0von0yXidepTed4GNSp5lofRJkCvfnh0rGEEc2fWdFgEVXtvFaIsbWbPtj-klafjTXBjXKRjZpgN0C4RNSlx2J7ti1PomCs2l2_GbOH-MD_R2UBM8_JgW9Emrob0&amp;amp;t=636559471900000000" /><link type="text/css" rel="stylesheet" href="/RadControlsSkin/TFF/Panelbar/TFF_SolMenuKlasik/styles.css" /><link type="text/css" rel="stylesheet" href="/RadControls/ComboBox/Skins/TFF_Ana/Styles.css" /><title>
+	 Türkiye Kupası Fikstürü TFF
+</title></head>
+<body>
+    <form method="post" action="./Default.aspx?pageID=598" id="aspnetForm">
+<div class="aspNetHidden">
+<input type="hidden" name="DialogResultCommand" id="DialogResultCommand" value="" />
+<input type="hidden" name="DialogResultParameter" id="DialogResultParameter" value="" />
+<input type="hidden" name="DialogResultIsReceived" id="DialogResultIsReceived" value="0" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUENTM4MQ9kFgJmD2QWAgIDD2QWBAISD2QWAmYPZBYCZg9kFgICAQ9kFgJmDw8WAh4Ga2FkZW1lBQ8xLlR1ciBNYcOnbGFyxLFkZAIXD2QWAgIBD2QWAmYPZBYCAgMPZBYCZg8PFgIeCk1hY09yZ0lEMUwCxQpkFgQCAg9kFgICAQ8WBB4LXyFJdGVtQ291bnRmHgdWaXNpYmxlaGQCBg9kFgICAw8PFgIeDlJhZENvbnRyb2xzRGlyBQ5+L1JhZENvbnRyb2xzL2RkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYDBS9jdGwwMCRMVG9wUGFuZSRtXzU5OF8xMzU4X2N0bnIkbV81OThfMTM1OCRjdGwwMAUuY3RsMDAkUlBhbmUkbV81OThfNTc1M19jdG5yJG1fNTk4XzU3NTMkVEZGX0FuYQUpY3RsMDAkUlBhbmUkbV81OThfMjA4NF9jdG5yJG1fNTk4XzIwODQkbW9VjVtxTcPyvK3GHhhRLlE3wWAXWA==" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=oPbVdW3GFFzryuVSqtIasNg6Tb_SsX4wIqBEGOlZJWNkTj-cimLAPpMQswHJ17Yj6TM8uD-3LVAKCH_zAHEQLLCU70Q1&amp;t=638901881280000000" type="text/javascript"></script>
+
+
+<script src="/Javascript/adpopup.js?25092026232" type="text/javascript"></script>
+<div id="divReklam" style="display:none">
+<div class="adpopup-overlay adpopup-style-overlay-light adpopup-centered" style="opacity: 0.5;"></div>
+<div class="adpopup adpopup-style-bg-light adpopup-style-close-dark adpopup-centered">
+<a href="javascript:ReklamVisible(false)" title="Kapat" class="adpopup-close" />
+<div class="adpopup-content adpopup-content-image">
+<a target="_blank" href="https://tfffantezilig.com">
+<img src="/Images/Common/Reklam.jpg" style="border:none" />
+</a></div></div></div>
+<script type="text/javascript" src="/Javascript/base.js" language="javascript" ></script><script type="text/javascript" src="/Javascript/common.js" language="javascript" ></script><script type="text/javascript" src="/Javascript/custom.js" language="javascript" ></script>
+<script src="JavaScript/PostBackOptions.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (window.top !== window.self) {document.write = '';window.top.location = 'https://www.google.com'; setTimeout(function(){document.body.innerHTML='';},1);window.self.onload=function(evt){document.body.innerHTML='';};}function ctl00_RPane_m_598_5753_ctnr_m_598_5753selectedIndexChanged(sender,eventArgs){var value=sender.ComboBox.SelectedItem.Value;if(!value)return;var arr=value.split('|');if(arr.lenght < 2||arr[0]=='') return false;if(arr[1]=='true')window.open(arr[0],'_blank'); else window.location=arr[0]; }//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+	<input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0" />
+	<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0" />
+</div>
+        <header class="row">
+            <div class="container column">
+                <div class="top-menu">
+                    <div class="search-lang">
+
+
+                        <div class="siteiciarama siteiciaramaUst" id="siteiciaramaUst" style="display: none">
+                            <div class="row">
+                                <div class="col-md-8 col-xs-9">
+                                    <input class="siteiciaramaInput" name="txtSearch" onkeypress="Search__CheckSearchKey(149)" placeholder="Aranacak Kelimeyi Giriniz">
+                                </div>
+                                <div class="col-md-3 col-xs-3">
+                                    <button type="button" class="siteiciaramaBtn" onclick="Search__GenerateSearch(149,'tr-TR')" id="IMG1">Ara</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="search">
+
+                            <a href="#" id="topSearchLink">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z" />
+                                </svg>
+                            </a>
+
+                            <script>
+                                document.getElementById("topSearchLink").onclick = function () {
+                                    if (document.getElementById("siteiciaramaUst").style.display == "none") {
+                                        document.getElementById("siteiciaramaUst").style.display = "block"
+                                        console.log("1")
+                                    }
+                                    else {
+                                        document.getElementById("siteiciaramaUst").style.display = "none"
+                                        console.log("2")
+                                    }
+                                };
+                            </script>
+                        </div>
+                        <div class="languages">
+                            <div class="active">TR</div>
+                            <a href="Default.aspx?pageID=449">EN</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="middle-menu">
+                    <div class="logo">
+                        <a href="../../../default.aspx?pageId=66" title="Türkiye Futbol Federasyonu">
+                            <img src="App_Themes/TFF_Gri/Images/2022/logo.png" alt="Türkiye Futbol Federasyonu" />
+                        </a>
+                    </div>
+                    <h1 class="h1-title">
+                        <img class="tffLogoText" src="/App_Themes/TFF_Gri/Images/design/tfflogotext.png" /></h1>
+                    <div class="quick-links">
+                        <div class="q-link"><a href="Default.aspx?pageID=80">TRENDYOL SÜPER LİG</a></div>
+                        <div class="q-link"><a href="Default.aspx?pageID=288">ZİRAAT TÜRKİYE KUPASI</a></div>
+                        <div class="q-link"><a href="Default.aspx?pageID=329">TURKCELL SÜPER KUPA</a></div>
+                        <div class="q-link"><a href="https://eshop.tff.org/" target="_blank">E-SHOP</a></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Ust Linkler-->
+        <nav class="row red-line">
+            <div class="container">
+                <div class="main-links">
+                    
+                    
+                    <div class="mobile-menu">
+                        <div class="m-menu">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <ul id="nav-menu">
+                        <li><a href="default.aspx?pageId=66" id="ctl00_a1"><span>ANA SAYFA</span></a>
+</li>
+                        <li><a href="default.aspx?pageID=71" id="ctl00_a2"><span>TFF</span></a><ul class="sub-menu"><li><a href="/default.aspx?pageID=71" title="TFF Kurumsal Ana Sayfa"><span>TFF Kurumsal Ana Sayfa</span></a></li><li><a href="/default.aspx?pageID=147" title="Yönetim Kurulu"><span>Y&#246;netim Kurulu</span></a></li><li><a href="/default.aspx?pageID=71" title="Haberler"><span>TFF Haberler</span></a><ul><li><a href="/default.aspx?pageID=237" title="Haberler"><span>Haberler</span></a></li><li><a href="/default.aspx?pageID=686" title="Duyurular"><span>Duyurular </span></a></li><li><a href="/default.aspx?pageID=1268" title="TFF Mesajları"><span>TFF Mesajları</span></a></li><li><a href="/default.aspx?pageID=1293" title="Disiplin Sevkleri"><span>Disiplin Sevkleri</span></a></li><li><a href="/default.aspx?pageID=445" title="Tahkim Kurulu Kararları"><span>Tahkim Kurulu Kararları</span></a></li><li><a href="/default.aspx?pageID=238" title="PFDK Kararları"><span>PFDK Kararları</span></a></li><li><a href="/default.aspx?pageID=623" title="AFDK Kararları"><span>AFDK Kararları</span></a></li><li><a href="/default.aspx?pageID=1756" title="İl Disiplin Kurulu Gelişim Ligleri Kararları"><span>İl Disiplin Kurulu Gelişim Ligleri Kararları</span></a></li><li><a href="/default.aspx?pageID=1080" title="Kulüp Lisans Kurulu Haberleri"><span>Kul&#252;p Lisans Kurulu Haberleri</span></a></li><li><a href="/default.aspx?pageID=240" title="MHK Haberleri"><span>MHK Haberleri</span></a><ul><li><a href="/default.aspx?pageID=1565" title="Hakem ve VAR Olarak Görev Alabilecekler"><span>Hakem ve VAR Olarak G&#246;rev Alabilecekler</span></a></li><li><a href="/default.aspx?pageID=600" title="Haftanın Hakemleri ve Gözlemcileri"><span>Haftanın Hakemleri ve G&#246;zlemcileri</span></a></li><li><a href="/default.aspx?pageID=1564" title="UEFA ve FIFA Görevlendirmeleri"><span>UEFA ve FIFA G&#246;revlendirmeleri</span></a></li><li><a href="/default.aspx?pageID=1566" title="Seminer / Eğitim Haberleri"><span>Seminer / Eğitim Haberleri</span></a></li><li><a href="/default.aspx?pageID=1567" title="Terfi Haberleri"><span>Terfi Haberleri</span></a></li><li><a href="/default.aspx?pageID=1568" title="Hakem Değişiklikleri"><span>Hakem Değişiklikleri</span></a></li><li><a href="/default.aspx?pageID=1569" title="Sağlık Kurulu Bilgilendirmeleri"><span>Sağlık Kurulu Bilgilendirmeleri</span></a></li><li><a href="/default.aspx?pageID=1570" title="MHK Talimat Haberleri"><span>MHK Talimat Haberleri</span></a></li><li><a href="/default.aspx?pageID=1571" title="İHK Duyuruları"><span>İHK Duyuruları</span></a></li><li><a href="/default.aspx?pageID=1572" title="Dokümanlar"><span>Dok&#252;manlar</span></a></li><li><a href="/default.aspx?pageID=1573" title="Diğer Haberler"><span>Diğer Haberler</span></a></li></ul></li><li><a href="/default.aspx?pageID=241" title="Temsilciler Kurulu Haberleri"><span>Temsilciler Kurulu Haberleri</span></a></li><li><a href="/default.aspx?pageID=624" title="Sağlık Kurulu Haberleri"><span>Sağlık Kurulu Haberleri</span></a></li><li><a href="/default.aspx?pageID=1433" title="Futbolda Ani Ölüm"><span>Futbolda Ani &#214;l&#252;m</span></a></li><li><a href="/default.aspx?pageID=1296" title="Engelli Futbolu Haberleri"><span>Engelli Futbolu Haberleri</span></a></li><li><a href="/default.aspx?pageID=1636" title="Fair Play ve Sosyal Sorumluluk Kurulu Haberleri"><span>Fair Play ve Sosyal Sorumluluk Kurulu Haberleri</span></a></li><li><a href="/default.aspx?pageID=731" title="Kadın Futbolu"><span>Kadın Futbolu</span></a><ul><li><a href="/default.aspx?pageID=1603" title="UEFA Playmakers"><span>UEFA Playmakers</span></a></li></ul></li></ul></li><li><a href="#" title="TFF Birimleri"><span>TFF Birimleri</span></a><ul><li><a href="#" title="Kurullar"><span>Kurullar</span></a><ul><li><a href="/default.aspx?pageID=911"><span>İcra Kurulu</span></a></li><li><a href="/default.aspx?pageID=292" title="Denetleme Kurulu"><span>Denetleme Kurulu</span></a></li><li><a href="/default.aspx?pageID=236" title="Tahkim Kurulu"><span>Tahkim Kurulu</span></a><ul><li><a href="/default.aspx?pageID=445"><span>Tahkim Kurulu Kararları</span></a></li></ul></li><li><a href="/default.aspx?pageID=667" title="Uyuşmazlık Çözüm Kurulu "><span>Uyuşmazlık &#199;&#246;z&#252;m Kurulu </span></a></li><li><a href="/default.aspx?pageID=353" title="Futbol Disiplin Kurulları "><span>PFDK</span></a><ul><li><a href="/default.aspx?pageID=238" title="PFDK  Kararları"><span>PFDK  Kararları</span></a></li></ul></li><li><a href="/default.aspx?pageID=906" title="AFDK"><span>AFDK </span></a><ul><li><a href="/default.aspx?pageID=623"><span>AFDK Kararları</span></a></li></ul></li><li><a href="/default.aspx?pageID=912" title="Etik Kurulu"><span>Etik Kurulu</span></a></li><li><a href="/default.aspx?pageID=913" title="Kulüp Lisans Kurulu"><span>Kul&#252;p Lisans Kurulu</span></a></li><li><a href="/default.aspx?pageID=309" title="Merkez Hakem Kurulu"><span>MHK</span></a></li><li><a href="/default.aspx?pageID=308" title="Temsilciler Kurulu"><span>Temsilciler Kurulu</span></a></li><li><a href="/default.aspx?pageID=235" title="Sağlık Kurulu"><span>Sağlık Kurulu</span></a></li><li><a href="/default.aspx?pageID=348" title="Dopingle Mücadele Kurulu"><span>Dopingle M&#252;cadele Kurulu</span></a></li><li><a href="/default.aspx?pageID=1613" title="Sporcu Esenliği ve Çocuk Koruma Kurulu"><span>Sporcu Esenliği ve &#199;ocuk Koruma Kurulu</span></a></li><li><a href="/default.aspx?pageID=1036"><span>Engelliler Koor. Kurulu</span></a></li><li><a href="/default.aspx?pageID=1065" title="Dış İlişkiler Kurulu"><span>Dış İlişkiler Kurulu</span></a></li><li><a href="/default.aspx?pageID=1595" title="Fair Play ve Sosyal Sorumluluk Kurulu"><span>Fair Play ve Sosyal Sorumluluk Kurulu</span></a></li><li><a href="/default.aspx?pageID=1668" title="Amatör İşler Kurulu"><span>Amat&#246;r İşler Kurulu</span></a></li></ul></li><li><a href="/default.aspx?pageID=302" title="TFF Teşkilatı"><span>TFF Teşkilatı</span></a></li><li><a href="/default.aspx?pageID=303" title="Bölge Temsilcilikleri"><span>B&#246;lge Temsilcilikleri</span></a></li></ul></li><li><a href="#" title="TFF Hakkında"><span>TFF Hakkında</span></a><ul><li><a href="/default.aspx?pageID=168" title="Misyon / Vizyon"><span>Misyon / Vizyon</span></a></li><li><a href="/default.aspx?pageID=293" title="Tarihçe"><span>Tarih&#231;e</span></a></li><li><a href="/default.aspx?pageID=301" title="TFF Başkanları"><span>TFF Başkanları</span></a></li><li><a href="/default.aspx?pageID=356" title="İş Ortakları"><span>İş Ortakları</span></a></li><li><a href="/default.aspx?pageID=1314" title="TFF Logoları"><span>TFF Logoları</span></a></li></ul></li><li><a href="/default.aspx?pageID=131" title="TFF Kanun ve Statüsü"><span>TFF Kanun ve Stat&#252;s&#252;</span></a></li><li><a href="/default.aspx?pageID=214" title="Kulüp Lisans Sistemi"><span>Kul&#252;p Lisans Sistemi</span></a><ul><li><a href="/default.aspx?pageID=1080" title="Kulüp Lisans Haberleri"><span>Kul&#252;p Lisans Haberleri</span></a></li><li><a href="/default.aspx?pageID=817" title="Politika Beyanı"><span>Politika Beyanı</span></a></li><li><a href="/default.aspx?pageID=818" title="Davranış Kuralları"><span>Davranış Kuralları</span></a></li><li><a href="/default.aspx?pageID=217" title="Kulüp Lisans Kriterleri"><span>Kul&#252;p Lisans Kriterleri</span></a></li><li><a href="/default.aspx?pageID=706" title="Lisans Başvuruları"><span>Lisans Başvuruları</span></a></li><li><a href="/default.aspx?pageID=707" title="Lisans Alanlar"><span>Lisans Alanlar</span></a></li><li><a href="/default.aspx?pageID=218" title="Başvuru Formları"><span>Başvuru Formları</span></a></li></ul></li><li><a href="#" title="Lisanslama"><span>Lisanslama</span></a><ul><li><a href="/default.aspx?pageID=186" title="Oyuncular"><span>Oyuncular</span></a></li><li><a href="/default.aspx?pageID=189" title="Futbol Menajerleri "><span>Futbol Menajerleri</span></a></li></ul></li><li><a href="/default.aspx?pageID=133" title="Statüler"><span>Stat&#252;ler</span></a></li><li><a href="/default.aspx?pageID=132" title="Talimatlar"><span>Talimatlar</span></a></li><li><a href="/default.aspx?pageID=128" title="Formlar - Sözleşmeler"><span>Formlar - S&#246;zleşmeler</span></a></li><li><a href="http://www.tff.org/Default.aspx?pageID=175" title="Sponsorlar"><span>Sponsorlar</span></a></li><li><a href="/default.aspx?pageID=193" title="TamSaha Dergisi"><span>TamSaha Dergisi</span></a><ul><li><a href="/default.aspx?pageID=345" title="TamSaha Eski Sayılar "><span>TamSaha Eski Sayılar </span></a></li></ul></li><li><a href="/default.aspx?pageID=176" title="İletişim Bilgileri"><span>İletişim Bilgileri</span></a><ul><li><a href="/default.aspx?pageID=302" title="TFF Teşkilatı"><span>TFF Teşkilatı</span></a></li><li><a href="/default.aspx?pageID=303" title="Bölge Temsilcilikleri"><span>B&#246;lge Temsilcilikleri</span></a></li></ul></li></ul>
+</li>
+                        <li><a href="default.aspx?pageID=95" id="ctl00_a3"><span>MİLLİ TAKIMLAR</span></a><ul class="sub-menu"><li><a href="/default.aspx?pageID=95" title="Millî Takımlar Ana Sayfa"><span>Mill&#238; Takımlar Ana Sayfa</span></a></li><li><a href="/default.aspx?pageID=3" title="A Millî"><span>A Mill&#238;</span></a><ul><li><a href="/default.aspx?pageID=1313" title="A Milli Takım Maç Haberleri"><span>Ma&#231; Haberleri</span></a></li><li><a href="/default.aspx?pageID=425" title="Tüm Maçlar"><span>T&#252;m Ma&#231;lar</span></a></li><li><a href="/default.aspx?pageID=1337" title="Maç Kitapları"><span>Ma&#231; Kitapları</span></a></li><li><a href="/default.aspx?pageID=310" title="Tarihçe"><span>Tarih&#231;e</span></a></li><li><a href="#" title="Turnuva Fikstürleri"><span>Turnuva Fikst&#252;rleri</span></a><ul><li><a href="/default.aspx?pageID=1764" title="2026/27 UEFA Uluslar A Ligi"><span>2026/27 UEFA Uluslar A Ligi</span></a></li><li><a href="/default.aspx?pageID=1641" title="2024/25 UEFA Uluslar B Ligi"><span>2024/25 UEFA Uluslar B Ligi</span></a></li><li><a href="/default.aspx?pageID=1561" title="2022/23 UEFA Uluslar C Ligi"><span>2022/23 UEFA Uluslar C Ligi</span></a></li><li><a href="/default.aspx?pageID=1496" title="2020/21 UEFA Uluslar B Ligi"><span>2020/21 UEFA Uluslar B Ligi</span></a></li><li><a href="/default.aspx?pageID=1462" title="2018/19 UEFA Uluslar B Ligi"><span>2018/19 UEFA Uluslar B Ligi</span></a></li><li><a href="/default.aspx?pageID=1775" title="2026 Dünya Kupası"><span>2026 D&#252;nya Kupası</span></a></li><li><a href="/default.aspx?pageID=1720" title="2026 Dünya Kupası Elemeleri"><span>2026 D&#252;nya Kupası Elemeleri</span></a></li><li><a href="/default.aspx?pageID=1523" title="2022 Dünya Kupası Elemeleri"><span>2022 D&#252;nya Kupası Elemeleri</span></a></li><li><a href="/default.aspx?pageID=1324" title="2018 Dünya Kupası Elemeleri"><span>2018 D&#252;nya Kupası Elemeleri</span></a></li><li><a href="/default.aspx?pageID=1092" title="2014 Dünya Kupası Elemeleri"><span>2014 D&#252;nya Kupası Elemeleri</span></a></li><li><a href="/default.aspx?pageID=631" title="2010 Dünya Kupası Elemeleri"><span>2010 D&#252;nya Kupası Elemeleri</span></a></li><li><a href="/default.aspx?pageID=1643" title="EURO 2024"><span>EURO 2024</span></a></li><li><a href="/default.aspx?pageID=1612" title="EURO 2024 Elemeleri"><span>EURO 2024 Elemeleri</span></a></li><li><a href="/default.aspx?pageID=1493"><span>EURO 2020</span></a></li><li><a href="/default.aspx?pageID=1464" title="EURO 2020 Elemeleri"><span>EURO 2020 Elemeleri</span></a></li><li><a href="/default.aspx?pageID=1338"><span>EURO 2016</span></a></li><li><a href="/default.aspx?pageID=1271" title="EURO 2016 Elemeleri"><span>EURO 2016 Elemeleri</span></a></li><li><a href="/default.aspx?pageID=962" title="EURO 2012 Elemeleri"><span>EURO 2012 Elemeleri</span></a></li><li><a href="/default.aspx?pageID=630" title="EURO 2008"><span>EURO 2008</span></a></li><li><a href="/default.aspx?pageID=629"><span>EURO 2008 Elemeleri</span></a></li></ul></li></ul></li><li><a href="/default.aspx?pageID=1003" title="A2 Millî"><span>A2 Mill&#238;</span></a><ul><li><a href="/default.aspx?pageID=1005" title="Oynadığı Maçlar"><span>Oynadığı Ma&#231;lar</span></a></li></ul></li><li><a href="/default.aspx?pageID=327" title="U21 (Ümit Millî)"><span>U21 (&#220;mit Mill&#238;)</span></a><ul><li><a href="/default.aspx?pageID=853" title="Oynadığı Maçlar"><span>Oynadığı Ma&#231;lar</span></a></li><li><a href="#" title="Turnuva Fikstürleri"><span>Turnuva Fikst&#252;rleri</span></a><ul><li><a href="/default.aspx?pageID=1749" title="2027 UEFA Avrupa Şampiyonası Elemeleri"><span>2027 UEFA Avrupa Şampiyonası Elemeleri</span></a></li><li><a href="/default.aspx?pageID=1669" title="2025 UEFA Avrupa Şampiyonası Elemeleri"><span>2025 UEFA Avrupa Şampiyonası Elemeleri</span></a></li></ul></li></ul></li><li><a href="/default.aspx?pageID=647" title="U20 Millî"><span>U20 Mill&#238;</span></a><ul><li><a href="/default.aspx?pageID=854"><span>Oynadığı ma&#231;lar</span></a></li></ul></li><li><a href="/default.aspx?pageID=258" title="U19 Millî"><span>U19 Mill&#238;</span></a><ul><li><a href="/default.aspx?pageID=855" title="Oynadığı Maçlar"><span>Oynadığı Ma&#231;lar</span></a></li><li><a href="#" title="Turnuva Fikstürleri"><span>Turnuva Fikst&#252;rleri</span></a><ul><li><a href="/default.aspx?pageID=1766" title="2025/26 UEFA Avrupa Şampiyonası Elit Tur"><span>2025/26 UEFA Avrupa Şampiyonası Elit Tur</span></a></li><li><a href="/default.aspx?pageID=1758" title="2025/26 UEFA Avrupa Şampiyonası Eleme Turu"><span>2025/26 UEFA Avrupa Şampiyonası Eleme Turu</span></a></li><li><a href="/default.aspx?pageID=1728" title="2024/25 UEFA Avrupa Şampiyonası Elit Tur"><span>2024/25 UEFA Avrupa Şampiyonası Elit Tur</span></a></li><li><a href="/default.aspx?pageID=1671" title="2024/25 UEFA Avrupa Şampiyonası Eleme Turu"><span>2024/25 UEFA Avrupa Şampiyonası Eleme Turu</span></a></li></ul></li></ul></li><li><a href="/default.aspx?pageID=264" title="U18 Millî"><span>U18 Mill&#238;</span></a><ul><li><a href="/default.aspx?pageID=858" title="Oynadığı Maçlar"><span>Oynadığı Ma&#231;lar</span></a></li></ul></li><li><a href="/default.aspx?pageID=259" title="U17 Millî"><span>U17 Mill&#238;</span></a><ul><li><a href="/default.aspx?pageID=857" title="Oynadığı Maçlar"><span>Oynadığı Ma&#231;lar</span></a></li><li><a href="#" title="Turnuva Fikstürleri"><span>Turnuva Fikst&#252;rleri</span></a><ul><li><a href="/default.aspx?pageID=1765" title="2025/26 UEFA Avrupa Şampiyonası 2. Tur"><span>2025/26 UEFA Avrupa Şampiyonası 2. Tur</span></a></li><li><a href="/default.aspx?pageID=1759" title="2025/26 UEFA Avrupa Şampiyonası Eleme Turu"><span>2025/26 UEFA Avrupa Şampiyonası Eleme Turu</span></a></li><li><a href="/default.aspx?pageID=1729" title="2024/25 UEFA Avrupa Şampiyonası 2. Tur"><span>2024/25 UEFA Avrupa Şampiyonası 2. Tur</span></a></li><li><a href="/default.aspx?pageID=1670" title="2024/25 UEFA Avrupa Şampiyonası 1. Tur"><span>2024/25 UEFA Avrupa Şampiyonası 1. Tur</span></a></li></ul></li></ul></li><li><a href="/default.aspx?pageID=261" title="U16 Millî"><span>U16 Mill&#238;</span></a><ul><li><a href="/default.aspx?pageID=856" title="Oynadığı Maçlar"><span>Oynadığı Ma&#231;lar</span></a></li><li><a href="/default.aspx?pageID=1639" title="Ege Kupası"><span>Ege Kupası</span></a></li></ul></li><li><a href="/default.aspx?pageID=262" title="U15 Millî"><span>U15 Mill&#238;</span></a><ul><li><a href="/default.aspx?pageID=859" title="Oynadığı Maçlar"><span>Oynadığı Ma&#231;lar</span></a></li></ul></li><li><a href="/default.aspx?pageID=1176" title="U14 Millî"><span>U14 Mill&#238;</span></a><ul><li><a href="/default.aspx?pageID=1322" title="Oynadığı Maçlar"><span>Oynadığı Ma&#231;lar</span></a></li></ul></li><li><a href="/default.aspx?pageID=263" title="Kadın Millî Takımlar"><span>Kadın Mill&#238; Takımlar</span></a><ul><li><a href="/default.aspx?pageID=441" title="Kadın A Millî Takım"><span>Kadın A Mill&#238; Takım</span></a></li><li><a href="/default.aspx?pageID=442" title="U19 Kadın Millî Takım"><span>U19 Kadın Mill&#238; Takım</span></a></li><li><a href="/default.aspx?pageID=443" title="U17 Kız Millî Takım"><span>U17 Kız Mill&#238; Takım</span></a></li><li><a href="/default.aspx?pageID=938" title="U15 Kız Millî Takım"><span>U15 Kız Mill&#238; Takım</span></a></li></ul></li><li><a href="/default.aspx?pageID=330" title="Futsal Millî"><span>Futsal Mill&#238;</span></a><ul><li><a href="/default.aspx?pageID=1606" title="Futsal Millî Takımları Teşkilatı"><span>Futsal Mill&#238; Takımları Teşkilatı</span></a></li></ul></li><li><a href="/default.aspx?pageID=504" title="Plaj Futbolu Millî"><span>Plaj Futbolu Mill&#238;</span></a><ul><li><a href="/default.aspx?pageID=1606" title="Plaj Futbolu Millî Takımı Teşkilatı"><span>Plaj Futbolu Mill&#238; Takımı Teşkilatı</span></a></li></ul></li><li><a href="/default.aspx?pageID=1522" title="eMillî"><span>eMill&#238;</span></a></li><li><a href="/default.aspx?pageID=406" title="A Millî Takım Teknik Kadrosu"><span>A Mill&#238; Takım Teknik Kadrosu</span></a></li><li><a href="/default.aspx?pageID=1763" title="Ümit Millî Takım Teknik Kadrosu"><span>&#220;mit Mill&#238; Takım Teknik Kadrosu</span></a></li><li><a href="/default.aspx?pageID=1432" title="Genç Millî Takımlar Teşkilatı"><span>Gen&#231; Mill&#238; Takımlar Teşkilatı</span></a></li><li><a href="/default.aspx?pageID=1635" title="Kadın Millî Takımlar Teşkilatı"><span>Kadın Mill&#238; Takımlar Teşkilatı</span></a></li></ul>
+</li>
+                        <li><a href="default.aspx?pageID=86" id="ctl00_a4"><span>LİGLER</span></a><ul class="sub-menu"><li><a href="/default.aspx?pageID=86"><span>Ligler Ana Sayfa</span></a></li><li><a href="/default.aspx?pageID=80" title="Trendyol Süper Lig"><span>Trendyol S&#252;per Lig</span></a><ul><li><a href="/default.aspx?pageID=198" title="Puan Cetveli ve Fikstür"><span>Puan Cetveli ve Fikst&#252;r</span></a></li><li><a href="/default.aspx?pageID=821" title="Gol Krallığı"><span>Gol Krallığı</span></a></li><li><a href="/default.aspx?pageID=170" title="Kulüpler"><span>Kul&#252;pler</span></a></li><li><a href="/default.aspx?pageID=133" target="_blank" title="Statüler"><span>Stat&#252;ler</span></a></li><li><a href="/default.aspx?pageID=545" title="Tarihçe ve Arşiv"><span>Tarih&#231;e ve Arşiv</span></a></li></ul></li><li><a href="/default.aspx?pageID=142" title="Trendyol 1. Lig"><span>Trendyol 1. Lig</span></a><ul><li><a href="/default.aspx?pageID=337" title="Trendyol 1. Lig Haberleri"><span>Haberler</span></a></li><li><a href="/default.aspx?pageID=822" title="Gol Krallığı"><span>Gol Krallığı</span></a></li><li><a href="/default.aspx?pageID=133" title="Statü"><span>Stat&#252;</span></a></li><li><a href="/default.aspx?pageID=563" title="Arşiv"><span>Arşiv</span></a></li></ul></li><li><a href="/default.aspx?pageID=976" title="Nesine 2. Lig"><span>Nesine 2. Lig</span></a><ul><li><a href="/default.aspx?pageID=333" title="Nesine 2. Lig Haberleri"><span>Haberler</span></a></li><li><a href="/default.aspx?pageID=823" title="Gol Krallığı"><span>Gol Krallığı</span></a></li><li><a href="/default.aspx?pageID=133" title="Statü"><span>Stat&#252;</span></a></li><li><a href="/default.aspx?pageID=371" title="Arşiv"><span>Arşiv</span></a></li></ul></li><li><a href="/default.aspx?pageID=971" title="Nesine 3. Lig"><span>Nesine 3. Lig</span></a><ul><li><a href="/default.aspx?pageID=334" title="Nesine 3. Lig Haberleri"><span>Haberler</span></a></li><li><a href="/default.aspx?pageID=824" title="Gol Krallığı"><span>Gol Krallığı</span></a></li><li><a href="/default.aspx?pageID=133" title="Statü"><span>Stat&#252;</span></a></li><li><a href="/default.aspx?pageID=376" title="Arşiv"><span>Arşiv</span></a></li></ul></li><li><a href="/default.aspx?pageID=981" title="Profesyonelliğe Geçiş Ligi"><span>Profesyonelliğe Ge&#231;iş Ligi</span></a><ul><li><a href="/default.aspx?pageID=1596" title="Puan Cetveli ve Fikstür"><span>Puan Cetveli ve Fikst&#252;r</span></a></li><li><a href="/default.aspx?pageID=1290" title="Arşiv"><span>Arşiv</span></a></li></ul></li><li><a href="/default.aspx?pageID=229" title="TFF Kadın Ligleri"><span>TFF Kadın Ligleri</span></a><ul><li><a href="/default.aspx?pageID=1000" title="Suwen Kadın Futbol Süper Ligi"><span>Suwen Kadın Futbol S&#252;per Ligi</span></a></li><li><a href="/default.aspx?pageID=1602" title="TFF Kadınlar 1. Ligi"><span>TFF Kadınlar 1. Ligi</span></a></li><li><a href="/default.aspx?pageID=1001" title="TFF Kadınlar 2. Ligi "><span>TFF Kadınlar 2. Ligi </span></a></li><li><a href="/default.aspx?pageID=1298" title="TFF Kadınlar 3. Ligi"><span>TFF Kadınlar 3. Ligi</span></a></li><li><a href="/default.aspx?pageID=1760" title="U17 Kızlar Gelişim Ligi"><span>U17 Kızlar Gelişim Ligi</span></a></li><li><a href="/default.aspx?pageID=1794" title="U15 Kızlar Gelişim Ligi"><span>U15 Kızlar Gelişim Ligi</span></a></li><li><a href="/default.aspx?pageID=848" title="Arşiv"><span>Arşiv</span></a></li></ul></li><li><a href="/default.aspx?pageID=830" title="Gelişim Ligleri"><span>Gelişim Ligleri</span></a><ul><li><a href="/default.aspx?pageID=1750" title="U19 PAF Ligi"><span>U19 PAF Ligi</span></a></li><li><a href="/default.aspx?pageID=1751" title="U19 Gelişim Ligi"><span>U19 Gelişim Ligi</span></a></li><li><a href="/default.aspx?pageID=1752" title="U17 Gelişim Ligi"><span>U17 Gelişim Ligi</span></a></li><li><a href="/default.aspx?pageID=1753" title="U16 Gelişim Ligi"><span>U16 Gelişim Ligi</span></a></li><li><a href="/default.aspx?pageID=1754" title="U15 Gelişim Ligi"><span>U15 Gelişim Ligi</span></a></li><li><a href="/default.aspx?pageID=1755" title="U14 Gelişim Ligi"><span>U14 Gelişim Ligi</span></a></li><li><a href="/default.aspx?pageID=1762" title="U13 Gelişim Ligi"><span>U13 Gelişim Ligi</span></a></li><li><a href="/default.aspx?pageID=930"><span>Arşiv</span></a><ul><li><a href="/default.aspx?pageID=335" title="U21, A2 ve PAF Ligi"><span>U21, A2 ve PAF Ligi</span></a><ul><li><a href="/default.aspx?pageID=377" title="U21, A2 ve PAF Ligi Arşivi"><span>U21, A2 ve PAF Ligi Arşivi</span></a></li></ul></li></ul></li></ul></li><li><a href="/default.aspx?pageID=435" title="Amatörler"><span>Amat&#246;rler</span></a><ul><li><a href="/default.aspx?pageID=623" title="AFDK Kararları"><span>AFDK Kararları</span></a></li></ul></li><li><a href="/default.aspx?pageID=1719" title="UEFA Regions&#39; Cup"><span>UEFA Regions&#39; Cup</span></a></li><li><a href="/default.aspx?pageID=900" title="Futsal Ligi"><span>Futsal Ligi</span></a><ul><li><a href="/default.aspx?pageID=1640" title="Puan Cetveli"><span>Puan Cetveli</span></a></li></ul></li><li><a href="/default.aspx?pageID=907"><span>Plaj Futbolu Ligi</span></a></li><li><a href="#" title="eFutbol Sezonu"><span>eFutbol Sezonu</span></a><ul><li><a href="/default.aspx?pageID=1610" title="Türk Telekom eSüper Lig"><span>T&#252;rk Telekom eS&#252;per Lig</span></a><ul><li><a href="/default.aspx?pageID=1761" title="Arşiv"><span>Arşiv</span></a></li></ul></li><li><a href="/default.aspx?pageID=1638" title="Yaay eTürkiye Kupası"><span>Yaay eT&#252;rkiye Kupası</span></a></li><li><a href="#" title="Türk Telekom eSüper Kupa"><span>T&#252;rk Telekom eS&#252;per Kupa</span></a></li><li><a href="https://www.tff.org/Resources/TFF/Documents/STATULER/2025-2026/eFutbol-Musabakalari-Statusu.pdf" title="Statü"><span>Stat&#252;</span></a></li></ul></li><li><a href="/default.aspx?pageID=1296" title="Engelli Futbolu"><span>Engelli Futbolu</span></a></li></ul>
+</li>
+                        <li><a href="default.aspx?pageID=88" id="ctl00_a5"><span>KUPALAR</span></a><ul class="sub-menu"><li><a href="/default.aspx?pageID=88" title="Kupalar Ana Sayfa"><span>Kupalar Ana Sayfa</span></a></li><li><a href="/default.aspx?pageID=288" title="Ziraat Türkiye Kupası"><span>Ziraat T&#252;rkiye Kupası</span></a><ul><li><a href="/default.aspx?pageID=598" title="Fikstür ve Sonuçlar"><span>Puan Cetveli ve Fikst&#252;r</span></a></li><li><a href="/default.aspx?pageID=411" title="Tarihçe ve Arşiv"><span>Tarih&#231;e ve Arşiv</span></a></li><li><a href="/default.aspx?pageID=133" title="Statü"><span>Stat&#252;</span></a></li></ul></li><li><a href="/default.aspx?pageID=329" title="Turkcell Süper Kupa"><span>Turkcell S&#252;per Kupa</span></a><ul><li><a href="/default.aspx?pageID=412" title="Tarihçe"><span>Tarih&#231;e</span></a></li><li><a href="/default.aspx?pageID=133" title="Statü"><span>Stat&#252;</span></a></li></ul></li><li><a href="/default.aspx?pageID=593" title="Avrupa Kupaları"><span>Avrupa Kupaları</span></a></li></ul>
+</li>
+                        <li><a href="default.aspx?pageID=1721" id="ctl00_a8"><span>KADIN FUTBOLU</span></a><ul class="sub-menu"><li><a href="/default.aspx?pageID=1721" title="Kadın Futbolu Ana Sayfa"><span>Kadın Futbolu Ana Sayfa</span></a></li><li><a href="/default.aspx?pageID=263" title="Kadın Millî Takımlar Haberleri"><span>Kadın Mill&#238; Takımlar Haberleri</span></a></li><li><a href="/default.aspx?pageID=1635" title="Kadın Millî Takımlar Teşkilatı"><span>Kadın Mill&#238; Takımlar Teşkilatı</span></a></li><li><a href="/default.aspx?pageID=229" title="TFF Kadın Ligleri Haberleri"><span>TFF Kadın Ligleri Haberleri</span></a></li><li><a href="/default.aspx?pageID=1000" title="Suwen Kadın Futbol Süper Ligi"><span>Suwen Kadın Futbol S&#252;per Ligi</span></a></li><li><a href="/default.aspx?pageID=1602" title="TFF Kadınlar 1. Ligi"><span>TFF Kadınlar 1. Ligi</span></a></li><li><a href="/default.aspx?pageID=1001" title="TFF Kadınlar 2. Ligi"><span>TFF Kadınlar 2. Ligi</span></a></li><li><a href="/default.aspx?pageID=1298" title="TFF Kadınlar 3. Ligi"><span>TFF Kadınlar 3. Ligi</span></a></li><li><a href="/default.aspx?pageID=1760" title="U17 Kızlar Gelişim Ligi"><span>U17 Kızlar Gelişim Ligi</span></a></li><li><a href="/default.aspx?pageID=1794" title="U15 Kızlar Gelişim Ligi"><span>U15 Kızlar Gelişim Ligi</span></a></li><li><a href="/default.aspx?pageID=731" title="Kadın Futbolunun Vizyonu ve Misyonu"><span>Kadın Futbolunun Vizyonu ve Misyonu</span></a></li><li><a href="/default.aspx?pageID=1603" title="UEFA Playmakers"><span>UEFA Playmakers</span></a></li></ul>
+</li>
+                        <li><a href="default.aspx?pageID=89" id="ctl00_a6"><span>FGD</span></a><ul class="sub-menu"><li><a href="/default.aspx?pageID=89" title="FGD Ana Sayfa"><span>FGD Ana Sayfa</span></a></li><li><a href="/default.aspx?pageID=222" title="Futbol Gelişim Direktörlüğü"><span>Futbol Gelişim Direkt&#246;rl&#252;ğ&#252;</span></a></li><li><a href="https://www.tff.org/Resources/TFF/Documents/FGD/tff-futbol-gelisim-direktorlugu-organizasyon-semasi.pdf" title="FGD Teşkilatı"><span>FGD Teşkilatı</span></a></li><li><a href="/default.aspx?pageID=1724" title="Genç Oyuncu Gelişim Müdürlüğü"><span>Gen&#231; Oyuncu Gelişim M&#252;d&#252;rl&#252;ğ&#252;</span></a></li><li><a href="/default.aspx?pageID=830" title="Gelişim Ligleri"><span>Gelişim Ligleri</span></a></li><li><a href="/default.aspx?pageID=1725" title="Antrenör Eğitim Müdürlüğü"><span>Antren&#246;r Eğitim M&#252;d&#252;rl&#252;ğ&#252;</span></a><ul><li><a href="https://www.tff.org/Resources/TFF/Images/antrenor-egitim-mudurlugu-2025-yili-kurs-planlamasi.png" title="Kurs Planlaması"><span>Kurs Planlaması</span></a></li><li><a href="/default.aspx?pageID=894" title="E-Yayınlar"><span>E-Yayınlar</span></a></li></ul></li><li><a href="/default.aspx?pageID=1726" title="Grassroots Müdürlüğü"><span>Grassroots M&#252;d&#252;rl&#252;ğ&#252;</span></a></li><li><a href="/default.aspx?pageID=133" title="Statüler"><span>Stat&#252;ler</span></a></li><li><a href="/default.aspx?pageID=132" title="Talimatlar"><span>Talimatlar</span></a></li><li><a href="/default.aspx?pageID=1121" title="Online Başvurular"><span>Online Başvurular</span></a><ul><li><a href="/default.aspx?pageID=1014" title="Antrenör Eğitim Programları"><span>Antren&#246;r Eğitim Programları</span></a></li><li><a href="https://basvuru.tff.org/basvuru/AntrenorSeminerBasvuru.aspx" title="Antrenör Gelişim Seminerleri"><span>Antren&#246;r Gelişim Seminerleri</span></a></li></ul></li><li><a href="/default.aspx?pageID=1138" title="Futbol Gelişim Bülteni"><span>Futbol Gelişim B&#252;lteni</span></a></li></ul>
+</li>
+                        <li><a href="default.aspx?pageID=328" id="ctl00_a7"><span>BİLGİ BANKASI</span></a>
+</li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Ust Linkler Sonu-->
+        <div class="container TPaneContainer">
+            
+            
+        </div>
+
+        <div class="row">
+            <div class="container homeContainer">
+
+
+                <section class="right-container">
+
+                    <article class="last-minute-container" style="display: none">
+                        <div class="lm-title">SON DAKIKA..”</div>
+                        <div class="lm-content">
+                            <ul>
+                                <li><a href="#">U17 Kız Milli Takımı'ndan Zafer Bayramı kutlaması</a></li>
+                                <li><a href="#">'Kuralina Göre' Programi beIN SPORTS'ta başlıyor</a></li>
+                                <li><a href="#">U18 Milli Takımımız, Azerbaycan karşısında</a></li>
+                                <li><a href="#">U18 Milli Takımımız, Azerbaycan karşısında</a></li>
+                            </ul>
+                        </div>
+                        <div class="lm-last">”</div>
+                    </article>
+
+
+
+                    <article class="news-container homeNewsContainer">
+                        <div id="ctl00_MPane_m_598_12575_ctnr_div" style="padding:0 0 15 0;vertical-align:top;text-align:left;"><div id="ctl00_MPane_m_598_12575_ctnr_title" class="moduleTitle"></div>
+<div style="padding: 2px; text-align: left;">
+    
+</div>
+<br />
+<table id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari" cellspacing="0" style="width:100%;border-collapse:collapse;">
+	<tr>
+		<td>
+        <table width="100%" border="0" cellpadding="2" cellspacing="0" align="center">
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl01_lblGrup">2.Tur Maçları</span>
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl01_lblTarih">6 Ekim 2026 14:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl01_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=50">KIRKLARELİSPOR</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl01_lblSkor" href="Default.aspx?pageID=29&amp;macId=372437" style="font-weight:bold;">-</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl01_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=20">BAYBURTSPOR</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=372437" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl01_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl01_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl02_lblTarih">6 Ekim 2026 14:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl02_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=3840">BİTLİS 1916 FUTBOL SPOR KULÜBÜ</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl02_lblSkor" href="Default.aspx?pageID=29&amp;macId=372465" style="font-weight:bold;">-</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl02_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=3666">1964 SİLİFKE SPOR KULÜBÜ</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=372465" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl02_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl02_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl03_lblTarih">6 Ekim 2026 17:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl03_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=3594">SAKARYASPOR A.Ş.</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl03_lblSkor" href="Default.aspx?pageID=29&amp;macId=372439" style="font-weight:bold;">-</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl03_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=13652">ARIT KAYADİBİ SPOR KULÜBÜ</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=372439" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl03_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl03_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl04_lblTarih">6 Ekim 2026 19:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl04_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=3598">KARŞIYAKA</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl04_lblSkor" href="Default.aspx?pageID=29&amp;macId=372447" style="font-weight:bold;">-</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl04_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=1896">1923 AFYONKARAHİSAR SPOR KULÜBÜ</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=372447" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl04_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl04_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl05_lblTarih">7 Ekim 2026 14:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl05_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=3662">PAZARSPOR</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl05_lblSkor" href="Default.aspx?pageID=29&amp;macId=372434" style="font-weight:bold;">-</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl05_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=3641">EFOR ÇAY ERBAASPOR</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=372434" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl05_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl05_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl06_lblTarih">7 Ekim 2026 14:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl06_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=11881">TOKAT BELEDİYE SPOR KULÜBÜ</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl06_lblSkor" href="Default.aspx?pageID=29&amp;macId=372438" style="font-weight:bold;">-</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl06_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=4212">ETİMESGUT SPOR KULÜBÜ</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=372438" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl06_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl06_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl07_lblTarih">7 Ekim 2026 14:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl07_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=2434">ZONGULDAK SPOR FUTBOL KULÜBÜ A.Ş.</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl07_lblSkor" href="Default.aspx?pageID=29&amp;macId=372442" style="font-weight:bold;">-</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl07_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=98">DÜZCE CAM DÜZCESPOR</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=372442" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl07_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl07_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl08_lblTarih">7 Ekim 2026 14:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl08_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=9321">KARS 36 SPOR</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl08_lblSkor" href="Default.aspx?pageID=29&amp;macId=372444" style="font-weight:bold;">-</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl08_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=4933">FATSA BELEDİYESPOR</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=372444" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl08_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl08_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl09_lblTarih">7 Ekim 2026 14:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl09_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=497">SOMASPOR</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl09_lblSkor" href="Default.aspx?pageID=29&amp;macId=372455" style="font-weight:bold;">-</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl09_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=3808">ALANYA 1221 FUTBOL SPOR KULÜBÜ</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=372455" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl09_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl09_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl10_lblTarih">7 Ekim 2026 14:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl10_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=121">HATAYSPOR</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl10_lblSkor" href="Default.aspx?pageID=29&amp;macId=372456" style="font-weight:bold;">-</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl10_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=4517">HALİL BAYRAM İNŞAAT KARAKÖPRÜ BELEDİYESPOR</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=372456" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl10_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl10_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl11_lblTarih">7 Ekim 2026 14:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl11_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=9399">NİĞDE BELEDİYESİ SPOR</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl11_lblSkor" href="Default.aspx?pageID=29&amp;macId=372458" style="font-weight:bold;">-</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl11_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=7890">AĞRI 1970 SPOR KULÜBÜ</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=372458" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl11_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl11_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl12_lblTarih">7 Ekim 2026 14:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl12_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=10337">ETİ GÜBRE MAZIDAĞI FOSFAT SPOR</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl12_lblSkor" href="Default.aspx?pageID=29&amp;macId=372459" style="font-weight:bold;">-</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl12_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=4499">EJDEROĞLU KIRŞEHİR FUTBOL SPOR KULÜBÜ</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=372459" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl12_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl12_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl13_lblTarih">7 Ekim 2026 14:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl13_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=3605">ADANASPOR A.Ş.</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl13_lblSkor" href="Default.aspx?pageID=29&amp;macId=372460" style="font-weight:bold;">-</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl13_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=8742">ADANA ADALETGÜCÜ SPOR SPORTİF FAALİYETLER A.Ş.</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=372460" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl13_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl13_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl14_lblTarih">7 Ekim 2026 14:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl14_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=3051">AYOS OSMANİYESPOR FUTBOL KULÜBÜ</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl14_lblSkor" href="Default.aspx?pageID=29&amp;macId=372462" style="font-weight:bold;">-</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl14_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=4228">YENİ MERSİN İDMANYURDU FUTBOL A.Ş.</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=372462" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl14_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl14_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl15_lblTarih">7 Ekim 2026 14:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl15_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=337">HAKKARİ ZAP SPOR KULÜBÜ</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl15_lblSkor" href="Default.aspx?pageID=29&amp;macId=372463" style="font-weight:bold;">-</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl15_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=3603">ADANA DEMİRSPOR A.Ş.</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=372463" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl15_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl15_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl16_lblTarih">7 Ekim 2026 14:30</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl16_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=44">SİLİVRİSPOR</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl16_lblSkor" href="Default.aspx?pageID=29&amp;macId=372435" style="font-weight:bold;">-</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl16_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=4491">KARTAL BULVAR KARTALİMEN SPOR A.Ş.</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=372435" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl16_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl16_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl17_lblTarih">7 Ekim 2026 14:30</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl17_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=1092">KÜÇÜKÇEKMECE SİNOP SPOR A.Ş.</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl17_lblSkor" href="Default.aspx?pageID=29&amp;macId=372436" style="font-weight:bold;">-</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl17_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=4485">BÜYÜKÇEKMECE GÜCÜ FK SPOR A.Ş.</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=372436" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl17_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl17_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl18_lblTarih">7 Ekim 2026 14:30</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl18_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=8550">BURSA YILDIRIM SPOR KULÜBÜ</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl18_lblSkor" href="Default.aspx?pageID=29&amp;macId=372440" style="font-weight:bold;">-</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl18_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=2780">AMASYASPOR FK</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=372440" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl18_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl18_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl19_lblTarih">7 Ekim 2026 14:30</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl19_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=3640">GÖLCÜKSPOR</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl19_lblSkor" href="Default.aspx?pageID=29&amp;macId=372443" style="font-weight:bold;">-</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl19_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=7787">YOZGAT BELEDİYESİ BOZOK SPOR</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=372443" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl19_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl19_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl20_lblTarih">7 Ekim 2026 14:30</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl20_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=3292">KARACABEY BELEDİYE SPOR A.Ş.</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl20_lblSkor" href="Default.aspx?pageID=29&amp;macId=372446" style="font-weight:bold;">-</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl20_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=42">GALATA SPOR KULÜBÜ</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=372446" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl20_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl20_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl21_lblTarih">7 Ekim 2026 14:30</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl21_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=8486">GEMLİK SÜMERBEY FUTBOL SPOR A.Ş.</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl21_lblSkor" href="Default.aspx?pageID=29&amp;macId=372450" style="font-weight:bold;">-</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl21_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=5155">UŞAK SPOR A.Ş.</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=372450" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl21_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl21_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl22_lblTarih">7 Ekim 2026 14:30</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl22_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=6176">SÖKE 1970 SPOR KULÜBÜ</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl22_lblSkor" href="Default.aspx?pageID=29&amp;macId=372452" style="font-weight:bold;">-</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl22_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=105">AYVALIKGÜCÜ BELEDİYESPOR</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=372452" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl22_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl22_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl23_lblTarih">7 Ekim 2026 14:30</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl23_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=136">BİGASPOR</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl23_lblSkor" href="Default.aspx?pageID=29&amp;macId=372453" style="font-weight:bold;">-</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl23_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=135">BALIKESİRSPOR</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=372453" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl23_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl23_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl24_lblTarih">7 Ekim 2026 14:30</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl24_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=4152">ESKİŞEHİR ANADOLU SPOR FAALİYETLERİ A.Ş.</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl24_lblSkor" href="Default.aspx?pageID=29&amp;macId=372454" style="font-weight:bold;">-</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl24_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=1841">KEPEZ SPOR FUTBOL A.Ş.</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=372454" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl24_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl24_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl25_lblTarih">7 Ekim 2026 15:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl25_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=10580">KARABÜK İDMANYURDU SPOR</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl25_lblSkor" href="Default.aspx?pageID=29&amp;macId=372445" style="font-weight:bold;">-</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl25_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=2744">BEYKOZ ANADOLU SPOR A.Ş.</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=372445" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl25_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl25_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl26_lblTarih">7 Ekim 2026 15:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl26_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=3095">GAZİEMİR G.O.G. SPOR YAT. A.Ş.</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl26_lblSkor" href="Default.aspx?pageID=29&amp;macId=372448" style="font-weight:bold;">-</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl26_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=58">FETHİYESPOR</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=372448" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl26_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl26_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl27_lblTarih">7 Ekim 2026 17:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl27_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=4844">MALATYA YEŞİLYURT SPOR KULÜBÜ</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl27_lblSkor" href="Default.aspx?pageID=29&amp;macId=372464" style="font-weight:bold;">-</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl27_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=12900">SİİRT FUTBOL SPOR KULÜBÜ</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=372464" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl27_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl27_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl28_lblTarih">7 Ekim 2026 20:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl28_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=3">ESKİŞEHİRSPOR KULÜBÜ</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl28_lblSkor" href="Default.aspx?pageID=29&amp;macId=372449" style="font-weight:bold;">-</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl28_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=6835">1922 AKŞEHİR SPOR KULÜBÜ</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=372449" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl28_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl28_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl29_lblTarih">8 Ekim 2026 14:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl29_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=4398">AÇIKALIN ERCİYES 38 FUTBOL SPOR KULÜBÜ</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl29_lblSkor" href="Default.aspx?pageID=29&amp;macId=372457" style="font-weight:bold;">-</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl29_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=7316">KAHTA 02 SPOR</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=372457" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl29_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl29_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl30_lblTarih">8 Ekim 2026 17:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl30_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=384">DENİZLİ İDMANYURDU 1959 SPOR KULÜBÜ</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl30_lblSkor" href="Default.aspx?pageID=29&amp;macId=372451" style="font-weight:bold;">-</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl30_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=4167">SERİK SPOR FUTBOL A.Ş.</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=372451" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl30_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl30_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl31_lblTarih">8 Ekim 2026 20:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl31_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=4929">ORDUSPOR 1967 A.Ş.</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl31_lblSkor" href="Default.aspx?pageID=29&amp;macId=372441" style="font-weight:bold;">-</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl31_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=3690">KDZ.EREĞLİ 1980 SPOR KULÜBÜ</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=372441" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl31_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl31_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl32_lblGrup">1.Tur Maçları</span>
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl32_lblTarih">15 Eylül 2026 17:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl32_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=1896">1923 AFYONKARAHİSAR SPOR KULÜBÜ</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl32_lblSkor" href="Default.aspx?pageID=29&amp;macId=321615" style="font-weight:bold;">2-1</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl32_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=4892">ÜRGÜPSPOR</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=321615" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl32_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl32_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl33_lblTarih">15 Eylül 2026 20:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl33_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=3591">ALTAY</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl33_lblSkor" href="Default.aspx?pageID=29&amp;macId=321613" style="font-weight:bold;">2-4</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl33_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=6176">SÖKE 1970 SPOR KULÜBÜ</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=321613" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl33_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl33_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl34_lblTarih">16 Eylül 2026 14:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl34_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=165">KARAMAN FUTBOL KULÜBÜ</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl34_lblSkor" href="Default.aspx?pageID=29&amp;macId=321618" style="font-weight:bold;">2-3</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl34_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=1841">KEPEZ SPOR FUTBOL A.Ş.</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=321618" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl34_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl34_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl35_lblTarih">16 Eylül 2026 14:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl35_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=3811">OSMANELİ SPOR KULÜBÜ</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl35_lblSkor" href="Default.aspx?pageID=29&amp;macId=321620" style="font-weight:bold;">0-1</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl35_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=4152">ESKİŞEHİR ANADOLU SPOR FAALİYETLERİ A.Ş.</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=321620" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl35_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl35_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl36_lblTarih">16 Eylül 2026 14:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl36_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=5011">SİNOPSPOR</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl36_lblSkor" href="Default.aspx?pageID=29&amp;macId=321622" style="font-weight:bold;">0-3</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl36_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=13652">ARIT KAYADİBİ SPOR KULÜBÜ</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=321622" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl36_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl36_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl37_lblTarih">16 Eylül 2026 14:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl37_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=11881">TOKAT BELEDİYE SPOR KULÜBÜ</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl37_lblSkor" href="Default.aspx?pageID=29&amp;macId=321623" style="font-weight:bold;">3-0</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl37_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=4177">KEŞAP SPOR KULÜBÜ</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=321623" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl37_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl37_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl38_lblTarih">16 Eylül 2026 14:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl38_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=3605">ADANASPOR A.Ş.</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl38_lblSkor" href="Default.aspx?pageID=29&amp;macId=321624" style="font-weight:bold;">-</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl38_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=4879">YENİ MALATYASPOR</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=321624" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl38_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl38_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl39_lblTarih">16 Eylül 2026 14:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl39_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=10467">KİLİS BİRLİKGÜCÜ GENÇLİK SPOR</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl39_lblSkor" href="Default.aspx?pageID=29&amp;macId=321625" style="font-weight:bold;">0-2</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl39_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=7316">KAHTA 02 SPOR</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=321625" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl39_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl39_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl40_lblTarih">16 Eylül 2026 14:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl40_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=6796">DERSİM SPOR</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl40_lblSkor" href="Default.aspx?pageID=29&amp;macId=321626" style="font-weight:bold;">0-3</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl40_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=12900">GELECEK SİİRT 56 SPOR KULÜBÜ</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=321626" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl40_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl40_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl41_lblTarih">16 Eylül 2026 14:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl41_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=9775">CİZRE BELEDİYESPOR</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl41_lblSkor" href="Default.aspx?pageID=29&amp;macId=321627" style="font-weight:bold;">-</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl41_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=337">HAKKARİ ZAP SPOR KULÜBÜ</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=321627" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl41_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl41_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl42_lblTarih">16 Eylül 2026 14:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl42_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=9309">GÖLE SPOR</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl42_lblSkor" href="Default.aspx?pageID=29&amp;macId=321628" style="font-weight:bold;">0-5</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl42_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=9321">KARS 36 SPOR</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=321628" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl42_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl42_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl43_lblTarih">16 Eylül 2026 14:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl43_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=20">BAYBURTSPOR</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl43_lblSkor" href="Default.aspx?pageID=29&amp;macId=321629" style="font-weight:bold;">3-0</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl43_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=4535">BORÇKA SPOR</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=321629" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl43_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl43_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl44_lblTarih">16 Eylül 2026 15:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl44_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=42">GALATA SPOR KULÜBÜ</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl44_lblSkor" href="Default.aspx?pageID=29&amp;macId=321612" style="font-weight:bold;">1-1</a>
+                <div style="color:#e30a17">
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl44_lblSkor90SonrasiBilgi" style="font-weight:bold;">(Uzt.</span>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl44_lblSkor90Sonrasi" style="font-weight:bold;">2-1)</span>
+                </div>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl44_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=3087">YALOVA FK 77 SPOR KULÜBÜ</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=321612" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl44_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl44_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl45_lblTarih">16 Eylül 2026 15:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl45_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=1465">İNKILAP FUTBOL SPOR KULÜBÜ</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl45_lblSkor" href="Default.aspx?pageID=29&amp;macId=321614" style="font-weight:bold;">1-3</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl45_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=2744">BEYKOZ ANADOLU SPOR A.Ş.</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=321614" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl45_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl45_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl46_lblTarih">16 Eylül 2026 15:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl46_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=46">UZUNKÖPRÜSPOR</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl46_lblSkor" href="Default.aspx?pageID=29&amp;macId=321616" style="font-weight:bold;">1-5</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl46_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=4491">KARTAL BULVAR KARTALİMEN SPOR A.Ş.</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=321616" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl46_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl46_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl47_lblTarih">16 Eylül 2026 17:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl47_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=4274">BUCASPOR 1928</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl47_lblSkor" href="Default.aspx?pageID=29&amp;macId=321617" style="font-weight:bold;">0-4</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl47_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=3095">GAZİEMİR G.O.G. SPOR YAT. A.Ş.</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=321617" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl47_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl47_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl48_lblTarih">16 Eylül 2026 19:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl48_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=186">KIRIKKALE FK SPOR KULÜBÜ</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl48_lblSkor" href="Default.aspx?pageID=29&amp;macId=321621" style="font-weight:bold;">0-3</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl48_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=4499">EJDEROĞLU KIRŞEHİR FUTBOL SPOR KULÜBÜ</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=321621" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl48_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl48_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl49_lblTarih">16 Eylül 2026 20:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl49_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=4228">YENİ MERSİN İDMANYURDU FUTBOL A.Ş.</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl49_lblSkor" href="Default.aspx?pageID=29&amp;macId=321619" style="font-weight:bold;">5-1</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl49_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=3853">BUCAK BELEDİYE OĞUZHANSPOR</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=321619" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl49_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl49_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl50_lblTarih">17 Eylül 2026 14:30</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl50_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=2780">AMASYASPOR FK</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl50_lblSkor" href="Default.aspx?pageID=29&amp;macId=321630" style="font-weight:bold;">10-0</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl50_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=11799">ÇANKIRIGÜCÜ SPOR KULÜBÜ</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=321630" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl50_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl50_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        <tr>
+            <td class="alanTurkiyeKupasi" style="width: 100%;" colspan="5">
+                <b>
+                    
+                </b>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr align="center">
+            <td style="white-space: nowrap; text-align: right;">
+                <b>
+                    <span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl51_lblTarih">17 Eylül 2026 19:00</span>
+                </b>
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl51_lblTakim1" href="Default.aspx?pageID=28&amp;kulupID=4929">ORDUSPOR 1967 A.Ş.</a>
+            </td>
+            <td nowrap>
+                
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl51_lblSkor" href="Default.aspx?pageID=29&amp;macId=321631" style="font-weight:bold;">10-0</a>
+                
+            </td>
+            <td>
+                <a id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl51_lblTakim2" href="Default.aspx?pageID=28&amp;kulupID=284">TORUL BELEDİYE SPOR KULÜBÜ</a>
+            </td>
+            <td>
+                <a href="Default.aspx?pageId=29&macId=321631" id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl51_A8">
+                    <img src="App_Themes/TFF_Default/Images/design/icon.detaylar.gif" alt="Detaylar"
+                        style="vertical-align: middle; border=0;">&nbsp;<b><span id="ctl00_MPane_m_598_12575_ctnr_m_598_12575_kupaMaclari_ctl51_Label2">Detaylar</span></b></a>
+            </td>
+        </tr>
+    </td>
+	</tr><tr>
+		<td>
+        </table>
+    </td>
+	</tr>
+</table>
+</div>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td width="50%" align="left" valign="top" style="padding-right: 5px">
+                                    
+                                    
+                                </td>
+                                <td align="left" valign="top" style="padding-left: 5px">
+                                    
+                                    
+                                </td>
+                            </tr>
+                        </table>
+                        
+                        
+                        <div style="height: 1px">
+                            <img src="App_Themes/TFF_Default/Images/design/bosluk.gif" width="576" height="1">
+                        </div>
+
+
+                    </article>
+
+
+
+                </section>
+                <section class="left-container">
+                    <nav aria-label="breadcrumb" style="display: none">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#">PUAN DURUMU</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">TRENDYOL SÜPERLİG</li>
+                        </ol>
+                    </nav>
+                    <div id="ctl00_LTopPane_m_598_1358_ctnr_div" style="margin-bottom:10px;vertical-align:top;text-align:center;"><div id="ctl00_LTopPane_m_598_1358_ctnr_title" class="moduleTitle"></div>
+<script language="javascript" type="text/javascript">function ___BeforeClickHandler(node){ if(node.Category==''){ if(node.Expanded==true) node.Collapse(); else node.Expand(); return false; }  }</script>
+<div id="ctl00_LTopPane_m_598_1358_ctnr_m_598_1358_ctl00" class="panelbar RadPanelbar_TFF_SolMenuKlasik " style="width:100%;">
+	<!-- 4.0.3 --><script type="text/javascript" src="/RadControls/Panelbar/Scripts/4_0_3/RadPanelbar.js"></script><span id="ctl00_LTopPane_m_598_1358_ctnr_m_598_1358_ctl00StyleSheetHolder" style="display:none;"></span><ul class="rootGroup">
+		<li class="item first"><a href="/default.aspx?pageID=88" id="ctl00_LTopPane_m_598_1358_ctnr_m_598_1358_ctl00_p0" title="Kupalar Ana Sayfa" class="link"><span class="text">Kupalar Ana Sayfa</span></a></li><li class="item"><a href="/default.aspx?pageID=288" id="ctl00_LTopPane_m_598_1358_ctnr_m_598_1358_ctl00_p1" title="Ziraat Türkiye Kupası" class="link"><span class="text">Ziraat Türkiye Kupası</span></a><div class="slide" style="display:block;">
+			<ul class="group level1 " style="display:block;">
+				<li class="item first"><a href="#" id="ctl00_LTopPane_m_598_1358_ctnr_m_598_1358_ctl00_p1_p0" title="Fikstür ve Sonuçlar" class="link"><span class="text">Puan Cetveli ve Fikstür</span></a></li><li class="item"><a href="/default.aspx?pageID=411" id="ctl00_LTopPane_m_598_1358_ctnr_m_598_1358_ctl00_p1_p1" title="Tarihçe ve Arşiv" class="link"><span class="text">Tarihçe ve Arşiv</span></a></li><li class="item last"><a href="/default.aspx?pageID=133" id="ctl00_LTopPane_m_598_1358_ctnr_m_598_1358_ctl00_p1_p2" title="Statü" class="link"><span class="text">Statü</span></a></li>
+			</ul>
+		</div></li><li class="item"><a href="/default.aspx?pageID=329" id="ctl00_LTopPane_m_598_1358_ctnr_m_598_1358_ctl00_p2" title="Turkcell Süper Kupa" class="link"><span class="text">Turkcell Süper Kupa</span></a><div class="slide">
+			<ul class="group level1 ">
+				<li class="item first"><a href="/default.aspx?pageID=412" id="ctl00_LTopPane_m_598_1358_ctnr_m_598_1358_ctl00_p2_p0" title="Tarihçe" class="link"><span class="text">Tarihçe</span></a></li><li class="item last"><a href="/default.aspx?pageID=133" id="ctl00_LTopPane_m_598_1358_ctnr_m_598_1358_ctl00_p2_p1" title="Statü" class="link"><span class="text">Statü</span></a></li>
+			</ul>
+		</div></li><li class="item last"><a href="/default.aspx?pageID=593" id="ctl00_LTopPane_m_598_1358_ctnr_m_598_1358_ctl00_p3" title="Avrupa Kupaları" class="link"><span class="text">Avrupa Kupaları</span></a></li>
+	</ul><input type="hidden" id="ctl00_LTopPane_m_598_1358_ctnr_m_598_1358_ctl00_Hidden" name="ctl00$LTopPane$m_598_1358_ctnr$m_598_1358$ctl00" /><script type="text/javascript">window["ctl00_LTopPane_m_598_1358_ctnr_m_598_1358_ctl00"] = new RadPanelbar("ctl00_LTopPane_m_598_1358_ctnr_m_598_1358_ctl00");window["ctl00_LTopPane_m_598_1358_ctnr_m_598_1358_ctl00"].Initialize({"Attributes":{"ExpandEffect":"Fade","ItemSelectedCssClass":"panelbarItem","ImagesBaseDir":"~/App_Themes/Default/RadPanelbar/Img/","HeaderHoverCollapsedCssClass":"panelbarHeaderHover","HeaderCollapsedCssClass":"panelbarHeaderCollapsed","ItemHoverCollapsedCssClass":"panelbarItemHover","ItemCollapsedCssClass":"panelbarItem","HeaderHoverExpandedCssClass":"panelbarHeaderExpand","HeaderExpandedCssClass":"panelbarHeaderExpand","CssFile":"~/App_Themes/Default/RadPanelbar/Styles/BlueMelt.css"},"CausesValidation":false,"Enabled":true,"Skin":"TFF_SolMenuKlasik","ExpandAnimation":{"Type":"None"},"CollapseAnimation":{"Type":"None"}},{"ctl00_LTopPane_m_598_1358_ctnr_m_598_1358_ctl00_p0":{"Value":"88","NavigateAfterClick":true},"ctl00_LTopPane_m_598_1358_ctnr_m_598_1358_ctl00_p1":{"Expanded":true,"Value":"288","NavigateAfterClick":true},"ctl00_LTopPane_m_598_1358_ctnr_m_598_1358_ctl00_p1_p0":{"Selected":true,"Value":"598"},"ctl00_LTopPane_m_598_1358_ctnr_m_598_1358_ctl00_p1_p1":{"Value":"411","NavigateAfterClick":true},"ctl00_LTopPane_m_598_1358_ctnr_m_598_1358_ctl00_p1_p2":{"Value":"133","NavigateAfterClick":true},"ctl00_LTopPane_m_598_1358_ctnr_m_598_1358_ctl00_p2":{"Value":"329","NavigateAfterClick":true},"ctl00_LTopPane_m_598_1358_ctnr_m_598_1358_ctl00_p2_p0":{"Value":"412","NavigateAfterClick":true},"ctl00_LTopPane_m_598_1358_ctnr_m_598_1358_ctl00_p2_p1":{"Value":"133","NavigateAfterClick":true},"ctl00_LTopPane_m_598_1358_ctnr_m_598_1358_ctl00_p3":{"Value":"593","NavigateAfterClick":true}});</script>
+</div>
+
+</div>
+
+                    <div id="ctl00_RPane_m_598_5753_ctnr_div" style="vertical-align:top;text-align:left;"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="alanlar2 marginB"><tr><td class="alanProfesyonel" style="height:23px"><div class="moduleTitle">Fikstürler</div></td></tr><tr><td class="alanlarContent">
+<script language="javascript" type="text/javascript">function ___BeforeClickHandler(node){ if(node.Category==''){ if(node.Expanded==true) node.Collapse(); else node.Expand(); return false; }  }</script>
+<div id="ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana_wrapper" style="display:inline">
+	<!-- 2.5.3 --><script type="text/javascript" src="/RadControls/ComboBox/Scripts/2_5_3/RadComboBox.js"></script><div class="ComboBox_TFF_Ana" id="ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana" style="display:inline; white-space: nowrap;"><input onmouseout="rcbDispatcher(&#39;ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana&#39;,&#39;inputimageout&#39;,event)" value="Lig Seçiniz..." class="ComboBoxInput_TFF_Ana" onmouseover="rcbDispatcher(&#39;ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana&#39;,&#39;inputimagehover&#39;,event)" id="ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana_Input" style="width:160px;" name="ctl00$RPane$m_598_5753_ctnr$m_598_5753$TFF_Ana_Input" onkeydown="rcbDispatcher(&#39;ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana&#39;,&#39;keypress&#39;,event)" type="text" onkeypress="rcbDispatcher(&#39;ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana&#39;,&#39;keydown&#39;,event)" onclick="rcbDispatcher(&#39;ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana&#39;,&#39;inputclick&#39;,event)"></input><img alt="" id="ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana_Image" src="/RadControls/ComboBox/Skins/TFF_Ana/DropArrow.gif" class="ComboBoxImage_TFF_Ana" onclick="rcbDispatcher(&#39;ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana&#39;,&#39;toggledropdown&#39;,event);" onmouseover="rcbDispatcher(&#39;ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana&#39;,&#39;inputimagehover&#39;,event);" onmouseout="rcbDispatcher(&#39;ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana&#39;,&#39;inputimageout&#39;,event);"></img><div id="ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana_DropDownPlaceholder" style="position:absolute; display: none; z-index: 300;" class="ComboBoxDropDown_TFF_Ana"><div id="ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana_DropDown" style="overflow:auto;height:100px;white-space:normal;" onmouseover="rcbDispatcher('ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana','mouseover',event)" onmouseout="rcbDispatcher('ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana','mouseout',event)" onclick="rcbDispatcher('ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana','click',event)"><div id="ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana_c0" class="ComboBoxItem_TFF_Ana">
+	Lig Se&#231;iniz...
+</div><div id="ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana_c1" class="ComboBoxItem_TFF_Ana">
+	Trendyol S&#252;per Lig
+</div><div id="ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana_c2" class="ComboBoxItem_TFF_Ana">
+	Trendyol 1. Lig
+</div><div id="ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana_c3" class="ComboBoxItem_TFF_Ana">
+	TFF 2. Lig
+</div><div id="ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana_c4" class="ComboBoxItem_TFF_Ana">
+	TFF 3. Lig
+</div><div id="ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana_c5" class="ComboBoxItem_TFF_Ana">
+	Kadın Ligleri
+</div><div id="ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana_c6" class="ComboBoxItem_TFF_Ana">
+	Ziraat T&#252;rkiye Kupası
+</div><div id="ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana_c7" class="ComboBoxItem_TFF_Ana">
+	B&#246;lgesel Amat&#246;r Lig
+</div><div id="ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana_c8" class="ComboBoxItem_TFF_Ana">
+	Gelişim Ligleri
+</div><div id="ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana_c9" class="ComboBoxItem_TFF_Ana">
+	Engelli Futbolu
+</div><div id="ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana_c10" class="ComboBoxItem_TFF_Ana">
+	Futsal Ligi
+</div><div id="ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana_c11" class="ComboBoxItem_TFF_Ana">
+	Plaj Futbolu
+</div><div id="ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana_c12" class="ComboBoxItem_TFF_Ana">
+	Futbol Altyapı Gelişim Ligi
+</div><div id="ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana_c13" class="ComboBoxItem_TFF_Ana">
+	Sezon Planlaması
+</div></div></div><span id="ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_AnaStyleSheetHolder" style="display:none;"></span></div><input type="hidden" name="ctl00$RPane$m_598_5753_ctnr$m_598_5753$TFF_Ana_text" id="ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana_text" value="Lig Seçiniz..." /><input type="hidden" name="ctl00$RPane$m_598_5753_ctnr$m_598_5753$TFF_Ana_value" id="ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana_value" value="" /><input type="hidden" name="ctl00$RPane$m_598_5753_ctnr$m_598_5753$TFF_Ana_index" id="ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana_index" value="-1" /><script type="text/javascript">window["ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana"] = new RadComboBox("TFF_Ana","ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana");window["ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana"].Initialize({"LoadOnDemandUrl":"/Default.aspx?pageID=598%26rcbID=ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana%26rcbServerID=TFF_Ana","OnClientSelectedIndexChanged":"ctl00_RPane_m_598_5753_ctnr_m_598_5753selectedIndexChanged","PostBackReference":"__doPostBack('ctl00$RPane$m_598_5753_ctnr$m_598_5753$TFF_Ana','TextChange')","MarkFirstMatch":true,"Skin":"TFF_Ana","Enabled":true,"ScrollDownImage":"/RadControls/ComboBox/Skins/TFF_Ana/ScrollDown.gif","ScrollDownImageDisabled":"/RadControls/ComboBox/Skins/TFF_Ana/ScrollDownDisabled.gif"},[{"Text":"Lig Seçiniz...","ClientID":"ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana_c0"},{"Text":"Trendyol Süper Lig","Value":"http://www.tff.org/default.aspx?pageID=198|true","ClientID":"ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana_c1"},{"Text":"Trendyol 1. Lig","Value":"http://www.tff.org/default.aspx?pageID=142|true","ClientID":"ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana_c2"},{"Text":"TFF 2. Lig","Value":"default.aspx?pageID=976|true","ClientID":"ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana_c3"},{"Text":"TFF 3. Lig","Value":"default.aspx?pageID=971|true","ClientID":"ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana_c4"},{"Text":"Kadın Ligleri","Value":"default.aspx?pageID=229","ClientID":"ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana_c5"},{"Text":"Ziraat Türkiye Kupası","Value":"default.aspx?pageID=598","ClientID":"ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana_c6"},{"Text":"Bölgesel Amatör Lig","Value":"default.aspx?pageID=1289|true","ClientID":"ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana_c7"},{"Text":"Gelişim Ligleri","Value":"default.aspx?pageID=830","ClientID":"ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana_c8"},{"Text":"Engelli Futbolu","Value":"default.aspx?pageID=1296","ClientID":"ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana_c9"},{"Text":"Futsal Ligi","Value":"default.aspx?pageID=900","ClientID":"ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana_c10"},{"Text":"Plaj Futbolu","Value":"default.aspx?pageID=907","ClientID":"ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana_c11"},{"Text":"Futbol Altyapı Gelişim Ligi","Value":"default.aspx?pageID=1494","ClientID":"ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana_c12"},{"Text":"Sezon Planlaması","Value":"https://www.tff.org/default.aspx?pageID=687&ftxtID=50517|true","ClientID":"ctl00_RPane_m_598_5753_ctnr_m_598_5753_TFF_Ana_c13"}]);</script>
+</div>
+
+</td></tr></table></div><div id="ctl00_RPane_m_598_2084_ctnr_div" style="vertical-align:top;text-align:left;"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="alanlar2 marginB"><tr><td class="alanProfesyonel" style="height:23px"><div class="moduleTitle">Puan Cetvelleri</div></td></tr><tr><td class="alanlarContent"><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_wrapper" style="display:inline">
+	<!-- 2.5.3 --><div class="ComboBox_TFF_Ana" id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo" style="display:inline; white-space: nowrap;"><input onmouseout="rcbDispatcher(&#39;ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo&#39;,&#39;inputimageout&#39;,event)" value="Lig Seçiniz.." class="ComboBoxInput_TFF_Ana" onmouseover="rcbDispatcher(&#39;ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo&#39;,&#39;inputimagehover&#39;,event)" id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_Input" style="width:160px;" name="ctl00$RPane$m_598_2084_ctnr$m_598_2084$mo_Input" onkeydown="rcbDispatcher(&#39;ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo&#39;,&#39;keypress&#39;,event)" type="text" onkeypress="rcbDispatcher(&#39;ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo&#39;,&#39;keydown&#39;,event)" onclick="rcbDispatcher(&#39;ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo&#39;,&#39;inputclick&#39;,event)"></input><img alt="" id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_Image" src="/RadControls/ComboBox/Skins/TFF_Ana/DropArrow.gif" class="ComboBoxImage_TFF_Ana" onclick="rcbDispatcher(&#39;ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo&#39;,&#39;toggledropdown&#39;,event);" onmouseover="rcbDispatcher(&#39;ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo&#39;,&#39;inputimagehover&#39;,event);" onmouseout="rcbDispatcher(&#39;ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo&#39;,&#39;inputimageout&#39;,event);"></img><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_DropDownPlaceholder" style="position:absolute; display: none; z-index: 300;" class="ComboBoxDropDown_TFF_Ana"><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_DropDown" style="overflow:auto;height:100px;white-space:nowrap;" onmouseover="rcbDispatcher('ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo','mouseover',event)" onmouseout="rcbDispatcher('ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo','mouseout',event)" onclick="rcbDispatcher('ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo','click',event)"><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c0" class="ComboBoxItem_TFF_Ana">
+	Lig Se&#231;iniz..
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c1" class="ComboBoxItem_TFF_Ana">
+	Trendyol S&#252;per Lig Şamil Ekinci Sezonu
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c2" class="ComboBoxItem_TFF_Ana">
+	Trendyol 1.Lig
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c3" class="ComboBoxItem_TFF_Ana">
+	Trendyol 1. Lig  Play Off M&#252;sabakaları
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c4" class="ComboBoxItem_TFF_Ana">
+	Nesine 2. Lig Kırmızı
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c5" class="ComboBoxItem_TFF_Ana">
+	Nesine 2. Lig Beyaz
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c6" class="ComboBoxItem_TFF_Ana">
+	Nesine 2. Lig  Play Off M&#252;sabakaları
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c7" class="ComboBoxItem_TFF_Ana">
+	Nesine 3. Lig 01
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c8" class="ComboBoxItem_TFF_Ana">
+	Nesine 3. Lig 02
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c9" class="ComboBoxItem_TFF_Ana">
+	Nesine 3. Lig 03
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c10" class="ComboBoxItem_TFF_Ana">
+	Nesine 3. Lig 04
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c11" class="ComboBoxItem_TFF_Ana">
+	Nesine 3. Lig  Play Off M&#252;sabakaları
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c12" class="ComboBoxItem_TFF_Ana">
+	Ziraat T&#252;rkiye Kupası
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c13" class="ComboBoxItem_TFF_Ana">
+	Ziraat T&#252;rkiye Kupası Grup Aşaması A
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c14" class="ComboBoxItem_TFF_Ana">
+	Ziraat T&#252;rkiye Kupası Grup Aşaması B
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c15" class="ComboBoxItem_TFF_Ana">
+	Ziraat T&#252;rkiye Kupası Grup Aşaması C
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c16" class="ComboBoxItem_TFF_Ana">
+	Ziraat T&#252;rkiye Kupası Grup Aşaması D
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c17" class="ComboBoxItem_TFF_Ana">
+	Turkcell Kadın Futbol S&#252;per Ligi
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c18" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 1. Ligi A Grubu
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c19" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 1. Ligi B Grubu
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c20" class="ComboBoxItem_TFF_Ana">
+	TFF Kadınlar 1. Ligi Play Off 3.l&#252;k M&#252;sabakaları
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c21" class="ComboBoxItem_TFF_Ana">
+	TFF Kadınlar 1. Ligi Play Off Şampiyonluk Grubu
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c22" class="ComboBoxItem_TFF_Ana">
+	TFF Kadınlar 1. Ligi Play Off Y&#252;kselme Grubu
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c23" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 2.Ligi Play Off M&#252;sabakaları
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c24" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3.Ligi  Play Off M&#252;sabakaları
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c25" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 2. Ligi A Grup
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c26" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 2. Ligi B Grup
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c27" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 2. Ligi C Grup
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c28" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 2. Ligi D Grup
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c29" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3. Ligi 1.
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c30" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3. Ligi 10.
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c31" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3. Ligi 11.
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c32" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3. Ligi 12.
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c33" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3. Ligi 13.
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c34" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3. Ligi 14.
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c35" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3. Ligi 15.
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c36" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3. Ligi 16.
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c37" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3. Ligi 17.
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c38" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3. Ligi 18.
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c39" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3. Ligi 19.
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c40" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3. Ligi 2.
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c41" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3. Ligi 20.
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c42" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3. Ligi 21.
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c43" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3. Ligi 22.
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c44" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3. Ligi 23.
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c45" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3. Ligi 24.
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c46" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3. Ligi 25.
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c47" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3. Ligi 26.
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c48" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3. Ligi 27.
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c49" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3. Ligi 28.
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c50" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3. Ligi 29.
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c51" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3. Ligi 3.
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c52" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3. Ligi 30.
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c53" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3. Ligi 31.
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c54" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3. Ligi 32.
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c55" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3. Ligi 4.
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c56" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3. Ligi 5.
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c57" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3. Ligi 6.
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c58" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3. Ligi 7.
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c59" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3. Ligi 8.
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c60" class="ComboBoxItem_TFF_Ana">
+	Kadınlar 3. Ligi 9.
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c61" class="ComboBoxItem_TFF_Ana">
+	B&#246;lgesel Amat&#246;r Ligi 1. GRUP
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c62" class="ComboBoxItem_TFF_Ana">
+	B&#246;lgesel Amat&#246;r Ligi 10. GRUP
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c63" class="ComboBoxItem_TFF_Ana">
+	B&#246;lgesel Amat&#246;r Ligi 2. GRUP
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c64" class="ComboBoxItem_TFF_Ana">
+	B&#246;lgesel Amat&#246;r Ligi 3. GRUP
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c65" class="ComboBoxItem_TFF_Ana">
+	B&#246;lgesel Amat&#246;r Ligi 4. GRUP
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c66" class="ComboBoxItem_TFF_Ana">
+	B&#246;lgesel Amat&#246;r Ligi 5. GRUP
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c67" class="ComboBoxItem_TFF_Ana">
+	B&#246;lgesel Amat&#246;r Ligi 6. GRUP
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c68" class="ComboBoxItem_TFF_Ana">
+	B&#246;lgesel Amat&#246;r Ligi 7. GRUP
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c69" class="ComboBoxItem_TFF_Ana">
+	B&#246;lgesel Amat&#246;r Ligi 8. GRUP
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c70" class="ComboBoxItem_TFF_Ana">
+	B&#246;lgesel Amat&#246;r Ligi 9. GRUP
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c71" class="ComboBoxItem_TFF_Ana">
+	B&#246;lgesel Amat&#246;r Lig Baraj Ma&#231;ları
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c72" class="ComboBoxItem_TFF_Ana">
+	B&#246;lgesel Amat&#246;r Lig Play Off
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c73" class="ComboBoxItem_TFF_Ana">
+	U17 B&#246;lgesel Gelişim Ligi &#214;n Eleme ve Son 16 Turu
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c74" class="ComboBoxItem_TFF_Ana">
+	U17 B&#246;lgesel Gelişim Ligi 1. Grup
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c75" class="ComboBoxItem_TFF_Ana">
+	U17 B&#246;lgesel Gelişim Ligi 2. Grup
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c76" class="ComboBoxItem_TFF_Ana">
+	U17 B&#246;lgesel Gelişim Ligi 3. Grup
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c77" class="ComboBoxItem_TFF_Ana">
+	U17 B&#246;lgesel Gelişim Ligi 4. Grup
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c78" class="ComboBoxItem_TFF_Ana">
+	U17 B&#246;lgesel Gelişim Ligi 5. Grup
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c79" class="ComboBoxItem_TFF_Ana">
+	U17 B&#246;lgesel Gelişim Ligi 6. Grup
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c80" class="ComboBoxItem_TFF_Ana">
+	U19 B&#246;lgesel Gelişim Ligi 1. Grup
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c81" class="ComboBoxItem_TFF_Ana">
+	U19 B&#246;lgesel Gelişim Ligi 2. Grup
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c82" class="ComboBoxItem_TFF_Ana">
+	U19 B&#246;lgesel Gelişim Ligi 3. Grup
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c83" class="ComboBoxItem_TFF_Ana">
+	U19 B&#246;lgesel Gelişim Ligi 4. Grup
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c84" class="ComboBoxItem_TFF_Ana">
+	U19 B&#246;lgesel Gelişim Ligi 5. Grup
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c85" class="ComboBoxItem_TFF_Ana">
+	U19 B&#246;lgesel Gelişim Ligi 6. Grup
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c86" class="ComboBoxItem_TFF_Ana">
+	U19 B&#246;lgesel Gelişim Ligi &#214;n Eleme ve Son 16 Turu
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c87" class="ComboBoxItem_TFF_Ana">
+	U14 Gelişim Ligi Grup 1
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c88" class="ComboBoxItem_TFF_Ana">
+	U14 Gelişim Ligi Grup 2
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c89" class="ComboBoxItem_TFF_Ana">
+	U14 Gelişim Ligi Grup 3
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c90" class="ComboBoxItem_TFF_Ana">
+	U14 Gelişim Ligi Grup 4
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c91" class="ComboBoxItem_TFF_Ana">
+	U14 Gelişim Ligi Grup 5
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c92" class="ComboBoxItem_TFF_Ana">
+	U14 Gelişim Ligi Grup 6
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c93" class="ComboBoxItem_TFF_Ana">
+	U14 Gelişim Ligi Grup 7
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c94" class="ComboBoxItem_TFF_Ana">
+	U14 Gelişim Ligi &#214;n Eleme ve Son 16 Turu
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c95" class="ComboBoxItem_TFF_Ana">
+	U14 Gelişim Ligi Finalleri
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c96" class="ComboBoxItem_TFF_Ana">
+	U15 Gelişim Ligi Grup 1
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c97" class="ComboBoxItem_TFF_Ana">
+	U15 Gelişim Ligi Grup 2
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c98" class="ComboBoxItem_TFF_Ana">
+	U15 Gelişim Ligi Grup 3
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c99" class="ComboBoxItem_TFF_Ana">
+	U15 Gelişim Ligi Grup 4
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c100" class="ComboBoxItem_TFF_Ana">
+	U15 Gelişim Ligi Grup 5
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c101" class="ComboBoxItem_TFF_Ana">
+	U15 Gelişim Ligi Grup 6
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c102" class="ComboBoxItem_TFF_Ana">
+	U15 Gelişim Ligi Grup 7
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c103" class="ComboBoxItem_TFF_Ana">
+	U15 Gelişim Ligi &#214;n Eleme ve Son 16 Turu
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c104" class="ComboBoxItem_TFF_Ana">
+	U15 Gelişim Ligi Finalleri
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c105" class="ComboBoxItem_TFF_Ana">
+	U16 Gelişim Ligi Grup 1
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c106" class="ComboBoxItem_TFF_Ana">
+	U16 Gelişim Ligi Grup 2
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c107" class="ComboBoxItem_TFF_Ana">
+	U16 Gelişim Ligi Grup 3
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c108" class="ComboBoxItem_TFF_Ana">
+	U16 Gelişim Ligi Grup 4
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c109" class="ComboBoxItem_TFF_Ana">
+	U16 Gelişim Ligi Grup 5
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c110" class="ComboBoxItem_TFF_Ana">
+	U16 Gelişim Ligi Grup 6
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c111" class="ComboBoxItem_TFF_Ana">
+	U16 Gelişim Ligi Grup 7
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c112" class="ComboBoxItem_TFF_Ana">
+	U16 Gelişim Ligi &#214;n Eleme ve Son 16 Turu
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c113" class="ComboBoxItem_TFF_Ana">
+	U16 Gelişim Ligi Finalleri
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c114" class="ComboBoxItem_TFF_Ana">
+	U17 Elit A Ligi
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c115" class="ComboBoxItem_TFF_Ana">
+	U17 Elit B Ligi
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c116" class="ComboBoxItem_TFF_Ana">
+	U19 Elit A Ligi
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c117" class="ComboBoxItem_TFF_Ana">
+	U19 Elit B Ligi
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c118" class="ComboBoxItem_TFF_Ana">
+	U14 &#199;eyrek Final Grupları U14 &#199;EYREK FİNAL GRUP A
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c119" class="ComboBoxItem_TFF_Ana">
+	U14 &#199;eyrek Final Grupları U14 &#199;EYREK FİNAL GRUP B
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c120" class="ComboBoxItem_TFF_Ana">
+	U15 &#199;eyrek Final Grupları U15 &#199;EYREK FİNAL GRUP A
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c121" class="ComboBoxItem_TFF_Ana">
+	U15 &#199;eyrek Final Grupları U15 &#199;EYREK FİNAL GRUP B
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c122" class="ComboBoxItem_TFF_Ana">
+	U16 &#199;eyrek Final Grupları U16 &#199;EYREK FİNAL GRUP A
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c123" class="ComboBoxItem_TFF_Ana">
+	U16 &#199;eyrek Final Grupları U16 &#199;EYREK FİNAL GRUP B
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c124" class="ComboBoxItem_TFF_Ana">
+	U14 Amat&#246;r T&#252;rkiye Şampiyonası
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c125" class="ComboBoxItem_TFF_Ana">
+	U15  Amat&#246;r T&#252;rkiye Şampiyonası
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c126" class="ComboBoxItem_TFF_Ana">
+	U16  Amat&#246;r T&#252;rkiye Şampiyonası
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c127" class="ComboBoxItem_TFF_Ana">
+	U17  Amat&#246;r T&#252;rkiye Şampiyonası
+</div><div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c128" class="ComboBoxItem_TFF_Ana">
+	U18  Amat&#246;r T&#252;rkiye Şampiyonası
+</div></div></div><span id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_moStyleSheetHolder" style="display:none;"></span></div><input type="hidden" name="ctl00$RPane$m_598_2084_ctnr$m_598_2084$mo_text" id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_text" value="Lig Seçiniz.." /><input type="hidden" name="ctl00$RPane$m_598_2084_ctnr$m_598_2084$mo_value" id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_value" value="" /><input type="hidden" name="ctl00$RPane$m_598_2084_ctnr$m_598_2084$mo_index" id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_index" value="0" /><script type="text/javascript">window["ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo"] = new RadComboBox("mo","ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo");window["ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo"].Initialize({"LoadOnDemandUrl":"/Default.aspx?pageID=598%26rcbID=ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo%26rcbServerID=mo","OnClientSelectedIndexChanging":"handleDateChange","AutoPostBack":true,"PostBackReference":"__doPostBack('ctl00$RPane$m_598_2084_ctnr$m_598_2084$mo','TextChange')","MarkFirstMatch":true,"Skin":"TFF_Ana","SelectedIndex":0,"Enabled":true,"ScrollDownImage":"/RadControls/ComboBox/Skins/TFF_Ana/ScrollDown.gif","ScrollDownImageDisabled":"/RadControls/ComboBox/Skins/TFF_Ana/ScrollDownDisabled.gif"},[{"Text":"Lig Seçiniz..","Selected":true,"ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c0"},{"Text":"Trendyol Süper Lig Şamil Ekinci Sezonu","Value":"1349_-1","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c1"},{"Text":"Trendyol 1.Lig","Value":"1352_-1","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c2"},{"Text":"Trendyol 1. Lig  Play Off Müsabakaları","Value":"1413_-1","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c3"},{"Text":"Nesine 2. Lig Kırmızı","Value":"1353_2602","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c4"},{"Text":"Nesine 2. Lig Beyaz","Value":"1353_2603","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c5"},{"Text":"Nesine 2. Lig  Play Off Müsabakaları","Value":"1414_-1","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c6"},{"Text":"Nesine 3. Lig 01","Value":"1354_2604","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c7"},{"Text":"Nesine 3. Lig 02","Value":"1354_2605","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c8"},{"Text":"Nesine 3. Lig 03","Value":"1354_2606","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c9"},{"Text":"Nesine 3. Lig 04","Value":"1354_2607","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c10"},{"Text":"Nesine 3. Lig  Play Off Müsabakaları","Value":"1415_-1","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c11"},{"Text":"Ziraat Türkiye Kupası","Value":"1365_-1","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c12"},{"Text":"Ziraat Türkiye Kupası Grup Aşaması A","Value":"1390_2725","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c13"},{"Text":"Ziraat Türkiye Kupası Grup Aşaması B","Value":"1390_2726","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c14"},{"Text":"Ziraat Türkiye Kupası Grup Aşaması C","Value":"1390_2727","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c15"},{"Text":"Ziraat Türkiye Kupası Grup Aşaması D","Value":"1390_2728","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c16"},{"Text":"Turkcell Kadın Futbol Süper Ligi","Value":"1361_-1","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c17"},{"Text":"Kadınlar 1. Ligi A Grubu","Value":"1383_2715","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c18"},{"Text":"Kadınlar 1. Ligi B Grubu","Value":"1383_2716","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c19"},{"Text":"TFF Kadınlar 1. Ligi Play Off 3.lük Müsabakaları","Value":"1410_-1","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c20"},{"Text":"TFF Kadınlar 1. Ligi Play Off Şampiyonluk Grubu","Value":"1397_2761","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c21"},{"Text":"TFF Kadınlar 1. Ligi Play Off Yükselme Grubu","Value":"1397_2762","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c22"},{"Text":"Kadınlar 2.Ligi Play Off Müsabakaları","Value":"1405_-1","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c23"},{"Text":"Kadınlar 3.Ligi  Play Off Müsabakaları","Value":"1433_-1","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c24"},{"Text":"Kadınlar 2. Ligi A Grup","Value":"1387_2721","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c25"},{"Text":"Kadınlar 2. Ligi B Grup","Value":"1387_2722","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c26"},{"Text":"Kadınlar 2. Ligi C Grup","Value":"1387_2723","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c27"},{"Text":"Kadınlar 2. Ligi D Grup","Value":"1387_2724","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c28"},{"Text":"Kadınlar 3. Ligi 1.","Value":"1394_2729","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c29"},{"Text":"Kadınlar 3. Ligi 10.","Value":"1394_2738","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c30"},{"Text":"Kadınlar 3. Ligi 11.","Value":"1394_2739","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c31"},{"Text":"Kadınlar 3. Ligi 12.","Value":"1394_2740","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c32"},{"Text":"Kadınlar 3. Ligi 13.","Value":"1394_2741","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c33"},{"Text":"Kadınlar 3. Ligi 14.","Value":"1394_2742","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c34"},{"Text":"Kadınlar 3. Ligi 15.","Value":"1394_2743","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c35"},{"Text":"Kadınlar 3. Ligi 16.","Value":"1394_2744","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c36"},{"Text":"Kadınlar 3. Ligi 17.","Value":"1394_2745","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c37"},{"Text":"Kadınlar 3. Ligi 18.","Value":"1394_2746","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c38"},{"Text":"Kadınlar 3. Ligi 19.","Value":"1394_2747","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c39"},{"Text":"Kadınlar 3. Ligi 2.","Value":"1394_2730","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c40"},{"Text":"Kadınlar 3. Ligi 20.","Value":"1394_2748","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c41"},{"Text":"Kadınlar 3. Ligi 21.","Value":"1394_2749","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c42"},{"Text":"Kadınlar 3. Ligi 22.","Value":"1394_2750","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c43"},{"Text":"Kadınlar 3. Ligi 23.","Value":"1394_2751","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c44"},{"Text":"Kadınlar 3. Ligi 24.","Value":"1394_2752","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c45"},{"Text":"Kadınlar 3. Ligi 25.","Value":"1394_2753","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c46"},{"Text":"Kadınlar 3. Ligi 26.","Value":"1394_2754","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c47"},{"Text":"Kadınlar 3. Ligi 27.","Value":"1394_2755","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c48"},{"Text":"Kadınlar 3. Ligi 28.","Value":"1394_2756","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c49"},{"Text":"Kadınlar 3. Ligi 29.","Value":"1394_2757","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c50"},{"Text":"Kadınlar 3. Ligi 3.","Value":"1394_2731","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c51"},{"Text":"Kadınlar 3. Ligi 30.","Value":"1394_2758","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c52"},{"Text":"Kadınlar 3. Ligi 31.","Value":"1394_2759","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c53"},{"Text":"Kadınlar 3. Ligi 32.","Value":"1394_2760","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c54"},{"Text":"Kadınlar 3. Ligi 4.","Value":"1394_2732","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c55"},{"Text":"Kadınlar 3. Ligi 5.","Value":"1394_2733","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c56"},{"Text":"Kadınlar 3. Ligi 6.","Value":"1394_2734","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c57"},{"Text":"Kadınlar 3. Ligi 7.","Value":"1394_2735","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c58"},{"Text":"Kadınlar 3. Ligi 8.","Value":"1394_2736","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c59"},{"Text":"Kadınlar 3. Ligi 9.","Value":"1394_2737","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c60"},{"Text":"Bölgesel Amatör Ligi 1. GRUP","Value":"1371_2649","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c61"},{"Text":"Bölgesel Amatör Ligi 10. GRUP","Value":"1371_2658","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c62"},{"Text":"Bölgesel Amatör Ligi 2. GRUP","Value":"1371_2650","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c63"},{"Text":"Bölgesel Amatör Ligi 3. GRUP","Value":"1371_2651","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c64"},{"Text":"Bölgesel Amatör Ligi 4. GRUP","Value":"1371_2652","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c65"},{"Text":"Bölgesel Amatör Ligi 5. GRUP","Value":"1371_2653","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c66"},{"Text":"Bölgesel Amatör Ligi 6. GRUP","Value":"1371_2654","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c67"},{"Text":"Bölgesel Amatör Ligi 7. GRUP","Value":"1371_2655","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c68"},{"Text":"Bölgesel Amatör Ligi 8. GRUP","Value":"1371_2656","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c69"},{"Text":"Bölgesel Amatör Ligi 9. GRUP","Value":"1371_2657","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c70"},{"Text":"Bölgesel Amatör Lig Baraj Maçları","Value":"1430_-1","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c71"},{"Text":"Bölgesel Amatör Lig Play Off","Value":"1431_-1","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c72"},{"Text":"U17 Bölgesel Gelişim Ligi Ön Eleme ve Son 16 Turu","Value":"1421_-1","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c73"},{"Text":"U17 Bölgesel Gelişim Ligi 1. Grup","Value":"1364_2619","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c74"},{"Text":"U17 Bölgesel Gelişim Ligi 2. Grup","Value":"1364_2620","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c75"},{"Text":"U17 Bölgesel Gelişim Ligi 3. Grup","Value":"1364_2621","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c76"},{"Text":"U17 Bölgesel Gelişim Ligi 4. Grup","Value":"1364_2622","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c77"},{"Text":"U17 Bölgesel Gelişim Ligi 5. Grup","Value":"1364_2623","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c78"},{"Text":"U17 Bölgesel Gelişim Ligi 6. Grup","Value":"1364_2624","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c79"},{"Text":"U19 Bölgesel Gelişim Ligi 1. Grup","Value":"1362_2608","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c80"},{"Text":"U19 Bölgesel Gelişim Ligi 2. Grup","Value":"1362_2609","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c81"},{"Text":"U19 Bölgesel Gelişim Ligi 3. Grup","Value":"1362_2610","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c82"},{"Text":"U19 Bölgesel Gelişim Ligi 4. Grup","Value":"1362_2611","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c83"},{"Text":"U19 Bölgesel Gelişim Ligi 5. Grup","Value":"1362_2612","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c84"},{"Text":"U19 Bölgesel Gelişim Ligi 6. Grup","Value":"1362_2613","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c85"},{"Text":"U19 Bölgesel Gelişim Ligi Ön Eleme ve Son 16 Turu","Value":"1422_-1","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c86"},{"Text":"U14 Gelişim Ligi Grup 1","Value":"1381_2708","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c87"},{"Text":"U14 Gelişim Ligi Grup 2","Value":"1381_2709","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c88"},{"Text":"U14 Gelişim Ligi Grup 3","Value":"1381_2710","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c89"},{"Text":"U14 Gelişim Ligi Grup 4","Value":"1381_2711","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c90"},{"Text":"U14 Gelişim Ligi Grup 5","Value":"1381_2712","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c91"},{"Text":"U14 Gelişim Ligi Grup 6","Value":"1381_2713","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c92"},{"Text":"U14 Gelişim Ligi Grup 7","Value":"1381_2714","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c93"},{"Text":"U14 Gelişim Ligi Ön Eleme ve Son 16 Turu","Value":"1407_-1","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c94"},{"Text":"U14 Gelişim Ligi Finalleri","Value":"1423_-1","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c95"},{"Text":"U15 Gelişim Ligi Grup 1","Value":"1373_2666","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c96"},{"Text":"U15 Gelişim Ligi Grup 2","Value":"1373_2667","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c97"},{"Text":"U15 Gelişim Ligi Grup 3","Value":"1373_2668","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c98"},{"Text":"U15 Gelişim Ligi Grup 4","Value":"1373_2669","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c99"},{"Text":"U15 Gelişim Ligi Grup 5","Value":"1373_2670","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c100"},{"Text":"U15 Gelişim Ligi Grup 6","Value":"1373_2671","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c101"},{"Text":"U15 Gelişim Ligi Grup 7","Value":"1373_2672","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c102"},{"Text":"U15 Gelişim Ligi Ön Eleme ve Son 16 Turu","Value":"1408_-1","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c103"},{"Text":"U15 Gelişim Ligi Finalleri","Value":"1425_-1","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c104"},{"Text":"U16 Gelişim Ligi Grup 1","Value":"1380_2701","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c105"},{"Text":"U16 Gelişim Ligi Grup 2","Value":"1380_2702","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c106"},{"Text":"U16 Gelişim Ligi Grup 3","Value":"1380_2703","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c107"},{"Text":"U16 Gelişim Ligi Grup 4","Value":"1380_2704","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c108"},{"Text":"U16 Gelişim Ligi Grup 5","Value":"1380_2705","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c109"},{"Text":"U16 Gelişim Ligi Grup 6","Value":"1380_2706","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c110"},{"Text":"U16 Gelişim Ligi Grup 7","Value":"1380_2707","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c111"},{"Text":"U16 Gelişim Ligi Ön Eleme ve Son 16 Turu","Value":"1409_-1","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c112"},{"Text":"U16 Gelişim Ligi Finalleri","Value":"1426_-1","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c113"},{"Text":"U17 Elit A Ligi","Value":"1357_-1","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c114"},{"Text":"U17 Elit B Ligi","Value":"1360_-1","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c115"},{"Text":"U19 Elit A Ligi","Value":"1358_-1","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c116"},{"Text":"U19 Elit B Ligi","Value":"1359_-1","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c117"},{"Text":"U14 Çeyrek Final Grupları U14 ÇEYREK FİNAL GRUP A","Value":"1419_2769","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c118"},{"Text":"U14 Çeyrek Final Grupları U14 ÇEYREK FİNAL GRUP B","Value":"1419_2770","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c119"},{"Text":"U15 Çeyrek Final Grupları U15 ÇEYREK FİNAL GRUP A","Value":"1424_2771","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c120"},{"Text":"U15 Çeyrek Final Grupları U15 ÇEYREK FİNAL GRUP B","Value":"1424_2772","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c121"},{"Text":"U16 Çeyrek Final Grupları U16 ÇEYREK FİNAL GRUP A","Value":"1432_2773","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c122"},{"Text":"U16 Çeyrek Final Grupları U16 ÇEYREK FİNAL GRUP B","Value":"1432_2774","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c123"},{"Text":"U14 Amatör Türkiye Şampiyonası","Value":"1400_-1","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c124"},{"Text":"U15  Amatör Türkiye Şampiyonası","Value":"1401_-1","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c125"},{"Text":"U16  Amatör Türkiye Şampiyonası","Value":"1402_-1","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c126"},{"Text":"U17  Amatör Türkiye Şampiyonası","Value":"1403_-1","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c127"},{"Text":"U18  Amatör Türkiye Şampiyonası","Value":"1404_-1","ClientID":"ctl00_RPane_m_598_2084_ctnr_m_598_2084_mo_c128"}]);</script>
+</div>
+
+<div class="enPuanCetveli">
+
+<div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_Panel1">
+	
+    
+    
+
+</div>
+</div>
+<script type="text/javascript">
+    function handleDateChange(item) {
+        if (item.Index == item.ComboBox.SelectedItem.Index) {
+            return false;
+        }
+    }
+
+</script>
+
+<div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_RadAjaxManager1" ToolTip="">
+	<!-- 1.5.3 -->
+</div>
+<div id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_lp" style="display:none;height:75px;width:75px;">
+	
+    <img id="ctl00_RPane_m_598_2084_ctnr_m_598_2084_Image1" src="RadControls/Ajax/Skins/Default/loadingBall.gif" alt="Yükleniyor..." />
+<script type="text/javascript" src="/WebResource.axd?d=3fbP7V7-QvH2yiVbaEoCmIQzDyJygVbEtsPVAt5hU6BQmzb3B-jvqBNEDj_PE6KAkdWl8biOapVM6r34htaYh0svDyb_1lAaaiKk9XwmHgz7e9DM6gIiMx6CTEOh0PYDVmeteNoj_qt16grcQXWWD6RefYvZxTOvnXXBxKkCZK-9cWRy0&amp;t=636559471900000000"></script><script type='text/javascript'>RadAjaxNamespace.AddPanel( { ClientID : 'ctl00_RPane_m_598_2084_ctnr_m_598_2084_lp', IsSticky : false, InitialDelayTime: 0, MinDisplayTime: 0 } );</script>
+</div>
+</td></tr></table></div><div id="ctl00_RPane_m_598_8433_ctnr_div" style="vertical-align:top;text-align:left;"><div id="ctl00_RPane_m_598_8433_ctnr_title" class="moduleTitle"></div><a href="https://taraftarkulubu.tff.org/" target="_blank" class="bannerLink">    <div class="homeBannerItem"> <span class="mttkSvg"> </span>        <div class="homeBannerRight">MİLLİ TAKIM TARAFTAR KULÜBÜ</div>    </div></a></div>
+<div id="ctl00_RPane_m_598_1363_ctnr_div" style="vertical-align:top;text-align:center;"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="alanlar2 marginB"><tr><td class="alanTFF" style="height:23px"><div class="moduleTitle">Site İçi Arama</div></td></tr><tr><td class="alanlarContent">
+<table cellspacing="0" cellpadding="0" width="100%" border="0" class="siteiciarama">
+	<tr>
+		<td class="siteiciaramaInputLeft">
+			<input class="siteiciaramaInput" name="txtSearch" onkeypress="Search__CheckSearchKey(149)" /></td>
+		<td valign="top" align="right" class="siteiciaramaInputRight">
+		<button class="siteiciaramaBtn" onclick="Search__GenerateSearch(149,'tr-TR')" id="IMG1">Ara</button>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<a href="Default.aspx?pageID=148"><b>
+                <span id="ctl00_RPane_m_598_1363_ctnr_m_598_1363_Label1">Detaylı Arama</span></b></a>
+		</td>
+	</tr>
+</table>
+
+</td></tr></table></div>
+                    <div id="ctl00_LPane_m_598_621_ctnr_div" style="padding:0 0 5 0;vertical-align:middle;text-align:center;"><div id="ctl00_LPane_m_598_621_ctnr_title" class="moduleTitle"></div><font face="AZBY"><a href="https://www.tff.org/Resources/Tamsaha/262/" target="_blank"><img alt="" src="Resources/TFF/Images/TamSaha/262-kapak-full-size.PNG" width="100%"></a><br></font><div><em><a href="https://www.tff.org/default.aspx?pageID=345" target="_blank">Tam Saha içerikleri için			tıklayınız</a></em></div></div>
+
+                </section>
+            </div>
+        </div>
+
+        
+        <div class="footer">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-2 footerLeft">
+                        <img src="/App_Themes/TFF_Gri/Images/2022/logo.png" class="footerLogo">
+                    </div>
+                    <div class="col-md-7 footerCenter">
+                        <a href="Default.aspx?pageID=176">İletişim</a> |
+                        <a href="Default.aspx?pageId=378&letter=A">Site Haritası</a> | 
+                        <a href="Copyright.htm" onclick="return Popup(this.href,'Arşiv',800,380,0,0,0);">Kopya Hakları</a> | 
+                        <a href="Default.aspx?pageID=179">Kullanım Şartları</a> | 
+                        <a href="Default.aspx?pageID=175">Sponsorlar</a>
+                        <br>
+                        Tüm hakları Türkiye Futbol Federasyonu'na aittir.
+                    </div>
+                    <div class="col-md-3 footerRight">
+
+                        <div class="social-container">
+                            <div class="sosyal-label-text">Sosyal Medya Adreslerimiz:</div>
+                            <div class="sosyaldropdown" id="footerSocialDropdown">
+                                <div class="sosyaldropdown-selected">
+                                    <img class="sosyaldropdown-selected-img" src="/App_Themes/TFF_Gri/Images/2022/logo.png" alt="">
+                                    <span class="sosyaldropdown-selected-text">TFF</span>
+                                </div>
+                                <div class="sosyal-arrow-icon"></div>
+                                <div class="sosyaldropdown-menu">
+                                    <div class="sosyal-menu-item" data-account="TFF" data-label="TFF" data-default="true">
+                                        <img src="/App_Themes/TFF_Gri/Images/2022/logo.png" alt="TFF">
+                                        <span>TFF</span>
+                                    </div>
+                                    <div class="sosyal-menu-item" data-account="MilliTakimlar" data-label="Milli Takımlar">
+                                        <img src="https://pfuub0mfbyfj.merlincdn.net/turkiye.png" alt="Milli Takımlar">
+                                        <span>Milli Takımlar</span>
+                                    </div>
+                                    <div class="sosyal-menu-item" data-account="SuperLig" data-label="Süper Lig">
+                                        <img src="/Images/Common/tsl.png" alt="Süper Lig">
+                                        <span>Süper Lig</span>
+                                    </div>
+                                    <div class="sosyal-menu-item" data-account="EMilliTakim" data-label="E-Millî Takım">
+                                        <img src="https://pfuub0mfbyfj.merlincdn.net/turkiye.png" alt="E-Millî Takım">
+                                        <span>E-Millî Takım</span>
+                                    </div>
+                                    <div class="sosyal-menu-item" data-account="FanteziLig" data-label="TFF Fantezi Lig">
+                                        <img src="/Images/Common/fantezilig.png" alt="TFF Fantezi Lig">
+                                        <span>TFF Fantezi Lig</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="social-icons-display">
+                                <div class="icons-row" id="footerSocialIcons"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+//]]>
+</script>
+</form>
+    <script>
+        $(".m-menu").click(function () {
+            $("#nav-menu").toggle("slide");
+            $(".left-container-").toggle("slide");
+        });
+    </script>
+    <script src="/JavaScript/footerSocial.js?v=2"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VZ90GQ17W2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-VZ90GQ17W2');
+    </script>
+
+</body>
+</html>

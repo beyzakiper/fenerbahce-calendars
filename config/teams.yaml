@@ -1,0 +1,161 @@
+# Teams, in priority order. Names, colours and alerts can be changed here without touching code.
+# Keys (football-men, ...) are part of event UIDs: DO NOT rename them.
+#
+# display_name : name shown in the calendar (no sponsor)
+# aliases      : other names sources may use (sponsor names, "FB", ...)
+# match_terms  : a source name containing this counts as this team (case and Turkish accents ignored)
+# alarm_minutes: default alert in the main .ics file (null = no alert)
+
+# Combined feeds: every team's matches in one calendar (same event UIDs as the team feeds).
+combined:
+  all:
+    calendar_name: "FB Tüm Takımlar"
+    color: "#C99A06"
+    alarm_minutes: null
+
+teams:
+  football-men:
+    display_name: "Fenerbahçe"
+    aliases: ["Fenerbahçe A.Ş.", "Fenerbahçe SK", "Fenerbahce", "FB"]
+    match_terms: ["fenerbahce"]
+    sport: football
+    gender: men
+    calendar_name: "FB Futbol A Takımı"
+    color: "#1E3A8A"
+    alarm_minutes: 30
+    sources:
+      - adapter: tff
+        kind: league
+        competition: super-lig
+      - adapter: tff
+        kind: cup
+        competition: turkiye-kupasi
+      - adapter: tff
+        kind: super-cup
+        competition: super-kupa
+      - adapter: uefa
+        team_id: "52692"
+        competitions:
+          "1": uefa-sampiyonlar-ligi
+          "14": uefa-avrupa-ligi
+          "2019": uefa-konferans-ligi
+          "2": uefa-super-kupa
+
+  basketball-men:
+    display_name: "Fenerbahçe"
+    aliases: ["Fenerbahçe Beko", "Fenerbahçe Tarfin", "Fenerbahce Tarfin Istanbul", "Fenerbahce Beko Istanbul"]
+    match_terms: ["fenerbahce"]
+    sport: basketball
+    gender: men
+    calendar_name: "FB Basketbol Erkek"
+    color: "#FFD100"
+    alarm_minutes: 30
+    sources:
+      - adapter: tbf
+        prefix: bsl
+        competition: basketbol-super-ligi
+      - adapter: tbf
+        prefix: cbek
+        competition: cumhurbaskanligi-kupasi-erkek
+        cup: true
+      - adapter: tbf
+        prefix: etk
+        competition: turkiye-kupasi-basketbol-erkek
+        cup: true
+      - adapter: euroleague
+        team_code: "ULK"
+        competitions:
+          E: euroleague
+
+  volleyball-women:
+    display_name: "Fenerbahçe"
+    aliases: ["Fenerbahçe Medicana", "Fenerbahçe Opet"]
+    match_terms: ["fenerbahce"]
+    sport: volleyball
+    gender: women
+    calendar_name: "FB Voleybol Kadın"
+    color: "#63C98F"
+    alarm_minutes: 30
+    sources:
+      - adapter: tvf
+        gender: K
+        league_code: SULTANLAR
+        competition: sultanlar-ligi
+      - adapter: tvf
+        gender: K
+        league_name_contains: "Kupa Voley"
+        competition: kupa-voley-kadin
+      - adapter: tvf_pdf
+        competition: sultanlar-ligi
+        # The season's fixture-draw PDF (update every summer)
+        url: "https://tvf.org.tr/storage/88400/SULTANLAR-FIKSTUR.pdf"
+
+  volleyball-men:
+    display_name: "Fenerbahçe"
+    aliases: ["Fenerbahçe Medicana"]
+    match_terms: ["fenerbahce"]
+    sport: volleyball
+    gender: men
+    calendar_name: "FB Voleybol Erkek"
+    color: "#1E9E5A"
+    alarm_minutes: null
+    sources:
+      - adapter: tvf
+        gender: E
+        league_code: EFELER
+        competition: efeler-ligi
+      - adapter: tvf
+        gender: E
+        league_name_contains: "Kupa Voley"
+        competition: kupa-voley-erkek
+      - adapter: tvf_pdf
+        competition: efeler-ligi
+        # The season's fixture-draw PDF (update every summer)
+        url: "https://tvf.org.tr/storage/88403/EFELER-FIKSTUR.pdf"
+
+  basketball-women:
+    display_name: "Fenerbahçe"
+    aliases: ["Fenerbahçe Tarfin", "Fenerbahçe Opet", "Fenerbahçe Alagöz Holding"]
+    match_terms: ["fenerbahce"]
+    sport: basketball
+    gender: women
+    calendar_name: "FB Basketbol Kadın"
+    color: "#FFE36A"
+    alarm_minutes: null
+    sources:
+      - adapter: tbf
+        prefix: kbsl
+        competition: kadinlar-basketbol-super-ligi
+      - adapter: tbf
+        prefix: cbkk
+        competition: cumhurbaskanligi-kupasi-kadin
+        cup: true
+        season_from: kbsl
+      - adapter: tbf
+        prefix: ktk
+        competition: turkiye-kupasi-basketbol-kadin
+        cup: true
+        season_from: kbsl
+      - adapter: fiba
+        event: euroleague-women
+        competition: euroleague-women
+
+  football-women:
+    display_name: "Fenerbahçe"
+    aliases: ["Fenerbahçe arsaVev", "Fenerbahçe Petrol Ofisi"]
+    match_terms: ["fenerbahce"]
+    sport: football
+    gender: women
+    calendar_name: "FB Futbol Kadın"
+    color: "#5272C6"
+    alarm_minutes: null
+    sources:
+      - adapter: tff
+        kind: league
+        page_id: 1000
+        competition: kadin-futbol-super-ligi
+      - adapter: uefa
+        team_id: "2612244"
+        competitions:
+          "28": uefa-kadinlar-sampiyonlar-ligi
+          "2027": uefa-kadinlar-avrupa-kupasi

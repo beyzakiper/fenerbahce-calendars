@@ -1,0 +1,52 @@
+# General settings. Editable on GitHub; takes effect on the next run.
+# Values in quotes are what subscribers see in their calendar (Turkish by design).
+
+site_url: "https://beyzakiper.github.io/fenerbahce-calendars/"
+# Domain part of every event UID. DO NOT CHANGE: subscribers would see every match twice.
+uid_domain: "beyzakiper.github.io"
+
+# Sources give Turkish local time. Feeds always store UTC (Z).
+source_timezone: "Europe/Istanbul"
+calendar_timezone: "Europe/Istanbul"   # X-WR-TIMEZONE (a hint only; apps show events in the viewer's local time)
+refresh_interval: "PT1H"
+
+# Kick-off time(s) written in each event description. The event itself always shows in the viewer's local time.
+description_timezones:
+  - { tz: "Europe/Istanbul", label: "Türkiye saati" }
+
+emoji:
+  football: "⚽"
+  basketball: "🏀"
+  volleyball: "🏐"
+
+# Event length in minutes
+durations:
+  football: 120
+  basketball: 120
+  volleyball: 150
+
+title:
+  # {prefix} status prefix, {emoji}, {marker} men/women mark, {home}/{away} teams, {suffix} TBA suffix
+  template: "{prefix}{emoji} {marker}{home} – {away}{suffix}"
+  result_template: "{prefix}{emoji} {marker}{home} {home_score}–{away_score} {away}"
+  markers:
+    men: "E · "
+    women: "K · "
+  tba_suffix: " (saat belli değil)"
+  estimated_suffix: " (tarih tahmini)"
+  postponed_prefix: "ERTELENDİ · "
+  cancelled_prefix: "İPTAL · "
+  friendly_prefix: "Hazırlık · "
+
+# Publish league matches whose day is only our estimate (from the fixture-draw PDF)?
+# false = a match appears only once its date is official.
+publish_estimated_dates: false
+
+# Put the final score in the title after the match
+score_in_title: true
+
+# Alert options offered on the website (minutes; 0 = no alert). One extra .ics per option per team.
+alert_variants: [0, 30, 60]
+
+# If a source returns fewer than this share of its previous match count, keep the old data and report it.
+shrink_guard: 0.6

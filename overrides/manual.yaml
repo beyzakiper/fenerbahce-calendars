@@ -1,0 +1,24 @@
+# Manual fixes. Optional — the feeds work without anything here. Entries always win over source data.
+#
+# Every event's code is printed at the bottom of its calendar description ("Düzeltme kodu").
+# Times are Istanbul time. Examples (remove the leading # to use):
+#
+# - match: volleyball-women/sultanlar-ligi/r05     # set the time
+#   kickoff: "2026-11-08 19:00"
+#
+# - match: football-men/super-lig/r12              # hide a match
+#   hide: true
+#
+# - match: basketball-men/basketbol-super-ligi/r08 # postponed / cancelled
+#   status: postponed
+#
+# - add:                                           # a match no source lists (e.g. a friendly)
+#     team: football-men
+#     competition: hazirlik
+#     opponent: "Aston Villa"
+#     side: home                                   # home / away / neutral
+#     kickoff: "2027-01-10 19:00"                  # or just: date: 2027-01-10
+#
+# Other fields: date, venue, city, home_score, away_score, round_label, url, note.
+
+[]
