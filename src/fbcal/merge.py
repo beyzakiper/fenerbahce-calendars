@@ -1,10 +1,9 @@
-"""Merge sources and estimate missing match days."""
+"""Merge copies of the same match from different sources and apply official round dates."""
 
 from __future__ import annotations
 
 import copy
 from collections import defaultdict
-from datetime import date, timedelta
 
 from .config import Competition
 from .models import Match, round_number
@@ -15,7 +14,7 @@ FILL_FIELDS = ("venue", "city", "url", "broadcast", "round_label", "score_note")
 def _quality(match: Match) -> int:
     if match.kickoff is not None:
         return 2
-    if match.day is not None and not match.date_estimated:
+    if match.day is not None:
         return 1
     return 0
 
@@ -46,45 +45,21 @@ def combine(groups: list[list[Match]]) -> dict[str, Match]:
     return merged
 
 
-def _interpolate(target: int, known: dict[int, date]) -> date | None:
-    if not known:
-        return None
-    if target in known:
-        return known[target]
-    before = [r for r in known if r < target]
-    after = [r for r in known if r > target]
-    if before and after:
-        lo, hi = max(before), min(after)
-        span = (known[hi] - known[lo]).days
-        return known[lo] + timedelta(days=round(span * (target - lo) / (hi - lo)))
-    nearest = max(before) if before else min(after)
-    return known[nearest] + timedelta(days=7 * (target - nearest))
+def apply_round_dates(matches: dict[str, Match], competitions: dict[str, Competition]) -> list[str]:
+    """Give undated league matches their official day from `round_dates` in competitions.yaml.
 
-
-def fill_estimated_days(matches: dict[str, Match], competitions: dict[str, Competition]) -> list[str]:
-    """Give a day to league matches without one: round_dates first, else interpolate from known rounds.
-
-    Returns the keys of matches that could not be placed (they are left out of the feed).
+    Returns the keys of matches that still have no official date; they are left out of the feeds
+    until a source (or round_dates) provides one. Nothing is ever estimated.
     """
-    known: dict[str, dict[int, date]] = defaultdict(dict)
-    for m in matches.values():
-        number = round_number(m.stage)
-        if number is not None and m.start_day and not m.date_estimated:
-            known[m.competition][number] = m.start_day
-    unplaced: list[str] = []
+    undated: list[str] = []
     for key, m in matches.items():
         if m.kickoff is not None or m.day is not None:
             continue
         number = round_number(m.stage)
         comp = competitions.get(m.competition)
-        configured = comp.round_dates.get(number) if comp and number is not None else None
-        if configured:  # expected day entered from the official calendar
-            m.day, m.date_estimated = configured, False
-            continue
-        anchors = {**(comp.estimate_anchors if comp else {}), **(comp.round_dates if comp else {}), **known[m.competition]}
-        guess = _interpolate(number, anchors) if number else None
-        if guess:
-            m.day, m.date_estimated = guess, True
+        official = comp.round_dates.get(number) if comp and number is not None else None
+        if official:
+            m.day = official
         else:
-            unplaced.append(key)
-    return unplaced
+            undated.append(key)
+    return undated

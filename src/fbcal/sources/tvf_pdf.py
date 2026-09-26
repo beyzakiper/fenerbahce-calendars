@@ -1,7 +1,8 @@
 """TVF fixture-draw PDF: the season's full opponent order (no dates).
 
 The PDF table comes in blocks of four rounds: a header row with "N. HAFTA", then rows holding a
-(home, away) column pair per round. There are no dates; days come from round_dates or estimation.
+(home, away) column pair per round. There are no dates: these matches
+only reach the feeds once the fixture site (or round_dates) gives an official day.
 """
 
 from __future__ import annotations

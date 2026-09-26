@@ -33,14 +33,9 @@ title:
     men: "E · "
     women: "K · "
   tba_suffix: " (saat belli değil)"
-  estimated_suffix: " (tarih tahmini)"
   postponed_prefix: "ERTELENDİ · "
   cancelled_prefix: "İPTAL · "
   friendly_prefix: "Hazırlık · "
-
-# Publish league matches whose day is only our estimate (from the fixture-draw PDF)?
-# false = a match appears only once its date is official.
-publish_estimated_dates: false
 
 # Put the final score in the title after the match
 score_in_title: true

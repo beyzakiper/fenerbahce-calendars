@@ -1,9 +1,9 @@
 # Competitions: displayed name (no sponsor) and optional round dates.
 # Keys (super-lig, ...) are part of event UIDs: DO NOT rename them. "name" can change freely.
 #
-# round_dates     : expected day for rounds without an official date (published as all-day, "saat belli değil").
-# estimate_anchors: days used only as anchors for estimation (e.g. end of a half-season). Rounds in between
-#                   get a proportionally estimated day and "(tarih tahmini)" in the title.
+# round_dates: official day of a round, when it was announced somewhere our sources don't cover
+#              (published as all-day "saat belli değil" until a source gives the time).
+# Matches without an official date are never published; nothing is estimated.
 
 competitions:
   # Football
@@ -37,15 +37,9 @@ competitions:
       2: 2026-10-11
       3: 2026-10-14
       4: 2026-10-18
-    estimate_anchors:     # TVF regulations: first half ends 13 Dec, second half 20 Mar
-      13: 2026-12-13
-      26: 2027-03-20
   kupa-voley-kadin:              { name: "Kupa Voley" }
   efeler-ligi:
     name: "Efeler Ligi"
-    estimate_anchors:     # TVF: first half 17 Oct – 26 Dec, second half 10 Jan – 4 Apr
-      13: 2026-12-26
-      26: 2027-04-04
   kupa-voley-erkek:              { name: "Kupa Voley" }
   cev-kupasi-erkek:              { name: "CEV Kupası" }
   sampiyonlar-kupasi-kadin:      { name: "Şampiyonlar Kupası" }

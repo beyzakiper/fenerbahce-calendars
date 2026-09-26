@@ -14,7 +14,7 @@ import requests
 from .config import Combined, Config, Team
 from .http import SourceError, new_session
 from .ics import build_calendar, update_ledger
-from .merge import combine, fill_estimated_days
+from .merge import apply_round_dates, combine
 from .overrides import added_match, apply_edit, load_overrides
 from .render import EventSpec, Namer, build_event
 from .sources import ADAPTERS, source_key
@@ -129,11 +129,8 @@ def build(config: Config, *, out_dir: Path, today: date | None = None, now: date
                     hidden.add(edit.match)
                 else:
                     apply_edit(matches[edit.match], edit)
-        for key in fill_estimated_days(matches, config.competitions):
-            report.warnings.append(f"{key}: day unknown and could not be estimated; left out of the feed")
-            hidden.add(key)
-        if not config.settings.publish_estimated_dates:
-            hidden |= {k for k, m in matches.items() if m.date_estimated}
+        # Only matches with an official date are published; the rest wait until a date is announced.
+        hidden |= set(apply_round_dates(matches, config.competitions))
 
         specs: list[EventSpec] = [build_event(m, config, namer) for k, m in matches.items() if k not in hidden]
         update_ledger(specs, state, config, now)

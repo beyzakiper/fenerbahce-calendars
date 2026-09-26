@@ -17,7 +17,7 @@ an issue labelled `source-problem` is opened (closed automatically once all sour
 |---|---|
 | `config/teams.yaml` | display name, sponsor aliases, calendar name, colour, default alert, sources |
 | `config/opponents.yaml` | how opponents are named in the calendar |
-| `config/competitions.yaml` | competition names, expected round dates, estimation anchors |
+| `config/competitions.yaml` | competition names, official round dates not covered by sources |
 | `config/settings.yaml` | title templates and labels (Turkish), durations, time zones, alert options |
 
 Renaming things never changes event UIDs. Never rename the keys (`football-men`, `super-lig`, …) or
@@ -32,7 +32,9 @@ Examples are in the file.
 ## Yearly chores
 
 - Update both TVF fixture-draw PDF URLs in `config/teams.yaml` (`volleyball-women` and `volleyball-men` → `tvf_pdf`) each summer.
-- Refresh `round_dates` / `estimate_anchors` for Sultanlar Ligi and Efeler Ligi in `config/competitions.yaml`.
+- Clear last season's `round_dates` in `config/competitions.yaml`.
+
+Matches are only published once their date is official; the full fixture is never shown in advance.
 
 ## Data sources
 

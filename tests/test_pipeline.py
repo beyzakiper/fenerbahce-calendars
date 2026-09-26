@@ -83,7 +83,7 @@ def test_ics_is_valid_and_apple_ready(repo_copy, fake):
     assert not list(no_alarm.walk("VALARM"))
 
 
-def test_estimated_days_are_hidden_until_official(repo_copy, fake):
+def test_undated_matches_are_hidden_until_official(repo_copy, fake):
     fake.responses[pdf_key()] = [vb("r05", "FENERBAHÇE MEDICANA", "VAKIFBANK")]
     _, _, events = run(repo_copy)
     assert events == {}

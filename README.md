@@ -1,5 +1,7 @@
 # Fenerbahçe A Takımları Maç Takvimleri
 
+**Türkçe** · [English](README.en.md)
+
 Fenerbahçe'nin futbol, basketbol ve voleybol branşlarındaki erkek ve kadın A takımlarının maç programlarını,
 abone olunabilen ve kendiliğinden güncellenen takvimler olarak yayımlar.
 

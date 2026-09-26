@@ -4,7 +4,7 @@ from datetime import date, datetime, timezone
 from zoneinfo import ZoneInfo
 
 from fbcal.ics import css_color_name
-from fbcal.merge import combine, fill_estimated_days
+from fbcal.merge import apply_round_dates, combine
 from fbcal.models import Match
 from fbcal.names import fold, pretty
 from fbcal.timeutil import fmt_local, local_to_utc, season_of
@@ -48,13 +48,8 @@ def test_combine_prefers_timed_copy_and_fills_gaps():
     assert merged.kickoff and merged.venue == "Salon"
 
 
-def test_estimation_interpolates_between_known_rounds(config):
-    matches = {
-        "a": _m("r01", day=date(2026, 10, 4)),
-        "b": _m("r03"),
-        "c": _m("r05", day=date(2026, 10, 18)),
-        "d": _m("r07"),
-    }
-    assert fill_estimated_days(matches, {}) == []
-    assert matches["b"].day == date(2026, 10, 11) and matches["b"].date_estimated
-    assert matches["d"].day == date(2026, 11, 1)
+def test_round_dates_are_used_and_nothing_is_estimated(config):
+    matches = {"a": _m("r01", day=date(2026, 10, 4)), "b": _m("r02"), "c": _m("r03")}
+    comps = {"c": config.competitions["sultanlar-ligi"].model_copy(update={"round_dates": {2: date(2026, 10, 11)}})}
+    assert apply_round_dates(matches, comps) == ["c"]
+    assert matches["b"].day == date(2026, 10, 11) and matches["c"].day is None

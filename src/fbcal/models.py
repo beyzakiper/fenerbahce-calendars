@@ -22,7 +22,6 @@ class Match:
     round_label: str = ""  # displayed round name (Turkish), e.g. "5. Hafta"
     kickoff: datetime | None = None  # UTC, when the time is known
     day: date | None = None  # when only the day is known
-    date_estimated: bool = False  # day is our estimate, not official
     venue: str = ""
     city: str = ""
     status: Status = "scheduled"

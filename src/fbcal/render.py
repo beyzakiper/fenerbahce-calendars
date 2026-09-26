@@ -71,7 +71,7 @@ def build_event(match: Match, config: Config, namer: Namer) -> EventSpec:
         prefix = t.friendly_prefix
     suffix = ""
     if match.kickoff is None and match.status not in ("finished", "cancelled"):
-        suffix = t.estimated_suffix if match.date_estimated else t.tba_suffix
+        suffix = t.tba_suffix
     fields = {
         "prefix": prefix, "emoji": s.emoji[team.sport], "marker": t.markers[team.gender],
         "home": home, "away": away, "suffix": suffix,
@@ -96,9 +96,7 @@ def build_event(match: Match, config: Config, namer: Namer) -> EventSpec:
         lines.append(f"Tarih: {fmt_day_tr(match.kickoff.astimezone(ZoneInfo(s.source_timezone)).date())}")
     elif match.day:
         lines.append(f"Tarih: {fmt_day_tr(match.day)}")
-        if match.date_estimated:
-            lines.append("Tarih tahmini; resmî program açıklanınca güncellenecek.")
-        elif match.status not in ("finished", "cancelled"):
+        if match.status not in ("finished", "cancelled"):
             lines.append("Saat henüz açıklanmadı.")
     if match.status == "postponed":
         lines.append("Maç ertelendi; yeni tarih açıklanınca güncellenecek.")

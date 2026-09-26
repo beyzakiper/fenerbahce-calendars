@@ -126,9 +126,9 @@ def added_match(add: Add, config: Config) -> Match:
 def apply_edit(match: Match, edit: Edit) -> Match:
     kick = edit.kickoff_utc()
     if kick:
-        match.kickoff, match.day, match.date_estimated = kick, None, False
+        match.kickoff, match.day = kick, None
     elif edit.date:
-        match.kickoff, match.day, match.date_estimated = None, edit.date, False
+        match.kickoff, match.day = None, edit.date
     for name in ("venue", "city", "status", "home_score", "away_score", "round_label", "url"):
         value = getattr(edit, name)
         if value is not None:

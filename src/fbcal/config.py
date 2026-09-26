@@ -30,7 +30,6 @@ class TitleSettings(_Strict):
     result_template: str
     markers: dict[Gender, str]
     tba_suffix: str
-    estimated_suffix: str
     postponed_prefix: str
     cancelled_prefix: str
     friendly_prefix: str
@@ -52,7 +51,6 @@ class Settings(_Strict):
     durations: dict[Sport, int]
     title: TitleSettings
     score_in_title: bool = True
-    publish_estimated_dates: bool = False
     alert_variants: list[int] = [0, 30, 60]
     shrink_guard: float = Field(0.6, ge=0, le=1)
 
@@ -106,7 +104,6 @@ class Competition(_Strict):
     name: str
     friendly: bool = False
     round_dates: dict[int, date] = {}
-    estimate_anchors: dict[int, date] = {}  # only used as estimation anchors (e.g. end of a half-season)
 
 
 class Opponent(_Strict):
