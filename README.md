@@ -2,14 +2,12 @@
 
 **Türkçe** · [English](README.en.md)
 
-Fenerbahçe'nin futbol, basketbol ve voleybol branşlarındaki erkek ve kadın A takımlarının maç programlarını,
-abone olunabilen ve kendiliğinden güncellenen takvimler olarak yayımlar.
+Fenerbahçe’nin futbol, basketbol ve voleybol branşlarındaki kadın ve erkek A takımlarının maçlarını tek yerden takip edin.
 
-Abonelik bir kez yapılır. Yeni açıklanan maçlar, tarih ve saat değişiklikleri ile maç sonuçları takvime otomatik
-olarak yansır. Maç saatleri, takvim uygulamasında kullanıcının bulunduğu saat dilimine göre gösterilir.
+Takvime bir kez abone olmanız yeterlidir. Yeni açıklanan maçlar, tarih ve saat değişiklikleri ile maç sonuçları takviminize otomatik olarak yansır. Maç saatleri bulunduğunuz saat dilimine göre gösterilir.
 
-> Taraftar tarafından hazırlanmış, gönüllü bir projedir. Fenerbahçe Spor Kulübü ya da herhangi bir federasyonla
-> bağlantısı yoktur.
+> Bu proje, Fenerbahçe taraftarları için bağımsız ve gönüllü olarak geliştirilmiştir. Fenerbahçe Spor Kulübü’nün resmî bir projesi değildir ve ilgili spor
+> federasyonlarıyla bağlantısı bulunmamaktadır.
 
 ## Takımlar
 
