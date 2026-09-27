@@ -2,7 +2,7 @@
 
 **Türkçe** · [English](README.en.md)
 
-Fenerbahçe’nin futbol, basketbol ve voleybol branşlarındaki kadın ve erkek A takımlarının maçlarını tek yerden takip edin.
+Fenerbahçe’nin futbol, basketbol ve voleybol branşlarındaki kadın ve erkek A takımlarının maçlarını doğrudan telefonunuzun takviminden takip edin.
 
 Takvime bir kez abone olmanız yeterlidir. Yeni açıklanan maçlar, tarih ve saat değişiklikleri ile maç sonuçları takviminize otomatik olarak yansır. Maç saatleri bulunduğunuz saat dilimine göre gösterilir.
 
