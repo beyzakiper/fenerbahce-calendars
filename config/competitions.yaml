@@ -30,16 +30,9 @@ competitions:
   euroleague-women:              { name: "EuroLeague Women" }
 
   # Volleyball
-  sultanlar-ligi:
-    name: "Sultanlar Ligi"
-    round_dates:
-      1: 2026-10-04
-      2: 2026-10-11
-      3: 2026-10-14
-      4: 2026-10-18
+  sultanlar-ligi:                { name: "Sultanlar Ligi" }
   kupa-voley-kadin:              { name: "Kupa Voley" }
-  efeler-ligi:
-    name: "Efeler Ligi"
+  efeler-ligi:                   { name: "Efeler Ligi" }
   kupa-voley-erkek:              { name: "Kupa Voley" }
   cev-kupasi-erkek:              { name: "CEV Kupası" }
   sampiyonlar-kupasi-kadin:      { name: "Şampiyonlar Kupası" }
