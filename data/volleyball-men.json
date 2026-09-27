@@ -1,5 +1,5 @@
 {
- "version": 1,
+ "version": 2,
  "team": "volleyball-men",
  "sources": {
   "tvf:efeler-ligi": {
@@ -25,7 +25,8 @@
      "url": "",
      "source": "tvf",
      "source_id": "r01:fenerbahce medicana:ziraat bankkart",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     }
    ]
   },
@@ -56,7 +57,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r1",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-men",
@@ -78,7 +80,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r2",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-men",
@@ -100,7 +103,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r3",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-men",
@@ -122,7 +126,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r4",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-men",
@@ -144,7 +149,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r5",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-men",
@@ -166,7 +172,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r6",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-men",
@@ -188,7 +195,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r7",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-men",
@@ -210,7 +218,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r8",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-men",
@@ -232,7 +241,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r9",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-men",
@@ -254,7 +264,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r10",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-men",
@@ -276,7 +287,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r11",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-men",
@@ -298,7 +310,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r12",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-men",
@@ -320,7 +333,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r13",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-men",
@@ -342,7 +356,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r14",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-men",
@@ -364,7 +379,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r15",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-men",
@@ -386,7 +402,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r16",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-men",
@@ -408,7 +425,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r17",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-men",
@@ -430,7 +448,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r18",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-men",
@@ -452,7 +471,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r19",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-men",
@@ -474,7 +494,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r20",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-men",
@@ -496,7 +517,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r21",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-men",
@@ -518,7 +540,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r22",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-men",
@@ -540,7 +563,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r23",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-men",
@@ -562,7 +586,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r24",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-men",
@@ -584,7 +609,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r25",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-men",
@@ -606,188 +632,189 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r26",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     }
    ]
   }
  },
  "events": {
-  "volleyball-men/efeler-ligi/r01": {
+  "2026-27/volleyball-men/efeler-ligi/r01": {
    "uid": "2026-27-volleyball-men-efeler-ligi-r01-home@beyzakiper.github.io",
    "sequence": 1,
    "hash": "f043a3b1cfc90a9d",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "volleyball-men/efeler-ligi/r02": {
+  "2026-27/volleyball-men/efeler-ligi/r02": {
    "uid": "2026-27-volleyball-men-efeler-ligi-r02-away@beyzakiper.github.io",
    "sequence": 1,
    "hash": "a6c8b3a72fa606bd",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T00:01:20Z"
   },
-  "volleyball-men/efeler-ligi/r03": {
+  "2026-27/volleyball-men/efeler-ligi/r03": {
    "uid": "2026-27-volleyball-men-efeler-ligi-r03-home@beyzakiper.github.io",
    "sequence": 1,
    "hash": "a1a7584cae62b182",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T00:01:20Z"
   },
-  "volleyball-men/efeler-ligi/r04": {
+  "2026-27/volleyball-men/efeler-ligi/r04": {
    "uid": "2026-27-volleyball-men-efeler-ligi-r04-away@beyzakiper.github.io",
    "sequence": 1,
    "hash": "e609d3cb4d334c47",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T00:01:20Z"
   },
-  "volleyball-men/efeler-ligi/r05": {
+  "2026-27/volleyball-men/efeler-ligi/r05": {
    "uid": "2026-27-volleyball-men-efeler-ligi-r05-home@beyzakiper.github.io",
    "sequence": 1,
    "hash": "193b1f45ad457bae",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T00:01:20Z"
   },
-  "volleyball-men/efeler-ligi/r06": {
+  "2026-27/volleyball-men/efeler-ligi/r06": {
    "uid": "2026-27-volleyball-men-efeler-ligi-r06-away@beyzakiper.github.io",
    "sequence": 0,
    "hash": "4cff71ec619a6de2",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-25T23:58:48Z"
   },
-  "volleyball-men/efeler-ligi/r07": {
+  "2026-27/volleyball-men/efeler-ligi/r07": {
    "uid": "2026-27-volleyball-men-efeler-ligi-r07-home@beyzakiper.github.io",
    "sequence": 0,
    "hash": "5f8b504dc14c0f53",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-25T23:58:48Z"
   },
-  "volleyball-men/efeler-ligi/r08": {
+  "2026-27/volleyball-men/efeler-ligi/r08": {
    "uid": "2026-27-volleyball-men-efeler-ligi-r08-away@beyzakiper.github.io",
    "sequence": 0,
    "hash": "66337ea32ddad08f",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-25T23:58:48Z"
   },
-  "volleyball-men/efeler-ligi/r09": {
+  "2026-27/volleyball-men/efeler-ligi/r09": {
    "uid": "2026-27-volleyball-men-efeler-ligi-r09-home@beyzakiper.github.io",
    "sequence": 1,
    "hash": "2ace2bc1192f52ee",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T00:01:20Z"
   },
-  "volleyball-men/efeler-ligi/r10": {
+  "2026-27/volleyball-men/efeler-ligi/r10": {
    "uid": "2026-27-volleyball-men-efeler-ligi-r10-away@beyzakiper.github.io",
    "sequence": 1,
    "hash": "abec6f3b4d99f00a",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T00:01:20Z"
   },
-  "volleyball-men/efeler-ligi/r11": {
+  "2026-27/volleyball-men/efeler-ligi/r11": {
    "uid": "2026-27-volleyball-men-efeler-ligi-r11-home@beyzakiper.github.io",
    "sequence": 1,
    "hash": "90f8b47fc7680339",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T00:01:20Z"
   },
-  "volleyball-men/efeler-ligi/r12": {
+  "2026-27/volleyball-men/efeler-ligi/r12": {
    "uid": "2026-27-volleyball-men-efeler-ligi-r12-away@beyzakiper.github.io",
    "sequence": 0,
    "hash": "8bc0fbaf00c210cc",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-25T23:58:48Z"
   },
-  "volleyball-men/efeler-ligi/r13": {
+  "2026-27/volleyball-men/efeler-ligi/r13": {
    "uid": "2026-27-volleyball-men-efeler-ligi-r13-away@beyzakiper.github.io",
    "sequence": 0,
    "hash": "2843704c38031a81",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-25T23:58:48Z"
   },
-  "volleyball-men/efeler-ligi/r14": {
+  "2026-27/volleyball-men/efeler-ligi/r14": {
    "uid": "2026-27-volleyball-men-efeler-ligi-r14-away@beyzakiper.github.io",
    "sequence": 0,
    "hash": "4c9eb5947202cc5f",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-25T23:58:48Z"
   },
-  "volleyball-men/efeler-ligi/r15": {
+  "2026-27/volleyball-men/efeler-ligi/r15": {
    "uid": "2026-27-volleyball-men-efeler-ligi-r15-home@beyzakiper.github.io",
    "sequence": 1,
    "hash": "0a3a8be35dfa4b5c",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T00:01:20Z"
   },
-  "volleyball-men/efeler-ligi/r16": {
+  "2026-27/volleyball-men/efeler-ligi/r16": {
    "uid": "2026-27-volleyball-men-efeler-ligi-r16-away@beyzakiper.github.io",
    "sequence": 1,
    "hash": "98761f7fb9486f1e",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T00:01:20Z"
   },
-  "volleyball-men/efeler-ligi/r17": {
+  "2026-27/volleyball-men/efeler-ligi/r17": {
    "uid": "2026-27-volleyball-men-efeler-ligi-r17-home@beyzakiper.github.io",
    "sequence": 1,
    "hash": "c8c9f518201fd7fd",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T00:01:20Z"
   },
-  "volleyball-men/efeler-ligi/r18": {
+  "2026-27/volleyball-men/efeler-ligi/r18": {
    "uid": "2026-27-volleyball-men-efeler-ligi-r18-away@beyzakiper.github.io",
    "sequence": 1,
    "hash": "2678cf090ef7b0ff",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T00:01:20Z"
   },
-  "volleyball-men/efeler-ligi/r19": {
+  "2026-27/volleyball-men/efeler-ligi/r19": {
    "uid": "2026-27-volleyball-men-efeler-ligi-r19-home@beyzakiper.github.io",
    "sequence": 0,
    "hash": "4ec36dc5aff920c7",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-25T23:58:48Z"
   },
-  "volleyball-men/efeler-ligi/r20": {
+  "2026-27/volleyball-men/efeler-ligi/r20": {
    "uid": "2026-27-volleyball-men-efeler-ligi-r20-away@beyzakiper.github.io",
    "sequence": 0,
    "hash": "bb1beb43a9b15b6f",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-25T23:58:48Z"
   },
-  "volleyball-men/efeler-ligi/r21": {
+  "2026-27/volleyball-men/efeler-ligi/r21": {
    "uid": "2026-27-volleyball-men-efeler-ligi-r21-home@beyzakiper.github.io",
    "sequence": 0,
    "hash": "ce957a2ff8c174cc",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-25T23:58:48Z"
   },
-  "volleyball-men/efeler-ligi/r22": {
+  "2026-27/volleyball-men/efeler-ligi/r22": {
    "uid": "2026-27-volleyball-men-efeler-ligi-r22-away@beyzakiper.github.io",
    "sequence": 1,
    "hash": "acf99fa4f1965b42",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T00:01:20Z"
   },
-  "volleyball-men/efeler-ligi/r23": {
+  "2026-27/volleyball-men/efeler-ligi/r23": {
    "uid": "2026-27-volleyball-men-efeler-ligi-r23-home@beyzakiper.github.io",
    "sequence": 1,
    "hash": "53c063802a014f66",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T00:01:20Z"
   },
-  "volleyball-men/efeler-ligi/r24": {
+  "2026-27/volleyball-men/efeler-ligi/r24": {
    "uid": "2026-27-volleyball-men-efeler-ligi-r24-away@beyzakiper.github.io",
    "sequence": 1,
    "hash": "4ca8299cc8529c0e",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T00:01:20Z"
   },
-  "volleyball-men/efeler-ligi/r25": {
+  "2026-27/volleyball-men/efeler-ligi/r25": {
    "uid": "2026-27-volleyball-men-efeler-ligi-r25-home@beyzakiper.github.io",
    "sequence": 0,
    "hash": "86b2fd96b06482dc",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-25T23:58:48Z"
   },
-  "volleyball-men/efeler-ligi/r26": {
+  "2026-27/volleyball-men/efeler-ligi/r26": {
    "uid": "2026-27-volleyball-men-efeler-ligi-r26-home@beyzakiper.github.io",
    "sequence": 0,
    "hash": "7615af8661272417",

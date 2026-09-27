@@ -1,5 +1,5 @@
 {
- "version": 1,
+ "version": 2,
  "team": "basketball-women",
  "sources": {
   "fiba:euroleague-women": {
@@ -25,7 +25,8 @@
      "url": "",
      "source": "fiba",
      "source_id": "135186",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-women",
@@ -47,7 +48,8 @@
      "url": "",
      "source": "fiba",
      "source_id": "135196",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-women",
@@ -69,7 +71,8 @@
      "url": "",
      "source": "fiba",
      "source_id": "135188",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-women",
@@ -91,7 +94,8 @@
      "url": "",
      "source": "fiba",
      "source_id": "135190",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-women",
@@ -113,7 +117,8 @@
      "url": "",
      "source": "fiba",
      "source_id": "135192",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-women",
@@ -135,7 +140,8 @@
      "url": "",
      "source": "fiba",
      "source_id": "135194",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     }
    ]
   },
@@ -166,7 +172,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "345690",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-women",
@@ -188,7 +195,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "345700",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-women",
@@ -210,7 +218,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "345702",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-women",
@@ -232,7 +241,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "345707",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-women",
@@ -254,7 +264,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "345711",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-women",
@@ -276,7 +287,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "345721",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-women",
@@ -298,7 +310,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "345729",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-women",
@@ -320,7 +333,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "345732",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-women",
@@ -342,7 +356,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "345739",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-women",
@@ -364,7 +379,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "345743",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-women",
@@ -386,7 +402,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "345748",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-women",
@@ -408,7 +425,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "345755",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-women",
@@ -430,7 +448,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "345757",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-women",
@@ -452,7 +471,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "345762",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-women",
@@ -474,7 +494,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "345766",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-women",
@@ -496,7 +517,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "345776",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-women",
@@ -518,7 +540,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "345784",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-women",
@@ -540,7 +563,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "345787",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-women",
@@ -562,7 +586,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "345794",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-women",
@@ -584,7 +609,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "345798",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     }
    ]
   },
@@ -594,182 +620,182 @@
   }
  },
  "events": {
-  "basketball-women/euroleague-women/rs-fr-g1": {
+  "2026-27/basketball-women/euroleague-women/rs-fr-g1": {
    "uid": "2026-27-basketball-women-euroleague-women-rs-fr-g1-away@beyzakiper.github.io",
    "sequence": 2,
    "hash": "134ac253b669ec57",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-women/euroleague-women/rs-fr-g11": {
+  "2026-27/basketball-women/euroleague-women/rs-fr-g11": {
    "uid": "2026-27-basketball-women-euroleague-women-rs-fr-g11-away@beyzakiper.github.io",
    "sequence": 1,
    "hash": "e7059b0953ec314f",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-women/euroleague-women/rs-fr-g3": {
+  "2026-27/basketball-women/euroleague-women/rs-fr-g3": {
    "uid": "2026-27-basketball-women-euroleague-women-rs-fr-g3-away@beyzakiper.github.io",
    "sequence": 2,
    "hash": "f4a3002ed30555e3",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-women/euroleague-women/rs-fr-g5": {
+  "2026-27/basketball-women/euroleague-women/rs-fr-g5": {
    "uid": "2026-27-basketball-women-euroleague-women-rs-fr-g5-home@beyzakiper.github.io",
    "sequence": 1,
    "hash": "b3bea10f3242aa81",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-women/euroleague-women/rs-fr-g7": {
+  "2026-27/basketball-women/euroleague-women/rs-fr-g7": {
    "uid": "2026-27-basketball-women-euroleague-women-rs-fr-g7-home@beyzakiper.github.io",
    "sequence": 2,
    "hash": "dc17f28920c51410",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-women/euroleague-women/rs-fr-g9": {
+  "2026-27/basketball-women/euroleague-women/rs-fr-g9": {
    "uid": "2026-27-basketball-women-euroleague-women-rs-fr-g9-home@beyzakiper.github.io",
    "sequence": 2,
    "hash": "5a0a1ce7df9d5763",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-women/kadinlar-basketbol-super-ligi/r01": {
+  "2026-27/basketball-women/kadinlar-basketbol-super-ligi/r01": {
    "uid": "2026-27-basketball-women-kadinlar-basketbol-super-ligi-r01-home@beyzakiper.github.io",
    "sequence": 2,
    "hash": "3dee126ad9c8d27d",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T16:30:02Z"
   },
-  "basketball-women/kadinlar-basketbol-super-ligi/r02": {
+  "2026-27/basketball-women/kadinlar-basketbol-super-ligi/r02": {
    "uid": "2026-27-basketball-women-kadinlar-basketbol-super-ligi-r02-away@beyzakiper.github.io",
    "sequence": 2,
    "hash": "aff31be1070eb714",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-women/kadinlar-basketbol-super-ligi/r03": {
+  "2026-27/basketball-women/kadinlar-basketbol-super-ligi/r03": {
    "uid": "2026-27-basketball-women-kadinlar-basketbol-super-ligi-r03-home@beyzakiper.github.io",
    "sequence": 2,
    "hash": "243cd14bfd92daa3",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-women/kadinlar-basketbol-super-ligi/r04": {
+  "2026-27/basketball-women/kadinlar-basketbol-super-ligi/r04": {
    "uid": "2026-27-basketball-women-kadinlar-basketbol-super-ligi-r04-away@beyzakiper.github.io",
    "sequence": 1,
    "hash": "69cf1114fa6908c5",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-women/kadinlar-basketbol-super-ligi/r05": {
+  "2026-27/basketball-women/kadinlar-basketbol-super-ligi/r05": {
    "uid": "2026-27-basketball-women-kadinlar-basketbol-super-ligi-r05-home@beyzakiper.github.io",
    "sequence": 2,
    "hash": "7f77f8acfe541659",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-women/kadinlar-basketbol-super-ligi/r07": {
+  "2026-27/basketball-women/kadinlar-basketbol-super-ligi/r07": {
    "uid": "2026-27-basketball-women-kadinlar-basketbol-super-ligi-r07-away@beyzakiper.github.io",
    "sequence": 1,
    "hash": "ac76918fd6eca0f8",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-women/kadinlar-basketbol-super-ligi/r08": {
+  "2026-27/basketball-women/kadinlar-basketbol-super-ligi/r08": {
    "uid": "2026-27-basketball-women-kadinlar-basketbol-super-ligi-r08-home@beyzakiper.github.io",
    "sequence": 2,
    "hash": "40b7663c003e2996",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-women/kadinlar-basketbol-super-ligi/r09": {
+  "2026-27/basketball-women/kadinlar-basketbol-super-ligi/r09": {
    "uid": "2026-27-basketball-women-kadinlar-basketbol-super-ligi-r09-away@beyzakiper.github.io",
    "sequence": 2,
    "hash": "b5f3005b895403a3",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-women/kadinlar-basketbol-super-ligi/r10": {
+  "2026-27/basketball-women/kadinlar-basketbol-super-ligi/r10": {
    "uid": "2026-27-basketball-women-kadinlar-basketbol-super-ligi-r10-home@beyzakiper.github.io",
    "sequence": 2,
    "hash": "88216d9e8347a2c3",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-women/kadinlar-basketbol-super-ligi/r11": {
+  "2026-27/basketball-women/kadinlar-basketbol-super-ligi/r11": {
    "uid": "2026-27-basketball-women-kadinlar-basketbol-super-ligi-r11-away@beyzakiper.github.io",
    "sequence": 2,
    "hash": "92bc7a8c1e4ae4d6",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-women/kadinlar-basketbol-super-ligi/r12": {
+  "2026-27/basketball-women/kadinlar-basketbol-super-ligi/r12": {
    "uid": "2026-27-basketball-women-kadinlar-basketbol-super-ligi-r12-away@beyzakiper.github.io",
    "sequence": 1,
    "hash": "73f525c01cc5d099",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-women/kadinlar-basketbol-super-ligi/r13": {
+  "2026-27/basketball-women/kadinlar-basketbol-super-ligi/r13": {
    "uid": "2026-27-basketball-women-kadinlar-basketbol-super-ligi-r13-home@beyzakiper.github.io",
    "sequence": 2,
    "hash": "9e1f44ef36b3a7c4",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-women/kadinlar-basketbol-super-ligi/r14": {
+  "2026-27/basketball-women/kadinlar-basketbol-super-ligi/r14": {
    "uid": "2026-27-basketball-women-kadinlar-basketbol-super-ligi-r14-away@beyzakiper.github.io",
    "sequence": 2,
    "hash": "eb37c53f44daf167",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-women/kadinlar-basketbol-super-ligi/r15": {
+  "2026-27/basketball-women/kadinlar-basketbol-super-ligi/r15": {
    "uid": "2026-27-basketball-women-kadinlar-basketbol-super-ligi-r15-home@beyzakiper.github.io",
    "sequence": 1,
    "hash": "f3c33ddf4f2c7398",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-women/kadinlar-basketbol-super-ligi/r16": {
+  "2026-27/basketball-women/kadinlar-basketbol-super-ligi/r16": {
    "uid": "2026-27-basketball-women-kadinlar-basketbol-super-ligi-r16-away@beyzakiper.github.io",
    "sequence": 2,
    "hash": "e387db394111a57f",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-women/kadinlar-basketbol-super-ligi/r18": {
+  "2026-27/basketball-women/kadinlar-basketbol-super-ligi/r18": {
    "uid": "2026-27-basketball-women-kadinlar-basketbol-super-ligi-r18-home@beyzakiper.github.io",
    "sequence": 1,
    "hash": "1f1a5ea981990531",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-women/kadinlar-basketbol-super-ligi/r19": {
+  "2026-27/basketball-women/kadinlar-basketbol-super-ligi/r19": {
    "uid": "2026-27-basketball-women-kadinlar-basketbol-super-ligi-r19-away@beyzakiper.github.io",
    "sequence": 2,
    "hash": "be90ace041acbbec",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-women/kadinlar-basketbol-super-ligi/r20": {
+  "2026-27/basketball-women/kadinlar-basketbol-super-ligi/r20": {
    "uid": "2026-27-basketball-women-kadinlar-basketbol-super-ligi-r20-home@beyzakiper.github.io",
    "sequence": 2,
    "hash": "f088d2a970a30ca9",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-women/kadinlar-basketbol-super-ligi/r21": {
+  "2026-27/basketball-women/kadinlar-basketbol-super-ligi/r21": {
    "uid": "2026-27-basketball-women-kadinlar-basketbol-super-ligi-r21-away@beyzakiper.github.io",
    "sequence": 2,
    "hash": "9bc79f64f494942d",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-women/kadinlar-basketbol-super-ligi/r22": {
+  "2026-27/basketball-women/kadinlar-basketbol-super-ligi/r22": {
    "uid": "2026-27-basketball-women-kadinlar-basketbol-super-ligi-r22-home@beyzakiper.github.io",
    "sequence": 2,
    "hash": "22c4dc2237c4a94d",

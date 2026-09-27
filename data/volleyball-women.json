@@ -1,5 +1,5 @@
 {
- "version": 1,
+ "version": 2,
  "team": "volleyball-women",
  "sources": {
   "tvf:kupa-voley-kadin": {
@@ -29,7 +29,8 @@
      "url": "",
      "source": "tvf",
      "source_id": "r01:fenerbahce medicana:manisa buyuksehir belediye spor",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     }
    ]
   },
@@ -56,7 +57,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r1",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-women",
@@ -78,7 +80,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r2",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-women",
@@ -100,7 +103,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r3",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-women",
@@ -122,7 +126,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r4",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-women",
@@ -144,7 +149,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r5",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-women",
@@ -166,7 +172,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r6",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-women",
@@ -188,7 +195,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r7",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-women",
@@ -210,7 +218,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r8",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-women",
@@ -232,7 +241,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r9",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-women",
@@ -254,7 +264,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r10",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-women",
@@ -276,7 +287,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r11",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-women",
@@ -298,7 +310,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r12",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-women",
@@ -320,7 +333,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r13",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-women",
@@ -342,7 +356,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r14",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-women",
@@ -364,7 +379,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r15",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-women",
@@ -386,7 +402,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r16",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-women",
@@ -408,7 +425,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r17",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-women",
@@ -430,7 +448,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r18",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-women",
@@ -452,7 +471,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r19",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-women",
@@ -474,7 +494,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r20",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-women",
@@ -496,7 +517,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r21",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-women",
@@ -518,7 +540,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r22",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-women",
@@ -540,7 +563,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r23",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-women",
@@ -562,7 +586,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r24",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-women",
@@ -584,7 +609,8 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r25",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "volleyball-women",
@@ -606,188 +632,189 @@
      "url": "",
      "source": "tvf_pdf",
      "source_id": "r26",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     }
    ]
   }
  },
  "events": {
-  "volleyball-women/sultanlar-ligi/r01": {
+  "2026-27/volleyball-women/sultanlar-ligi/r01": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r01-home@beyzakiper.github.io",
    "sequence": 2,
    "hash": "257aefc6e7baac1e",
    "created": "2026-09-25T22:55:57Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "volleyball-women/sultanlar-ligi/r02": {
+  "2026-27/volleyball-women/sultanlar-ligi/r02": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r02-away@beyzakiper.github.io",
    "sequence": 1,
    "hash": "9138f56a01b42509",
    "created": "2026-09-25T22:55:57Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "volleyball-women/sultanlar-ligi/r03": {
+  "2026-27/volleyball-women/sultanlar-ligi/r03": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r03-home@beyzakiper.github.io",
    "sequence": 1,
    "hash": "b593e196e22ae15f",
    "created": "2026-09-25T22:55:57Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "volleyball-women/sultanlar-ligi/r04": {
+  "2026-27/volleyball-women/sultanlar-ligi/r04": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r04-away@beyzakiper.github.io",
    "sequence": 1,
    "hash": "33f1e4d2ea3d9130",
    "created": "2026-09-25T22:55:57Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "volleyball-women/sultanlar-ligi/r05": {
+  "2026-27/volleyball-women/sultanlar-ligi/r05": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r05-home@beyzakiper.github.io",
    "sequence": 1,
    "hash": "8a5e331c2f6ad67f",
    "created": "2026-09-25T22:55:57Z",
    "last_modified": "2026-09-25T22:57:29Z"
   },
-  "volleyball-women/sultanlar-ligi/r06": {
+  "2026-27/volleyball-women/sultanlar-ligi/r06": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r06-away@beyzakiper.github.io",
    "sequence": 1,
    "hash": "d121ace8f4bdf894",
    "created": "2026-09-25T22:55:57Z",
    "last_modified": "2026-09-25T22:57:29Z"
   },
-  "volleyball-women/sultanlar-ligi/r07": {
+  "2026-27/volleyball-women/sultanlar-ligi/r07": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r07-home@beyzakiper.github.io",
    "sequence": 1,
    "hash": "3112a1e6bb92b2f1",
    "created": "2026-09-25T22:55:57Z",
    "last_modified": "2026-09-25T22:57:29Z"
   },
-  "volleyball-women/sultanlar-ligi/r08": {
+  "2026-27/volleyball-women/sultanlar-ligi/r08": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r08-away@beyzakiper.github.io",
    "sequence": 1,
    "hash": "5433ac0c4d5bb7e3",
    "created": "2026-09-25T22:55:57Z",
    "last_modified": "2026-09-25T22:57:29Z"
   },
-  "volleyball-women/sultanlar-ligi/r09": {
+  "2026-27/volleyball-women/sultanlar-ligi/r09": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r09-home@beyzakiper.github.io",
    "sequence": 1,
    "hash": "44e2b01f2c49e40c",
    "created": "2026-09-25T22:55:57Z",
    "last_modified": "2026-09-25T22:57:29Z"
   },
-  "volleyball-women/sultanlar-ligi/r10": {
+  "2026-27/volleyball-women/sultanlar-ligi/r10": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r10-away@beyzakiper.github.io",
    "sequence": 1,
    "hash": "3e7b3056d631b2cb",
    "created": "2026-09-25T22:55:57Z",
    "last_modified": "2026-09-25T22:57:29Z"
   },
-  "volleyball-women/sultanlar-ligi/r11": {
+  "2026-27/volleyball-women/sultanlar-ligi/r11": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r11-home@beyzakiper.github.io",
    "sequence": 1,
    "hash": "85a7dc8aca4b763f",
    "created": "2026-09-25T22:55:57Z",
    "last_modified": "2026-09-25T22:57:29Z"
   },
-  "volleyball-women/sultanlar-ligi/r12": {
+  "2026-27/volleyball-women/sultanlar-ligi/r12": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r12-away@beyzakiper.github.io",
    "sequence": 1,
    "hash": "c817a17da1c42cb9",
    "created": "2026-09-25T22:55:57Z",
    "last_modified": "2026-09-25T22:57:29Z"
   },
-  "volleyball-women/sultanlar-ligi/r13": {
+  "2026-27/volleyball-women/sultanlar-ligi/r13": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r13-away@beyzakiper.github.io",
    "sequence": 1,
    "hash": "e028a32dd3176be5",
    "created": "2026-09-25T22:55:57Z",
    "last_modified": "2026-09-25T22:57:38Z"
   },
-  "volleyball-women/sultanlar-ligi/r14": {
+  "2026-27/volleyball-women/sultanlar-ligi/r14": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r14-away@beyzakiper.github.io",
    "sequence": 1,
    "hash": "d1b2fa4cd9161a92",
    "created": "2026-09-25T22:55:57Z",
    "last_modified": "2026-09-25T22:57:29Z"
   },
-  "volleyball-women/sultanlar-ligi/r15": {
+  "2026-27/volleyball-women/sultanlar-ligi/r15": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r15-home@beyzakiper.github.io",
    "sequence": 1,
    "hash": "f72e3caed187faa9",
    "created": "2026-09-25T22:55:57Z",
    "last_modified": "2026-09-25T22:57:29Z"
   },
-  "volleyball-women/sultanlar-ligi/r16": {
+  "2026-27/volleyball-women/sultanlar-ligi/r16": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r16-away@beyzakiper.github.io",
    "sequence": 1,
    "hash": "bde15e756fb64348",
    "created": "2026-09-25T22:55:57Z",
    "last_modified": "2026-09-25T22:57:29Z"
   },
-  "volleyball-women/sultanlar-ligi/r17": {
+  "2026-27/volleyball-women/sultanlar-ligi/r17": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r17-home@beyzakiper.github.io",
    "sequence": 1,
    "hash": "13e686f3550c09f6",
    "created": "2026-09-25T22:55:57Z",
    "last_modified": "2026-09-25T22:57:29Z"
   },
-  "volleyball-women/sultanlar-ligi/r18": {
+  "2026-27/volleyball-women/sultanlar-ligi/r18": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r18-away@beyzakiper.github.io",
    "sequence": 1,
    "hash": "913a28e279d1d689",
    "created": "2026-09-25T22:55:57Z",
    "last_modified": "2026-09-25T22:57:29Z"
   },
-  "volleyball-women/sultanlar-ligi/r19": {
+  "2026-27/volleyball-women/sultanlar-ligi/r19": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r19-home@beyzakiper.github.io",
    "sequence": 1,
    "hash": "c77d0de557cc77f9",
    "created": "2026-09-25T22:55:57Z",
    "last_modified": "2026-09-25T22:57:29Z"
   },
-  "volleyball-women/sultanlar-ligi/r20": {
+  "2026-27/volleyball-women/sultanlar-ligi/r20": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r20-away@beyzakiper.github.io",
    "sequence": 1,
    "hash": "1ec1e3107f30c2ed",
    "created": "2026-09-25T22:55:57Z",
    "last_modified": "2026-09-25T22:57:29Z"
   },
-  "volleyball-women/sultanlar-ligi/r21": {
+  "2026-27/volleyball-women/sultanlar-ligi/r21": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r21-home@beyzakiper.github.io",
    "sequence": 1,
    "hash": "acd7ac3d16bda3a0",
    "created": "2026-09-25T22:55:57Z",
    "last_modified": "2026-09-25T22:57:29Z"
   },
-  "volleyball-women/sultanlar-ligi/r22": {
+  "2026-27/volleyball-women/sultanlar-ligi/r22": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r22-away@beyzakiper.github.io",
    "sequence": 1,
    "hash": "98a1cbaaac1a9385",
    "created": "2026-09-25T22:55:57Z",
    "last_modified": "2026-09-25T22:57:29Z"
   },
-  "volleyball-women/sultanlar-ligi/r23": {
+  "2026-27/volleyball-women/sultanlar-ligi/r23": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r23-home@beyzakiper.github.io",
    "sequence": 1,
    "hash": "8d48db695271df09",
    "created": "2026-09-25T22:55:57Z",
    "last_modified": "2026-09-25T22:57:29Z"
   },
-  "volleyball-women/sultanlar-ligi/r24": {
+  "2026-27/volleyball-women/sultanlar-ligi/r24": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r24-away@beyzakiper.github.io",
    "sequence": 1,
    "hash": "d3ce3f0e86070f8d",
    "created": "2026-09-25T22:55:57Z",
    "last_modified": "2026-09-25T22:57:29Z"
   },
-  "volleyball-women/sultanlar-ligi/r25": {
+  "2026-27/volleyball-women/sultanlar-ligi/r25": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r25-home@beyzakiper.github.io",
    "sequence": 1,
    "hash": "18bb92231d8dffd2",
    "created": "2026-09-25T22:55:57Z",
    "last_modified": "2026-09-25T22:57:29Z"
   },
-  "volleyball-women/sultanlar-ligi/r26": {
+  "2026-27/volleyball-women/sultanlar-ligi/r26": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r26-home@beyzakiper.github.io",
    "sequence": 2,
    "hash": "cf1572e28e34acbb",

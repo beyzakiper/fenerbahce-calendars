@@ -1,5 +1,5 @@
 {
- "version": 1,
+ "version": 2,
  "team": "basketball-men",
  "sources": {
   "euroleague:euroleague": {
@@ -25,7 +25,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/9/",
      "source": "euroleague",
      "source_id": "E2026_9",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -47,7 +48,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/17/",
      "source": "euroleague",
      "source_id": "E2026_17",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -69,7 +71,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/29/",
      "source": "euroleague",
      "source_id": "E2026_29",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -91,7 +94,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/36/",
      "source": "euroleague",
      "source_id": "E2026_36",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -113,7 +117,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/46/",
      "source": "euroleague",
      "source_id": "E2026_46",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -135,7 +140,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/54/",
      "source": "euroleague",
      "source_id": "E2026_54",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -157,7 +163,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/70/",
      "source": "euroleague",
      "source_id": "E2026_70",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -179,7 +186,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/75/",
      "source": "euroleague",
      "source_id": "E2026_75",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -201,7 +209,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/83/",
      "source": "euroleague",
      "source_id": "E2026_83",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -223,7 +232,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/92/",
      "source": "euroleague",
      "source_id": "E2026_92",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -245,7 +255,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/101/",
      "source": "euroleague",
      "source_id": "E2026_101",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -267,7 +278,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/117/",
      "source": "euroleague",
      "source_id": "E2026_117",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -289,7 +301,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/123/",
      "source": "euroleague",
      "source_id": "E2026_123",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -311,7 +324,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/133/",
      "source": "euroleague",
      "source_id": "E2026_133",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -333,7 +347,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/144/",
      "source": "euroleague",
      "source_id": "E2026_144",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -355,7 +370,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/155/",
      "source": "euroleague",
      "source_id": "E2026_155",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -377,7 +393,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/164/",
      "source": "euroleague",
      "source_id": "E2026_164",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -399,7 +416,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/173/",
      "source": "euroleague",
      "source_id": "E2026_173",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -421,7 +439,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/181/",
      "source": "euroleague",
      "source_id": "E2026_181",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -443,7 +462,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/193/",
      "source": "euroleague",
      "source_id": "E2026_193",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -465,7 +485,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/204/",
      "source": "euroleague",
      "source_id": "E2026_204",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -487,7 +508,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/217/",
      "source": "euroleague",
      "source_id": "E2026_217",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -509,7 +531,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/229/",
      "source": "euroleague",
      "source_id": "E2026_229",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -531,7 +554,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/233/",
      "source": "euroleague",
      "source_id": "E2026_233",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -553,7 +577,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/249/",
      "source": "euroleague",
      "source_id": "E2026_249",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -575,7 +600,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/253/",
      "source": "euroleague",
      "source_id": "E2026_253",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -597,7 +623,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/265/",
      "source": "euroleague",
      "source_id": "E2026_265",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -619,7 +646,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/279/",
      "source": "euroleague",
      "source_id": "E2026_279",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -641,7 +669,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/286/",
      "source": "euroleague",
      "source_id": "E2026_286",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -663,7 +692,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/296/",
      "source": "euroleague",
      "source_id": "E2026_296",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -685,7 +715,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/309/",
      "source": "euroleague",
      "source_id": "E2026_309",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -707,7 +738,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/313/",
      "source": "euroleague",
      "source_id": "E2026_313",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -729,7 +761,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/322/",
      "source": "euroleague",
      "source_id": "E2026_322",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -751,7 +784,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/338/",
      "source": "euroleague",
      "source_id": "E2026_338",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -773,7 +807,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/344/",
      "source": "euroleague",
      "source_id": "E2026_344",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -795,7 +830,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/356/",
      "source": "euroleague",
      "source_id": "E2026_356",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -817,7 +853,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/364/",
      "source": "euroleague",
      "source_id": "E2026_364",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -839,7 +876,8 @@
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/371/",
      "source": "euroleague",
      "source_id": "E2026_371",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     }
    ]
   },
@@ -866,7 +904,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "346274",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -888,7 +927,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "346289",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -910,7 +950,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "346297",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -932,7 +973,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "346304",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -954,7 +996,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "346313",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -976,7 +1019,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "346319",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -998,7 +1042,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "346329",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -1020,7 +1065,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "346334",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -1042,7 +1088,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "346345",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -1064,7 +1111,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "346349",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -1086,7 +1134,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "346361",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -1108,7 +1157,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "346364",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -1130,7 +1180,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "346377",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -1152,7 +1203,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "346379",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -1174,7 +1226,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "346393",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -1196,7 +1249,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "346394",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -1218,7 +1272,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "346409",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -1240,7 +1295,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "346417",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -1262,7 +1318,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "346424",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -1284,7 +1341,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "346433",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -1306,7 +1364,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "346439",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -1328,7 +1387,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "346449",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -1350,7 +1410,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "346454",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -1372,7 +1433,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "346465",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -1394,7 +1456,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "346469",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -1416,7 +1479,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "346481",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -1438,7 +1502,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "346484",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -1460,7 +1525,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "346497",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -1482,7 +1548,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "346499",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "basketball-men",
@@ -1504,7 +1571,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "346513",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     }
    ]
   },
@@ -1531,7 +1599,8 @@
      "url": "",
      "source": "tbf",
      "source_id": "346272",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     }
    ]
   },
@@ -1541,483 +1610,483 @@
   }
  },
  "events": {
-  "basketball-men/basketbol-super-ligi/r01": {
+  "2026-27/basketball-men/basketbol-super-ligi/r01": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r01-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "45d9d0f174628aea",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-27T17:03:35Z"
   },
-  "basketball-men/basketbol-super-ligi/r02": {
+  "2026-27/basketball-men/basketbol-super-ligi/r02": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r02-home@beyzakiper.github.io",
    "sequence": 2,
    "hash": "c61f0863c30f4400",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-men/basketbol-super-ligi/r03": {
+  "2026-27/basketball-men/basketbol-super-ligi/r03": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r03-away@beyzakiper.github.io",
    "sequence": 2,
    "hash": "9ba7daad667ab964",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-men/basketbol-super-ligi/r04": {
+  "2026-27/basketball-men/basketbol-super-ligi/r04": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r04-home@beyzakiper.github.io",
    "sequence": 2,
    "hash": "53d5ece0df25e9b3",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-men/basketbol-super-ligi/r05": {
+  "2026-27/basketball-men/basketbol-super-ligi/r05": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r05-away@beyzakiper.github.io",
    "sequence": 2,
    "hash": "23500abbc6f8464f",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-men/basketbol-super-ligi/r06": {
+  "2026-27/basketball-men/basketbol-super-ligi/r06": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r06-home@beyzakiper.github.io",
    "sequence": 1,
    "hash": "3cee1fa7872fba2c",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-men/basketbol-super-ligi/r07": {
+  "2026-27/basketball-men/basketbol-super-ligi/r07": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r07-away@beyzakiper.github.io",
    "sequence": 1,
    "hash": "8203127215434cdd",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-men/basketbol-super-ligi/r08": {
+  "2026-27/basketball-men/basketbol-super-ligi/r08": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r08-home@beyzakiper.github.io",
    "sequence": 1,
    "hash": "35c61b26dd92be07",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-men/basketbol-super-ligi/r09": {
+  "2026-27/basketball-men/basketbol-super-ligi/r09": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r09-away@beyzakiper.github.io",
    "sequence": 1,
    "hash": "56e236eda67aed06",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-men/basketbol-super-ligi/r10": {
+  "2026-27/basketball-men/basketbol-super-ligi/r10": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r10-home@beyzakiper.github.io",
    "sequence": 1,
    "hash": "30c00abeb74754d7",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-men/basketbol-super-ligi/r11": {
+  "2026-27/basketball-men/basketbol-super-ligi/r11": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r11-away@beyzakiper.github.io",
    "sequence": 1,
    "hash": "ddaf9bf5c7ebb7c7",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-men/basketbol-super-ligi/r12": {
+  "2026-27/basketball-men/basketbol-super-ligi/r12": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r12-home@beyzakiper.github.io",
    "sequence": 1,
    "hash": "bb0f2ae7285330f3",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-men/basketbol-super-ligi/r13": {
+  "2026-27/basketball-men/basketbol-super-ligi/r13": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r13-away@beyzakiper.github.io",
    "sequence": 1,
    "hash": "2dc6fbc101866757",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-men/basketbol-super-ligi/r14": {
+  "2026-27/basketball-men/basketbol-super-ligi/r14": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r14-home@beyzakiper.github.io",
    "sequence": 1,
    "hash": "57d7ebe8daac42a0",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-men/basketbol-super-ligi/r15": {
+  "2026-27/basketball-men/basketbol-super-ligi/r15": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r15-away@beyzakiper.github.io",
    "sequence": 1,
    "hash": "00d058ced199b45f",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-men/basketbol-super-ligi/r16": {
+  "2026-27/basketball-men/basketbol-super-ligi/r16": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r16-home@beyzakiper.github.io",
    "sequence": 1,
    "hash": "ce7ce7675aaca06c",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-men/basketbol-super-ligi/r17": {
+  "2026-27/basketball-men/basketbol-super-ligi/r17": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r17-away@beyzakiper.github.io",
    "sequence": 1,
    "hash": "87d8a2582b05bc35",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-men/basketbol-super-ligi/r18": {
+  "2026-27/basketball-men/basketbol-super-ligi/r18": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r18-home@beyzakiper.github.io",
    "sequence": 1,
    "hash": "944ee46d0b5c3d01",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-men/basketbol-super-ligi/r19": {
+  "2026-27/basketball-men/basketbol-super-ligi/r19": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r19-away@beyzakiper.github.io",
    "sequence": 1,
    "hash": "2fef90cfdf3f08ce",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-men/basketbol-super-ligi/r20": {
+  "2026-27/basketball-men/basketbol-super-ligi/r20": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r20-home@beyzakiper.github.io",
    "sequence": 1,
    "hash": "65c6493ff1d0e22b",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-men/basketbol-super-ligi/r21": {
+  "2026-27/basketball-men/basketbol-super-ligi/r21": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r21-away@beyzakiper.github.io",
    "sequence": 1,
    "hash": "a043562a43e37ef4",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-men/basketbol-super-ligi/r22": {
+  "2026-27/basketball-men/basketbol-super-ligi/r22": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r22-home@beyzakiper.github.io",
    "sequence": 1,
    "hash": "6b9c8cede0164b06",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-men/basketbol-super-ligi/r23": {
+  "2026-27/basketball-men/basketbol-super-ligi/r23": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r23-away@beyzakiper.github.io",
    "sequence": 1,
    "hash": "cd480a9cb5419ffa",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-men/basketbol-super-ligi/r24": {
+  "2026-27/basketball-men/basketbol-super-ligi/r24": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r24-home@beyzakiper.github.io",
    "sequence": 1,
    "hash": "275fbafe6424c9ca",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-men/basketbol-super-ligi/r25": {
+  "2026-27/basketball-men/basketbol-super-ligi/r25": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r25-away@beyzakiper.github.io",
    "sequence": 1,
    "hash": "179cc66173da4a28",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-men/basketbol-super-ligi/r26": {
+  "2026-27/basketball-men/basketbol-super-ligi/r26": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r26-home@beyzakiper.github.io",
    "sequence": 1,
    "hash": "cd2d9c2b7fbffa81",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-men/basketbol-super-ligi/r27": {
+  "2026-27/basketball-men/basketbol-super-ligi/r27": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r27-away@beyzakiper.github.io",
    "sequence": 1,
    "hash": "950a46990e4b8df7",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-men/basketbol-super-ligi/r28": {
+  "2026-27/basketball-men/basketbol-super-ligi/r28": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r28-home@beyzakiper.github.io",
    "sequence": 1,
    "hash": "14b7e86e55920ccc",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-men/basketbol-super-ligi/r29": {
+  "2026-27/basketball-men/basketbol-super-ligi/r29": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r29-away@beyzakiper.github.io",
    "sequence": 1,
    "hash": "1d101310095ebc4c",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-men/basketbol-super-ligi/r30": {
+  "2026-27/basketball-men/basketbol-super-ligi/r30": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r30-home@beyzakiper.github.io",
    "sequence": 1,
    "hash": "f5cf5bdc51121d29",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-men/cumhurbaskanligi-kupasi-erkek/final": {
+  "2026-27/basketball-men/cumhurbaskanligi-kupasi-erkek/final": {
    "uid": "2026-27-basketball-men-cumhurbaskanligi-kupasi-erkek-final-home@beyzakiper.github.io",
    "sequence": 2,
    "hash": "707d3a7c2a9b81f3",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "basketball-men/euroleague/r01": {
+  "2026-27/basketball-men/euroleague/r01": {
    "uid": "2026-27-basketball-men-euroleague-r01-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "b89f3bcf0d282c9d",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r02": {
+  "2026-27/basketball-men/euroleague/r02": {
    "uid": "2026-27-basketball-men-euroleague-r02-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "ec3f074c15189b65",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r03": {
+  "2026-27/basketball-men/euroleague/r03": {
    "uid": "2026-27-basketball-men-euroleague-r03-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "77714ac04e6f1962",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r04": {
+  "2026-27/basketball-men/euroleague/r04": {
    "uid": "2026-27-basketball-men-euroleague-r04-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "5dec4290264b86d6",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r05": {
+  "2026-27/basketball-men/euroleague/r05": {
    "uid": "2026-27-basketball-men-euroleague-r05-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "198283e5f1ddf1db",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r06": {
+  "2026-27/basketball-men/euroleague/r06": {
    "uid": "2026-27-basketball-men-euroleague-r06-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "e9982cd0e8fe6f1b",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r07": {
+  "2026-27/basketball-men/euroleague/r07": {
    "uid": "2026-27-basketball-men-euroleague-r07-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "35b837dd7c0024d8",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r08": {
+  "2026-27/basketball-men/euroleague/r08": {
    "uid": "2026-27-basketball-men-euroleague-r08-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "69b86acf72601ae3",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r09": {
+  "2026-27/basketball-men/euroleague/r09": {
    "uid": "2026-27-basketball-men-euroleague-r09-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "1001805145503afe",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r10": {
+  "2026-27/basketball-men/euroleague/r10": {
    "uid": "2026-27-basketball-men-euroleague-r10-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "bbbf9cee4a08c53d",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r11": {
+  "2026-27/basketball-men/euroleague/r11": {
    "uid": "2026-27-basketball-men-euroleague-r11-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "6b747449d82527e8",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r12": {
+  "2026-27/basketball-men/euroleague/r12": {
    "uid": "2026-27-basketball-men-euroleague-r12-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "e940d11b7cf2ef7f",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r13": {
+  "2026-27/basketball-men/euroleague/r13": {
    "uid": "2026-27-basketball-men-euroleague-r13-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "c11fc9106aad1915",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r14": {
+  "2026-27/basketball-men/euroleague/r14": {
    "uid": "2026-27-basketball-men-euroleague-r14-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "8a323029fcd6cbd5",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r15": {
+  "2026-27/basketball-men/euroleague/r15": {
    "uid": "2026-27-basketball-men-euroleague-r15-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "a666f69748406137",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r16": {
+  "2026-27/basketball-men/euroleague/r16": {
    "uid": "2026-27-basketball-men-euroleague-r16-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "c159f1fa138a84fb",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r17": {
+  "2026-27/basketball-men/euroleague/r17": {
    "uid": "2026-27-basketball-men-euroleague-r17-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "d34f430b5539867d",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r18": {
+  "2026-27/basketball-men/euroleague/r18": {
    "uid": "2026-27-basketball-men-euroleague-r18-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "c09d052b6d51f637",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r19": {
+  "2026-27/basketball-men/euroleague/r19": {
    "uid": "2026-27-basketball-men-euroleague-r19-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "b0546cc806cdcfd2",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r20": {
+  "2026-27/basketball-men/euroleague/r20": {
    "uid": "2026-27-basketball-men-euroleague-r20-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "6ad3a273a6d95fab",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r21": {
+  "2026-27/basketball-men/euroleague/r21": {
    "uid": "2026-27-basketball-men-euroleague-r21-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "cd5e24fd128a9503",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r22": {
+  "2026-27/basketball-men/euroleague/r22": {
    "uid": "2026-27-basketball-men-euroleague-r22-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "5987f14d6419b598",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r23": {
+  "2026-27/basketball-men/euroleague/r23": {
    "uid": "2026-27-basketball-men-euroleague-r23-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "079b0da47f8eaf78",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r24": {
+  "2026-27/basketball-men/euroleague/r24": {
    "uid": "2026-27-basketball-men-euroleague-r24-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "ad0416ebd4a977c4",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r25": {
+  "2026-27/basketball-men/euroleague/r25": {
    "uid": "2026-27-basketball-men-euroleague-r25-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "1a604eee68b8c34d",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r26": {
+  "2026-27/basketball-men/euroleague/r26": {
    "uid": "2026-27-basketball-men-euroleague-r26-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "9311ac79b9589ffd",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r27": {
+  "2026-27/basketball-men/euroleague/r27": {
    "uid": "2026-27-basketball-men-euroleague-r27-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "6527bfb0dd834283",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r28": {
+  "2026-27/basketball-men/euroleague/r28": {
    "uid": "2026-27-basketball-men-euroleague-r28-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "481a8ad4a1f5f788",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r29": {
+  "2026-27/basketball-men/euroleague/r29": {
    "uid": "2026-27-basketball-men-euroleague-r29-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "1bc2565b80d0287a",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r30": {
+  "2026-27/basketball-men/euroleague/r30": {
    "uid": "2026-27-basketball-men-euroleague-r30-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "ecd263901da499b5",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r31": {
+  "2026-27/basketball-men/euroleague/r31": {
    "uid": "2026-27-basketball-men-euroleague-r31-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "bf5835e298650f48",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r32": {
+  "2026-27/basketball-men/euroleague/r32": {
    "uid": "2026-27-basketball-men-euroleague-r32-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "2b141605c62a729d",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r33": {
+  "2026-27/basketball-men/euroleague/r33": {
    "uid": "2026-27-basketball-men-euroleague-r33-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "469798e61a9efd83",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r34": {
+  "2026-27/basketball-men/euroleague/r34": {
    "uid": "2026-27-basketball-men-euroleague-r34-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "01bac76f35151f81",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r35": {
+  "2026-27/basketball-men/euroleague/r35": {
    "uid": "2026-27-basketball-men-euroleague-r35-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "0ad38532344d5f42",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r36": {
+  "2026-27/basketball-men/euroleague/r36": {
    "uid": "2026-27-basketball-men-euroleague-r36-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "c7b3598a4efd8012",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r37": {
+  "2026-27/basketball-men/euroleague/r37": {
    "uid": "2026-27-basketball-men-euroleague-r37-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "5a44a48892d2acc4",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "basketball-men/euroleague/r38": {
+  "2026-27/basketball-men/euroleague/r38": {
    "uid": "2026-27-basketball-men-euroleague-r38-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "f9159325d65af8f1",

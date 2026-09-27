@@ -6,6 +6,8 @@ from dataclasses import asdict, dataclass, field, fields
 from datetime import date, datetime, timezone
 from typing import Any, Literal
 
+from .timeutil import season_of
+
 Side = Literal["home", "away", "neutral"]
 Status = Literal["scheduled", "postponed", "cancelled", "finished"]
 
@@ -32,18 +34,31 @@ class Match:
     source: str = ""
     source_id: str = ""
     extra: dict[str, Any] = field(default_factory=dict)
+    season: str = ""  # "2026-27"; derived from the match day when not given, else set by the pipeline
 
     def __post_init__(self) -> None:
         if self.kickoff is not None:
             if self.kickoff.tzinfo is None:
-                raise ValueError(f"{self.key}: kickoff must be timezone-aware")
+                raise ValueError(f"{self.team}/{self.stage}: kickoff must be timezone-aware")
             self.kickoff = self.kickoff.astimezone(timezone.utc)
+        if not self.season and self.start_day:
+            self.season = season_of(self.start_day)
+
+    @property
+    def code(self) -> str:
+        """Season-less match code used in overrides: team/competition/stage[/leg]."""
+        base = f"{self.team}/{self.competition}/{self.stage}"
+        return f"{base}/{self.leg}" if self.leg else base
 
     @property
     def key(self) -> str:
-        """Permanent match key (basis of the UID): team/competition/stage[/leg]. Never contains names or dates."""
-        base = f"{self.team}/{self.competition}/{self.stage}"
-        return f"{base}/{self.leg}" if self.leg else base
+        """Permanent match key (basis of the UID): season/team/competition/stage[/leg]. Never contains names.
+
+        The season keeps round 1 of next season from being mistaken for round 1 of this season.
+        """
+        if not self.season:
+            raise ValueError(f"{self.code}: match has no season")
+        return f"{self.season}/{self.code}"
 
     @property
     def opponent(self) -> str:

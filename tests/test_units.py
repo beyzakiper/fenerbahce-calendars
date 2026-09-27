@@ -39,13 +39,13 @@ def test_css_color_names():
 
 
 def _m(stage, **kw):
-    return Match(team="t-men", competition="c", stage=stage, side="home", home="FB", away="X", **kw)
+    return Match(team="t-men", competition="c", stage=stage, side="home", home="FB", away="X", season="2026-27", **kw)
 
 
 def test_combine_prefers_timed_copy_and_fills_gaps():
     tba = _m("r01", venue="Salon", url="pdf")
     timed = _m("r01", kickoff=datetime(2026, 1, 1, 17, tzinfo=timezone.utc))
-    merged = combine([[tba], [timed]])["t-men/c/r01"]
+    merged = combine([[tba], [timed]])["2026-27/t-men/c/r01"]
     assert merged.kickoff and merged.venue == "Salon"
 
 

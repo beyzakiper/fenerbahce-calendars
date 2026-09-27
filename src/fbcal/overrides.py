@@ -13,9 +13,10 @@ from pydantic import BaseModel, ConfigDict, ValidationError, model_validator
 from .config import Config, ConfigError
 from .models import Match
 from .names import slug
-from .timeutil import ISTANBUL
+from .timeutil import ISTANBUL, season_of
 
 _KICKOFF = re.compile(r"^\d{4}-\d{2}-\d{2} \d{1,2}:\d{2}$")
+_SEASON_PREFIX = re.compile(r"^\d{4}-\d{2}/")
 
 
 class _Base(BaseModel):
@@ -91,6 +92,11 @@ def load_overrides(path: Path, config: Config) -> tuple[list[Edit], list[Add]]:
         except (ValidationError, ValueError, TypeError, AssertionError) as exc:
             raise ConfigError(f"{path}: entry #{i} is invalid: {exc}") from exc
     return edits, adds
+
+
+def override_key(code: str, today: Date) -> str:
+    """Override codes may omit the season ("volleyball-women/sultanlar-ligi/r05" means the current season)."""
+    return code if _SEASON_PREFIX.match(code) else f"{season_of(today)}/{code}"
 
 
 def added_match(add: Add, config: Config) -> Match:

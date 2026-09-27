@@ -15,6 +15,7 @@ import pdfplumber
 
 from ..http import SourceError, get_bytes
 from ..models import Match, stage_for_round
+from ..timeutil import season_of
 from .base import Context, side_of
 
 _WEEK = re.compile(r"(\d+)\.\s*HAFTA", re.IGNORECASE)
@@ -54,6 +55,7 @@ def parse_pdf(data: bytes, ctx: Context, competition: str, url: str = "") -> lis
                                 home=home,
                                 away=away,
                                 round_label=f"{week}. Hafta",
+                                season=season_of(ctx.today),
                                 source="tvf_pdf",
                                 source_id=f"r{week}",
                             )

@@ -1,5 +1,5 @@
 {
- "version": 1,
+ "version": 2,
  "team": "football-men",
  "sources": {
   "tff:super-kupa:super-cup": {
@@ -29,7 +29,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=317788",
      "source": "tff",
      "source_id": "317788",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -51,7 +52,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=317799",
      "source": "tff",
      "source_id": "317799",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -73,7 +75,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=317810",
      "source": "tff",
      "source_id": "317810",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -95,7 +98,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=317817",
      "source": "tff",
      "source_id": "317817",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -117,7 +121,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=317820",
      "source": "tff",
      "source_id": "317820",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -139,7 +144,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=317835",
      "source": "tff",
      "source_id": "317835",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -161,7 +167,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=317841",
      "source": "tff",
      "source_id": "317841",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -183,7 +190,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=317853",
      "source": "tff",
      "source_id": "317853",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -205,7 +213,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=317862",
      "source": "tff",
      "source_id": "317862",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -227,7 +236,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=317871",
      "source": "tff",
      "source_id": "317871",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -249,7 +259,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=317879",
      "source": "tff",
      "source_id": "317879",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -271,7 +282,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=317890",
      "source": "tff",
      "source_id": "317890",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -293,7 +305,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=317898",
      "source": "tff",
      "source_id": "317898",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -315,7 +328,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=317903",
      "source": "tff",
      "source_id": "317903",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -337,7 +351,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=317916",
      "source": "tff",
      "source_id": "317916",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -359,7 +374,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=317920",
      "source": "tff",
      "source_id": "317920",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -381,7 +397,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=317934",
      "source": "tff",
      "source_id": "317934",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -403,7 +420,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=317941",
      "source": "tff",
      "source_id": "317941",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -425,7 +443,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=317952",
      "source": "tff",
      "source_id": "317952",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -447,7 +466,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=317963",
      "source": "tff",
      "source_id": "317963",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -469,7 +489,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=317970",
      "source": "tff",
      "source_id": "317970",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -491,7 +512,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=317973",
      "source": "tff",
      "source_id": "317973",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -513,7 +535,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=317988",
      "source": "tff",
      "source_id": "317988",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -535,7 +558,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=317994",
      "source": "tff",
      "source_id": "317994",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -557,7 +581,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=318006",
      "source": "tff",
      "source_id": "318006",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -579,7 +604,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=318015",
      "source": "tff",
      "source_id": "318015",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -601,7 +627,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=318024",
      "source": "tff",
      "source_id": "318024",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -623,7 +650,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=318032",
      "source": "tff",
      "source_id": "318032",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -645,7 +673,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=318043",
      "source": "tff",
      "source_id": "318043",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -667,7 +696,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=318051",
      "source": "tff",
      "source_id": "318051",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -689,7 +719,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=318056",
      "source": "tff",
      "source_id": "318056",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -711,7 +742,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=318069",
      "source": "tff",
      "source_id": "318069",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -733,7 +765,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=318073",
      "source": "tff",
      "source_id": "318073",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -755,7 +788,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=318087",
      "source": "tff",
      "source_id": "318087",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     }
    ]
   },
@@ -786,7 +820,8 @@
      "url": "https://www.uefa.com/uefachampionsleague/match/2049568/",
      "source": "uefa",
      "source_id": "2049568",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -808,7 +843,8 @@
      "url": "https://www.uefa.com/uefachampionsleague/match/2049582/",
      "source": "uefa",
      "source_id": "2049582",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -830,7 +866,8 @@
      "url": "https://www.uefa.com/uefachampionsleague/match/2049595/",
      "source": "uefa",
      "source_id": "2049595",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -852,7 +889,8 @@
      "url": "https://www.uefa.com/uefachampionsleague/match/2049620/",
      "source": "uefa",
      "source_id": "2049620",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -874,7 +912,8 @@
      "url": "https://www.uefa.com/uefachampionsleague/match/2049640/",
      "source": "uefa",
      "source_id": "2049640",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -896,7 +935,8 @@
      "url": "https://www.uefa.com/uefachampionsleague/match/2049659/",
      "source": "uefa",
      "source_id": "2049659",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -918,7 +958,8 @@
      "url": "https://www.uefa.com/uefachampionsleague/match/2049674/",
      "source": "uefa",
      "source_id": "2049674",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -940,7 +981,8 @@
      "url": "https://www.uefa.com/uefachampionsleague/match/2049685/",
      "source": "uefa",
      "source_id": "2049685",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -962,7 +1004,8 @@
      "url": "https://www.uefa.com/uefachampionsleague/match/2049213/",
      "source": "uefa",
      "source_id": "2049213",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -984,7 +1027,8 @@
      "url": "https://www.uefa.com/uefachampionsleague/match/2049220/",
      "source": "uefa",
      "source_id": "2049220",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -1006,7 +1050,8 @@
      "url": "https://www.uefa.com/uefachampionsleague/match/2048725/",
      "source": "uefa",
      "source_id": "2048725",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -1028,7 +1073,8 @@
      "url": "https://www.uefa.com/uefachampionsleague/match/2048739/",
      "source": "uefa",
      "source_id": "2048739",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -1050,7 +1096,8 @@
      "url": "https://www.uefa.com/uefachampionsleague/match/2049107/",
      "source": "uefa",
      "source_id": "2049107",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-men",
@@ -1072,342 +1119,343 @@
      "url": "https://www.uefa.com/uefachampionsleague/match/2049117/",
      "source": "uefa",
      "source_id": "2049117",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     }
    ]
   }
  },
  "events": {
-  "football-men/super-lig/r01": {
+  "2026-27/football-men/super-lig/r01": {
    "uid": "2026-27-football-men-super-lig-r01-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "4e90a80de518ec83",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-men/super-lig/r02": {
+  "2026-27/football-men/super-lig/r02": {
    "uid": "2026-27-football-men-super-lig-r02-home@beyzakiper.github.io",
    "sequence": 4,
    "hash": "9c714aa6057ae376",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:30Z"
   },
-  "football-men/super-lig/r03": {
+  "2026-27/football-men/super-lig/r03": {
    "uid": "2026-27-football-men-super-lig-r03-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "6c4d03b9dac10ca1",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-men/super-lig/r04": {
+  "2026-27/football-men/super-lig/r04": {
    "uid": "2026-27-football-men-super-lig-r04-home@beyzakiper.github.io",
    "sequence": 4,
    "hash": "5d94ddd20bc3802c",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:30Z"
   },
-  "football-men/super-lig/r05": {
+  "2026-27/football-men/super-lig/r05": {
    "uid": "2026-27-football-men-super-lig-r05-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "eb043083bca83107",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-men/super-lig/r06": {
+  "2026-27/football-men/super-lig/r06": {
    "uid": "2026-27-football-men-super-lig-r06-home@beyzakiper.github.io",
    "sequence": 4,
    "hash": "6f84258ea2c96389",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:30Z"
   },
-  "football-men/super-lig/r07": {
+  "2026-27/football-men/super-lig/r07": {
    "uid": "2026-27-football-men-super-lig-r07-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "d4933d33c664b02a",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-men/super-lig/r08": {
+  "2026-27/football-men/super-lig/r08": {
    "uid": "2026-27-football-men-super-lig-r08-home@beyzakiper.github.io",
    "sequence": 4,
    "hash": "bcb2d5aede573b30",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:30Z"
   },
-  "football-men/super-lig/r09": {
+  "2026-27/football-men/super-lig/r09": {
    "uid": "2026-27-football-men-super-lig-r09-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "eadc242f75e5d79a",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-men/super-lig/r10": {
+  "2026-27/football-men/super-lig/r10": {
    "uid": "2026-27-football-men-super-lig-r10-home@beyzakiper.github.io",
    "sequence": 4,
    "hash": "d9be747f99f55c1d",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:30Z"
   },
-  "football-men/super-lig/r11": {
+  "2026-27/football-men/super-lig/r11": {
    "uid": "2026-27-football-men-super-lig-r11-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "9bc5823ab839a2b2",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-men/super-lig/r12": {
+  "2026-27/football-men/super-lig/r12": {
    "uid": "2026-27-football-men-super-lig-r12-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "7e5da4cacc340ed0",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-men/super-lig/r13": {
+  "2026-27/football-men/super-lig/r13": {
    "uid": "2026-27-football-men-super-lig-r13-home@beyzakiper.github.io",
    "sequence": 4,
    "hash": "8a1fcef290600586",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:30Z"
   },
-  "football-men/super-lig/r14": {
+  "2026-27/football-men/super-lig/r14": {
    "uid": "2026-27-football-men-super-lig-r14-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "b22284c89328a098",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-men/super-lig/r15": {
+  "2026-27/football-men/super-lig/r15": {
    "uid": "2026-27-football-men-super-lig-r15-home@beyzakiper.github.io",
    "sequence": 4,
    "hash": "c6fb0d08c05720a5",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:30Z"
   },
-  "football-men/super-lig/r16": {
+  "2026-27/football-men/super-lig/r16": {
    "uid": "2026-27-football-men-super-lig-r16-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "dacf800ced6e2f26",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-men/super-lig/r17": {
+  "2026-27/football-men/super-lig/r17": {
    "uid": "2026-27-football-men-super-lig-r17-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "7b3466cda59df7af",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:30Z"
   },
-  "football-men/super-lig/r18": {
+  "2026-27/football-men/super-lig/r18": {
    "uid": "2026-27-football-men-super-lig-r18-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "038b94dd00df75e6",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:30Z"
   },
-  "football-men/super-lig/r19": {
+  "2026-27/football-men/super-lig/r19": {
    "uid": "2026-27-football-men-super-lig-r19-away@beyzakiper.github.io",
    "sequence": 2,
    "hash": "3c41b5f5b79dacc9",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-men/super-lig/r20": {
+  "2026-27/football-men/super-lig/r20": {
    "uid": "2026-27-football-men-super-lig-r20-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "3455df48b5a9ae45",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:30Z"
   },
-  "football-men/super-lig/r21": {
+  "2026-27/football-men/super-lig/r21": {
    "uid": "2026-27-football-men-super-lig-r21-away@beyzakiper.github.io",
    "sequence": 2,
    "hash": "82e3f99d48934846",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-men/super-lig/r22": {
+  "2026-27/football-men/super-lig/r22": {
    "uid": "2026-27-football-men-super-lig-r22-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "e0981799ea49644e",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:30Z"
   },
-  "football-men/super-lig/r23": {
+  "2026-27/football-men/super-lig/r23": {
    "uid": "2026-27-football-men-super-lig-r23-away@beyzakiper.github.io",
    "sequence": 2,
    "hash": "767d35bd2da3e41f",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-men/super-lig/r24": {
+  "2026-27/football-men/super-lig/r24": {
    "uid": "2026-27-football-men-super-lig-r24-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "f960cee81f51b8c6",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:30Z"
   },
-  "football-men/super-lig/r25": {
+  "2026-27/football-men/super-lig/r25": {
    "uid": "2026-27-football-men-super-lig-r25-away@beyzakiper.github.io",
    "sequence": 2,
    "hash": "5a81f6676e4b9952",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-men/super-lig/r26": {
+  "2026-27/football-men/super-lig/r26": {
    "uid": "2026-27-football-men-super-lig-r26-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "e4d2e82720c38e80",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:30Z"
   },
-  "football-men/super-lig/r27": {
+  "2026-27/football-men/super-lig/r27": {
    "uid": "2026-27-football-men-super-lig-r27-away@beyzakiper.github.io",
    "sequence": 2,
    "hash": "9af73163dcb3d387",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-men/super-lig/r28": {
+  "2026-27/football-men/super-lig/r28": {
    "uid": "2026-27-football-men-super-lig-r28-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "c3b9335520fad48b",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:30Z"
   },
-  "football-men/super-lig/r29": {
+  "2026-27/football-men/super-lig/r29": {
    "uid": "2026-27-football-men-super-lig-r29-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "3ef5c7185eb6590c",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:30Z"
   },
-  "football-men/super-lig/r30": {
+  "2026-27/football-men/super-lig/r30": {
    "uid": "2026-27-football-men-super-lig-r30-away@beyzakiper.github.io",
    "sequence": 2,
    "hash": "498c9d268dabe48d",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-men/super-lig/r31": {
+  "2026-27/football-men/super-lig/r31": {
    "uid": "2026-27-football-men-super-lig-r31-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "2f190532dc2c9e8d",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:30Z"
   },
-  "football-men/super-lig/r32": {
+  "2026-27/football-men/super-lig/r32": {
    "uid": "2026-27-football-men-super-lig-r32-away@beyzakiper.github.io",
    "sequence": 2,
    "hash": "3560a3991aaef53e",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-men/super-lig/r33": {
+  "2026-27/football-men/super-lig/r33": {
    "uid": "2026-27-football-men-super-lig-r33-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "ffa44d6a5bf4ca9d",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:30Z"
   },
-  "football-men/super-lig/r34": {
+  "2026-27/football-men/super-lig/r34": {
    "uid": "2026-27-football-men-super-lig-r34-away@beyzakiper.github.io",
    "sequence": 2,
    "hash": "d386ee1a76c4d5a3",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-men/uefa-sampiyonlar-ligi/league-md1": {
+  "2026-27/football-men/uefa-sampiyonlar-ligi/league-md1": {
    "uid": "2026-27-football-men-uefa-sampiyonlar-ligi-league-md1-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "e9acd0449bee6057",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-men/uefa-sampiyonlar-ligi/league-md2": {
+  "2026-27/football-men/uefa-sampiyonlar-ligi/league-md2": {
    "uid": "2026-27-football-men-uefa-sampiyonlar-ligi-league-md2-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "89d9b5c8983b8717",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-men/uefa-sampiyonlar-ligi/league-md3": {
+  "2026-27/football-men/uefa-sampiyonlar-ligi/league-md3": {
    "uid": "2026-27-football-men-uefa-sampiyonlar-ligi-league-md3-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "dd67d18427b51e7f",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-men/uefa-sampiyonlar-ligi/league-md4": {
+  "2026-27/football-men/uefa-sampiyonlar-ligi/league-md4": {
    "uid": "2026-27-football-men-uefa-sampiyonlar-ligi-league-md4-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "652e338ee066ec98",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-men/uefa-sampiyonlar-ligi/league-md5": {
+  "2026-27/football-men/uefa-sampiyonlar-ligi/league-md5": {
    "uid": "2026-27-football-men-uefa-sampiyonlar-ligi-league-md5-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "0df2fa1b11667bf1",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-men/uefa-sampiyonlar-ligi/league-md6": {
+  "2026-27/football-men/uefa-sampiyonlar-ligi/league-md6": {
    "uid": "2026-27-football-men-uefa-sampiyonlar-ligi-league-md6-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "257db07eb6aa041d",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-men/uefa-sampiyonlar-ligi/league-md7": {
+  "2026-27/football-men/uefa-sampiyonlar-ligi/league-md7": {
    "uid": "2026-27-football-men-uefa-sampiyonlar-ligi-league-md7-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "93e830eafc8c231b",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-men/uefa-sampiyonlar-ligi/league-md8": {
+  "2026-27/football-men/uefa-sampiyonlar-ligi/league-md8": {
    "uid": "2026-27-football-men-uefa-sampiyonlar-ligi-league-md8-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "91e9c5988a878d17",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-men/uefa-sampiyonlar-ligi/play-off/1": {
+  "2026-27/football-men/uefa-sampiyonlar-ligi/play-off/1": {
    "uid": "2026-27-football-men-uefa-sampiyonlar-ligi-play-off-1-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "f40933a76dffa455",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-men/uefa-sampiyonlar-ligi/play-off/2": {
+  "2026-27/football-men/uefa-sampiyonlar-ligi/play-off/2": {
    "uid": "2026-27-football-men-uefa-sampiyonlar-ligi-play-off-2-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "caa29e340ce6a3db",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-men/uefa-sampiyonlar-ligi/second-qualifying/1": {
+  "2026-27/football-men/uefa-sampiyonlar-ligi/second-qualifying/1": {
    "uid": "2026-27-football-men-uefa-sampiyonlar-ligi-second-qualifying-1-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "1af61a702c6ab294",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-men/uefa-sampiyonlar-ligi/second-qualifying/2": {
+  "2026-27/football-men/uefa-sampiyonlar-ligi/second-qualifying/2": {
    "uid": "2026-27-football-men-uefa-sampiyonlar-ligi-second-qualifying-2-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "7402b3fa494e38a8",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-men/uefa-sampiyonlar-ligi/third-qualifying/1": {
+  "2026-27/football-men/uefa-sampiyonlar-ligi/third-qualifying/1": {
    "uid": "2026-27-football-men-uefa-sampiyonlar-ligi-third-qualifying-1-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "c529a6fccc67b3e7",
    "created": "2026-09-25T22:56:06Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-men/uefa-sampiyonlar-ligi/third-qualifying/2": {
+  "2026-27/football-men/uefa-sampiyonlar-ligi/third-qualifying/2": {
    "uid": "2026-27-football-men-uefa-sampiyonlar-ligi-third-qualifying-2-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "7a013f9382582cbe",

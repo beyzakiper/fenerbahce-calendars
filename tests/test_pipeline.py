@@ -190,3 +190,44 @@ def test_score_in_title_after_match(repo_copy, fake):
     _, _, events = run(repo_copy)
     [ev] = events.values()
     assert str(ev["SUMMARY"]) == "🏐 K · Fenerbahçe 3–1 VakıfBank"
+
+
+def test_next_season_round_one_gets_its_own_event(repo_copy, fake):
+    fake.responses[site_key()] = [
+        vb("r01", "FENERBAHÇE MEDICANA", "MANİSA", kickoff=datetime(2026, 10, 4, 10, 0, tzinfo=timezone.utc))
+    ]
+    _, _, first = run(repo_copy)
+    [(old_uid, old_event)] = first.items()
+    fake.responses[site_key()] = [
+        vb("r01", "FENERBAHÇE MEDICANA", "ZEREN", kickoff=datetime(2027, 10, 3, 10, 0, tzinfo=timezone.utc))
+    ]
+    _, _, second = run(repo_copy, now=datetime(2027, 9, 20, tzinfo=timezone.utc))
+    assert len(second) == 2 and old_uid in second
+    new_uid = next(u for u in second if u != old_uid)
+    assert new_uid.startswith("2027-28-volleyball-women-sultanlar-ligi-r01-")
+    kept = second[old_uid]
+    assert kept["DTSTART"].dt == old_event["DTSTART"].dt and int(kept["SEQUENCE"]) == 0
+
+
+def test_v1_state_migrates_without_changing_uids(repo_copy, fake):
+    import json
+
+    uid = "2026-27-volleyball-women-sultanlar-ligi-r01-home@beyzakiper.github.io"
+    v1 = {
+        "version": 1,
+        "team": TEAM,
+        "sources": {"tvf:sultanlar-ligi": {"count": 1, "matches": [
+            {"team": TEAM, "competition": "sultanlar-ligi", "stage": "r01", "side": "home",
+             "home": "FENERBAHÇE MEDICANA", "away": "MANİSA", "kickoff": "2026-10-04T10:00:00Z"},
+        ]}},
+        "events": {"volleyball-women/sultanlar-ligi/r01": {
+            "uid": uid, "sequence": 3, "hash": "x", "created": "2026-09-25T00:00:00Z",
+            "last_modified": "2026-09-25T00:00:00Z"}},
+    }
+    (repo_copy / "data").mkdir()
+    (repo_copy / "data" / f"{TEAM}.json").write_text(json.dumps(v1), encoding="utf-8")
+    fake.responses[site_key()] = SourceError("offline")
+    _, _, events = run(repo_copy)
+    assert list(events) == [uid]
+    saved = json.loads((repo_copy / "data" / f"{TEAM}.json").read_text(encoding="utf-8"))
+    assert saved["version"] == 2 and list(saved["events"]) == ["2026-27/volleyball-women/sultanlar-ligi/r01"]

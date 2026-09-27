@@ -7,13 +7,17 @@ only commits when something changed.
 from __future__ import annotations
 
 import json
+import re
+from datetime import date
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
 from .models import Match
+from .timeutil import season_of
 
-VERSION = 1
+VERSION = 2  # 2: match keys include the season ("2026-27/volleyball-women/sultanlar-ligi/r01")
+_UID_SEASON = re.compile(r"^(\d{4}-\d{2})-")
 
 
 @dataclass
@@ -42,6 +46,8 @@ class TeamState:
         if not path.exists():
             return cls(team=team)
         raw = json.loads(path.read_text(encoding="utf-8"))
+        if raw.get("version", 1) < 2:
+            raw = _migrate_v1(raw)
         return cls(
             team=team,
             sources={
@@ -70,3 +76,24 @@ class TeamState:
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(text, encoding="utf-8")
         return True
+
+
+def _migrate_v1(raw: dict[str, Any]) -> dict[str, Any]:
+    """v1 keys had no season. Prefix each ledger key with the season already baked into its UID, so every
+    subscriber keeps exactly the same UIDs; stored matches get their season from their date (or, if undated,
+    from the ledger entry with the same code)."""
+    events: dict[str, Any] = {}
+    code_season: dict[str, str] = {}
+    for code, record in (raw.get("events") or {}).items():
+        found = _UID_SEASON.match(record["uid"])
+        season = found.group(1) if found else season_of(date.today())
+        events[f"{season}/{code}"] = record
+        code_season[code] = season
+    for source in (raw.get("sources") or {}).values():
+        for m in source.get("matches", []):
+            if m.get("season"):
+                continue
+            day = (m.get("kickoff") or m.get("day") or "")[:10]
+            code = "/".join(p for p in (m["team"], m["competition"], m["stage"], m.get("leg") or "") if p)
+            m["season"] = season_of(date.fromisoformat(day)) if day else code_season.get(code, season_of(date.today()))
+    return {**raw, "version": VERSION, "events": events}

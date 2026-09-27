@@ -1,5 +1,5 @@
 {
- "version": 1,
+ "version": 2,
  "team": "football-women",
  "sources": {
   "tff:kadin-futbol-super-ligi:league": {
@@ -25,7 +25,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=320596",
      "source": "tff",
      "source_id": "320596",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-women",
@@ -47,7 +48,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=320606",
      "source": "tff",
      "source_id": "320606",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-women",
@@ -69,7 +71,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=320612",
      "source": "tff",
      "source_id": "320612",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-women",
@@ -91,7 +94,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=320616",
      "source": "tff",
      "source_id": "320616",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-women",
@@ -113,7 +117,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=320628",
      "source": "tff",
      "source_id": "320628",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-women",
@@ -135,7 +140,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=320633",
      "source": "tff",
      "source_id": "320633",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-women",
@@ -157,7 +163,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=320644",
      "source": "tff",
      "source_id": "320644",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-women",
@@ -179,7 +186,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=320652",
      "source": "tff",
      "source_id": "320652",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-women",
@@ -201,7 +209,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=320661",
      "source": "tff",
      "source_id": "320661",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-women",
@@ -223,7 +232,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=320668",
      "source": "tff",
      "source_id": "320668",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-women",
@@ -245,7 +255,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=320679",
      "source": "tff",
      "source_id": "320679",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-women",
@@ -267,7 +278,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=320684",
      "source": "tff",
      "source_id": "320684",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-women",
@@ -289,7 +301,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=320690",
      "source": "tff",
      "source_id": "320690",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-women",
@@ -311,7 +324,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=320700",
      "source": "tff",
      "source_id": "320700",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-women",
@@ -333,7 +347,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=320708",
      "source": "tff",
      "source_id": "320708",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-women",
@@ -355,7 +370,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=320716",
      "source": "tff",
      "source_id": "320716",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-women",
@@ -377,7 +393,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=320726",
      "source": "tff",
      "source_id": "320726",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-women",
@@ -399,7 +416,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=320732",
      "source": "tff",
      "source_id": "320732",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-women",
@@ -421,7 +439,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=320736",
      "source": "tff",
      "source_id": "320736",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-women",
@@ -443,7 +462,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=320748",
      "source": "tff",
      "source_id": "320748",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-women",
@@ -465,7 +485,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=320753",
      "source": "tff",
      "source_id": "320753",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-women",
@@ -487,7 +508,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=320764",
      "source": "tff",
      "source_id": "320764",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-women",
@@ -509,7 +531,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=320772",
      "source": "tff",
      "source_id": "320772",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-women",
@@ -531,7 +554,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=320781",
      "source": "tff",
      "source_id": "320781",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-women",
@@ -553,7 +577,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=320788",
      "source": "tff",
      "source_id": "320788",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-women",
@@ -575,7 +600,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=320799",
      "source": "tff",
      "source_id": "320799",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-women",
@@ -597,7 +623,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=320804",
      "source": "tff",
      "source_id": "320804",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-women",
@@ -619,7 +646,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=320810",
      "source": "tff",
      "source_id": "320810",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-women",
@@ -641,7 +669,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=320820",
      "source": "tff",
      "source_id": "320820",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-women",
@@ -663,7 +692,8 @@
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=320828",
      "source": "tff",
      "source_id": "320828",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     }
    ]
   },
@@ -690,7 +720,8 @@
      "url": "",
      "source": "uefa",
      "source_id": "2050497",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-women",
@@ -712,7 +743,8 @@
      "url": "",
      "source": "uefa",
      "source_id": "2050513",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-women",
@@ -734,7 +766,8 @@
      "url": "https://www.uefa.com/womenschampionsleague/match/2048947/",
      "source": "uefa",
      "source_id": "2048947",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     },
     {
      "team": "football-women",
@@ -756,244 +789,245 @@
      "url": "https://www.uefa.com/womenschampionsleague/match/2048939/",
      "source": "uefa",
      "source_id": "2048939",
-     "extra": {}
+     "extra": {},
+     "season": "2026-27"
     }
    ]
   }
  },
  "events": {
-  "football-women/kadin-futbol-super-ligi/r01": {
+  "2026-27/football-women/kadin-futbol-super-ligi/r01": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r01-home@beyzakiper.github.io",
    "sequence": 2,
    "hash": "0c1c3d32ca3acec6",
    "created": "2026-09-26T00:01:20Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-women/kadin-futbol-super-ligi/r02": {
+  "2026-27/football-women/kadin-futbol-super-ligi/r02": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r02-away@beyzakiper.github.io",
    "sequence": 2,
    "hash": "64514a2ca816a97b",
    "created": "2026-09-26T00:01:20Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-women/kadin-futbol-super-ligi/r03": {
+  "2026-27/football-women/kadin-futbol-super-ligi/r03": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r03-home@beyzakiper.github.io",
    "sequence": 3,
    "hash": "0babf5601f6abae1",
    "created": "2026-09-26T00:01:20Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-women/kadin-futbol-super-ligi/r04": {
+  "2026-27/football-women/kadin-futbol-super-ligi/r04": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r04-away@beyzakiper.github.io",
    "sequence": 2,
    "hash": "2634cef46ec4ae88",
    "created": "2026-09-26T00:01:20Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-women/kadin-futbol-super-ligi/r05": {
+  "2026-27/football-women/kadin-futbol-super-ligi/r05": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r05-home@beyzakiper.github.io",
    "sequence": 2,
    "hash": "b8d7327828bfbcb9",
    "created": "2026-09-26T00:01:20Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-women/kadin-futbol-super-ligi/r06": {
+  "2026-27/football-women/kadin-futbol-super-ligi/r06": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r06-away@beyzakiper.github.io",
    "sequence": 2,
    "hash": "11be336c1ebf6cf1",
    "created": "2026-09-26T00:01:20Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-women/kadin-futbol-super-ligi/r07": {
+  "2026-27/football-women/kadin-futbol-super-ligi/r07": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r07-home@beyzakiper.github.io",
    "sequence": 2,
    "hash": "c58c0308f7aec7af",
    "created": "2026-09-26T00:01:20Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-women/kadin-futbol-super-ligi/r08": {
+  "2026-27/football-women/kadin-futbol-super-ligi/r08": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r08-home@beyzakiper.github.io",
    "sequence": 2,
    "hash": "cd8b3cd6b048459d",
    "created": "2026-09-26T00:01:20Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-women/kadin-futbol-super-ligi/r09": {
+  "2026-27/football-women/kadin-futbol-super-ligi/r09": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r09-away@beyzakiper.github.io",
    "sequence": 2,
    "hash": "f43a681711474fb6",
    "created": "2026-09-26T00:01:20Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-women/kadin-futbol-super-ligi/r10": {
+  "2026-27/football-women/kadin-futbol-super-ligi/r10": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r10-home@beyzakiper.github.io",
    "sequence": 2,
    "hash": "15b0e829e875da1f",
    "created": "2026-09-26T00:01:20Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-women/kadin-futbol-super-ligi/r11": {
+  "2026-27/football-women/kadin-futbol-super-ligi/r11": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r11-away@beyzakiper.github.io",
    "sequence": 2,
    "hash": "edae45f811490dbe",
    "created": "2026-09-26T00:01:20Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-women/kadin-futbol-super-ligi/r12": {
+  "2026-27/football-women/kadin-futbol-super-ligi/r12": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r12-home@beyzakiper.github.io",
    "sequence": 2,
    "hash": "693aa77fca16bad4",
    "created": "2026-09-26T00:01:20Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-women/kadin-futbol-super-ligi/r13": {
+  "2026-27/football-women/kadin-futbol-super-ligi/r13": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r13-away@beyzakiper.github.io",
    "sequence": 2,
    "hash": "211054df7432fc54",
    "created": "2026-09-26T00:01:20Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-women/kadin-futbol-super-ligi/r14": {
+  "2026-27/football-women/kadin-futbol-super-ligi/r14": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r14-home@beyzakiper.github.io",
    "sequence": 2,
    "hash": "9cf6ca9fdfd82b62",
    "created": "2026-09-26T00:01:20Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-women/kadin-futbol-super-ligi/r15": {
+  "2026-27/football-women/kadin-futbol-super-ligi/r15": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r15-away@beyzakiper.github.io",
    "sequence": 2,
    "hash": "868510171cd31d06",
    "created": "2026-09-26T00:01:20Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-women/kadin-futbol-super-ligi/r16": {
+  "2026-27/football-women/kadin-futbol-super-ligi/r16": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r16-away@beyzakiper.github.io",
    "sequence": 2,
    "hash": "54ae73535ae91c31",
    "created": "2026-09-26T00:01:20Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-women/kadin-futbol-super-ligi/r17": {
+  "2026-27/football-women/kadin-futbol-super-ligi/r17": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r17-home@beyzakiper.github.io",
    "sequence": 2,
    "hash": "c2c6e90fdd6c61ca",
    "created": "2026-09-26T00:01:20Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-women/kadin-futbol-super-ligi/r18": {
+  "2026-27/football-women/kadin-futbol-super-ligi/r18": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r18-away@beyzakiper.github.io",
    "sequence": 3,
    "hash": "7f9efb9d0a783b1a",
    "created": "2026-09-26T00:01:20Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-women/kadin-futbol-super-ligi/r19": {
+  "2026-27/football-women/kadin-futbol-super-ligi/r19": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r19-home@beyzakiper.github.io",
    "sequence": 2,
    "hash": "429e0c82d13be667",
    "created": "2026-09-26T00:01:20Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-women/kadin-futbol-super-ligi/r20": {
+  "2026-27/football-women/kadin-futbol-super-ligi/r20": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r20-away@beyzakiper.github.io",
    "sequence": 2,
    "hash": "b4bb916c1bfa9920",
    "created": "2026-09-26T00:01:20Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-women/kadin-futbol-super-ligi/r21": {
+  "2026-27/football-women/kadin-futbol-super-ligi/r21": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r21-home@beyzakiper.github.io",
    "sequence": 2,
    "hash": "b8d5747095b6c9e0",
    "created": "2026-09-26T00:01:20Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-women/kadin-futbol-super-ligi/r22": {
+  "2026-27/football-women/kadin-futbol-super-ligi/r22": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r22-away@beyzakiper.github.io",
    "sequence": 2,
    "hash": "74967b631ae7f57a",
    "created": "2026-09-26T00:01:20Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-women/kadin-futbol-super-ligi/r23": {
+  "2026-27/football-women/kadin-futbol-super-ligi/r23": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r23-away@beyzakiper.github.io",
    "sequence": 2,
    "hash": "aec7bfa2e232f85f",
    "created": "2026-09-26T00:01:20Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-women/kadin-futbol-super-ligi/r24": {
+  "2026-27/football-women/kadin-futbol-super-ligi/r24": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r24-home@beyzakiper.github.io",
    "sequence": 2,
    "hash": "1e05dba1f74c1201",
    "created": "2026-09-26T00:01:20Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-women/kadin-futbol-super-ligi/r25": {
+  "2026-27/football-women/kadin-futbol-super-ligi/r25": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r25-away@beyzakiper.github.io",
    "sequence": 2,
    "hash": "c927dfefaf64ce70",
    "created": "2026-09-26T00:01:20Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-women/kadin-futbol-super-ligi/r26": {
+  "2026-27/football-women/kadin-futbol-super-ligi/r26": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r26-home@beyzakiper.github.io",
    "sequence": 2,
    "hash": "cb783cf90a8e84d7",
    "created": "2026-09-26T00:01:20Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-women/kadin-futbol-super-ligi/r27": {
+  "2026-27/football-women/kadin-futbol-super-ligi/r27": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r27-away@beyzakiper.github.io",
    "sequence": 2,
    "hash": "1d601e3dd66ceed1",
    "created": "2026-09-26T00:01:20Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-women/kadin-futbol-super-ligi/r28": {
+  "2026-27/football-women/kadin-futbol-super-ligi/r28": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r28-home@beyzakiper.github.io",
    "sequence": 2,
    "hash": "1f8dacd4f7f5b0d5",
    "created": "2026-09-26T00:01:20Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-women/kadin-futbol-super-ligi/r29": {
+  "2026-27/football-women/kadin-futbol-super-ligi/r29": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r29-away@beyzakiper.github.io",
    "sequence": 2,
    "hash": "62db1c6e90bfcab2",
    "created": "2026-09-26T00:01:20Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-women/kadin-futbol-super-ligi/r30": {
+  "2026-27/football-women/kadin-futbol-super-ligi/r30": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r30-home@beyzakiper.github.io",
    "sequence": 2,
    "hash": "56bbfd406f701038",
    "created": "2026-09-26T00:01:20Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-women/uefa-kadinlar-avrupa-kupasi/second-qualifying/1": {
+  "2026-27/football-women/uefa-kadinlar-avrupa-kupasi/second-qualifying/1": {
    "uid": "2026-27-football-women-uefa-kadinlar-avrupa-kupasi-second-qualifying-1-away@beyzakiper.github.io",
    "sequence": 2,
    "hash": "efe86725cca0697a",
    "created": "2026-09-26T00:01:20Z",
    "last_modified": "2026-09-26T16:30:02Z"
   },
-  "football-women/uefa-kadinlar-avrupa-kupasi/second-qualifying/2": {
+  "2026-27/football-women/uefa-kadinlar-avrupa-kupasi/second-qualifying/2": {
    "uid": "2026-27-football-women-uefa-kadinlar-avrupa-kupasi-second-qualifying-2-home@beyzakiper.github.io",
    "sequence": 1,
    "hash": "7152992ea89e7e90",
    "created": "2026-09-26T00:01:20Z",
    "last_modified": "2026-09-26T01:41:22Z"
   },
-  "football-women/uefa-kadinlar-sampiyonlar-ligi/second-qualifying-md1": {
+  "2026-27/football-women/uefa-kadinlar-sampiyonlar-ligi/second-qualifying-md1": {
    "uid": "2026-27-football-women-uefa-kadinlar-sampiyonlar-ligi-second-qualifying-md1-away@beyzakiper.github.io",
    "sequence": 2,
    "hash": "4e002d7438a20264",
    "created": "2026-09-26T00:01:20Z",
    "last_modified": "2026-09-26T02:36:08Z"
   },
-  "football-women/uefa-kadinlar-sampiyonlar-ligi/second-qualifying-md4": {
+  "2026-27/football-women/uefa-kadinlar-sampiyonlar-ligi/second-qualifying-md4": {
    "uid": "2026-27-football-women-uefa-kadinlar-sampiyonlar-ligi-second-qualifying-md4-away@beyzakiper.github.io",
    "sequence": 2,
    "hash": "f35ddc2d71f12977",

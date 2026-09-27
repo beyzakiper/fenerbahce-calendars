@@ -15,11 +15,12 @@ from .config import Combined, Config, Team
 from .http import SourceError, new_session
 from .ics import build_calendar, update_ledger
 from .merge import apply_round_dates, combine
-from .overrides import added_match, apply_edit, load_overrides
+from .overrides import added_match, apply_edit, load_overrides, override_key
 from .render import EventSpec, Namer, build_event
 from .sources import ADAPTERS, source_key
 from .sources.base import Context
 from .state import EventRecord, SourceState, TeamState
+from .timeutil import season_of
 
 log = logging.getLogger("fbcal")
 KEEP_DAYS = 400  # older matches are dropped from stored data
@@ -79,6 +80,9 @@ def _refresh_source(
         result.status, result.message = "failed", f"{type(exc).__name__}: {exc}"[:300]
         log.warning("%s %s failed: %s", ctx.team.key, skey, exc)
         return
+    for m in fresh:  # undated matches (e.g. fixture-draw order) belong to the current season
+        if not m.season:
+            m.season = season_of(ctx.today)
     result.count = len(fresh)
     if stored.count >= 4 and len(fresh) < guard * stored.count:
         result.status = "suspicious"
@@ -123,12 +127,13 @@ def build(config: Config, *, out_dir: Path, today: date | None = None, now: date
 
         hidden: set[str] = set()
         for edit in edits:
-            if edit.match in matches:
+            key = override_key(edit.match, today)
+            if key in matches:
                 used_edits.add(edit.match)
                 if edit.hide:
-                    hidden.add(edit.match)
+                    hidden.add(key)
                 else:
-                    apply_edit(matches[edit.match], edit)
+                    apply_edit(matches[key], edit)
         # Only matches with an official date are published; the rest wait until a date is announced.
         hidden |= set(apply_round_dates(matches, config.competitions))
 

@@ -1,6 +1,7 @@
 # Manual fixes. Optional — the feeds work without anything here. Entries always win over source data.
 #
-# A match code is team/competition/round, e.g. volleyball-women/sultanlar-ligi/r05
+# A match code is team/competition/round, e.g. volleyball-women/sultanlar-ligi/r05, and means the current
+# season. Prefix a season to target another one: 2026-27/volleyball-women/sultanlar-ligi/r05
 # (all codes are listed under "events" in data/<team>.json).
 # Times are Istanbul time. Examples (remove the leading # to use):
 #

@@ -13,7 +13,7 @@ from fbcal.sources import euroleague, tbf, tff, tvf, tvf_pdf, uefa
 def test_tff_league_week_with_time(ctx_for):
     ctx = ctx_for("football-men")
     [m] = tff.parse_league_week(fixture_text("tff_league_week7.html"), 7, ctx, "super-lig")
-    assert m.key == "football-men/super-lig/r07"
+    assert m.key == "2026-27/football-men/super-lig/r07"
     assert m.side == "away" and "RİZESPOR" in m.home
     assert m.kickoff == datetime(2026, 10, 10, 16, 0, tzinfo=timezone.utc)  # 19:00 Istanbul
     assert m.url.endswith("macId=317841")
@@ -38,8 +38,8 @@ def test_uefa(ctx_for):
     items = json.loads(fixture_text("uefa_ucl_2027.json"))
     matches = [uefa.parse_match(i, "uefa-sampiyonlar-ligi", "1", ctx, "52692") for i in items]
     keys = [m.key for m in matches]
-    assert "football-men/uefa-sampiyonlar-ligi/second-qualifying/1" in keys
-    assert "football-men/uefa-sampiyonlar-ligi/league-md2" in keys
+    assert "2026-27/football-men/uefa-sampiyonlar-ligi/second-qualifying/1" in keys
+    assert "2026-27/football-men/uefa-sampiyonlar-ligi/league-md2" in keys
     villa = next(m for m in matches if m.stage == "league-md2")
     assert villa.side == "away" and villa.kickoff == datetime(2026, 10, 14, 19, 0, tzinfo=timezone.utc)
     first = matches[0]
@@ -71,7 +71,7 @@ def test_tbf_league_row_tba_and_timed(ctx_for):
 def test_tvf_fixture_both_renderings(ctx_for):
     for name in ("tvf_sultanlar_fikstur.html", "tvf_sultanlar_fikstur_legacy.html"):
         [m] = tvf.parse_fixture(fixture_text(name), ctx_for("volleyball-women"), "sultanlar-ligi")
-        assert m.key == "volleyball-women/sultanlar-ligi/r01", name
+        assert m.key == "2026-27/volleyball-women/sultanlar-ligi/r01", name
         assert m.kickoff == datetime(2026, 10, 4, 10, 0, tzinfo=timezone.utc)
         assert m.city == "İstanbul" and "Burhan Felek" in m.venue
         assert m.url == ""  # TVF has no per-match page

@@ -12,7 +12,6 @@ from icalendar import Alarm, Calendar, Event, vDuration, vText
 from .config import Combined, Config, Team
 from .render import EventSpec
 from .state import EventRecord, TeamState
-from .timeutil import season_of
 
 # RFC 7986 COLOR expects a CSS colour name; Apple uses the exact hex from X-APPLE-CALENDAR-COLOR.
 CSS_COLORS = {
@@ -38,10 +37,9 @@ def _iso(moment: datetime) -> str:
     return moment.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
-def new_uid(spec: EventSpec, config: Config, today) -> str:
+def new_uid(spec: EventSpec, config: Config) -> str:
     m = spec.match
-    season = season_of(m.start_day or today)
-    parts = [season, m.team, m.competition, m.stage]
+    parts = [m.season, m.team, m.competition, m.stage]
     if m.leg:
         parts.append(m.leg)
     parts.append(m.side)
@@ -56,7 +54,7 @@ def update_ledger(specs: list[EventSpec], state: TeamState, config: Config, now:
         record = state.events.get(spec.key)
         if record is None:
             state.events[spec.key] = EventRecord(
-                uid=new_uid(spec, config, now.date()), sequence=0, hash=digest, created=stamp, last_modified=stamp
+                uid=new_uid(spec, config), sequence=0, hash=digest, created=stamp, last_modified=stamp
             )
         elif record.hash != digest:
             record.sequence += 1
