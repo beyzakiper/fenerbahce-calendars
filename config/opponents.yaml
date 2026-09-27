@@ -101,7 +101,7 @@ opponents:
   halkbank:      { display: "Halkbank" }
   ziraat:        { display: "Ziraat Bankkart", aliases: ["Ziraat Bankası"] }
   arkas:         { display: "Arkas Spor" }
-  alanya-bld:    { display: "Alanya Bld.", aliases: ["On Hotels Alanya Bld.", "ON HOTELS ALANYA BLD."] }
+  alanya-bld:    { display: "Alanya Bld.", aliases: ["On Hotels Alanya Bld.", "On Hotels Alanya Belediyespor"] }
   ibb:           { display: "İBB", aliases: ["İBB Spor Kulübü"] }
   spor-toto:     { display: "Spor Toto" }
   altekma:       { display: "Altekma" }

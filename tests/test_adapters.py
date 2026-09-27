@@ -7,7 +7,7 @@ from datetime import date, datetime, timezone
 
 from conftest import fixture_bytes, fixture_text
 
-from fbcal.sources import euroleague, tbf, tff, tvf, tvf_pdf, uefa
+from fbcal.sources import euroleague, tbf, tff, tvf, tvf_xlsx, uefa
 
 
 def test_tff_league_week_with_time(ctx_for):
@@ -84,14 +84,6 @@ def test_tvf_league_link_discovery():
     assert cup and cup.startswith("/FSW/")
 
 
-def test_tvf_pdf_full_order(ctx_for):
-    matches = tvf_pdf.parse_pdf(fixture_bytes("tvf_sultanlar_fikstur.pdf"), ctx_for("volleyball-women"), "sultanlar-ligi")
-    assert len(matches) == 26
-    by_stage = {m.stage: m for m in matches}
-    assert by_stage["r01"].side == "home" and "MANİSA" in by_stage["r01"].away
-    assert by_stage["r02"].side == "away" and by_stage["r02"].home == "BEŞİKTAŞ"
-    assert all(m.kickoff is None and m.day is None for m in matches)
-
 
 def test_uefa_mini_tournament_matches_get_distinct_keys(ctx_for):
     ctx = ctx_for("football-women")
@@ -117,8 +109,25 @@ def test_tff_women_league_uses_same_parser(ctx_for):
     assert m.side == "home" and m.kickoff == datetime(2026, 11, 18, 11, 0, tzinfo=timezone.utc)
 
 
-def test_tvf_men_efeler(ctx_for):
+
+def _xlsx_matches(ctx, gender, leagues):
+    rows = tvf_xlsx.read_rows(fixture_bytes("tvf_genel_fikstur_2026-2027.xlsx"))
+    return [m for r in rows if (m := tvf_xlsx.parse_row(r, ctx, leagues, gender, "2026-27"))]
+
+
+def test_tvf_spreadsheet_women_first_team_only(ctx_for):
+    ctx = ctx_for("volleyball-women")
+    matches = _xlsx_matches(ctx, "K", {"VSL": "sultanlar-ligi", "ASKV": "kupa-voley-kadin"})
+    assert [m.stage for m in matches] == ["r01", "r02", "r03", "r04", "r05"]  # 1. Lig / 2. Lig reserve teams skipped
+    besiktas = matches[1]
+    assert besiktas.key == "2026-27/volleyball-women/sultanlar-ligi/r02" and besiktas.side == "away"
+    assert besiktas.kickoff == datetime(2026, 10, 11, 16, 0, tzinfo=timezone.utc)  # 19:00 Istanbul
+    assert besiktas.venue == "TVF Burhan Felek Vestel Voleybol Salonu" and besiktas.city == "İstanbul"
+
+
+def test_tvf_spreadsheet_men_and_merge_key_matches_fixture_site(ctx_for):
     ctx = ctx_for("volleyball-men")
-    order = tvf_pdf.parse_pdf(fixture_bytes("tvf_efeler_fikstur.pdf"), ctx, "efeler-ligi")
-    dated = tvf.parse_fixture(fixture_text("tvf_efeler_fikstur.html"), ctx, "efeler-ligi")
-    assert len(order) == 26 and [m.key for m in dated] == [order[0].key]
+    matches = _xlsx_matches(ctx, "E", {"SGEL": "efeler-ligi"})
+    assert len(matches) == 4 and matches[-1].home == "İBB SPOR KULÜBÜ"
+    [site] = tvf.parse_fixture(fixture_text("tvf_efeler_fikstur.html"), ctx, "efeler-ligi")
+    assert site.key == matches[0].key and site.kickoff == matches[0].kickoff

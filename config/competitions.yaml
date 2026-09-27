@@ -35,5 +35,6 @@ competitions:
   efeler-ligi:                   { name: "Efeler Ligi" }
   kupa-voley-erkek:              { name: "Kupa Voley" }
   cev-kupasi-erkek:              { name: "CEV Kupası" }
+  sampiyonlar-kupasi-erkek:      { name: "Şampiyonlar Kupası" }
   sampiyonlar-kupasi-kadin:      { name: "Şampiyonlar Kupası" }
   cev-sampiyonlar-ligi-kadin:    { name: "CEV Şampiyonlar Ligi" }

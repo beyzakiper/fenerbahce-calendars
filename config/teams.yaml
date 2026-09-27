@@ -77,6 +77,14 @@ teams:
     color: "#63C98F"
     alarm_minutes: 30
     sources:
+      # TVF's season spreadsheet (main source). League codes carry sponsor initials; update them if a sponsor changes.
+      - adapter: tvf_xlsx
+        gender: K
+        leagues:
+          VSL: sultanlar-ligi             # Vodafone Sultanlar Ligi
+          ASKV: kupa-voley-kadin          # AXA Sigorta Kupa Voley
+          ASŞK: sampiyonlar-kupasi-kadin  # AXA Sigorta Şampiyonlar Kupası
+      # TVF fixture website (backup; same match keys, merged with the spreadsheet)
       - adapter: tvf
         gender: K
         league_code: SULTANLAR
@@ -85,10 +93,6 @@ teams:
         gender: K
         league_name_contains: "Kupa Voley"
         competition: kupa-voley-kadin
-      - adapter: tvf_pdf
-        competition: sultanlar-ligi
-        # The season's fixture-draw PDF (update every summer)
-        url: "https://tvf.org.tr/storage/88400/SULTANLAR-FIKSTUR.pdf"
 
   volleyball-men:
     display_name: "Fenerbahçe"
@@ -100,6 +104,12 @@ teams:
     color: "#1E9E5A"
     alarm_minutes: null
     sources:
+      - adapter: tvf_xlsx
+        gender: E
+        leagues:
+          SGEL: efeler-ligi               # SMS Grup Efeler Ligi
+          ASKV: kupa-voley-erkek          # AXA Sigorta Kupa Voley
+          ASŞK: sampiyonlar-kupasi-erkek  # AXA Sigorta Şampiyonlar Kupası
       - adapter: tvf
         gender: E
         league_code: EFELER
@@ -108,10 +118,6 @@ teams:
         gender: E
         league_name_contains: "Kupa Voley"
         competition: kupa-voley-erkek
-      - adapter: tvf_pdf
-        competition: efeler-ligi
-        # The season's fixture-draw PDF (update every summer)
-        url: "https://tvf.org.tr/storage/88403/EFELER-FIKSTUR.pdf"
 
   basketball-women:
     display_name: "Fenerbahçe"

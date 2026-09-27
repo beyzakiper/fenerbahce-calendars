@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from collections.abc import Callable
 
-from . import euroleague, fiba, tbf, tff, tvf, tvf_pdf, uefa
+from . import euroleague, fiba, tbf, tff, tvf, tvf_xlsx, uefa
 from .base import Context
 
 Adapter = Callable[[Context, dict], list]
@@ -16,7 +16,7 @@ ADAPTERS: dict[str, Adapter] = {
     "euroleague": euroleague.fetch,
     "fiba": fiba.fetch,
     "tvf": tvf.fetch,
-    "tvf_pdf": tvf_pdf.fetch,
+    "tvf_xlsx": tvf_xlsx.fetch,
 }
 
 

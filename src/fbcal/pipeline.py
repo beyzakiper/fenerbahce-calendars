@@ -120,6 +120,8 @@ def build(config: Config, *, out_dir: Path, today: date | None = None, now: date
                 _refresh_source(ctx, spec, stored, config.settings.shrink_guard, report, offline)
             report.warnings += [f"{team.key}: {w}" for w in ctx.warnings]
 
+        configured = {source_key(spec) for spec in team.sources}
+        state.sources = {k: v for k, v in state.sources.items() if k in configured}  # forget removed sources
         groups = [state.sources.get(source_key(spec), SourceState()).matches for spec in team.sources]
         groups.append([added_match(a, config) for a in adds if a.team == team.key])
         # manually added matches take top priority

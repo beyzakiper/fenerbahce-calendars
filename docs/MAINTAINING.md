@@ -31,7 +31,8 @@ Examples are in the file.
 
 ## Yearly chores
 
-- Update both TVF fixture-draw PDF URLs in `config/teams.yaml` (`volleyball-women` and `volleyball-men` → `tvf_pdf`) each summer.
+- Nothing to update for volleyball: the TVF spreadsheet URL is built from the season. If TVF renames the file or a
+  league's sponsor changes, fix `url_template` or the league codes (`VSL`, `SGEL`, `ASKV`, `ASŞK`) in `config/teams.yaml`.
 - Clear last season's `round_dates` in `config/competitions.yaml`.
 
 Matches are only published once their date is official; the full fixture is never shown in advance.
@@ -42,8 +43,8 @@ Matches are only published once their date is official; the full fixture is neve
 |---|---|
 | Men's football | TFF (league, cup, super cup — HTML), UEFA match API (JSON) |
 | Men's basketball | TBF web API (league, cups — JSON), EuroLeague API (JSON) |
-| Women's volleyball | TVF fixture system (HTML), TVF fixture-draw PDF |
-| Men's volleyball | TVF fixture system (HTML), TVF fixture-draw PDF |
+| Women's volleyball | TVF season spreadsheet ("Genel Fikstür ve Maç Programı", XLSX), TVF fixture system (HTML, backup) |
+| Men's volleyball | TVF season spreadsheet (XLSX), TVF fixture system (HTML, backup) |
 | Women's basketball | TBF web API (KBSL, cups — JSON), FIBA EuroLeague Women (data embedded in fiba.basketball) |
 | Women's football | TFF (Kadın Futbol Süper Ligi — HTML), UEFA match API (JSON) |
 

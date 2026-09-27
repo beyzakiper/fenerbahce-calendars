@@ -52,8 +52,8 @@ def run(root: Path, now: datetime = NOW):
     return report, cal, {str(e["UID"]): e for e in cal.walk("VEVENT")}
 
 
-def pdf_key():
-    return f"{TEAM}|tvf_pdf:sultanlar-ligi"
+def xlsx_key():
+    return f"{TEAM}|tvf_xlsx"
 
 
 def site_key():
@@ -84,13 +84,12 @@ def test_ics_is_valid_and_apple_ready(repo_copy, fake):
 
 
 def test_undated_matches_are_hidden_until_official(repo_copy, fake):
-    fake.responses[pdf_key()] = [vb("r05", "FENERBAHÇE MEDICANA", "VAKIFBANK")]
+    fake.responses[xlsx_key()] = [vb("r05", "FENERBAHÇE MEDICANA", "VAKIFBANK", season="2026-27")]
     _, _, events = run(repo_copy)
     assert events == {}
 
 
 def test_tba_then_confirmed_keeps_uid_and_bumps_sequence(repo_copy, fake):
-    fake.responses[pdf_key()] = [vb("r05", "FENERBAHÇE MEDICANA", "VAKIFBANK")]
     fake.responses[site_key()] = [vb("r05", "FENERBAHÇE MEDICANA", "VAKIFBANK", day=date(2026, 11, 8))]
     _, _, events = run(repo_copy)
     [(uid, ev)] = events.items()
