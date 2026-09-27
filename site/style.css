@@ -65,7 +65,8 @@ a { color: inherit; }
 }
 .hero h1 { margin: 0; font-size: clamp(36px, 7vw, 64px); line-height: 1.02; letter-spacing: -.02em; }
 .hero h1 span { color: var(--yellow); }
-.lead { max-width: 560px; margin: 18px 0 0; color: #d7def0; font-size: 17px; }
+.lead { max-width: 600px; margin: 18px 0 0; color: #d7def0; font-size: 17px; }
+.lead + .lead { margin-top: 10px; }
 
 main { max-width: 1120px; margin: 0 auto; padding: 8px 16px 40px; }
 section { margin-top: 40px; }
