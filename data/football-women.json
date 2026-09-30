@@ -736,9 +736,9 @@
      "day": null,
      "venue": "Sarıyer Yusuf Ziya Öniş Stadyumu",
      "city": "Istanbul",
-     "status": "scheduled",
-     "home_score": null,
-     "away_score": null,
+     "status": "finished",
+     "home_score": 1,
+     "away_score": 0,
      "score_note": "",
      "url": "",
      "source": "uefa",
@@ -1015,10 +1015,10 @@
   },
   "2026-27/football-women/uefa-kadinlar-avrupa-kupasi/second-qualifying/2": {
    "uid": "2026-27-football-women-uefa-kadinlar-avrupa-kupasi-second-qualifying-2-home@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "7152992ea89e7e90",
+   "sequence": 2,
+   "hash": "6c911eb9c3577fd6",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-09-30T22:22:27Z"
   },
   "2026-27/football-women/uefa-kadinlar-sampiyonlar-ligi/second-qualifying-md1": {
    "uid": "2026-27-football-women-uefa-kadinlar-sampiyonlar-ligi-second-qualifying-md1-away@beyzakiper.github.io",
