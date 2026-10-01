@@ -37,8 +37,8 @@
      "away": "Fenerbahçe Spor Kulübü",
      "leg": "",
      "round_label": "Normal Sezon 1. Tur",
-     "kickoff": null,
-     "day": "2026-12-02",
+     "kickoff": "2026-12-02T18:00:00Z",
+     "day": null,
      "venue": "Guinguette Arena",
      "city": "Charleville-Mézères",
      "status": "scheduled",
@@ -629,10 +629,10 @@
   },
   "2026-27/basketball-women/euroleague-women/rs-fr-g11": {
    "uid": "2026-27-basketball-women-euroleague-women-rs-fr-g11-away@beyzakiper.github.io",
-   "sequence": 2,
-   "hash": "0fc091ddc950c7a1",
+   "sequence": 3,
+   "hash": "62b17bc2e3cbede0",
    "created": "2026-09-25T23:58:48Z",
-   "last_modified": "2026-09-30T22:22:27Z"
+   "last_modified": "2026-10-01T13:30:02Z"
   },
   "2026-27/basketball-women/euroleague-women/rs-fr-g3": {
    "uid": "2026-27-basketball-women-euroleague-women-rs-fr-g3-away@beyzakiper.github.io",
