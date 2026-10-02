@@ -64,9 +64,9 @@
      "day": null,
      "venue": "Ulker Sports And Event Hall",
      "city": "",
-     "status": "scheduled",
-     "home_score": null,
-     "away_score": null,
+     "status": "finished",
+     "home_score": 76,
+     "away_score": 66,
      "score_note": "",
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/29/",
      "source": "euroleague",
@@ -1843,10 +1843,10 @@
   },
   "2026-27/basketball-men/euroleague/r03": {
    "uid": "2026-27-basketball-men-euroleague-r03-home@beyzakiper.github.io",
-   "sequence": 3,
-   "hash": "77714ac04e6f1962",
+   "sequence": 4,
+   "hash": "9e00497588edcd14",
    "created": "2026-09-25T22:56:06Z",
-   "last_modified": "2026-09-26T02:36:08Z"
+   "last_modified": "2026-10-02T22:20:12Z"
   },
   "2026-27/basketball-men/euroleague/r04": {
    "uid": "2026-27-basketball-men-euroleague-r04-away@beyzakiper.github.io",

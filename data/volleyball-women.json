@@ -61,7 +61,7 @@
      "stage": "r03",
      "side": "home",
      "home": "FENERBAHÇE MEDICANA",
-     "away": "GÖZTEPE",
+     "away": "GÖZTEPE YUPPO",
      "leg": "",
      "round_label": "3. Hafta",
      "kickoff": "2026-10-14T16:00:00Z",
@@ -74,7 +74,7 @@
      "score_note": "",
      "url": "",
      "source": "tvf",
-     "source_id": "r03:fenerbahce medicana:goztepe",
+     "source_id": "r03:fenerbahce medicana:goztepe yuppo",
      "extra": {},
      "season": "2026-27"
     },
