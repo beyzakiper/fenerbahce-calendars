@@ -920,9 +920,9 @@
      "day": null,
      "venue": "Ülker Spor ve Etkinlik Salonu",
      "city": "İstanbul",
-     "status": "scheduled",
-     "home_score": null,
-     "away_score": null,
+     "status": "finished",
+     "home_score": 85,
+     "away_score": 84,
      "score_note": "",
      "url": "",
      "source": "tbf",
@@ -1619,10 +1619,10 @@
   },
   "2026-27/basketball-men/basketbol-super-ligi/r02": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r02-home@beyzakiper.github.io",
-   "sequence": 2,
-   "hash": "c61f0863c30f4400",
+   "sequence": 3,
+   "hash": "4ac1ee449cf0c6c9",
    "created": "2026-09-25T22:56:06Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-10-04T21:37:03Z"
   },
   "2026-27/basketball-men/basketbol-super-ligi/r03": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r03-away@beyzakiper.github.io",

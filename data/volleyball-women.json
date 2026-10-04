@@ -181,7 +181,7 @@
      "stage": "r03",
      "side": "home",
      "home": "FENERBAHÇE MEDICANA",
-     "away": "GÖZTEPE",
+     "away": "GÖZTEPE YUPPO",
      "leg": "",
      "round_label": "3. Hafta",
      "kickoff": "2026-10-14T16:00:00Z",
@@ -264,10 +264,10 @@
   },
   "2026-27/volleyball-women/sultanlar-ligi/r03": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r03-home@beyzakiper.github.io",
-   "sequence": 2,
-   "hash": "8908b9b2bdc8d1b5",
+   "sequence": 3,
+   "hash": "cbe02aa1bc0cc9c1",
    "created": "2026-09-25T22:55:57Z",
-   "last_modified": "2026-09-27T22:35:14Z"
+   "last_modified": "2026-10-04T21:37:03Z"
   },
   "2026-27/volleyball-women/sultanlar-ligi/r04": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r04-away@beyzakiper.github.io",
