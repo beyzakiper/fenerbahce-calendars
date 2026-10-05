@@ -1008,8 +1008,8 @@
      "away": "TOFAŞ",
      "leg": "",
      "round_label": "6. Hafta",
-     "kickoff": null,
-     "day": "2026-10-31",
+     "kickoff": "2026-11-01T12:30:00Z",
+     "day": null,
      "venue": "Ülker Spor ve Etkinlik Salonu",
      "city": "İstanbul",
      "status": "scheduled",
@@ -1031,8 +1031,8 @@
      "away": "FENERBAHÇE TARFİN",
      "leg": "",
      "round_label": "7. Hafta",
-     "kickoff": null,
-     "day": "2026-11-07",
+     "kickoff": "2026-11-07T17:30:00Z",
+     "day": null,
      "venue": "Tofaş Spor Salonu",
      "city": "Bursa",
      "status": "scheduled",
@@ -1054,8 +1054,8 @@
      "away": "ANADOLU EFES",
      "leg": "",
      "round_label": "8. Hafta",
-     "kickoff": null,
-     "day": "2026-11-14",
+     "kickoff": "2026-11-15T17:30:00Z",
+     "day": null,
      "venue": "Ülker Spor ve Etkinlik Salonu",
      "city": "İstanbul",
      "status": "scheduled",
@@ -1077,8 +1077,8 @@
      "away": "FENERBAHÇE TARFİN",
      "leg": "",
      "round_label": "9. Hafta",
-     "kickoff": null,
-     "day": "2026-11-21",
+     "kickoff": "2026-11-22T17:30:00Z",
+     "day": null,
      "venue": "Turkcell Basketbol Gelişim Merkezi",
      "city": "İstanbul",
      "status": "scheduled",
@@ -1647,31 +1647,31 @@
   },
   "2026-27/basketball-men/basketbol-super-ligi/r06": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r06-home@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "3cee1fa7872fba2c",
+   "sequence": 2,
+   "hash": "9187fd307b7e4f8b",
    "created": "2026-09-25T22:56:06Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-10-05T14:55:21Z"
   },
   "2026-27/basketball-men/basketbol-super-ligi/r07": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r07-away@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "8203127215434cdd",
+   "sequence": 2,
+   "hash": "b17dbee43e200c5b",
    "created": "2026-09-25T22:56:06Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-10-05T14:55:21Z"
   },
   "2026-27/basketball-men/basketbol-super-ligi/r08": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r08-home@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "35c61b26dd92be07",
+   "sequence": 2,
+   "hash": "bdb9f33f378b1ba6",
    "created": "2026-09-25T22:56:06Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-10-05T14:55:21Z"
   },
   "2026-27/basketball-men/basketbol-super-ligi/r09": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r09-away@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "56e236eda67aed06",
+   "sequence": 2,
+   "hash": "82a5df8ba61eb9ce",
    "created": "2026-09-25T22:56:06Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-10-05T14:55:21Z"
   },
   "2026-27/basketball-men/basketbol-super-ligi/r10": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r10-home@beyzakiper.github.io",
