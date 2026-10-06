@@ -1100,8 +1100,8 @@
      "away": "TRABZONSPOR",
      "leg": "",
      "round_label": "10. Hafta",
-     "kickoff": null,
-     "day": "2026-12-05",
+     "kickoff": "2026-12-06T10:00:00Z",
+     "day": null,
      "venue": "Ülker Spor ve Etkinlik Salonu",
      "city": "İstanbul",
      "status": "scheduled",
@@ -1123,8 +1123,8 @@
      "away": "FENERBAHÇE TARFİN",
      "leg": "",
      "round_label": "11. Hafta",
-     "kickoff": null,
-     "day": "2026-12-12",
+     "kickoff": "2026-12-12T10:00:00Z",
+     "day": null,
      "venue": "Bandırma 17 Eylül Üniversitesi Spor Salonu",
      "city": "Balıkesir",
      "status": "scheduled",
@@ -1146,8 +1146,8 @@
      "away": "TÜRK TELEKOM",
      "leg": "",
      "round_label": "12. Hafta",
-     "kickoff": null,
-     "day": "2026-12-19",
+     "kickoff": "2026-12-20T12:30:00Z",
+     "day": null,
      "venue": "Ülker Spor ve Etkinlik Salonu",
      "city": "İstanbul",
      "status": "scheduled",
@@ -1675,24 +1675,24 @@
   },
   "2026-27/basketball-men/basketbol-super-ligi/r10": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r10-home@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "30c00abeb74754d7",
+   "sequence": 2,
+   "hash": "8df1daff61e76c2f",
    "created": "2026-09-25T22:56:06Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-10-06T18:28:13Z"
   },
   "2026-27/basketball-men/basketbol-super-ligi/r11": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r11-away@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "ddaf9bf5c7ebb7c7",
+   "sequence": 2,
+   "hash": "1cfed89cdd17fed4",
    "created": "2026-09-25T22:56:06Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-10-06T18:28:13Z"
   },
   "2026-27/basketball-men/basketbol-super-ligi/r12": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r12-home@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "bb0f2ae7285330f3",
+   "sequence": 2,
+   "hash": "7004c46469cbe9b6",
    "created": "2026-09-25T22:56:06Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-10-06T18:28:13Z"
   },
   "2026-27/basketball-men/basketbol-super-ligi/r13": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r13-away@beyzakiper.github.io",
