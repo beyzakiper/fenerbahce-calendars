@@ -935,7 +935,7 @@
      "competition": "basketbol-super-ligi",
      "stage": "r03",
      "side": "away",
-     "home": "ÇAYIROVA BELEDİYESİ",
+     "home": "GLİNT ÇAYIROVA BELEDİYESİ",
      "away": "FENERBAHÇE TARFİN",
      "leg": "",
      "round_label": "3. Hafta",
@@ -1281,7 +1281,7 @@
      "stage": "r18",
      "side": "home",
      "home": "FENERBAHÇE TARFİN",
-     "away": "ÇAYIROVA BELEDİYESİ",
+     "away": "GLİNT ÇAYIROVA BELEDİYESİ",
      "leg": "",
      "round_label": "18. Hafta",
      "kickoff": null,
@@ -1626,10 +1626,10 @@
   },
   "2026-27/basketball-men/basketbol-super-ligi/r03": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r03-away@beyzakiper.github.io",
-   "sequence": 2,
-   "hash": "9ba7daad667ab964",
+   "sequence": 3,
+   "hash": "1d5b90d3aa1b0cbf",
    "created": "2026-09-25T22:56:06Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-10-08T13:45:19Z"
   },
   "2026-27/basketball-men/basketbol-super-ligi/r04": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r04-home@beyzakiper.github.io",
@@ -1731,10 +1731,10 @@
   },
   "2026-27/basketball-men/basketbol-super-ligi/r18": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r18-home@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "944ee46d0b5c3d01",
+   "sequence": 2,
+   "hash": "50f572adf2fc86c2",
    "created": "2026-09-25T22:56:06Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-10-08T13:45:19Z"
   },
   "2026-27/basketball-men/basketbol-super-ligi/r19": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r19-away@beyzakiper.github.io",

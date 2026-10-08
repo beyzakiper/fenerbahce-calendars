@@ -698,7 +698,7 @@
    ]
   },
   "uefa:uefa-kadinlar-avrupa-kupasi+uefa-kadinlar-sampiyonlar-ligi": {
-   "count": 5,
+   "count": 6,
    "matches": [
     {
      "team": "football-women",
@@ -720,6 +720,29 @@
      "url": "",
      "source": "uefa",
      "source_id": "2050609",
+     "extra": {},
+     "season": "2026-27"
+    },
+    {
+     "team": "football-women",
+     "competition": "uefa-kadinlar-avrupa-kupasi",
+     "stage": "round-of-16",
+     "side": "home",
+     "home": "Fenerbahçe",
+     "away": "Real Sociedad",
+     "leg": "2",
+     "round_label": "Son 16 Turu (2. maç)",
+     "kickoff": "2026-11-11T17:00:00Z",
+     "day": null,
+     "venue": "Fenerbahçe Şükrü Saracoğlu Spor Kompleksi",
+     "city": "Istanbul",
+     "status": "scheduled",
+     "home_score": null,
+     "away_score": null,
+     "score_note": "",
+     "url": "",
+     "source": "uefa",
+     "source_id": "2050617",
      "extra": {},
      "season": "2026-27"
     },
@@ -1035,6 +1058,13 @@
    "hash": "c03317dfbbae7b04",
    "created": "2026-10-05T14:55:21Z",
    "last_modified": "2026-10-05T14:55:21Z"
+  },
+  "2026-27/football-women/uefa-kadinlar-avrupa-kupasi/round-of-16/2": {
+   "uid": "2026-27-football-women-uefa-kadinlar-avrupa-kupasi-round-of-16-2-home@beyzakiper.github.io",
+   "sequence": 0,
+   "hash": "8b66d5cdc34bcc83",
+   "created": "2026-10-08T13:45:19Z",
+   "last_modified": "2026-10-08T13:45:19Z"
   },
   "2026-27/football-women/uefa-kadinlar-avrupa-kupasi/second-qualifying/1": {
    "uid": "2026-27-football-women-uefa-kadinlar-avrupa-kupasi-second-qualifying-1-away@beyzakiper.github.io",
