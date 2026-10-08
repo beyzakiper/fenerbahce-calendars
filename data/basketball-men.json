@@ -87,9 +87,9 @@
      "day": null,
      "venue": "Telekom Center Athens",
      "city": "",
-     "status": "scheduled",
-     "home_score": null,
-     "away_score": null,
+     "status": "finished",
+     "home_score": 92,
+     "away_score": 74,
      "score_note": "",
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/36/",
      "source": "euroleague",
@@ -1850,10 +1850,10 @@
   },
   "2026-27/basketball-men/euroleague/r04": {
    "uid": "2026-27-basketball-men-euroleague-r04-away@beyzakiper.github.io",
-   "sequence": 3,
-   "hash": "5dec4290264b86d6",
+   "sequence": 4,
+   "hash": "17919a2aaf184670",
    "created": "2026-09-25T22:56:06Z",
-   "last_modified": "2026-09-26T02:36:08Z"
+   "last_modified": "2026-10-08T23:26:23Z"
   },
   "2026-27/basketball-men/euroleague/r05": {
    "uid": "2026-27-basketball-men-euroleague-r05-home@beyzakiper.github.io",
