@@ -160,9 +160,9 @@
      "day": null,
      "venue": "Çaykur Didi",
      "city": "",
-     "status": "scheduled",
-     "home_score": null,
-     "away_score": null,
+     "status": "finished",
+     "home_score": 0,
+     "away_score": 3,
      "score_note": "",
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=317841",
      "source": "tff",
@@ -1170,10 +1170,10 @@
   },
   "2026-27/football-men/super-lig/r07": {
    "uid": "2026-27-football-men-super-lig-r07-away@beyzakiper.github.io",
-   "sequence": 3,
-   "hash": "d4933d33c664b02a",
+   "sequence": 4,
+   "hash": "9d1b25178bf6a4b8",
    "created": "2026-09-25T22:56:06Z",
-   "last_modified": "2026-09-26T02:36:08Z"
+   "last_modified": "2026-10-10T21:51:23Z"
   },
   "2026-27/football-men/super-lig/r08": {
    "uid": "2026-27-football-men-super-lig-r08-home@beyzakiper.github.io",

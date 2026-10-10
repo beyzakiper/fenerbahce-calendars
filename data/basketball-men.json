@@ -943,9 +943,9 @@
      "day": null,
      "venue": "Çayırova Belediyesi Spor Kompleksi",
      "city": "Kocaeli",
-     "status": "scheduled",
-     "home_score": null,
-     "away_score": null,
+     "status": "finished",
+     "home_score": 85,
+     "away_score": 100,
      "score_note": "",
      "url": "",
      "source": "tbf",
@@ -1626,10 +1626,10 @@
   },
   "2026-27/basketball-men/basketbol-super-ligi/r03": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r03-away@beyzakiper.github.io",
-   "sequence": 3,
-   "hash": "1d5b90d3aa1b0cbf",
+   "sequence": 4,
+   "hash": "23f2b4dfc3bc1b4a",
    "created": "2026-09-25T22:56:06Z",
-   "last_modified": "2026-10-08T13:45:19Z"
+   "last_modified": "2026-10-10T21:51:23Z"
   },
   "2026-27/basketball-men/basketbol-super-ligi/r04": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r04-home@beyzakiper.github.io",
