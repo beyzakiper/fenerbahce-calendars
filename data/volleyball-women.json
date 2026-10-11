@@ -45,9 +45,9 @@
      "day": null,
      "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
      "city": "İstanbul",
-     "status": "scheduled",
-     "home_score": null,
-     "away_score": null,
+     "status": "finished",
+     "home_score": 2,
+     "away_score": 3,
      "score_note": "",
      "url": "",
      "source": "tvf",
@@ -257,10 +257,10 @@
   },
   "2026-27/volleyball-women/sultanlar-ligi/r02": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r02-away@beyzakiper.github.io",
-   "sequence": 2,
-   "hash": "55861d1a1b0786d9",
+   "sequence": 3,
+   "hash": "2ad1d7d0335deb35",
    "created": "2026-09-25T22:55:57Z",
-   "last_modified": "2026-09-27T22:35:14Z"
+   "last_modified": "2026-10-11T22:06:45Z"
   },
   "2026-27/volleyball-women/sultanlar-ligi/r03": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r03-home@beyzakiper.github.io",
