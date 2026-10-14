@@ -836,9 +836,9 @@
      "day": null,
      "venue": "Villa Park",
      "city": "Birmingham",
-     "status": "scheduled",
-     "home_score": null,
-     "away_score": null,
+     "status": "finished",
+     "home_score": 6,
+     "away_score": 0,
      "score_note": "",
      "url": "https://www.uefa.com/uefachampionsleague/match/2049582/",
      "source": "uefa",
@@ -1373,10 +1373,10 @@
   },
   "2026-27/football-men/uefa-sampiyonlar-ligi/league-md2": {
    "uid": "2026-27-football-men-uefa-sampiyonlar-ligi-league-md2-away@beyzakiper.github.io",
-   "sequence": 3,
-   "hash": "89d9b5c8983b8717",
+   "sequence": 4,
+   "hash": "b2eda9762f20ae04",
    "created": "2026-09-25T22:56:06Z",
-   "last_modified": "2026-09-26T02:36:08Z"
+   "last_modified": "2026-10-14T21:47:48Z"
   },
   "2026-27/football-men/uefa-sampiyonlar-ligi/league-md3": {
    "uid": "2026-27-football-men-uefa-sampiyonlar-ligi-league-md3-home@beyzakiper.github.io",
