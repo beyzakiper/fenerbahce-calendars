@@ -234,9 +234,9 @@
      "day": null,
      "venue": "Beşiktaş Akatlar Spor Kompleksi",
      "city": "İstanbul",
-     "status": "scheduled",
-     "home_score": null,
-     "away_score": null,
+     "status": "finished",
+     "home_score": 81,
+     "away_score": 69,
      "score_note": "",
      "url": "",
      "source": "tbf",
@@ -685,10 +685,10 @@
   },
   "2026-27/basketball-women/kadinlar-basketbol-super-ligi/r04": {
    "uid": "2026-27-basketball-women-kadinlar-basketbol-super-ligi-r04-away@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "69cf1114fa6908c5",
+   "sequence": 2,
+   "hash": "c690fabfab6b2497",
    "created": "2026-09-25T23:58:48Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-10-17T15:42:45Z"
   },
   "2026-27/basketball-women/kadinlar-basketbol-super-ligi/r05": {
    "uid": "2026-27-basketball-women-kadinlar-basketbol-super-ligi-r05-home@beyzakiper.github.io",
