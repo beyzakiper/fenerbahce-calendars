@@ -133,9 +133,9 @@
      "day": null,
      "venue": "Yüksekova İlçe Stadı",
      "city": "Hakkari - Yüksekova",
-     "status": "scheduled",
-     "home_score": null,
-     "away_score": null,
+     "status": "finished",
+     "home_score": 1,
+     "away_score": 1,
      "score_note": "",
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=320633",
      "source": "tff",
@@ -879,10 +879,10 @@
   },
   "2026-27/football-women/kadin-futbol-super-ligi/r06": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r06-away@beyzakiper.github.io",
-   "sequence": 3,
-   "hash": "f9ce4ee8237e8a82",
+   "sequence": 4,
+   "hash": "1626486a50b0ee2f",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-28T23:22:16Z"
+   "last_modified": "2026-10-19T04:52:23Z"
   },
   "2026-27/football-women/kadin-futbol-super-ligi/r07": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r07-home@beyzakiper.github.io",
