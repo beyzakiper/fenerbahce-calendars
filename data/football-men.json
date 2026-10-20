@@ -859,9 +859,9 @@
      "day": null,
      "venue": "Fenerbahçe Şükrü Saracoğlu Spor Kompleksi",
      "city": "Istanbul",
-     "status": "scheduled",
-     "home_score": null,
-     "away_score": null,
+     "status": "finished",
+     "home_score": 2,
+     "away_score": 2,
      "score_note": "",
      "url": "https://www.uefa.com/uefachampionsleague/match/2049595/",
      "source": "uefa",
@@ -1380,10 +1380,10 @@
   },
   "2026-27/football-men/uefa-sampiyonlar-ligi/league-md3": {
    "uid": "2026-27-football-men-uefa-sampiyonlar-ligi-league-md3-home@beyzakiper.github.io",
-   "sequence": 3,
-   "hash": "dd67d18427b51e7f",
+   "sequence": 4,
+   "hash": "56694e7840a57b06",
    "created": "2026-09-25T22:56:06Z",
-   "last_modified": "2026-09-26T02:36:08Z"
+   "last_modified": "2026-10-20T21:42:57Z"
   },
   "2026-27/football-men/uefa-sampiyonlar-ligi/league-md4": {
    "uid": "2026-27-football-men-uefa-sampiyonlar-ligi-league-md4-home@beyzakiper.github.io",
