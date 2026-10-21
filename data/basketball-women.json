@@ -3,7 +3,7 @@
  "team": "basketball-women",
  "sources": {
   "fiba:euroleague-women": {
-   "count": 5,
+   "count": 6,
    "matches": [
     {
      "team": "basketball-women",
