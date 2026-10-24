@@ -41,9 +41,9 @@
      "day": null,
      "venue": "Kamil Ocak Spor Salonu",
      "city": "Gaziantep",
-     "status": "scheduled",
-     "home_score": null,
-     "away_score": null,
+     "status": "finished",
+     "home_score": 2,
+     "away_score": 3,
      "score_note": "",
      "url": "",
      "source": "tvf",
@@ -395,10 +395,10 @@
   },
   "2026-27/volleyball-men/efeler-ligi/r02": {
    "uid": "2026-27-volleyball-men-efeler-ligi-r02-away@beyzakiper.github.io",
-   "sequence": 3,
-   "hash": "038a52713b1cada9",
+   "sequence": 4,
+   "hash": "6bd288913b71e1cc",
    "created": "2026-09-25T23:58:48Z",
-   "last_modified": "2026-10-19T13:34:38Z"
+   "last_modified": "2026-10-24T16:03:42Z"
   },
   "2026-27/volleyball-men/efeler-ligi/r03": {
    "uid": "2026-27-volleyball-men-efeler-ligi-r03-home@beyzakiper.github.io",
