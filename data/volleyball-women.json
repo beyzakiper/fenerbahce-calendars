@@ -269,6 +269,29 @@
    "matches": [
     {
      "team": "volleyball-women",
+     "competition": "kupa-voley-kadin",
+     "stage": "kvk26-cf003",
+     "side": "home",
+     "home": "FENERBAHÇE MEDİCANA",
+     "away": "TÜRK HAVA YOLLARI",
+     "leg": "",
+     "round_label": "Çeyrek Final",
+     "kickoff": "2026-11-18T13:30:00Z",
+     "day": null,
+     "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
+     "city": "İstanbul",
+     "status": "scheduled",
+     "home_score": null,
+     "away_score": null,
+     "score_note": "",
+     "url": "",
+     "source": "tvf_xlsx",
+     "source_id": "KVK26-CF003",
+     "extra": {},
+     "season": "2026-27"
+    },
+    {
+     "team": "volleyball-women",
      "competition": "sultanlar-ligi",
      "stage": "r01",
      "side": "home",
@@ -524,6 +547,13 @@
   }
  },
  "events": {
+  "2026-27/volleyball-women/kupa-voley-kadin/kvk26-cf003": {
+   "uid": "2026-27-volleyball-women-kupa-voley-kadin-kvk26-cf003-home@beyzakiper.github.io",
+   "sequence": 0,
+   "hash": "c3f95a46f05cfbb6",
+   "created": "2026-10-28T13:11:08Z",
+   "last_modified": "2026-10-28T13:11:08Z"
+  },
   "2026-27/volleyball-women/sultanlar-ligi/r01": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r01-home@beyzakiper.github.io",
    "sequence": 3,
