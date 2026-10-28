@@ -3,7 +3,7 @@
  "team": "basketball-women",
  "sources": {
   "fiba:euroleague-women": {
-   "count": 5,
+   "count": 6,
    "matches": [
     {
      "team": "basketball-women",
@@ -87,9 +87,9 @@
      "day": null,
      "venue": "Ülker Sports and Event Hall",
      "city": "Istanbul",
-     "status": "scheduled",
-     "home_score": null,
-     "away_score": null,
+     "status": "finished",
+     "home_score": 81,
+     "away_score": 71,
      "score_note": "",
      "url": "",
      "source": "fiba",
@@ -643,10 +643,10 @@
   },
   "2026-27/basketball-women/euroleague-women/rs-fr-g5": {
    "uid": "2026-27-basketball-women-euroleague-women-rs-fr-g5-home@beyzakiper.github.io",
-   "sequence": 2,
-   "hash": "daa3528dceb009d9",
+   "sequence": 3,
+   "hash": "22ca90faee13aa25",
    "created": "2026-09-25T23:58:48Z",
-   "last_modified": "2026-09-30T22:22:27Z"
+   "last_modified": "2026-10-28T22:41:32Z"
   },
   "2026-27/basketball-women/euroleague-women/rs-fr-g7": {
    "uid": "2026-27-basketball-women-euroleague-women-rs-fr-g7-home@beyzakiper.github.io",

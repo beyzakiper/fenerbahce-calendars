@@ -713,9 +713,9 @@
      "day": null,
      "venue": "Estadio Zubieta",
      "city": "San Sebastian",
-     "status": "scheduled",
-     "home_score": null,
-     "away_score": null,
+     "status": "finished",
+     "home_score": 2,
+     "away_score": 0,
      "score_note": "",
      "url": "",
      "source": "uefa",
@@ -1054,10 +1054,10 @@
   },
   "2026-27/football-women/uefa-kadinlar-avrupa-kupasi/round-of-16/1": {
    "uid": "2026-27-football-women-uefa-kadinlar-avrupa-kupasi-round-of-16-1-away@beyzakiper.github.io",
-   "sequence": 0,
-   "hash": "c03317dfbbae7b04",
+   "sequence": 1,
+   "hash": "0521d93a2d51f6b0",
    "created": "2026-10-05T14:55:21Z",
-   "last_modified": "2026-10-05T14:55:21Z"
+   "last_modified": "2026-10-28T22:41:32Z"
   },
   "2026-27/football-women/uefa-kadinlar-avrupa-kupasi/round-of-16/2": {
    "uid": "2026-27-football-women-uefa-kadinlar-avrupa-kupasi-round-of-16-2-home@beyzakiper.github.io",
