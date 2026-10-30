@@ -437,7 +437,7 @@
      "away": "SİNNADA HOTELS AFYON BELEDİYE YÜNTAŞ",
      "leg": "",
      "round_label": "7. Hafta",
-     "kickoff": "2026-11-05T16:00:00Z",
+     "kickoff": "2026-11-05T11:00:00Z",
      "day": null,
      "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
      "city": "İstanbul",
@@ -598,10 +598,10 @@
   },
   "2026-27/volleyball-women/sultanlar-ligi/r07": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r07-home@beyzakiper.github.io",
-   "sequence": 2,
-   "hash": "5db74d91c6c4a982",
+   "sequence": 3,
+   "hash": "a7fa95fbf7bff7ab",
    "created": "2026-09-25T22:55:57Z",
-   "last_modified": "2026-10-16T16:46:11Z"
+   "last_modified": "2026-10-30T22:27:56Z"
   },
   "2026-27/volleyball-women/sultanlar-ligi/r08": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r08-away@beyzakiper.github.io",
