@@ -87,9 +87,9 @@
      "day": null,
      "venue": "İBB Cebeci Spor Kompleksi",
      "city": "İstanbul",
-     "status": "scheduled",
-     "home_score": null,
-     "away_score": null,
+     "status": "finished",
+     "home_score": 1,
+     "away_score": 3,
      "score_note": "",
      "url": "",
      "source": "tvf",
@@ -432,10 +432,10 @@
   },
   "2026-27/volleyball-men/efeler-ligi/r04": {
    "uid": "2026-27-volleyball-men-efeler-ligi-r04-away@beyzakiper.github.io",
-   "sequence": 2,
-   "hash": "467005c581923829",
+   "sequence": 3,
+   "hash": "bb8187445fb5bee1",
    "created": "2026-09-25T23:58:48Z",
-   "last_modified": "2026-09-27T22:35:14Z"
+   "last_modified": "2026-10-31T21:43:01Z"
   },
   "2026-27/volleyball-men/efeler-ligi/r05": {
    "uid": "2026-27-volleyball-men-efeler-ligi-r05-home@beyzakiper.github.io",
