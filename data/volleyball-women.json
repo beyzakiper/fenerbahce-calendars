@@ -265,7 +265,7 @@
    ]
   },
   "tvf_xlsx": {
-   "count": 11,
+   "count": 13,
    "matches": [
     {
      "team": "volleyball-women",
@@ -418,9 +418,9 @@
      "day": null,
      "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
      "city": "İstanbul",
-     "status": "scheduled",
-     "home_score": null,
-     "away_score": null,
+     "status": "finished",
+     "home_score": 0,
+     "away_score": 3,
      "score_note": "",
      "url": "",
      "source": "tvf_xlsx",
@@ -542,6 +542,52 @@
      "source_id": "SUL26-LE073",
      "extra": {},
      "season": "2026-27"
+    },
+    {
+     "team": "volleyball-women",
+     "competition": "sultanlar-ligi",
+     "stage": "r13",
+     "side": "away",
+     "home": "KUZEYBORU",
+     "away": "FENERBAHÇE MEDICANA",
+     "leg": "",
+     "round_label": "13. Hafta",
+     "kickoff": "2026-12-13T10:00:00Z",
+     "day": null,
+     "venue": "Aksaray Spor Salonu",
+     "city": "Aksaray",
+     "status": "scheduled",
+     "home_score": null,
+     "away_score": null,
+     "score_note": "",
+     "url": "",
+     "source": "tvf_xlsx",
+     "source_id": "SUL26-LE085",
+     "extra": {},
+     "season": "2026-27"
+    },
+    {
+     "team": "volleyball-women",
+     "competition": "sultanlar-ligi",
+     "stage": "r14",
+     "side": "away",
+     "home": "MANİSA BÜYÜKŞEHİR BELEDİYE SPOR",
+     "away": "FENERBAHÇE MEDICANA",
+     "leg": "",
+     "round_label": "14. Hafta",
+     "kickoff": "2026-12-20T13:00:00Z",
+     "day": null,
+     "venue": "Muradiye Spor Salonu",
+     "city": "Manisa",
+     "status": "scheduled",
+     "home_score": null,
+     "away_score": null,
+     "score_note": "",
+     "url": "",
+     "source": "tvf_xlsx",
+     "source_id": "SUL26-LE093",
+     "extra": {},
+     "season": "2026-27"
     }
    ]
   }
@@ -640,17 +686,17 @@
   },
   "2026-27/volleyball-women/sultanlar-ligi/r13": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r13-away@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "e028a32dd3176be5",
+   "sequence": 2,
+   "hash": "cd800648d304dae7",
    "created": "2026-09-25T22:55:57Z",
-   "last_modified": "2026-09-25T22:57:38Z"
+   "last_modified": "2026-11-02T21:46:54Z"
   },
   "2026-27/volleyball-women/sultanlar-ligi/r14": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r14-away@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "d1b2fa4cd9161a92",
+   "sequence": 2,
+   "hash": "6569a7059833d644",
    "created": "2026-09-25T22:55:57Z",
-   "last_modified": "2026-09-25T22:57:29Z"
+   "last_modified": "2026-11-02T21:46:54Z"
   },
   "2026-27/volleyball-women/sultanlar-ligi/r15": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r15-home@beyzakiper.github.io",
