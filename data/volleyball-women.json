@@ -311,7 +311,7 @@
    ]
   },
   "tvf_xlsx": {
-   "count": 13,
+   "count": 14,
    "matches": [
     {
      "team": "volleyball-women",
@@ -391,8 +391,8 @@
      "away": "GÖZTEPE YUPPO",
      "leg": "",
      "round_label": "3. Hafta",
-     "kickoff": null,
-     "day": "2026-10-14",
+     "kickoff": "2026-12-08T11:00:00Z",
+     "day": null,
      "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
      "city": "İstanbul",
      "status": "scheduled",
@@ -662,10 +662,10 @@
   },
   "2026-27/volleyball-women/sultanlar-ligi/r03": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r03-home@beyzakiper.github.io",
-   "sequence": 4,
-   "hash": "ee6efec00ab660bc",
+   "sequence": 5,
+   "hash": "6aff5d7b8c67f484",
    "created": "2026-09-25T22:55:57Z",
-   "last_modified": "2026-10-15T11:41:28Z"
+   "last_modified": "2026-11-04T19:52:47Z"
   },
   "2026-27/volleyball-women/sultanlar-ligi/r04": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r04-away@beyzakiper.github.io",
