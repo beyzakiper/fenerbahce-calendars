@@ -225,9 +225,9 @@
      "day": null,
      "venue": "Ulker Sports And Event Hall",
      "city": "",
-     "status": "scheduled",
-     "home_score": null,
-     "away_score": null,
+     "status": "finished",
+     "home_score": 84,
+     "away_score": 65,
      "score_note": "",
      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/2026/g/92/",
      "source": "euroleague",
@@ -798,7 +798,7 @@
      "round_label": "35. Hafta",
      "kickoff": "2027-04-01T18:05:00Z",
      "day": null,
-     "venue": "Aleksandar Nikolic Hall",
+     "venue": "Spyros Kyprianou Athletic Center",
      "city": "",
      "status": "scheduled",
      "home_score": null,
@@ -1892,10 +1892,10 @@
   },
   "2026-27/basketball-men/euroleague/r10": {
    "uid": "2026-27-basketball-men-euroleague-r10-home@beyzakiper.github.io",
-   "sequence": 3,
-   "hash": "bbbf9cee4a08c53d",
+   "sequence": 4,
+   "hash": "b17c0e8fc589fa6b",
    "created": "2026-09-25T22:56:06Z",
-   "last_modified": "2026-09-26T02:36:08Z"
+   "last_modified": "2026-11-05T20:04:44Z"
   },
   "2026-27/basketball-men/euroleague/r11": {
    "uid": "2026-27-basketball-men-euroleague-r11-away@beyzakiper.github.io",
@@ -2067,10 +2067,10 @@
   },
   "2026-27/basketball-men/euroleague/r35": {
    "uid": "2026-27-basketball-men-euroleague-r35-away@beyzakiper.github.io",
-   "sequence": 3,
-   "hash": "0ad38532344d5f42",
+   "sequence": 4,
+   "hash": "490d9b682cd4e4a5",
    "created": "2026-09-25T22:56:06Z",
-   "last_modified": "2026-09-26T02:36:08Z"
+   "last_modified": "2026-11-05T20:04:44Z"
   },
   "2026-27/basketball-men/euroleague/r36": {
    "uid": "2026-27-basketball-men-euroleague-r36-home@beyzakiper.github.io",
