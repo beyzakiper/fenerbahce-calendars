@@ -146,8 +146,32 @@
    ]
   },
   "tbf:cumhurbaskanligi-kupasi-kadin:cbkk": {
-   "count": 0,
-   "matches": []
+   "count": 1,
+   "matches": [
+    {
+     "team": "basketball-women",
+     "competition": "cumhurbaskanligi-kupasi-kadin",
+     "stage": "final",
+     "side": "home",
+     "home": "FENERBAHÇE TARFİN",
+     "away": "GALATASARAY ÇAĞDAŞ FAKTORING",
+     "leg": "",
+     "round_label": "",
+     "kickoff": "2026-12-09T16:00:00Z",
+     "day": null,
+     "venue": "Kamil Ocak Spor Salonu",
+     "city": "Gaziantep",
+     "status": "scheduled",
+     "home_score": null,
+     "away_score": null,
+     "score_note": "",
+     "url": "",
+     "source": "tbf",
+     "source_id": "360170",
+     "extra": {},
+     "season": "2026-27"
+    }
+   ]
   },
   "tbf:kadinlar-basketbol-super-ligi:kbsl": {
    "count": 20,
@@ -620,6 +644,13 @@
   }
  },
  "events": {
+  "2026-27/basketball-women/cumhurbaskanligi-kupasi-kadin/final": {
+   "uid": "2026-27-basketball-women-cumhurbaskanligi-kupasi-kadin-final-home@beyzakiper.github.io",
+   "sequence": 0,
+   "hash": "e5a4f175370a9476",
+   "created": "2026-11-06T19:30:29Z",
+   "last_modified": "2026-11-06T19:30:29Z"
+  },
   "2026-27/basketball-women/euroleague-women/rs-fr-g1": {
    "uid": "2026-27-basketball-women-euroleague-women-rs-fr-g1-away@beyzakiper.github.io",
    "sequence": 3,
