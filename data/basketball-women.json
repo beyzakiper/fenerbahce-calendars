@@ -304,9 +304,9 @@
      "day": null,
      "venue": "Sincan Spor Salonu",
      "city": "Ankara",
-     "status": "scheduled",
-     "home_score": null,
-     "away_score": null,
+     "status": "finished",
+     "home_score": 60,
+     "away_score": 88,
      "score_note": "",
      "url": "",
      "source": "tbf",
@@ -730,10 +730,10 @@
   },
   "2026-27/basketball-women/kadinlar-basketbol-super-ligi/r07": {
    "uid": "2026-27-basketball-women-kadinlar-basketbol-super-ligi-r07-away@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "ac76918fd6eca0f8",
+   "sequence": 2,
+   "hash": "fbf20f4024d3fd8b",
    "created": "2026-09-25T23:58:48Z",
-   "last_modified": "2026-09-26T01:41:22Z"
+   "last_modified": "2026-11-07T13:16:20Z"
   },
   "2026-27/basketball-women/kadinlar-basketbol-super-ligi/r08": {
    "uid": "2026-27-basketball-women-kadinlar-basketbol-super-ligi-r08-home@beyzakiper.github.io",
