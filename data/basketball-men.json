@@ -1035,9 +1035,9 @@
      "day": null,
      "venue": "Tofaş Spor Salonu",
      "city": "Bursa",
-     "status": "scheduled",
-     "home_score": null,
-     "away_score": null,
+     "status": "finished",
+     "home_score": 59,
+     "away_score": 78,
      "score_note": "",
      "url": "",
      "source": "tbf",
@@ -1654,10 +1654,10 @@
   },
   "2026-27/basketball-men/basketbol-super-ligi/r07": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r07-away@beyzakiper.github.io",
-   "sequence": 2,
-   "hash": "b17dbee43e200c5b",
+   "sequence": 3,
+   "hash": "ee7cc025fb2e45eb",
    "created": "2026-09-25T22:56:06Z",
-   "last_modified": "2026-10-05T14:55:21Z"
+   "last_modified": "2026-11-07T21:59:04Z"
   },
   "2026-27/basketball-men/basketbol-super-ligi/r08": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r08-home@beyzakiper.github.io",
