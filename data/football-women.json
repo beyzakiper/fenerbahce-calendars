@@ -225,9 +225,9 @@
      "day": null,
      "venue": "Dereağzı Lefter Küçükandonyadis Tesisleri",
      "city": "İstanb",
-     "status": "scheduled",
-     "home_score": null,
-     "away_score": null,
+     "status": "finished",
+     "home_score": 1,
+     "away_score": 0,
      "score_note": "",
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=320668",
      "source": "tff",
@@ -907,10 +907,10 @@
   },
   "2026-27/football-women/kadin-futbol-super-ligi/r10": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r10-home@beyzakiper.github.io",
-   "sequence": 4,
-   "hash": "6e1235a278ebcb55",
+   "sequence": 5,
+   "hash": "ceed8bb4efb328b3",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-11-04T06:40:05Z"
+   "last_modified": "2026-11-08T06:17:00Z"
   },
   "2026-27/football-women/kadin-futbol-super-ligi/r11": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r11-away@beyzakiper.github.io",
