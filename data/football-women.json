@@ -248,9 +248,9 @@
      "day": null,
      "venue": "Bakırköy Atatürk Yaşam Köyü Spor Tesisleri 2 Nolu",
      "city": "",
-     "status": "scheduled",
-     "home_score": null,
-     "away_score": null,
+     "status": "finished",
+     "home_score": 0,
+     "away_score": 4,
      "score_note": "",
      "url": "https://www.tff.org/Default.aspx?pageId=29&macId=320679",
      "source": "tff",
@@ -914,10 +914,10 @@
   },
   "2026-27/football-women/kadin-futbol-super-ligi/r11": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r11-away@beyzakiper.github.io",
-   "sequence": 2,
-   "hash": "edae45f811490dbe",
+   "sequence": 3,
+   "hash": "ab4e44560a06beb1",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T02:36:08Z"
+   "last_modified": "2026-11-14T22:35:57Z"
   },
   "2026-27/football-women/kadin-futbol-super-ligi/r12": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r12-home@beyzakiper.github.io",
