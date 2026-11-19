@@ -225,8 +225,8 @@
      "away": "FENERBAHÇE MEDICANA",
      "leg": "",
      "round_label": "10. Hafta",
-     "kickoff": "2026-11-21T12:00:00Z",
-     "day": null,
+     "kickoff": null,
+     "day": "2026-11-21",
      "venue": "TVF Atatürk Voleybol Spor Kompleksi",
      "city": "İzmir",
      "status": "scheduled",
@@ -552,8 +552,8 @@
      "away": "FENERBAHÇE MEDICANA",
      "leg": "",
      "round_label": "10. Hafta",
-     "kickoff": "2026-11-21T12:00:00Z",
-     "day": null,
+     "kickoff": null,
+     "day": "2026-11-21",
      "venue": "TVF Atatürk Voleybol Spor Kompleksi",
      "city": "İzmir",
      "status": "scheduled",
@@ -711,10 +711,10 @@
   },
   "2026-27/volleyball-women/sultanlar-ligi/r10": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r10-away@beyzakiper.github.io",
-   "sequence": 3,
-   "hash": "18a2bd4e736560b4",
+   "sequence": 4,
+   "hash": "43929c3ac411be25",
    "created": "2026-09-25T22:55:57Z",
-   "last_modified": "2026-10-19T13:34:38Z"
+   "last_modified": "2026-11-19T20:46:44Z"
   },
   "2026-27/volleyball-women/sultanlar-ligi/r11": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r11-home@beyzakiper.github.io",
