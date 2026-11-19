@@ -326,9 +326,9 @@
      "day": null,
      "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
      "city": "İstanbul",
-     "status": "scheduled",
-     "home_score": null,
-     "away_score": null,
+     "status": "finished",
+     "home_score": 3,
+     "away_score": 0,
      "score_note": "",
      "url": "",
      "source": "tvf_xlsx",
@@ -641,10 +641,10 @@
  "events": {
   "2026-27/volleyball-women/kupa-voley-kadin/kvk26-cf003": {
    "uid": "2026-27-volleyball-women-kupa-voley-kadin-kvk26-cf003-home@beyzakiper.github.io",
-   "sequence": 0,
-   "hash": "c3f95a46f05cfbb6",
+   "sequence": 1,
+   "hash": "6b2db5869c3d427b",
    "created": "2026-10-28T13:11:08Z",
-   "last_modified": "2026-10-28T13:11:08Z"
+   "last_modified": "2026-11-19T07:37:24Z"
   },
   "2026-27/volleyball-women/sultanlar-ligi/r01": {
    "uid": "2026-27-volleyball-women-sultanlar-ligi-r01-home@beyzakiper.github.io",
