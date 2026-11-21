@@ -156,9 +156,9 @@
      "day": null,
      "venue": "TVF Burhan Felek Vestel Voleybol Salonu",
      "city": "İstanbul",
-     "status": "scheduled",
-     "home_score": null,
-     "away_score": null,
+     "status": "finished",
+     "home_score": 3,
+     "away_score": 0,
      "score_note": "",
      "url": "",
      "source": "tvf",
@@ -683,10 +683,10 @@
   },
   "2026-27/volleyball-men/efeler-ligi/r07": {
    "uid": "2026-27-volleyball-men-efeler-ligi-r07-home@beyzakiper.github.io",
-   "sequence": 1,
-   "hash": "66727c2b1fa1a4ed",
+   "sequence": 2,
+   "hash": "54b2934539873c93",
    "created": "2026-09-25T23:58:48Z",
-   "last_modified": "2026-10-16T16:46:11Z"
+   "last_modified": "2026-11-21T19:27:20Z"
   },
   "2026-27/volleyball-men/efeler-ligi/r08": {
    "uid": "2026-27-volleyball-men-efeler-ligi-r08-away@beyzakiper.github.io",
