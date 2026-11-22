@@ -327,9 +327,9 @@
      "day": null,
      "venue": "Fenerbahçe Metro Enerji Spor Salonu",
      "city": "İstanbul",
-     "status": "scheduled",
-     "home_score": null,
-     "away_score": null,
+     "status": "finished",
+     "home_score": 101,
+     "away_score": 48,
      "score_note": "",
      "url": "",
      "source": "tbf",
@@ -737,10 +737,10 @@
   },
   "2026-27/basketball-women/kadinlar-basketbol-super-ligi/r08": {
    "uid": "2026-27-basketball-women-kadinlar-basketbol-super-ligi-r08-home@beyzakiper.github.io",
-   "sequence": 3,
-   "hash": "9626e06a4d670abb",
+   "sequence": 4,
+   "hash": "4b8f21969cca5117",
    "created": "2026-09-25T23:58:48Z",
-   "last_modified": "2026-11-03T19:35:49Z"
+   "last_modified": "2026-11-22T19:49:55Z"
   },
   "2026-27/basketball-women/kadinlar-basketbol-super-ligi/r09": {
    "uid": "2026-27-basketball-women-kadinlar-basketbol-super-ligi-r09-away@beyzakiper.github.io",
