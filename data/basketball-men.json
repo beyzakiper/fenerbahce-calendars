@@ -1081,9 +1081,9 @@
      "day": null,
      "venue": "Turkcell Basketbol Gelişim Merkezi",
      "city": "İstanbul",
-     "status": "scheduled",
-     "home_score": null,
-     "away_score": null,
+     "status": "finished",
+     "home_score": 92,
+     "away_score": 88,
      "score_note": "",
      "url": "",
      "source": "tbf",
@@ -1668,10 +1668,10 @@
   },
   "2026-27/basketball-men/basketbol-super-ligi/r09": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r09-away@beyzakiper.github.io",
-   "sequence": 3,
-   "hash": "a672e825cf8afa40",
+   "sequence": 4,
+   "hash": "de77b8c34dde2ded",
    "created": "2026-09-25T22:56:06Z",
-   "last_modified": "2026-11-20T20:30:31Z"
+   "last_modified": "2026-11-23T07:52:23Z"
   },
   "2026-27/basketball-men/basketbol-super-ligi/r10": {
    "uid": "2026-27-basketball-men-basketbol-super-ligi-r10-home@beyzakiper.github.io",
