@@ -451,8 +451,8 @@
      "away": "FENERBAHÇE ARSAVEV KADIN FUTBOL TAKIMI",
      "leg": "",
      "round_label": "20. Hafta",
-     "kickoff": null,
-     "day": "2027-02-07",
+     "kickoff": "2027-02-07T10:00:00Z",
+     "day": null,
      "venue": "Ünye İlçe Stadı",
      "city": "",
      "status": "scheduled",
@@ -474,8 +474,8 @@
      "away": "YÜKSEKOVA SPOR KULÜBÜ",
      "leg": "",
      "round_label": "21. Hafta",
-     "kickoff": null,
-     "day": "2027-02-13",
+     "kickoff": "2027-02-13T10:00:00Z",
+     "day": null,
      "venue": "Chobanı Stadyumu Fb Şükrü Saracoğlu Spor Kompleksi",
      "city": "",
      "status": "scheduled",
@@ -497,8 +497,8 @@
      "away": "FENERBAHÇE ARSAVEV KADIN FUTBOL TAKIMI",
      "leg": "",
      "round_label": "22. Hafta",
-     "kickoff": null,
-     "day": "2027-03-14",
+     "kickoff": "2027-03-14T10:00:00Z",
+     "day": null,
      "venue": "Haymana İlçe Stadı",
      "city": "Ankara - Haymana",
      "status": "scheduled",
@@ -520,8 +520,8 @@
      "away": "FENERBAHÇE ARSAVEV KADIN FUTBOL TAKIMI",
      "leg": "",
      "round_label": "23. Hafta",
-     "kickoff": null,
-     "day": "2027-03-21",
+     "kickoff": "2027-03-21T10:00:00Z",
+     "day": null,
      "venue": "Sümer 1 No.Lu Saha",
      "city": "Kayseri - Kocasinan",
      "status": "scheduled",
@@ -543,8 +543,8 @@
      "away": "GİRESUN SANAYİSPOR",
      "leg": "",
      "round_label": "24. Hafta",
-     "kickoff": null,
-     "day": "2027-03-28",
+     "kickoff": "2027-03-28T10:00:00Z",
+     "day": null,
      "venue": "Chobanı Stadyumu Fb Şükrü Saracoğlu Spor Kompleksi",
      "city": "",
      "status": "scheduled",
@@ -566,8 +566,8 @@
      "away": "FENERBAHÇE ARSAVEV KADIN FUTBOL TAKIMI",
      "leg": "",
      "round_label": "25. Hafta",
-     "kickoff": null,
-     "day": "2027-04-03",
+     "kickoff": "2027-04-03T10:00:00Z",
+     "day": null,
      "venue": "Ali Sami Yen Spor Kompleksi Rams Park",
      "city": "",
      "status": "scheduled",
@@ -589,8 +589,8 @@
      "away": "BAKIRKÖY KADIN FUTBOL SPOR KULÜBÜ",
      "leg": "",
      "round_label": "26. Hafta",
-     "kickoff": null,
-     "day": "2027-04-28",
+     "kickoff": "2027-04-28T10:00:00Z",
+     "day": null,
      "venue": "Chobanı Stadyumu Fb Şükrü Saracoğlu Spor Kompleksi",
      "city": "",
      "status": "scheduled",
@@ -658,8 +658,8 @@
      "away": "FENERBAHÇE ARSAVEV KADIN FUTBOL TAKIMI",
      "leg": "",
      "round_label": "29. Hafta",
-     "kickoff": null,
-     "day": "2027-05-13",
+     "kickoff": "2027-05-13T10:00:00Z",
+     "day": null,
      "venue": "Zeytinköy 2 Nolu Saha",
      "city": "",
      "status": "scheduled",
@@ -977,52 +977,52 @@
   },
   "2026-27/football-women/kadin-futbol-super-ligi/r20": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r20-away@beyzakiper.github.io",
-   "sequence": 2,
-   "hash": "b4bb916c1bfa9920",
+   "sequence": 3,
+   "hash": "9ad3be7cd9d6b922",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T02:36:08Z"
+   "last_modified": "2026-11-25T21:49:24Z"
   },
   "2026-27/football-women/kadin-futbol-super-ligi/r21": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r21-home@beyzakiper.github.io",
-   "sequence": 2,
-   "hash": "b8d5747095b6c9e0",
+   "sequence": 3,
+   "hash": "eaf88130f0d7612b",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T02:36:08Z"
+   "last_modified": "2026-11-25T21:49:24Z"
   },
   "2026-27/football-women/kadin-futbol-super-ligi/r22": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r22-away@beyzakiper.github.io",
-   "sequence": 3,
-   "hash": "d10d9199d850e109",
+   "sequence": 4,
+   "hash": "e925d0843e52e730",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-11-18T07:41:00Z"
+   "last_modified": "2026-11-25T21:49:24Z"
   },
   "2026-27/football-women/kadin-futbol-super-ligi/r23": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r23-away@beyzakiper.github.io",
-   "sequence": 3,
-   "hash": "fcef87040b1f4644",
+   "sequence": 4,
+   "hash": "a1b6b81ad04da815",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-11-17T21:09:27Z"
+   "last_modified": "2026-11-25T21:49:24Z"
   },
   "2026-27/football-women/kadin-futbol-super-ligi/r24": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r24-home@beyzakiper.github.io",
-   "sequence": 2,
-   "hash": "1e05dba1f74c1201",
+   "sequence": 3,
+   "hash": "8c257432f96ef639",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T02:36:08Z"
+   "last_modified": "2026-11-25T21:49:24Z"
   },
   "2026-27/football-women/kadin-futbol-super-ligi/r25": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r25-away@beyzakiper.github.io",
-   "sequence": 2,
-   "hash": "c927dfefaf64ce70",
+   "sequence": 3,
+   "hash": "7f2e03fe6988948b",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T02:36:08Z"
+   "last_modified": "2026-11-25T21:49:24Z"
   },
   "2026-27/football-women/kadin-futbol-super-ligi/r26": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r26-home@beyzakiper.github.io",
-   "sequence": 2,
-   "hash": "cb783cf90a8e84d7",
+   "sequence": 3,
+   "hash": "12bc7cc4038956eb",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T02:36:08Z"
+   "last_modified": "2026-11-25T21:49:24Z"
   },
   "2026-27/football-women/kadin-futbol-super-ligi/r27": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r27-away@beyzakiper.github.io",
@@ -1040,10 +1040,10 @@
   },
   "2026-27/football-women/kadin-futbol-super-ligi/r29": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r29-away@beyzakiper.github.io",
-   "sequence": 2,
-   "hash": "62db1c6e90bfcab2",
+   "sequence": 3,
+   "hash": "bd439d1a0f33c034",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T02:36:08Z"
+   "last_modified": "2026-11-25T21:49:24Z"
   },
   "2026-27/football-women/kadin-futbol-super-ligi/r30": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r30-home@beyzakiper.github.io",
