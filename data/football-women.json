@@ -543,8 +543,8 @@
      "away": "GİRESUN SANAYİSPOR",
      "leg": "",
      "round_label": "24. Hafta",
-     "kickoff": null,
-     "day": "2027-03-28",
+     "kickoff": "2027-03-28T10:00:00Z",
+     "day": null,
      "venue": "Chobanı Stadyumu Fb Şükrü Saracoğlu Spor Kompleksi",
      "city": "",
      "status": "scheduled",
@@ -681,8 +681,8 @@
      "away": "SULTANBEYLİ GÜCÜ SPOR KULÜBÜ",
      "leg": "",
      "round_label": "30. Hafta",
-     "kickoff": null,
-     "day": "2027-05-23",
+     "kickoff": "2027-05-23T10:00:00Z",
+     "day": null,
      "venue": "Chobanı Stadyumu Fb Şükrü Saracoğlu Spor Kompleksi",
      "city": "",
      "status": "scheduled",
@@ -1005,10 +1005,10 @@
   },
   "2026-27/football-women/kadin-futbol-super-ligi/r24": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r24-home@beyzakiper.github.io",
-   "sequence": 4,
-   "hash": "1e05dba1f74c1201",
+   "sequence": 5,
+   "hash": "8c257432f96ef639",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-11-26T08:34:50Z"
+   "last_modified": "2026-11-26T21:42:25Z"
   },
   "2026-27/football-women/kadin-futbol-super-ligi/r25": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r25-away@beyzakiper.github.io",
@@ -1047,10 +1047,10 @@
   },
   "2026-27/football-women/kadin-futbol-super-ligi/r30": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r30-home@beyzakiper.github.io",
-   "sequence": 2,
-   "hash": "56bbfd406f701038",
+   "sequence": 3,
+   "hash": "c6ff8564333e8d2c",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T02:36:08Z"
+   "last_modified": "2026-11-26T21:42:25Z"
   },
   "2026-27/football-women/uefa-kadinlar-avrupa-kupasi/round-of-16/1": {
    "uid": "2026-27-football-women-uefa-kadinlar-avrupa-kupasi-round-of-16-1-away@beyzakiper.github.io",
