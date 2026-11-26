@@ -543,8 +543,8 @@
      "away": "GİRESUN SANAYİSPOR",
      "leg": "",
      "round_label": "24. Hafta",
-     "kickoff": "2027-03-28T10:00:00Z",
-     "day": null,
+     "kickoff": null,
+     "day": "2027-03-28",
      "venue": "Chobanı Stadyumu Fb Şükrü Saracoğlu Spor Kompleksi",
      "city": "",
      "status": "scheduled",
@@ -612,8 +612,8 @@
      "away": "FENERBAHÇE ARSAVEV KADIN FUTBOL TAKIMI",
      "leg": "",
      "round_label": "27. Hafta",
-     "kickoff": null,
-     "day": "2027-05-02",
+     "kickoff": "2027-05-02T10:00:00Z",
+     "day": null,
      "venue": "",
      "city": "",
      "status": "scheduled",
@@ -635,8 +635,8 @@
      "away": "TRABZONSPOR A.Ş.",
      "leg": "",
      "round_label": "28. Hafta",
-     "kickoff": null,
-     "day": "2027-05-08",
+     "kickoff": "2027-05-08T10:00:00Z",
+     "day": null,
      "venue": "Chobanı Stadyumu Fb Şükrü Saracoğlu Spor Kompleksi",
      "city": "",
      "status": "scheduled",
@@ -1005,10 +1005,10 @@
   },
   "2026-27/football-women/kadin-futbol-super-ligi/r24": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r24-home@beyzakiper.github.io",
-   "sequence": 3,
-   "hash": "8c257432f96ef639",
+   "sequence": 4,
+   "hash": "1e05dba1f74c1201",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-11-25T21:49:24Z"
+   "last_modified": "2026-11-26T08:34:50Z"
   },
   "2026-27/football-women/kadin-futbol-super-ligi/r25": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r25-away@beyzakiper.github.io",
@@ -1026,17 +1026,17 @@
   },
   "2026-27/football-women/kadin-futbol-super-ligi/r27": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r27-away@beyzakiper.github.io",
-   "sequence": 2,
-   "hash": "1d601e3dd66ceed1",
+   "sequence": 3,
+   "hash": "0ab8629b7a7f04f8",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T02:36:08Z"
+   "last_modified": "2026-11-26T08:34:50Z"
   },
   "2026-27/football-women/kadin-futbol-super-ligi/r28": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r28-home@beyzakiper.github.io",
-   "sequence": 2,
-   "hash": "1f8dacd4f7f5b0d5",
+   "sequence": 3,
+   "hash": "9868591ed8946304",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-09-26T02:36:08Z"
+   "last_modified": "2026-11-26T08:34:50Z"
   },
   "2026-27/football-women/kadin-futbol-super-ligi/r29": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r29-away@beyzakiper.github.io",

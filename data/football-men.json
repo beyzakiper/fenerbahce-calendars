@@ -905,9 +905,9 @@
      "day": null,
      "venue": "Stamford Bridge",
      "city": "London",
-     "status": "scheduled",
-     "home_score": null,
-     "away_score": null,
+     "status": "finished",
+     "home_score": 0,
+     "away_score": 1,
      "score_note": "",
      "url": "https://www.uefa.com/uefachampionsleague/match/2049640/",
      "source": "uefa",
@@ -1394,10 +1394,10 @@
   },
   "2026-27/football-men/uefa-sampiyonlar-ligi/league-md5": {
    "uid": "2026-27-football-men-uefa-sampiyonlar-ligi-league-md5-away@beyzakiper.github.io",
-   "sequence": 3,
-   "hash": "0df2fa1b11667bf1",
+   "sequence": 4,
+   "hash": "81eb260e3db2dd22",
    "created": "2026-09-25T22:56:06Z",
-   "last_modified": "2026-09-26T02:36:08Z"
+   "last_modified": "2026-11-26T08:34:50Z"
   },
   "2026-27/football-men/uefa-sampiyonlar-ligi/league-md6": {
    "uid": "2026-27-football-men-uefa-sampiyonlar-ligi-league-md6-away@beyzakiper.github.io",
