@@ -614,8 +614,8 @@
      "round_label": "27. Hafta",
      "kickoff": "2027-05-02T10:00:00Z",
      "day": null,
-     "venue": "",
-     "city": "",
+     "venue": "Merzan Şehir Stadı",
+     "city": "Hakkari - Hakkari Merkez",
      "status": "scheduled",
      "home_score": null,
      "away_score": null,
@@ -1026,10 +1026,10 @@
   },
   "2026-27/football-women/kadin-futbol-super-ligi/r27": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r27-away@beyzakiper.github.io",
-   "sequence": 3,
-   "hash": "0ab8629b7a7f04f8",
+   "sequence": 4,
+   "hash": "87c53ff007b14eeb",
    "created": "2026-09-26T00:01:20Z",
-   "last_modified": "2026-11-26T08:34:50Z"
+   "last_modified": "2026-11-27T08:47:03Z"
   },
   "2026-27/football-women/kadin-futbol-super-ligi/r28": {
    "uid": "2026-27-football-women-kadin-futbol-super-ligi-r28-home@beyzakiper.github.io",
