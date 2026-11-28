@@ -303,6 +303,29 @@
      "source_id": "r13:altekma:fenerbahce medicana",
      "extra": {},
      "season": "2026-27"
+    },
+    {
+     "team": "volleyball-men",
+     "competition": "efeler-ligi",
+     "stage": "tur",
+     "side": "away",
+     "home": "ALTEKMA",
+     "away": "FENERBAHÇE MEDICANA",
+     "leg": "",
+     "round_label": "",
+     "kickoff": "2026-12-26T13:00:00Z",
+     "day": null,
+     "venue": "TVF Atatürk Voleybol Spor Kompleksi",
+     "city": "İzmir",
+     "status": "scheduled",
+     "home_score": null,
+     "away_score": null,
+     "score_note": "",
+     "url": "",
+     "source": "tvf",
+     "source_id": "tur:altekma:fenerbahce medicana",
+     "extra": {},
+     "season": "2026-27"
     }
    ]
   },
@@ -820,6 +843,13 @@
    "hash": "7615af8661272417",
    "created": "2026-09-25T23:58:48Z",
    "last_modified": "2026-09-25T23:58:48Z"
+  },
+  "2026-27/volleyball-men/efeler-ligi/tur": {
+   "uid": "2026-27-volleyball-men-efeler-ligi-tur-away@beyzakiper.github.io",
+   "sequence": 0,
+   "hash": "2f50db54a8bc60f2",
+   "created": "2026-11-28T08:01:47Z",
+   "last_modified": "2026-11-28T08:01:47Z"
   },
   "2026-27/volleyball-men/kupa-voley-erkek/kve26-cf004": {
    "uid": "2026-27-volleyball-men-kupa-voley-erkek-kve26-cf004-away@beyzakiper.github.io",
